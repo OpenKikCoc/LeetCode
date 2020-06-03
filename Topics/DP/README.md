@@ -1583,6 +1583,16 @@ todo 权限题
 #### [837. 新21点](https://leetcode-cn.com/problems/new-21-game/)
 
 ```c++
+//
+    double new21Game(int n, int k, int w) {
+       if(k == 0) return 1.0;	// 优化 可以省略
+       vector<double> dp(k+w+1);
+       for(int i = min(n, k+w-1); i >= k; --i) dp[i] = 1.0+dp[i+1];
+       for(int i = k-1; i >= 0; --i)
+            dp[i] = (dp[i+1]-dp[i+w+1])/w+dp[i+1];
+       return dp[0]-dp[1];
+    }
+//
     double new21Game(int n, int k, int w) {
         if(k==0) return 1;
         if(n==0 || k>n) return 0;
