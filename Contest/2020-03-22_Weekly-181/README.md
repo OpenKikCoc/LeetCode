@@ -251,7 +251,7 @@ public:
 
 
 
-### [1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/)*
+### [1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/) [TAG]
 
 求字符串的最长快乐前缀(既是前缀也是后缀)
 

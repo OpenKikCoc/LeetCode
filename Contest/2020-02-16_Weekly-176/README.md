@@ -20,7 +20,7 @@ public:
 
 也可以倒序遍历 复杂度更低
 
-### [1352. 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/)*
+### [1352. 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/) [TAG]
 
 想到了把0处理为1 以及使用前缀积 没想到遇到0就把前缀积更新为1 导致溢出出错
 
@@ -57,7 +57,7 @@ public:
 };
 ```
 
-### [1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)*
+### [1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/) [TAG]
 
 线性扫描问题 考虑每一天可选的会议范围 并选择结束时间最早的会议
 

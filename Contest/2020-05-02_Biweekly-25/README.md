@@ -84,7 +84,7 @@ public:
 };
 ```
 
-### [1434. 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)*
+### [1434. 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) [TAG]
 
 状态压缩
 

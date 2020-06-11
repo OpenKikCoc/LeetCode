@@ -114,7 +114,7 @@
 
 
 
-### [1330. 翻转子数组得到最大的数组值](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/) *
+### [1330. 翻转子数组得到最大的数组值](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/) [TAG]
 
 比赛的时候n^2 TLE一发 尝试优化表达式 思路可以参考 [这里](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/solution/onzuo-fa-jie-jue-ci-wen-ti-by-hu-tu-tu-7/)
 

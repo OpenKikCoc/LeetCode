@@ -36,7 +36,7 @@ public:
 ```
 
 
-### [1371. 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)*
+### [1371. 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)  [TAG]
 
 奇偶次数为一个状态 状态dp
 
@@ -151,7 +151,7 @@ public:
 
 
 
-### [1373. 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/)*
+### [1373. 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) [TAG]
 
 求满足二叉搜索树性质的最大节点和
 

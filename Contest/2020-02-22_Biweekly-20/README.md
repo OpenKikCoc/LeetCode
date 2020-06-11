@@ -1,7 +1,7 @@
 ## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-20/)
 
 
-### [1356. 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/)*
+### [1356. 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) [TAG]
 
 使用lambda表达式的时候 报了个编译错误
 
@@ -112,7 +112,7 @@ public:
 };
 ```
 
-### [1359. 有效的快递序列数目](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/)*
+### [1359. 有效的快递序列数目](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/) [TAG]
 
 位置插入
 

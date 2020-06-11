@@ -76,7 +76,7 @@ public:
 };
 ```
 
-### [1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/)*
+### [1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/) [TAG]
 
 搜索 8*8矩阵 直接搜超时
 

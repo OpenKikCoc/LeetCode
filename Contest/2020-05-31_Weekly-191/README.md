@@ -124,7 +124,7 @@
 
 以及并查集解法 略
 
-### [1467. 两个盒子中球的颜色数相同的概率](https://leetcode-cn.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)*
+### [1467. 两个盒子中球的颜色数相同的概率](https://leetcode-cn.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) [TAG]
 
 dp+组合数
 

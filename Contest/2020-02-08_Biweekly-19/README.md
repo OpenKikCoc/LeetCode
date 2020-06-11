@@ -57,7 +57,7 @@
     }
 ```
 
-### [1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/)*
+### [1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/) [TAG]
 
 bfs 需要注意的是使用map记录优化
 

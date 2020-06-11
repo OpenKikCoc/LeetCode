@@ -47,7 +47,7 @@ public:
 };
 ```
 
-### [1438. 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)*
+### [1438. 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) [TAG]
 
 连续子数组的最大最小值之差的绝对值不超过limit
 
@@ -107,7 +107,7 @@ public:
 
 
 
-#### [1439. 有序矩阵中的第 k 个最小数组和](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)*
+### [1439. 有序矩阵中的第 k 个最小数组和](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/) [TAG]
 
 任意一行选一个数 求第k小
 

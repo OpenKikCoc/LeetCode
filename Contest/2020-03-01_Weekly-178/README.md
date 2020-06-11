@@ -194,7 +194,7 @@ public:
 
 
 
-### [1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)*
+### [1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) [TAG]
 
 最短路 可以直接到达的边权为0 需要翻转的点边权为1
 

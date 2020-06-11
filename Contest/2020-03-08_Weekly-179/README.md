@@ -79,7 +79,7 @@ public:
 
 如果用自底向上的dfs 加上记忆化搜索
 
-### [1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/)*
+### [1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) [TAG]
 
 青蛙从根开始跳 求t秒后在target点的概率
 

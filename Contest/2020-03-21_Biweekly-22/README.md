@@ -24,7 +24,7 @@ public:
 
 也可以排序二分查找最接近arr1[i]的值
 
-### [1386. 安排电影院座位](https://leetcode-cn.com/problems/cinema-seat-allocation/)*
+### [1386. 安排电影院座位](https://leetcode-cn.com/problems/cinema-seat-allocation/)  [TAG]
 
 2-9位 连续4个0的情况统计
 
@@ -136,7 +136,7 @@ public:
 
 
 
-### [1388. 3n 块披萨](https://leetcode-cn.com/problems/pizza-with-3n-slices/)*
+### [1388. 3n 块披萨](https://leetcode-cn.com/problems/pizza-with-3n-slices/) [TAG]
 
 一圈 取披萨 求最优
 
