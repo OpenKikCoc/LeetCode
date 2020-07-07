@@ -1,4 +1,4 @@
-## [比赛链接]()
+## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-29/)
 
 
 ### [1491. 去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
