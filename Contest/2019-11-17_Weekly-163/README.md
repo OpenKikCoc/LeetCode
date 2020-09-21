@@ -149,7 +149,11 @@
 
 ### [1263. 推箱子](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/) [TAG]
 
-双向搜索 经典 理解记忆
+双向搜索(误) 
+
+本质是bfs 双端队列确保遍历的层次性
+
+经典 理解记忆
 
 ```c++
     int inf = 0x3f3f3f3f;
