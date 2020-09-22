@@ -64,7 +64,7 @@ public:
     unordered_map<int, int> m;
     int num;
   	// 关于Cashier有更好的初始化方式：
-		Cashier(int n, int discount, vector<int>& products, vector<int>& prices):n(n), dis(discount), num(0) {
+    Cashier(int n, int discount, vector<int>& products, vector<int>& prices):n(n), dis(discount), num(0) {
         int sz = products.size();
         for(int i = 0; i < sz; ++i) m[products[i]] = prices[i];
     }

@@ -145,26 +145,25 @@ public:
 
 ```c++
 class Solution {
-		double pr[105]; //表示跳到每个节点的概率,初始值pr[1] = 1.0
-		bool vis[105]; //dfs过程会使用到，用于记录该节点有没有被遍历过。
-		map<int, vector<int>> mp; //记录边的连接信息
-		void dfs(int cur, int t) {
-				if (t <= 0) return; //如果时间到了，那就退出
-				int to_count = 0;
-				for (auto next : mp[cur]) if (!vis[next]) to_count++; //首先观察青蛙能去的地方 
-				if (to_count == 0) return; //如果已经没有地方能去了，那就退出
-
-				double p = pr[cur] / to_count; //跳往每个地方都是均匀分布的，概率均匀
-				for (auto next : mp[cur]) {
-						if (!vis[next]) {
-								vis[next] = true;
-								pr[cur] -= p; 
-								pr[next] += p; //开始跳之前，将概率转移
-								dfs(next, t - 1); //这样青蛙就可以安心跳过去了
-								vis[next] = false;
-						}
-				}
-		}
+    double pr[105]; //表示跳到每个节点的概率,初始值pr[1] = 1.0
+    bool vis[105]; //dfs过程会使用到，用于记录该节点有没有被遍历过。
+    map<int, vector<int>> mp; //记录边的连接信息
+    void dfs(int cur, int t) {
+        if (t <= 0) return; //如果时间到了，那就退出
+        int to_count = 0;
+        for (auto next : mp[cur]) if (!vis[next]) to_count++; //首先观察青蛙能去的地方 
+        if (to_count == 0) return; //如果已经没有地方能去了，那就退出
+        double p = pr[cur] / to_count; //跳往每个地方都是均匀分布的，概率均匀
+        for (auto next : mp[cur]) {
+            if (!vis[next]) {
+                vis[next] = true;
+                pr[cur] -= p; 
+                pr[next] += p; //开始跳之前，将概率转移
+                dfs(next, t - 1); //这样青蛙就可以安心跳过去了
+                vis[next] = false;
+            }
+        }
+    }
 public:
     double frogPosition(int n, vector<vector<int>>& edges, int t, int target) {
         //题目的数据量很小，才100个节点，本来担心暴力dfs模拟的话会不会超时。
