@@ -129,8 +129,8 @@ public:
     int numOfWays(int n) {
         long long last3 = 6, last2 = 6;
         for(int i = 2; i <= n; ++i) {
-           	long long nlast3 = last3*2%mod + last2*2%mod;  // pass
-           	long long nlast2 = last3*2%mod + last2*3%mod;
+            long long nlast3 = last3*2%mod + last2*2%mod;  // pass
+            long long nlast2 = last3*2%mod + last2*3%mod;
             last3 = nlast3%mod;
             last2 = nlast2%mod;
             //cout <<"i="<<i<<" res="<<(last3+last2)%mod<<endl;

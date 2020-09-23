@@ -100,7 +100,7 @@ public:
         vector<set<int>> s(41);
         for(int i = 0; i < n; ++i)
             for(int hat : hats[i])
-            	 	s[hat].insert(i);
+                s[hat].insert(i);
         for(int i = 1; i <= 40; ++i) {
             for(int state = (1 << n) - 1; state >= 0; --state) {
                 for(int person : s[i]) {
