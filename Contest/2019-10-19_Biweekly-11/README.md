@@ -98,7 +98,7 @@
         this->K = K;
         tot = 0;
         for(auto & v : ss) tot += v;
-        int l = 0, r = tot;
+        int l = 0, r = tot+1;  // 注意这里需要+1 否则在等于右边界的 case 会wa 就需要多加check(l)
         while(l < r) {
             int m = l + (r-l)/2;
             //cout << l << " " << r << " " << m << endl;
@@ -106,8 +106,6 @@
             if(check(m)) l = m + 1;
             else r = m;
         }
-        // ATTENTION: 这里需要先检查 l
-        if(check(l)) return l;
         return l-1;
     }
 ```
