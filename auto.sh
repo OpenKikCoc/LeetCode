@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# by binacs
+
 if [ $1 == "go" ]; then
     pwd=$(pwd)
     for((i=$2;i<=$3;i++));  
