@@ -74,26 +74,26 @@
 | [68. 文本左右对齐](https://leetcode-cn.com/problems/text-justification/) | [here](./0068/README.md) | 模拟         |        |       |
 | [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)    | [here](./0069/README.md) |              |        |       |
 | [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [here](./0070/README.md) |              |        |       |
-|                                                              | [here](./0071/README.md) |              |        |       |
-|                                                              | [here](./0072/README.md) |              |        |       |
-|                                                              | [here](./0073/README.md) |              |        |       |
-|                                                              | [here](./0074/README.md) |              |        |       |
-|                                                              | [here](./0075/README.md) |              |        |       |
-|                                                              | [here](./0076/README.md) |              |        |       |
-|                                                              | [here](./0077/README.md) |              |        |       |
-|                                                              | [here](./0078/README.md) |              |        |       |
-|                                                              | [here](./0079/README.md) |              |        |       |
-|                                                              | [here](./0080/README.md) |              |        |       |
-|                                                              | [here](./0081/README.md) |              |        |       |
-|                                                              | [here](./0082/README.md) |              |        |       |
-|                                                              | [here](./0083/README.md) |              |        |       |
-|                                                              | [here](./0084/README.md) |              |        |       |
-|                                                              | [here](./0085/README.md) |              |        |       |
-|                                                              | [here](./0086/README.md) |              |        |       |
-|                                                              | [here](./0087/README.md) |              |        |       |
-|                                                              | [here](./0088/README.md) |              |        |       |
-|                                                              | [here](./0089/README.md) |              |        |       |
-|                                                              | [here](./0090/README.md) |              |        |       |
+| [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/) | [here](./0071/README.md) |              |        |       |
+| [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [here](./0072/README.md) |              |        |       |
+| [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [here](./0073/README.md) |              |        |       |
+| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [here](./0074/README.md) |              |        |       |
+| [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/) | [here](./0075/README.md) |              |        |       |
+| [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [here](./0076/README.md) |              |        |       |
+| [77. 组合](https://leetcode-cn.com/problems/combinations/)   | [here](./0077/README.md) |              |        |       |
+| [78. 子集](https://leetcode-cn.com/problems/subsets/)        | [here](./0078/README.md) |              |        |       |
+| [79. 单词搜索](https://leetcode-cn.com/problems/word-search/) | [here](./0079/README.md) |              |        |       |
+| [80. 删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [here](./0080/README.md) |              |        |       |
+| [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [here](./0081/README.md) |              |        |       |
+| [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [here](./0082/README.md) |              |        |       |
+| [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [here](./0083/README.md) |              |        |       |
+| [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [here](./0084/README.md) |              |        |       |
+| [85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [here](./0085/README.md) |              |        |       |
+| [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/) | [here](./0086/README.md) |              |        |       |
+| [87. 扰乱字符串](https://leetcode-cn.com/problems/scramble-string/) | [here](./0087/README.md) |              |        |       |
+| [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [here](./0088/README.md) |              |        |       |
+| [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)  | [here](./0089/README.md) |              |        |       |
+| [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)  | [here](./0090/README.md) |              |        |       |
 |                                                              | [here](./0091/README.md) |              |        |       |
 |                                                              | [here](./0092/README.md) |              |        |       |
 |                                                              | [here](./0093/README.md) |              |        |       |
