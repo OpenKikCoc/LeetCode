@@ -1,4 +1,4 @@
-#  
+#  [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)
 
 ## 题意
 
@@ -9,7 +9,43 @@
 
 
 ```c++
+/*
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    vector<Node*> neighbors;
+    
+    Node() {
+        val = 0;
+        neighbors = vector<Node*>();
+    }
+    
+    Node(int _val) {
+        val = _val;
+        neighbors = vector<Node*>();
+    }
+    
+    Node(int _val, vector<Node*> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+};
+*/
 
+class Solution {
+public:
+    Node* vis[101];
+    Node* cloneGraph(Node* node) {
+        if(!node) return nullptr;
+        if(vis[node->val]) return vis[node->val];
+        Node* p = new Node(node->val);
+        vis[node->val] = p;
+        vector<Node*> nb = node->neighbors;
+        for(int i = 0; i < nb.size(); ++i) p->neighbors.push_back(cloneGraph(nb[i]));
+        return p;
+    }
+};
 ```
 
 
