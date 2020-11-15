@@ -46,40 +46,40 @@
 |                                                              | [here](./0340/README.md) |                 |        |       |
 | [341. 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/) | [here](./0341/README.md) |                 | X      |       |
 | [342. 4的幂](https://leetcode-cn.com/problems/power-of-four/) | [here](./0342/README.md) |                 | X      |       |
-|                                                              | [here](./0343/README.md) |                 |        |       |
-|                                                              | [here](./0344/README.md) |                 |        |       |
-|                                                              | [here](./0345/README.md) |                 |        |       |
+| [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/) | [here](./0343/README.md) |                 | X      |       |
+| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [here](./0344/README.md) |                 | X      |       |
+| [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | [here](./0345/README.md) |                 | X      |       |
 |                                                              | [here](./0346/README.md) |                 |        |       |
-|                                                              | [here](./0347/README.md) |                 |        |       |
+| [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [here](./0347/README.md) |                 | X      |       |
 |                                                              | [here](./0348/README.md) |                 |        |       |
-|                                                              | [here](./0349/README.md) |                 |        |       |
-|                                                              | [here](./0350/README.md) |                 |        |       |
+| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [here](./0349/README.md) |                 | X      |       |
+| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [here](./0350/README.md) |                 | X      |       |
 |                                                              | [here](./0351/README.md) |                 |        |       |
-|                                                              | [here](./0352/README.md) |                 |        |       |
+| [352. 将数据流变为多个不相交区间](https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals/) | [here](./0352/README.md) |                 | X      |       |
 |                                                              | [here](./0353/README.md) |                 |        |       |
-|                                                              | [here](./0354/README.md) |                 |        |       |
-|                                                              | [here](./0355/README.md) |                 |        |       |
+| [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [here](./0354/README.md) |                 | X      |       |
+| [355. 设计推特](https://leetcode-cn.com/problems/design-twitter/) | [here](./0355/README.md) |                 | X      |       |
 |                                                              | [here](./0356/README.md) |                 |        |       |
-|                                                              | [here](./0357/README.md) |                 |        |       |
+| [357. 计算各个位数不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) | [here](./0357/README.md) |                 | X      |       |
 |                                                              | [here](./0358/README.md) |                 |        |       |
 |                                                              | [here](./0359/README.md) |                 |        |       |
 |                                                              | [here](./0360/README.md) |                 |        |       |
 |                                                              | [here](./0361/README.md) |                 |        |       |
 |                                                              | [here](./0362/README.md) |                 |        |       |
-|                                                              | [here](./0363/README.md) |                 |        |       |
+| [363. 矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) | [here](./0363/README.md) |                 | X      |       |
 |                                                              | [here](./0364/README.md) |                 |        |       |
-|                                                              | [here](./0365/README.md) |                 |        |       |
+| [365. 水壶问题](https://leetcode-cn.com/problems/water-and-jug-problem/) | [here](./0365/README.md) |                 | X      |       |
 |                                                              | [here](./0366/README.md) |                 |        |       |
-|                                                              | [here](./0367/README.md) |                 |        |       |
-|                                                              | [here](./0368/README.md) |                 |        |       |
+| [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | [here](./0367/README.md) |                 | X      |       |
+| [368. 最大整除子集](https://leetcode-cn.com/problems/largest-divisible-subset/) | [here](./0368/README.md) |                 | X      |       |
 |                                                              | [here](./0369/README.md) |                 |        |       |
 |                                                              | [here](./0370/README.md) |                 |        |       |
-|                                                              | [here](./0371/README.md) |                 |        |       |
-|                                                              | [here](./0372/README.md) |                 |        |       |
-|                                                              | [here](./0373/README.md) |                 |        |       |
-|                                                              | [here](./0374/README.md) |                 |        |       |
-|                                                              | [here](./0375/README.md) |                 |        |       |
-|                                                              | [here](./0376/README.md) |                 |        |       |
+| [371. 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/) | [here](./0371/README.md) |                 | X      |       |
+| [372. 超级次方](https://leetcode-cn.com/problems/super-pow/) | [here](./0372/README.md) |                 | X      |       |
+| [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) | [here](./0373/README.md) |                 | X      |       |
+| [374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [here](./0374/README.md) |                 | X      |       |
+| [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | [here](./0375/README.md) |                 | X      |       |
+| [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [here](./0376/README.md) |                 | X      |       |
 |                                                              | [here](./0377/README.md) |                 |        |       |
 |                                                              | [here](./0378/README.md) |                 |        |       |
 |                                                              | [here](./0379/README.md) |                 |        |       |
