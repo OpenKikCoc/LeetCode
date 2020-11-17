@@ -80,27 +80,27 @@
 | [374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [here](./0374/README.md) |                 | X      |       |
 | [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | [here](./0375/README.md) |                 | X      |       |
 | [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [here](./0376/README.md) |                 | X      |       |
-|                                                              | [here](./0377/README.md) |                 |        |       |
-|                                                              | [here](./0378/README.md) |                 |        |       |
+| [377. 组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) | [here](./0377/README.md) |                 | X      |       |
+| [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [here](./0378/README.md) |                 | X      |       |
 |                                                              | [here](./0379/README.md) |                 |        |       |
-|                                                              | [here](./0380/README.md) |                 |        |       |
-|                                                              | [here](./0381/README.md) |                 |        |       |
-|                                                              | [here](./0382/README.md) |                 |        |       |
-|                                                              | [here](./0383/README.md) |                 |        |       |
-|                                                              | [here](./0384/README.md) |                 |        |       |
-|                                                              | [here](./0385/README.md) |                 |        |       |
-|                                                              | [here](./0386/README.md) |                 |        |       |
-|                                                              | [here](./0387/README.md) |                 |        |       |
-|                                                              | [here](./0388/README.md) |                 |        |       |
-|                                                              | [here](./0389/README.md) |                 |        |       |
-|                                                              | [here](./0390/README.md) |                 |        |       |
-|                                                              | [here](./0391/README.md) |                 |        |       |
-|                                                              | [here](./0392/README.md) |                 |        |       |
-|                                                              | [here](./0393/README.md) |                 |        |       |
-|                                                              | [here](./0394/README.md) |                 |        |       |
-|                                                              | [here](./0395/README.md) |                 |        |       |
-|                                                              | [here](./0396/README.md) |                 |        |       |
-|                                                              | [here](./0397/README.md) |                 |        |       |
+| [380. 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | [here](./0380/README.md) |                 | X      |       |
+| [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [here](./0381/README.md) |                 | X      |       |
+| [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/) | [here](./0382/README.md) |                 | X      |       |
+| [383. 赎金信](https://leetcode-cn.com/problems/ransom-note/) | [here](./0383/README.md) |                 | X      |       |
+| [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [here](./0384/README.md) |                 | X      |       |
+| [385. 迷你语法分析器](https://leetcode-cn.com/problems/mini-parser/) | [here](./0385/README.md) |                 | X      |       |
+| [386. 字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) | [here](./0386/README.md) |                 | X      |       |
+| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [here](./0387/README.md) |                 | X      |       |
+| [388. 文件的最长绝对路径](https://leetcode-cn.com/problems/longest-absolute-file-path/) | [here](./0388/README.md) |                 | X      |       |
+| [389. 找不同](https://leetcode-cn.com/problems/find-the-difference/) | [here](./0389/README.md) |                 | X      |       |
+| [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/) | [here](./0390/README.md) |                 | X      |       |
+| [391. 完美矩形](https://leetcode-cn.com/problems/perfect-rectangle/) | [here](./0391/README.md) |                 | X      |       |
+| [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [here](./0392/README.md) |                 | X      |       |
+| [393. UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/) | [here](./0393/README.md) |                 | X      |       |
+| [394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | [here](./0394/README.md) |                 | X      |       |
+| [395. 至少有K个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [here](./0395/README.md) |                 | X      |       |
+| [396. 旋转函数](https://leetcode-cn.com/problems/rotate-function/) | [here](./0396/README.md) |                 | X      |       |
+| [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | [here](./0397/README.md) |                 | X      |       |
 |                                                              | [here](./0398/README.md) |                 |        |       |
 |                                                              | [here](./0399/README.md) |                 |        |       |
 |                                                              | [here](./0400/README.md) |                 |        |       |
