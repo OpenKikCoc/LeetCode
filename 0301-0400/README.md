@@ -101,7 +101,7 @@
 | [395. 至少有K个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [here](./0395/README.md) |                 | X      |       |
 | [396. 旋转函数](https://leetcode-cn.com/problems/rotate-function/) | [here](./0396/README.md) |                 | X      |       |
 | [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | [here](./0397/README.md) |                 | X      |       |
-|                                                              | [here](./0398/README.md) |                 |        |       |
-|                                                              | [here](./0399/README.md) |                 |        |       |
-|                                                              | [here](./0400/README.md) |                 |        |       |
+| [398. 随机数索引](https://leetcode-cn.com/problems/random-pick-index/) | [here](./0398/README.md) |                 | X      |       |
+| [399. 除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [here](./0399/README.md) |                 | X      |       |
+| [400. 第N个数字](https://leetcode-cn.com/problems/nth-digit/) | [here](./0400/README.md) |                 | X      |       |
 
