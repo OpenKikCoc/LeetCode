@@ -10,30 +10,30 @@
 | [504. 七进制数](https://leetcode-cn.com/problems/base-7/)    | [here](./0504/README.md) |                          | X      |       |
 |                                                              | [here](./0505/README.md) |                          |        |       |
 | [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/) | [here](./0506/README.md) |                          | X      |       |
-|                                                              | [here](./0507/README.md) |                          |        |       |
-|                                                              | [here](./0508/README.md) |                          |        |       |
-|                                                              | [here](./0509/README.md) |                          |        |       |
+| [507. 完美数](https://leetcode-cn.com/problems/perfect-number/) | [here](./0507/README.md) |                          | X      |       |
+| [508. 出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) | [here](./0508/README.md) |                          | X      |       |
+| [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [here](./0509/README.md) |                          | X      |       |
 |                                                              | [here](./0510/README.md) |                          |        |       |
 |                                                              | [here](./0511/README.md) |                          |        |       |
 |                                                              | [here](./0512/README.md) |                          |        |       |
-|                                                              | [here](./0513/README.md) |                          |        |       |
-|                                                              | [here](./0514/README.md) |                          |        |       |
-|                                                              | [here](./0515/README.md) |                          |        |       |
-|                                                              | [here](./0516/README.md) |                          |        |       |
-|                                                              | [here](./0517/README.md) |                          |        |       |
-|                                                              | [here](./0518/README.md) |                          |        |       |
-|                                                              | [here](./0519/README.md) |                          |        |       |
-|                                                              | [here](./0520/README.md) |                          |        |       |
-|                                                              | [here](./0521/README.md) |                          |        |       |
-|                                                              | [here](./0522/README.md) |                          |        |       |
-|                                                              | [here](./0523/README.md) |                          |        |       |
-|                                                              | [here](./0524/README.md) |                          |        |       |
-|                                                              | [here](./0525/README.md) |                          |        |       |
-|                                                              | [here](./0526/README.md) |                          |        |       |
+| [513. 找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) | [here](./0513/README.md) |                          | X      |       |
+| [514. 自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [here](./0514/README.md) |                          | X      |       |
+| [515. 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | [here](./0515/README.md) |                          | X      |       |
+| [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [here](./0516/README.md) |                          | X      |       |
+| [517. 超级洗衣机](https://leetcode-cn.com/problems/super-washing-machines/) | [here](./0517/README.md) | note                     | X      |       |
+| [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | [here](./0518/README.md) |                          | X      |       |
+| [519. 随机翻转矩阵](https://leetcode-cn.com/problems/random-flip-matrix/) | [here](./0519/README.md) | note                     | X      |       |
+| [520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/) | [here](./0520/README.md) |                          | X      |       |
+| [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/) | [here](./0521/README.md) |                          | X      |       |
+| [522. 最长特殊序列 II](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii/) | [here](./0522/README.md) |                          | X      |       |
+| [523. 连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum/) | [here](./0523/README.md) |                          | X      |       |
+| [524. 通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/) | [here](./0524/README.md) |                          | X      |       |
+| [525. 连续数组](https://leetcode-cn.com/problems/contiguous-array/) | [here](./0525/README.md) |                          | X      |       |
+| [526. 优美的排列](https://leetcode-cn.com/problems/beautiful-arrangement/) | [here](./0526/README.md) | note 记住优雅暴力写法    | X      |       |
 |                                                              | [here](./0527/README.md) |                          |        |       |
-|                                                              | [here](./0528/README.md) |                          |        |       |
-|                                                              | [here](./0529/README.md) |                          |        |       |
-|                                                              | [here](./0530/README.md) |                          |        |       |
+| [528. 按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight/) | [here](./0528/README.md) |                          | X      |       |
+| [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/) | [here](./0529/README.md) |                          | X      |       |
+| [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | [here](./0530/README.md) |                          | X      |       |
 |                                                              | [here](./0531/README.md) |                          |        |       |
 |                                                              | [here](./0532/README.md) |                          |        |       |
 |                                                              | [here](./0533/README.md) |                          |        |       |
