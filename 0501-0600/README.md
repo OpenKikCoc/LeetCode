@@ -103,5 +103,5 @@
 |                                                              | [here](./0597/README.md) |                          |        |                     |
 | [598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/) | [here](./0598/README.md) |                          | X      | trick               |
 | [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) | [here](./0599/README.md) |                          | X      |                     |
-|                                                              | [here](./0600/README.md) |                          |        |                     |
+| [600. 不含连续1的非负整数](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/) | [here](./0600/README.md) |                          | X      | 数位dp              |
 
