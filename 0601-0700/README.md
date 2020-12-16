@@ -32,32 +32,32 @@
 |                                                              | [here](./0626/README.md) |                                         |        |       |
 |                                                              | [here](./0627/README.md) |                                         |        |       |
 | [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [here](./0628/README.md) |                                         | X      |       |
-|                                                              | [here](./0629/README.md) |                                         |        |       |
-|                                                              | [here](./0630/README.md) |                                         |        |       |
+| [629. K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/) | [here](./0629/README.md) |                                         | X      |       |
+| [630. 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/) | [here](./0630/README.md) |                                         | X      |       |
 |                                                              | [here](./0631/README.md) |                                         |        |       |
-|                                                              | [here](./0632/README.md) |                                         |        |       |
-|                                                              | [here](./0633/README.md) |                                         |        |       |
+| [632. 最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) | [here](./0632/README.md) |                                         | X      |       |
+| [633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | [here](./0633/README.md) |                                         | X      |       |
 |                                                              | [here](./0634/README.md) |                                         |        |       |
 |                                                              | [here](./0635/README.md) |                                         |        |       |
-|                                                              | [here](./0636/README.md) |                                         |        |       |
-|                                                              | [here](./0637/README.md) |                                         |        |       |
-|                                                              | [here](./0638/README.md) |                                         |        |       |
-|                                                              | [here](./0639/README.md) |                                         |        |       |
-|                                                              | [here](./0640/README.md) |                                         |        |       |
-|                                                              | [here](./0641/README.md) |                                         |        |       |
+| [636. 函数的独占时间](https://leetcode-cn.com/problems/exclusive-time-of-functions/) | [here](./0636/README.md) |                                         | X      |       |
+| [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [here](./0637/README.md) |                                         | X      |       |
+| [638. 大礼包](https://leetcode-cn.com/problems/shopping-offers/) | [here](./0638/README.md) |                                         | X      | note  |
+| [639. 解码方法 2](https://leetcode-cn.com/problems/decode-ways-ii/) | [here](./0639/README.md) |                                         | X      |       |
+| [640. 求解方程](https://leetcode-cn.com/problems/solve-the-equation/) | [here](./0640/README.md) |                                         | X      |       |
+| [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [here](./0641/README.md) |                                         | X      |       |
 |                                                              | [here](./0642/README.md) |                                         |        |       |
-|                                                              | [here](./0643/README.md) |                                         |        |       |
+| [643. 子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [here](./0643/README.md) |                                         | X      |       |
 |                                                              | [here](./0644/README.md) |                                         |        |       |
-|                                                              | [here](./0645/README.md) |                                         |        |       |
-|                                                              | [here](./0646/README.md) |                                         |        |       |
-|                                                              | [here](./0647/README.md) |                                         |        |       |
-|                                                              | [here](./0648/README.md) |                                         |        |       |
-|                                                              | [here](./0649/README.md) |                                         |        |       |
-|                                                              | [here](./0650/README.md) |                                         |        |       |
+| [645. 错误的集合](https://leetcode-cn.com/problems/set-mismatch/) | [here](./0645/README.md) |                                         | X      |       |
+| [646. 最长数对链](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/) | [here](./0646/README.md) |                                         | X      |       |
+| [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [here](./0647/README.md) |                                         | X      |       |
+| [648. 单词替换](https://leetcode-cn.com/problems/replace-words/) | [here](./0648/README.md) |                                         | X      |       |
+| [649. Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [here](./0649/README.md) |                                         | X      |       |
+| [650. 只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard/) | [here](./0650/README.md) |                                         | X      |       |
 |                                                              | [here](./0651/README.md) |                                         |        |       |
-|                                                              | [here](./0652/README.md) |                                         |        |       |
-|                                                              | [here](./0653/README.md) |                                         |        |       |
-|                                                              | [here](./0654/README.md) |                                         |        |       |
+| [652. 寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/) | [here](./0652/README.md) |                                         | X      |       |
+| [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [here](./0653/README.md) |                                         | X      |       |
+| [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) | [here](./0654/README.md) |                                         | X      |       |
 |                                                              | [here](./0655/README.md) |                                         |        |       |
 |                                                              | [here](./0656/README.md) |                                         |        |       |
 |                                                              | [here](./0657/README.md) |                                         |        |       |
