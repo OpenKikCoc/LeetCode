@@ -26,7 +26,26 @@ public:
 };
 ```
 
+更好的归一写法：
 
+```c++
+class Solution {
+public:
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        int n = intervals.size();
+        sort(intervals.begin(), intervals.end(), [](vector<int> a, vector<int> b) {
+            return a[1] < b[1];
+        });
+        int res = 0, mxr = 0xcfcfcfcf;
+        for (int i = 0; i < n; ++ i ) {
+            if (intervals[i][0] < mxr) continue;
+            ++ res;
+            mxr = intervals[i][1];
+        }
+        return n - res;
+    }
+};
+```
 
 ```python3
 
