@@ -52,6 +52,26 @@ public:
 };
 ```
 
+这类题显然可以慢慢推数学结论:
+
+```c++
+class Solution {
+public:
+    int minKnightMoves(int x, int y) {
+        x = abs(x), y = abs(y);
+        // 特判
+        if (x + y == 1) return 3;
+        // (x + 1) / 2,(y + 1) / 2      走到x，y所需要的最小步数
+        // (x + y + 2) / 3              每次最多走三步，所以走到 x + y 的最小步数为 (x + y + 2) / 3
+        int res = max(max((x + 1) / 2, (y + 1) / 2), (x + y + 2) / 3);
+        // 结论：如果x,y 同奇同偶 只有偶数步才能走到x,y点
+        //      如果    一奇一偶 奇数步才能走到x,y点
+        res += (res ^ x ^ y) & 1;
+        return res;
+    }
+};
+```
+
 ### [1198. 找出所有行中最小公共元素](https://leetcode-cn.com/problems/find-smallest-common-element-in-all-rows/)
 
 并非使用堆。
