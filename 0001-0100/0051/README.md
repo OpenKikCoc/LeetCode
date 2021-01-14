@@ -41,7 +41,28 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def totalNQueens(self, n: int) -> int:
+        res=[]
+        path=[['.']*n for _ in range(n)]
+        col=[False]*n
+        dg=[False]*2*n 
+        udg=[False]*2*n 
 
+        def dfs(u):
+            if u==n:
+                res.append([''.join(path[i]) for i in range(n)])
+                return 
+            for i in range(n):
+                if not col[i] and not dg[u-i+n] and not udg[u+i]:
+                    path[u][i]="Q"
+                    col[i]=dg[u-i+n]=udg[u+i]=True
+                    dfs(u+1)
+                    col[i]=dg[u-i+n]=udg[u+i]=False
+                    path[u][i]="."
+
+        dfs(0)
+        return res
 ```
 

@@ -34,7 +34,28 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def maxProfit(self, k: int, prices: List[int]) -> int:
+        n=len(prices)
+        if k>=n//2:
+            res=0;i=0
+            for i in range(1,n):
+                res+=max(prices[i]-prices[i-1],0)
+            return res
+        f=[[float('-inf')]*(k+1) for i in range(n+1)]
+        g=[[float('-inf')]*(k+1) for i in range(n+1)]
+        #初始化，除了这个状态为0，其他都为-inf, 包括g[0][0]=float('-inf')
+        f[0][0]=0
+        res=0
+        for i in range(1,n+1):
+            #j要从0开始，因为j=0时 有意义：交易次数为0
+            for j in range(k+1):
+                f[i][j]=max(f[i-1][j],g[i-1][j]+prices[i-1])
+                g[i][j]=g[i-1][j]
+                if j:
+                    g[i][j]=max(g[i][j],f[i-1][j-1]-prices[i-1])
+                res=max(res,f[i][j])
+        return res
 ```
 
