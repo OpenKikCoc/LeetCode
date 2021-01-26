@@ -221,6 +221,10 @@ public:
 
 下面代码超时
 
+> 本质先求出必定大于等于 n 的方块塔，再挨个往下减
+>
+> 二分的部分计算较多，超时。。。距离 AC 一步之遥
+
 ```c++
 class Solution {
 public:
@@ -254,3 +258,28 @@ public:
     }
 };
 ```
+
+超时代码优化 AC ：
+
+```c++
+class Solution {
+public:
+    int minimumBoxes(int n) {
+        int sum = 0, k = 1;
+        for (;;) {
+            sum += k * (k + 1) / 2;
+            if (sum >= n) break;
+            k ++ ;
+        }
+        
+        int res = k * (k + 1) / 2;
+        while (sum - k >= n) {
+            sum -= k;
+            k -- ;
+            res -- ;
+        }
+        return res;
+    }
+};
+```
+
