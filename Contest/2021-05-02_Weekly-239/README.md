@@ -100,8 +100,6 @@ public:
         this->s = s;
         if (n == 1)
             return false;
-        else if (n == 2)
-            return s[0] == s[1] + 1;
         
         for (int i = 1; i < n; ++ i )
             if (check(i))
