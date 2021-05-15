@@ -56,52 +56,52 @@
 |                                                              | [here](./0750/README.md) |                                                              |        |       |
 |                                                              | [here](./0751/README.md) |                                                              |        |       |
 | [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/) | [here](./0752/README.md) |                                                              | X      |       |
-|                                                              | [here](./0753/README.md) |                                                              |        |       |
-|                                                              | [here](./0754/README.md) |                                                              |        |       |
+| [753. 破解保险箱](https://leetcode-cn.com/problems/cracking-the-safe/) | [here](./0753/README.md) | *de Bruijn 序列* 转化为欧拉回路问题                          | X      |       |
+| [754. 到达终点数字](https://leetcode-cn.com/problems/reach-a-number/) | [here](./0754/README.md) | 数学题 两种思路                                              | X      |       |
 |                                                              | [here](./0755/README.md) |                                                              |        |       |
-|                                                              | [here](./0756/README.md) |                                                              |        |       |
-|                                                              | [here](./0757/README.md) |                                                              |        |       |
+| [756. 金字塔转换矩阵](https://leetcode-cn.com/problems/pyramid-transition-matrix/) | [here](./0756/README.md) |                                                              | X      |       |
+| [757. 设置交集大小至少为2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/) | [here](./0757/README.md) | note 注意 区间选点的变种                                     | X      |       |
 |                                                              | [here](./0758/README.md) |                                                              |        |       |
 |                                                              | [here](./0759/README.md) |                                                              |        |       |
 |                                                              | [here](./0760/README.md) |                                                              |        |       |
-|                                                              | [here](./0761/README.md) |                                                              |        |       |
-|                                                              | [here](./0762/README.md) |                                                              |        |       |
-|                                                              | [here](./0763/README.md) |                                                              |        |       |
-|                                                              | [here](./0764/README.md) |                                                              |        |       |
-|                                                              | [here](./0765/README.md) |                                                              |        |       |
-|                                                              | [here](./0766/README.md) |                                                              |        |       |
-|                                                              | [here](./0767/README.md) |                                                              |        |       |
-|                                                              | [here](./0768/README.md) |                                                              |        |       |
-|                                                              | [here](./0769/README.md) |                                                              |        |       |
-|                                                              | [here](./0770/README.md) |                                                              |        |       |
-|                                                              | [here](./0771/README.md) |                                                              |        |       |
+| [761. 特殊的二进制序列](https://leetcode-cn.com/problems/special-binary-string/) | [here](./0761/README.md) | note **特别注意**                                            | X      |       |
+| [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/) | [here](./0762/README.md) |                                                              | X      |       |
+| [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [here](./0763/README.md) | note 经典思路和题型                                          | X      |       |
+| [764. 最大加号标志](https://leetcode-cn.com/problems/largest-plus-sign/) | [here](./0764/README.md) |                                                              | X      |       |
+| [765. 情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/) | [here](./0765/README.md) | note **经典图论模型 每次交换环中断**                         | X      |       |
+| [766. 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/) | [here](./0766/README.md) |                                                              | X      |       |
+| [767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [here](./0767/README.md) |                                                              | X      |       |
+| [768. 最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/) | [here](./0768/README.md) | note 贪心思路                                                | X      |       |
+| [769. 最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/) | [here](./0769/README.md) | 思维                                                         | X      |       |
+| [770. 基本计算器 IV](https://leetcode-cn.com/problems/basic-calculator-iv/) | [here](./0770/README.md) | note 整个题型                                                | X      |       |
+| [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | [here](./0771/README.md) |                                                              | X      |       |
 |                                                              | [here](./0772/README.md) |                                                              |        |       |
-|                                                              | [here](./0773/README.md) |                                                              |        |       |
+| [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/) | [here](./0773/README.md) |                                                              | X      |       |
 |                                                              | [here](./0774/README.md) |                                                              |        |       |
-|                                                              | [here](./0775/README.md) |                                                              |        |       |
+| [775. 全局倒置与局部倒置](https://leetcode-cn.com/problems/global-and-local-inversions/) | [here](./0775/README.md) | note 思维题 数学                                             | X      |       |
 |                                                              | [here](./0776/README.md) |                                                              |        |       |
-|                                                              | [here](./0777/README.md) |                                                              |        |       |
-|                                                              | [here](./0778/README.md) |                                                              |        |       |
-|                                                              | [here](./0779/README.md) |                                                              |        |       |
-|                                                              | [here](./0780/README.md) |                                                              |        |       |
-|                                                              | [here](./0781/README.md) |                                                              |        |       |
-|                                                              | [here](./0782/README.md) |                                                              |        |       |
-|                                                              | [here](./0783/README.md) |                                                              |        |       |
-|                                                              | [here](./0784/README.md) |                                                              |        |       |
-|                                                              | [here](./0785/README.md) |                                                              |        |       |
-|                                                              | [here](./0786/README.md) |                                                              |        |       |
-|                                                              | [here](./0787/README.md) |                                                              |        |       |
-|                                                              | [here](./0788/README.md) |                                                              |        |       |
-|                                                              | [here](./0789/README.md) |                                                              |        |       |
-|                                                              | [here](./0790/README.md) |                                                              |        |       |
-|                                                              | [here](./0791/README.md) |                                                              |        |       |
-|                                                              | [here](./0792/README.md) |                                                              |        |       |
-|                                                              | [here](./0793/README.md) |                                                              |        |       |
-|                                                              | [here](./0794/README.md) |                                                              |        |       |
-|                                                              | [here](./0795/README.md) |                                                              |        |       |
-|                                                              | [here](./0796/README.md) |                                                              |        |       |
-|                                                              | [here](./0797/README.md) |                                                              |        |       |
-|                                                              | [here](./0798/README.md) |                                                              |        |       |
-|                                                              | [here](./0799/README.md) |                                                              |        |       |
+| [777. 在LR字符串中交换相邻字符](https://leetcode-cn.com/problems/swap-adjacent-in-lr-string/) | [here](./0777/README.md) | trick                                                        | X      |       |
+| [778. 水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/) | [here](./0778/README.md) | 二分                                                         | X      |       |
+| [779. 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) | [here](./0779/README.md) | note 找规律                                                  | X      |       |
+| [780. 到达终点](https://leetcode-cn.com/problems/reaching-points/) | [here](./0780/README.md) | note 大规模数据 取模                                         | X      |       |
+| [781. 森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/) | [here](./0781/README.md) | 数学                                                         | X      |       |
+| [782. 变为棋盘](https://leetcode-cn.com/problems/transform-to-chessboard/) | [here](./0782/README.md) | note 数学 略麻烦                                             | X      |       |
+| [783. 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | [here](./0783/README.md) |                                                              | X      |       |
+| [784. 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) | [here](./0784/README.md) | 注意写法 无需for 以及^32的trick                              | X      |       |
+| [785. 判断二分图](https://leetcode-cn.com/problems/is-graph-bipartite/) | [here](./0785/README.md) | 染色法判二分 确定无环                                        | X      |       |
+| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | [here](./0786/README.md) | 二分 + **双指针单调优化**                                    | X      |       |
+| [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/) | [here](./0787/README.md) | 标准bellman ford                                             | X      |       |
+| [788. 旋转数字](https://leetcode-cn.com/problems/rotated-digits/) | [here](./0788/README.md) |                                                              | X      |       |
+| [789. 逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/) | [here](./0789/README.md) | 思路                                                         | X      |       |
+| [790. 多米诺和托米诺平铺](https://leetcode-cn.com/problems/domino-and-tromino-tiling/) | [here](./0790/README.md) | dp                                                           | X      |       |
+| [791. 自定义字符串排序](https://leetcode-cn.com/problems/custom-sort-string/) | [here](./0791/README.md) |                                                              | X      |       |
+| [792. 匹配子序列的单词数](https://leetcode-cn.com/problems/number-of-matching-subsequences/) | [here](./0792/README.md) | note trick                                                   | X      |       |
+| [793. 阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/) | [here](./0793/README.md) | note 数学                                                    | X      |       |
+| [794. 有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) | [here](./0794/README.md) | 优雅实现细节                                                 | X      |       |
+| [795. 区间子数组个数](https://leetcode-cn.com/problems/number-of-subarrays-with-bounded-maximum/) | [here](./0795/README.md) | note 转化                                                    | X      |       |
+| [796. 旋转字符串](https://leetcode-cn.com/problems/rotate-string/) | [here](./0796/README.md) | 字符串hash                                                   | X      |       |
+| [797. 所有可能的路径](https://leetcode-cn.com/problems/all-paths-from-source-to-target/) | [here](./0797/README.md) |                                                              | X      |       |
+| [798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/) | [here](./0798/README.md) | note 很有意思的题目 十分trick的**差分**                      | X      |       |
+| [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/) | [here](./0799/README.md) |                                                              | X      |       |
 |                                                              | [here](./0800/README.md) |                                                              |        |       |
 
