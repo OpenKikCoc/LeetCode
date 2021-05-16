@@ -6,6 +6,51 @@
 
 ## 题解
 
+```c++
+class LRUCache {
+public:
+    using PII = pair<int, int>;
+
+    int cap;
+    list<PII> cache;
+    unordered_map<int, list<PII>::iterator> m;
+
+    LRUCache(int capacity) {
+        this->cap = capacity;
+    }
+    
+    int get(int key) {
+        if (m.find(key) == m.end())
+            return -1;
+        auto it = m[key];
+        auto kv = *it;
+        cache.erase(it);
+        cache.push_front(kv);
+        m[key] = cache.begin();
+        return kv.second;
+    }
+    
+    void put(int key, int value) {
+        if (m.find(key) == m.end()) {
+            if (cache.size() == cap) {
+                auto del = cache.back().first;
+                cache.pop_back();
+                m.erase(del);
+            }
+        } else
+            cache.erase(m[key]);
+        cache.push_front({key, value});
+        m[key] = cache.begin();
+    }
+};
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
+```
 
 
 ```c++
