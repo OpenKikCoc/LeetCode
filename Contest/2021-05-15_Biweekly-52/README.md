@@ -117,6 +117,10 @@ public:
 
 BIT 即可
 
+>   rejudge 时超时 还是需要用计数的方法
+>
+>   简单 不再赘述
+
 ```c++
 class Solution {
 public:
