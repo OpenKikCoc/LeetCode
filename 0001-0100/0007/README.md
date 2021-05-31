@@ -16,7 +16,7 @@ public:
         while(x) {
             int v = x % 10; x /= 10;
             if(res > INT_MAX / 10 || res == INT_MAX / 10 && v > 7) return 0;
-            if(res < INT_MIN / 10 || res == INT_MIN / 10 && v > 8) return 0;
+            if(res < INT_MIN / 10 || res == INT_MIN / 10 && v < -8) return 0;
             res = res * 10 + v;
         }
         return res;
