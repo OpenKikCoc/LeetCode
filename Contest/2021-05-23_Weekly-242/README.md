@@ -163,6 +163,10 @@ public:
             // 优化
             f[i] = v;
             v = max(v, s[n] - s[i - 1] - f[i]);
+            // 本次操作之后 下次剩余至多 i - 2 + 1
+            // f[i] = INT_MIN;
+            // for (int j = 1; j <= i - 1; ++ j )
+            //     f[i] = max(f[i], s[n] - s[j - 1] - f[j]);
         }
         return f[n];
     }
