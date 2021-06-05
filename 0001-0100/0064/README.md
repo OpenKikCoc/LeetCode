@@ -25,6 +25,24 @@ public:
 };
 ```
 
+```c++
+class Solution {
+public:
+    const static int N = 210;
+    int f[N][N];
+
+    int minPathSum(vector<vector<int>>& grid) {
+        memset(f, 0x3f, sizeof f);
+        int n = grid.size(), m = grid[0].size();
+        f[0][1] = f[1][0] = 0;
+        for (int i = 1; i <= n; ++ i )
+            for (int j = 1; j <= m; ++ j )
+                f[i][j] = min(f[i - 1][j], f[i][j - 1]) + grid[i - 1][j - 1];
+        return f[n][m];
+    }
+};
+```
+
 
 
 ```python3
