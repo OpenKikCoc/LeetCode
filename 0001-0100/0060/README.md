@@ -35,8 +35,33 @@ public:
     }
 };
 // @lc code=end
+```
 
+```c++
+class Solution {
+public:
+    string getPermutation(int n, int k) {
+        string res;
+        vector<bool> st(n);
 
+        for (int i = 0; i < n; ++ i ) {
+            // 剩下的个数
+            int f = 1;
+            for (int j = 1; j < n - i; ++ j ) f *= j;
+
+            for (int j = 0; j < n; ++ j )
+                if (!st[j]) {
+                    if (k <= f) {
+                        res += to_string(j + 1);
+                        st[j] = true;
+                        break;
+                    }
+                    k -= f;
+                }
+        }
+        return res;
+    }
+};
 ```
 
 
