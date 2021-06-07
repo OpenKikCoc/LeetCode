@@ -36,7 +36,22 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def combine(self, n: int, k: int) -> List[List[int]]:
+        if not n:return []
+        res =[]
 
+        def dfs(path, i):
+            if len(path) == k:
+                res.append(path[:])
+                return 
+            for u in range(i, n + 1):
+                path.append(u)   # 踩坑：需要在循环里把当前数加入到path中
+                dfs(path, u + 1)
+                path.pop()
+
+        dfs([], 1)
+        return res
 ```
 

@@ -50,7 +50,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def plusOne(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        nums[n-1] += 1
+        res = [];t = 0;i = n - 1
+        while i >= 0 or t:
+            if i >= 0:
+                t = t + nums[i]
+            res.append(t % 10)
+            t //= 10 
+            i -= 1
+        return res[::-1]
 ```
 

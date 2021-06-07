@@ -31,7 +31,17 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def mySqrt(self, x: int) -> int:
+      	if x == 0 or x == 1:return x   # 特殊case判断
+        l, r = 0, x
+        while l < r:
+            m = l + (r - l)//2
+            if m * m <= x:
+                l = m + 1 
+            else:
+                r = m 
+        return l - 1
 ```
 

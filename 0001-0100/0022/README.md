@@ -38,7 +38,26 @@ public:
 
 
 
-```python3
+```python
+# 递归，当左边括号的数量 == 右边括号数量 == n：就可以加入到答案中
+# 如何保证加入到的路径是有效的呢？
+# 1. 每次可以放置左括号的条件是当前左括号的数目不超过 nn。
+# 2. 每次可以放置右括号的条件是当前右括号的数目不超过左括号的数目。
 
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        res = []
+
+        def dfs(lc, rc, path):
+            if lc == rc == n:
+                res.append(path)
+                return 
+            if lc < n:
+                dfs(lc + 1, rc, path + '(')
+            if rc < n and lc > rc:
+                dfs(lc, rc + 1, path + ')')
+                
+        dfs(0, 0, "")
+        return res
 ```
 

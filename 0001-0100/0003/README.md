@@ -48,7 +48,19 @@ public:
 
 
 
-```python3
-
+```python
+# 哈希表 + 双指针
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        import collections
+        my_dict = collections.defaultdict(int)
+        l = 0; res = 0
+        for r in range(len(s)):
+            my_dict[s[r]] += 1
+            while my_dict[s[r]] > 1:  # 踩坑：
+                my_dict[s[l]] -= 1
+                l += 1
+            res = max(res, r - l + 1)
+        return res
 ```
 

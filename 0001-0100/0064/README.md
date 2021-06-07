@@ -45,7 +45,17 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def minPathSum(self, grid: List[List[int]]) -> int:
+        n, m = len(grid), len(grid[0])
+        N = 210
+        f = [[float('inf')] * N for _ in range(N)] # 求最小，初始化为最大值
+        f[0][1], f[1][0] = 0, 0  # 特别的 要初始化为0
+        for i in range(1, n + 1):
+            for j in range(1, m +1):
+                f[i][j] = min(f[i - 1][j], f[i][j - 1]) + grid[i-1][j-1]
+        return f[n][m]
+    
 ```
 

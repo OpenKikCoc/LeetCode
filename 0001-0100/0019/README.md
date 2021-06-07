@@ -38,7 +38,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        dummy = ListNode(None)
+        dummy.next = head 
+        p1, p2 = dummy, dummy
+        for _ in range(n):
+            p2 = p2.next 
+        while p2 and p2.next:
+            p1 = p1.next 
+            p2 = p2.next
+        p1.next = p1.next.next 
+        return dummy.next
 ```
 

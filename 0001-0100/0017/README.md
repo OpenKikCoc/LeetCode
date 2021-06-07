@@ -37,7 +37,22 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        n = len(digits)
+        if not n:return []
+        my_dic = {'2':'abc', '3':'def', '4':'ghi','5':'jkl', \
+                    '6':'mno', '7':'pqrs', '8':'tuv', '9':'wxyz'}
+        res = []
+        def dfs(u, path):
+            if u == n:
+                res.append(path)  # 字符串是不可变类型，不会把这次递归的结果返回给上一次，所以不需要pop，也不需要path[:]
+                return 
+            for c in my_dic[digits[u]]:
+                dfs(u + 1, path + c) # 字符串不能写成：path.append(c) or path.add(c) 
 
+        dfs(0, '')
+        return res
 ```
 

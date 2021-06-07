@@ -32,7 +32,34 @@ public:
 
 
 
-```python3
-
+```python
+# 和上一道题完全一样
+class Solution:
+    def generateMatrix(self, n: int) -> List[List[int]]:
+        L, R, T, B = 0, n-1, 0, n-1
+        p = 0 
+        res = [[0] * n for _ in range(n)]
+        while True:
+            for i in range(L, R + 1):
+                p += 1
+                res[T][i] = p
+            T += 1 
+            if T > B:break 
+            for i in range(T, B + 1):
+                p += 1
+                res[i][R] = p 
+            R -= 1
+            if L > R:break 
+            for i in range(R, L - 1, -1):
+                p += 1
+                res[B][i] = p
+            B -= 1
+            if T > B:break 
+            for i in range(B, T - 1, -1):
+                p += 1
+                res[i][L] = p
+            L += 1
+            if L > R:break 
+        return res 
 ```
 

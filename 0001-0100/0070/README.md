@@ -22,7 +22,15 @@ public:
 
 
 
-```python3
+```python
+# i级台阶的方案数，则枚举最后一步是上1级台阶，还是上2级台阶，所以有：f[i]=f[i−1]+f[i−2]
 
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        if n <= 2:return n 
+        a, b = 1, 2
+        for i in range(3, n + 1):
+            a, b = b, a + b 
+        return b
 ```
 

@@ -53,7 +53,21 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        dummy = ListNode(None)
+        pre = dummy
+        pre.next = head
+        cur = head 
+        while cur and cur.next:
+            pNe = cur.next 
+            tmp = pNe.next 
+            pNe.next = cur 
+            cur.next = tmp
+            pre.next = pNe
+            pre = cur 
+            cur = tmp 
+        return dummy.next
 ```
 

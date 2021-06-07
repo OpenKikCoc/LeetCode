@@ -49,7 +49,18 @@ public:
 ```
 
 
-```python3
-
+```python
+# 把左括号 都加入到stack中，当来了右括号时，右括号的对应值 与 栈顶元素对比：如果相同 就继续对比
+# 如果不同，就直接return False 
+class Solution:
+    def isValid(self, s: str) -> bool:
+        my_dict = {")":"(", "}":"{", "]":"["}
+        stack = []
+        for c in s:
+            if c not in my_dict:   # 把左括号 都加入到栈中
+                stack.append(c)
+            elif not stack or my_dict[c] != stack.pop(): # 踩坑：需要先判断stack不为空
+                return False 
+        return not stack
 ```
 

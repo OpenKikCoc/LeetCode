@@ -32,7 +32,25 @@ public:
 
 
 
-```python3
+```python
+# 该学习的地方：用sign来区分 正负数
+class Solution:
+    def myAtoi(self, s: str) -> int:
+        i, sign = 0, 1
+        while i < len(s) and s[i] == " ": i += 1
 
+        if i < len(s) and s[i] == "+": i += 1
+        elif i < len(s) and s[i] == "-": i += 1; sign = -1
+
+        num = 0
+        while i < len(s) and s[i] >= '0' and s[i] <= '9':
+            num = num * 10 + int(s[i])
+            i += 1
+
+        num *= sign
+        maxv = (1 << 31)
+        if num > 0 and num > maxv - 1: num = maxv - 1
+        if num < 0 and num < -maxv: num = - maxv
+        return num
 ```
 

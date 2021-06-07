@@ -21,7 +21,17 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        def lowbit(n):
+            return n & (-n)
+        cnt = 0
+        if n < 0:
+            n = n & 0xffffffff
+        while n:
+            n -= lowbit(n)
+            cnt += 1
+        return cnt
 ```
 

@@ -41,7 +41,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def detectCycle(self, head: ListNode) -> ListNode:
+        if not head:return None
+        pF, pS = head, head 
+        while pF and pF.next: 
+            pF, pS = pF.next.next, pS.next
+            if pF == pS:
+                pF = head 
+                while pF != pS:
+                    pF, pS = pF.next, pS.next
+                return pS
+        return None
 ```
 

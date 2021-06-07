@@ -19,7 +19,7 @@
 | [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [here](./0213/README.md) |                                 | X      |       |
 | [214. 最短回文串](https://leetcode-cn.com/problems/shortest-palindrome/) | [here](./0214/README.md) |                                 | X      |       |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [here](./0215/README.md) |                                 | X      |       |
-| [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/) | [here](./0216/README.md) |                                 | X      |       |
+| [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/) | [here](./0216/README.md) |                                 | X      | X     |
 | [217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [here](./0217/README.md) |                                 | X      |       |
 | [218. 天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/) | [here](./0218/README.md) |                                 | X      |       |
 | [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) | [here](./0219/README.md) |                                 | X      |       |

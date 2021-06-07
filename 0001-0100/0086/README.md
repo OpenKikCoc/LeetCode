@@ -43,7 +43,24 @@ public:
 
 
 
-```python3
+```python
+# 两条链表：一条链表存储 比 x 小的节点；另外一条存比 x 大的节点；再把两个链表拼接起来
 
+class Solution:
+    def partition(self, head: ListNode, x: int) -> ListNode:
+        dum1, dum2 = ListNode(None), ListNode(None)
+        p1, p2 = dum1, dum2
+        p = head 
+        while p:
+            if p.val < x:
+                p1.next = p 
+                p1 = p1.next 
+            else:
+                p2.next = p 
+                p2 = p2.next 
+            p = p.next 
+        p1.next = dum2.next 
+        p2.next = None
+        return dum1.next
 ```
 

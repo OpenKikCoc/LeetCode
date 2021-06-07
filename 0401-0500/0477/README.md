@@ -31,7 +31,19 @@ public:
 
 
 
-```python3
-
+```python
+# 如果去枚举每个数，再进行计算汉明距离，那根据数据范围，会超时；所以换一种思路：
+# 1. 枚举每个数字的每一位，一共32位
+# 2. 遍历数组，统计每个数字当前位为0个数总和为x，为1的个数总和为y；res += x * y 
+class Solution:
+    def totalHammingDistance(self, nums: List[int]) -> int:
+        res = 0 
+        for i in range(31):
+            x, y = 0, 0 
+            for c in nums:
+                if c >> i & 1:y += 1
+                else:x += 1
+            res += x * y 
+        return res
 ```
 

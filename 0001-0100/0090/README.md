@@ -32,7 +32,22 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        num.sort()  # 踩坑1: 忘记排序！！
+        n = len(nums)
+        res = []
 
+        def dfs(path, i):
+            res.append(path[:])
+            for k in range(i, n):
+                if k > i and nums[k] == nums[k-1]:continue  # 踩坑2 ：if k > i !这个条件！
+                path.append(nums[k])
+                dfs(path, k + 1)
+                path.pop()
+        
+        dfs([], 0)
+        return res
 ```
 

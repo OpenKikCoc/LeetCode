@@ -55,7 +55,17 @@ public:
 
 
 
-```python3
-
+```python
+# 从前往后扫描整个链表，如果一个节点和其后继节点相同，则直接删除后继节点，否则指针移动到后继节点。
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        if head==None or head.next==None:return head
+        cur=head
+        while cur and cur.next:
+            if cur.val==cur.next.val:
+                cur.next=cur.next.next
+            else:
+                cur=cur.next
+        return head
 ```
 

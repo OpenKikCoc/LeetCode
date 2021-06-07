@@ -46,7 +46,20 @@ public:
 
 
 
-```python3
+```python
+# dp + 贪心优化
+# f[i] 表示到达 i 所需要的最少步数。
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        n = len(nums)
+        f = [0] * n 
+
+        j = 0 
+        for i in range(1, n):
+            while j + nums[j] < i:
+                j += 1
+            f[i] = f[j] + 1
+        return f[n-1]
 
 ```
 

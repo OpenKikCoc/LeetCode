@@ -28,7 +28,19 @@ public:
 
 
 
-```python3
-
+```python
+# 前后缀分离的思想: 预处理一个前缀的乘积，再预处理一个后缀的乘积
+# 
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        p = [1] * n
+        for i in range(1, n):
+            p[i] = p[i - 1] * nums[i - 1]
+        s = 1
+        for i in range(n - 1, -1, -1):
+            p[i] *= s 
+            s *= nums[i]
+        return p
 ```
 

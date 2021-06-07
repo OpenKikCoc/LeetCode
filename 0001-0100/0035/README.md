@@ -26,7 +26,17 @@ public:
 
 
 
-```python3
-
+```python
+#这道题是要找到第一个大于或者等于目标值的整数的位置
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        n = len(nums)
+        l, r = 0, n
+        while l < r:
+            m = l + (r - l) // 2
+            if nums[m] < target:
+                l = m + 1 
+            else:r = m 
+        return l 
 ```
 

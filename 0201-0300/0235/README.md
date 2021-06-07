@@ -32,7 +32,16 @@ public:
 
 
 
-```python3
-
+```python
+# 根据二叉搜索树的特性进行判断：左子树节点都小于根节点，右子树节点都大于根节点。
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        while root:
+            if p.val < root.val and q.val < root.val:
+                root = root.left 
+            elif p.val > root.val and q.val > root.val:
+                root = root.right 
+            else:break
+        return root
 ```
 

@@ -33,7 +33,20 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        if not nums:return []
+        n = len(nums)
+        res = []
+        def dfs(path, idx):
+            res.append(path[:])
+            for k in range(idx, n):
+                path.append(nums[k])
+                dfs(path, k + 1)
+                path.pop()
 
+        dfs([], 0)
+        return res
 ```
 

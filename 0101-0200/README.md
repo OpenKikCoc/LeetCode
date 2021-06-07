@@ -4,10 +4,10 @@
 
 | Title                                                        | Solution                 | Note | binacs | tracy |
 | ------------------------------------------------------------ | ------------------------ | ---- | ------ | ----- |
-| [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [here](./0101/README.md) |      | X      |       |
-| [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [here](./0102/README.md) |      | X      |       |
-| [103. 二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [here](./0103/README.md) |      | X      |       |
-| [ 104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [here](./0104/README.md) |      | X      |       |
+| [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [here](./0101/README.md) |      | X      | X     |
+| [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [here](./0102/README.md) |      | X      | X     |
+| [103. 二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [here](./0103/README.md) |      | X      | X     |
+| [ 104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [here](./0104/README.md) |      | X      | X     |
 | [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [here](./0105/README.md) |      | X      |       |
 | [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [here](./0106/README.md) |      | X      |       |
 | [107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [here](./0107/README.md) |      | X      |       |
@@ -94,7 +94,7 @@
 | [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | [here](./0188/README.md) |      | X      |       |
 | [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [here](./0189/README.md) |      | X      |       |
 | [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [here](./0190/README.md) |      | X      |       |
-| [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [here](./0191/README.md) |      | X      |       |
+| [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [here](./0191/README.md) |      | X      | X     |
 |                                                              | [here](./0192/README.md) |      |        |       |
 |                                                              | [here](./0193/README.md) |      |        |       |
 |                                                              | [here](./0194/README.md) |      |        |       |

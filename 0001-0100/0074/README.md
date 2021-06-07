@@ -41,7 +41,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def searchMatrix(self, arr: List[List[int]], target: int) -> bool:
+        if not arr:return False
+        n, m = len(arr), len(arr[0])
+        i, j = 0, m - 1 
+        while i < n and j >= 0:
+            if arr[i][j] == target:
+                return True 
+            elif arr[i][j] > target:
+                j -= 1
+            else:i += 1 
+        return False
 ```
 

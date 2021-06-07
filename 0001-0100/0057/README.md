@@ -30,7 +30,20 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def insert(self, nums1: List[List[int]], nums2: List[int]) -> List[List[int]]:
+        nums1.append(nums2)
+        nums1.sort()
+        left, right = nums1[0][0], nums1[0][1]
+        res = []
+        for i in range(1, len(nums1)):
+            if nums1[i][0] <= right:
+                right = max(right, nums1[i][1])
+            else:
+                res.append([left,right])
+                left, right = nums1[i][0], nums1[i][1]
+        res.append([left, right])
+        return res
 ```
 

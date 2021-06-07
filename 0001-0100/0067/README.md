@@ -52,7 +52,19 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        a, b = a[::-1], b[::-1]
+        t = 0 
+        i = 0
+        res = []
+        while i < len(a) or i < len(b) or t:
+            a1 = int(a[i]) if i < len(a) else 0
+            b1 = int(b[i]) if i < len(b) else 0    
+            t, n = divmod(a1 + b1 + t, 2)
+            res.append(str(n))
+            i += 1
+        return ''.join(res[::-1])
 ```
 

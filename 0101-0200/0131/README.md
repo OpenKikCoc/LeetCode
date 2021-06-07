@@ -43,7 +43,49 @@ public:
 
 
 
-```python3
+```python
+#python3
+#法一：区间dp + dfs
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        res = []
+        path = []
+        
+        def dfs(u, path):
+            if u == n:  # u表示当前搜到第几位，当u ==n: 说明一遍已经搜完，计入答案
+                res.append(path[:])
+                return 
+            for j in range(u, n): # 开始枚举下一段
+                if f[u][j]:
+                    path.append(s[u:j + 1])  # 加入路径中
+                    dfs(j + 1, path)  # 递归到下一层，注意是j + 1, 因为j是上一段最后一个字符
+                    path.pop()
+        n = len(s)
+        f = [[False] * n for _ in range(n)]
+				
+        for j in range(n):   # 由于递推式f[i][j] = (f[i+1][j-1]),在计算f[i][j]时j-1必须先被算出来，那么应该先枚举j
+            for i in range(n):
+                if i == j:  # 只有一个字符的情况下
+                    f[i][j] = True
+                elif s[i] == s[j]:
+                    if i + 1 > j - 1 or ((s[i] == s[j] and f[i + 1][j - 1])): # 两个字符
+                        f[i][j] = True
+        # 区间dp经典写法
+        #f[0][0] = True
+        #for i in range(1, n):
+        #    f[i][i] = True
+        #    f[i-1][i] = (s[i-1] == s[i])
+        #for length in range(2, n):
+        #    for i in range(n - length):
+        #        j = i + length
+        #        if s[i] == s[j] and f[i + 1][j - 1] == 1:
+        #            f[i][j] = True
+    
+        return res
+    
+    
+# 法二：dfs+回溯
 
+    
 ```
 

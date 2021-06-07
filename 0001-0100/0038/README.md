@@ -68,7 +68,22 @@ public:
 
 
 
-```python3
+```python
+# 模拟题 + 双指针
+# 直接按照从 2 到 n 的顺序生成字符串，即每次找连续相同的数字段，合并。
 
+class Solution:
+    def countAndSay(self, n: int) -> str:
+        s = '1'
+        for i in range(n-1):  # 循环n-1次，得到第n个数字的表达式
+            t = ''
+            j = 0 
+            while j < len(s): # 踩坑，每一次的s的长度都不一样，所以这里要用len(s)
+                k = j + 1
+                while k < len(s) and s[j] == s[k]:k += 1
+                t += str(k - j) + s[j]
+                j = k 
+            s = t 
+        return s
 ```
 

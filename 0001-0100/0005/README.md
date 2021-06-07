@@ -35,7 +35,31 @@ public:
 
 
 
-```python3
+```python
+# 把每个字母当成回文串的中心;这里要考虑两种情况，回文串的长度为奇数或者偶数情况。
 
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        self.res = ''
+        n = len(s)
+
+        def dfs(i, j):
+            while i >= 0 and j < n and s[i] == s[j]:
+                i -= 1
+                j += 1
+            self.res = max(self.res, s[i+1:j], key = len)
+            
+				# 注意：这样写 会timeout：只有其对应的两个位值的字符相等才会使 i j 发生改变，那么 如果 s[i] != s[j] ，是不是就会一直卡死在while循环出不去了呀
+        #def dfs(i, j):
+        #    while i >= 0 and j < n:
+        #        if s[i] == s[j]:
+        #            i -= 1
+        #            j += 1
+        #    self.res = max(self.res, s[i+1:j], key = len)
+        
+        for i in range(n):
+            dfs(i, i)
+            dfs(i, i + 1)
+        return self.res
 ```
 

@@ -33,7 +33,19 @@ public:
 
 
 
-```python3
+```python
+# 模拟 找规律题(直接操作旋转90度比较苦难，分为以下两个步骤)
+# 1. 先以 左上-右下对焦条线为轴做翻转
+# 2. 再以 中心的竖线为轴做翻转 即可。
 
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        n = len(matrix)
+        for i in range(n):
+            for j in range(n):
+                if i < j:
+                    matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j] 
+        for row in matrix:
+            row.reverse()
 ```
 

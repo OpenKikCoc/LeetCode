@@ -39,7 +39,30 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        n, m = len(board), len(board[0])
 
+        def dfs(x, y, word):
+            if len(word) == 0:
+                return True   # 踩坑1 ：首先要考虑啥时候返回True！！！
+            tmp = board[x][y]
+            board[x][y] = '/'
+            dx, dy = [1, -1, 0, 0], [0, 0, 1, -1]
+            for i in range(4):
+                nx, ny = x + dx[i], y + dy[i]
+                if 0 <= nx < n and 0 <= ny < m and board[nx][ny] == word[0]:
+                    if dfs(nx, ny, word[1:]):
+                        return True
+            board[x][y] = tmp   # 踩坑2:记得恢复现场
+            return False  # 踩坑3:上述条件不满足 就返回False
+
+        for i in range(n):
+            for j in range(m):
+                if board[i][j] == word[0]:
+                    if dfs(i, j, word[1:]):
+                        return True
+        return False
 ```
 

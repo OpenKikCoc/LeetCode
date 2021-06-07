@@ -42,7 +42,27 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def rotateRight(self, head: ListNode, k: int) -> ListNode:
+        if not head:return 
+        dummy = ListNode(None)
+        pre = dummy
+        dummy.next = head 
+        length = 0
+        while pre.next:
+            pre = pre.next 
+            length += 1
+        p1, p2, k = head, head, k % length
+        if k == 0:return head
+        for _ in range(k):
+            p2 = p2.next 
+        while p2.next:
+            p1 = p1.next
+            p2 = p2.next 
+        dummy.next = p1.next
+        p1.next = None
+        p2.next = head
+        return dummy.next
 ```
 

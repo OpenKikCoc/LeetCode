@@ -39,7 +39,25 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        if not s:return 0
+        s = s.strip(' ')
+        if not s:return 0
+        res = 0
+        for i in range(len(s)-1, -1, -1):
+            print(s[i])
+            if s[i] != ' ':
+                res += 1
+            else:break
+        return res
+      
+      
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        s = s.split()
+        if not s:return 0
+        return len(s[-1])
 ```
 

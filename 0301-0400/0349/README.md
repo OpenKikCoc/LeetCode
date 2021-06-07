@@ -42,7 +42,37 @@ public:
 
 
 
-```python3
-
+```python
+# 法一 ：排序 + 双指针
+class Solution:
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        nums1.sort()
+        nums2.sort()
+        n, m = len(nums1), len(nums2)
+        i, j = 0, 0
+        res = set()
+        while i < n and j < m:
+            if nums1[i] == nums2[j]:
+                res.add(nums1[i])
+                i += 1  # 踩坑：记得把这个i += 1; j += 1写上去
+                j += 1
+            elif nums1[i] > nums2[j]:
+                j += 1
+            else:
+                i += 1
+        return list(res)
+      
+# 法二：用两个set直接做  
+class Solution:
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        my_set1 = set()
+        my_set2 = set()
+        for a in nums1:
+            if a not in my_set1:
+                my_set1.add(a)
+        for c in nums2:
+            if c in my_set1 and c not in my_set2:
+                my_set2.add(c)
+        return list(my_set2)
 ```
 

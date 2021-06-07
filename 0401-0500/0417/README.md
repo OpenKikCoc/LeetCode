@@ -44,7 +44,34 @@ public:
 
 
 
-```python3
+```python
+# 1. 分别从太平洋和大西洋边界位置出发遍历，能同时被他们遍历到的 就是满足条件的
+# 2. 用二进制为表示是否合法。第一位表示太平洋 为1合法，第二位表示大西洋 为1合法；所以加起来当 当前格子的值为3时 就是满足条件的
 
+class Solution:
+    def pacificAtlantic(self, arr: List[List[int]]) -> List[List[int]]:
+        n, m = len(arr), len(arr[0])
+        st = [[0] * m for _ in range(n)]
+        
+        def dfs(x, y, t):
+            if st[x][y] & t:return # 如果被遍历过，就return（不是continue!!!)
+            st[x][y] |= t   # 如果没有被遍历过，又符合条件，就改变当前格子的st的值
+            dx, dy = [1, -1, 0, 0], [0, 0, 1, -1]
+            for i in range(4):
+                nx, ny = x + dx[i], y + dy[i]
+                if 0 <= nx < n and 0 <= ny < m and arr[x][y] <= arr[nx][ny]:
+                    dfs(nx, ny, t)
+        
+        for i in range(m):dfs(0, i, 1)
+        for i in range(n):dfs(i, 0, 1)
+        for i in range(m):dfs(n - 1, i, 2)
+        for i in range(n):dfs(i, m - 1, 2)
+
+        res = []
+        for i in range(n):
+            for j in range(m):
+                if st[i][j] == 3:
+                    res.append([i, j])
+        return res
 ```
 

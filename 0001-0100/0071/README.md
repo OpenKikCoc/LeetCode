@@ -58,7 +58,16 @@ public:
 
 
 
-```python3
-
+```python
+#  path = "/a/./b/../../c/": 解释： 进入a， '.'表示在当前目录不操作，然后进入b, 然后有两个 '..'，把a 和 b 都弹出来的
+class Solution:
+    def simplifyPath(self, path: str) -> str:
+        res = []
+        for c in path.split("/"):
+            if c not in [".", "..", ""]:
+                res.append(c)
+            if res and c == "..":
+                res.pop()
+        return "/" + "/".join(res)
 ```
 

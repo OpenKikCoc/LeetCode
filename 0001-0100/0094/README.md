@@ -45,7 +45,33 @@ public:
 
 
 
-```python3
-
+```python
+# 递归
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        res = []
+        def dfs(root):
+            if not root:return []  
+            dfs(root.left)
+            res.append(root.val)
+            dfs(root.right)
+        
+        dfs(root)
+        return res
+   
+# 迭代
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        if not root:return []
+        stack, res = [], []
+        p = root 
+        while p or stack:
+            while p:
+                stack.append(p)
+                p = p.left 
+            p = stack.pop()
+            res.append(p.val)
+            p = p.right 
+        return res
 ```
 

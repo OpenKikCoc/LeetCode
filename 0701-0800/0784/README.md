@@ -39,7 +39,25 @@ public:
 
 
 
-```python3
+```python
+# 特别简单的暴搜DFS...从左到右枚举遍历
+# 直接用字符串这个数据结构
 
+class Solution:
+    def letterCasePermutation(self, S: str) -> List[str]:
+        res = []
+        def dfs(path, s):
+            if not s:
+                res.append(path)
+                return  #一定要有return, 不然会继续执行下一行，导致list out of range
+            c = s[0]
+            if c.isalpha():
+                dfs(path + c.lower(), s[1:])
+                dfs(path + c.upper(), s[1:])
+            else:
+                dfs(path + c, s[1:])
+        
+        dfs('', S)
+        return res
 ```
 

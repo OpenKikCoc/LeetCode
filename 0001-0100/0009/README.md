@@ -27,7 +27,30 @@ public:
 
 
 
-```python3
+```python
+# 数字转化为字符串，再进行判断=== 可能这种方法会被面试官打
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        s = str(x)
+        if s[0] == '-':return False 
+        i, j = 0, len(s) - 1
+        while i < j:
+            if s[i] != s[j]:return False
+            i += 1
+            j -= 1
+        return True
+
+
+# 数值方法
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:return False
+        tmp = x 
+        s = 0
+        while x:
+            s = s * 10 + x % 10
+            x //= 10 
+        return s == tmp
 
 ```
 

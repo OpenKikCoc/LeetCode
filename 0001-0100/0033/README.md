@@ -28,7 +28,24 @@ public:
 
 
 
-```python3
+```python
+# 遇到旋转数组的题目（依旧用二分）
+# 1. 右端点r == n - 1(普通的二分r == n)
+# 2. 中点既可以和左端点对比，也可以和右端点对比。但是推荐所有旋转有序数组的题 都用mid 和 r 进行对比
 
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        n = len(nums)
+        if not n:return -1
+        l,r = 0, n - 1
+        while l < r:
+            m = l + (r - l) // 2
+            if nums[m] > nums[r] and (target > nums[m] or target <= nums[r]):
+                l = m + 1
+            elif nums[m] < nums[r] and nums[m] < target <= num[r]:
+                l = m + 1
+            else:
+                r = m 
+        return l if nums[l] == target else -1
 ```
 

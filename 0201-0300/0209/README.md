@@ -38,7 +38,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def minSubArrayLen(self, s: int, nums: List[int]) -> int:
+        res = float('inf')
+        l = 0; sumn = 0
+        for r in range(len(nums)):
+            sumn += nums[r]
+            while l <= r and sumn - nums[l] >= s:
+                sumn -= nums[l]
+                l += 1
+            if sumn >= s:
+                res = min(res, r - l + 1)
+        return res if res != float('inf') else 0
 ```
 

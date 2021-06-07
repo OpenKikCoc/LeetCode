@@ -42,7 +42,28 @@ public:
 
 
 
-```python3
+```python
+# dfs， Flood Fill的裸算法
+class Solution:
+    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+        if not grid:return 0
+        n, m = len(grid), len(grid[0])
+        res = 0
 
+        def dfs(x, y):
+            grid[x][y] = 0
+            ans = 1
+            dx, dy = [1, -1, 0, 0], [0, 0, 1, -1]
+            for i in range(4):
+                nx, ny = x + dx[i], y + dy[i]
+                if 0 <= nx < n and 0 <= ny < m and grid[nx][ny] == 1:
+                    ans += dfs(nx, ny)
+            return ans 
+
+        for i in range(n):
+            for j in range(m):
+                if grid[i][j] == 1:
+                    res = max(res, dfs(i, j))
+        return res
 ```
 

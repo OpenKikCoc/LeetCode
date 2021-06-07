@@ -48,7 +48,18 @@ public:
 
 
 
-```python3
+```python
+# 有规律的一道题！
+# 第k个格雷编码 是 k-1个格雷编码 进行对称翻转，然后前半部分后面补0，后半部分后面补1
 
+class Solution:
+    def grayCode(self, n: int) -> List[int]:
+        res = [0]
+        while n:
+            for i in range(len(res) - 1, -1, -1):
+                res[i] *= 2  # 前半部分 补0 
+                res.append(res[i] + 1) #后半部分 补1，就是在前半部分的基础上加上1就可
+            n -= 1
+        return res
 ```
 

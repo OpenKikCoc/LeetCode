@@ -63,7 +63,32 @@ public:
 
 
 
-```python3
+```python
+# 法一：用一个哨兵 来判断pre当前数 能不能被用
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        dummy = ListNode(None)
+        pre = dummy
+        dummy.next = head 
+        cur = head 
+        while cur:
+            flag = False
+            while cur.next:
+                if cur.val == cur.next.val:
+                    cur = cur.next
+                    flag = True
+                else:break
+            if flag:
+                pre.next = cur.next 
+            else:
+                pre = cur 
+            cur = cur.next 
+        return dummy.next
+      
+# 法二：
+
+
+
 
 ```
 

@@ -33,7 +33,21 @@ public:
 
 
 
-```python3
+```python
+# 上一道题 也可以用这种写法统一
+class Solution:
+    def uniquePathsWithObstacles(self, nums: List[List[int]]) -> int:
+        n, m = len(nums), len(nums[0])
+        f = [[0] * m for _ in range(n)]
+        f[0][0] = 0 if nums[0][0] else 1
 
+        for i in range(n):
+            for j in range(m):
+                if nums[i][j]:continue
+                if i > 0:
+                    f[i][j] += f[i-1][j]
+                if j > 0:
+                    f[i][j] += f[i][j-1]
+        return f[n-1][m-1]
 ```
 

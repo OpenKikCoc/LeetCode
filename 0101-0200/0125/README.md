@@ -28,7 +28,37 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        def check(c):
+            return c >= 'a' and c <= 'z' or c >= 'A' and c <= 'Z' or c >= '0' and c <= '9'
+        l, r = 0, len(s) - 1
+        while l < r:
+            while l < r and not check(s[l]):
+                l += 1
+            while l < r and not check(s[r]):
+                r -= 1
+            if l < r and s[l].lower() != s[r].lower():
+                return False 
+            l += 1
+            r -= 1
+        return True
 
+# class Solution:
+#     def isPalindrome(self, s: str) -> bool:
+#         i, j = 0, len(s) - 1
+#         while i < j:
+#             while i < j and not s[i].isalnum():  #  isalnum() 方法检测字符串是否由字母和数字组成
+#                 i += 1
+#             while i < j and not s[j].isalnum(): 
+#                 j -= 1
+#             if i < j:
+#                 if s[i].upper() != s[j].upper():
+#                     return False
+#                 else:
+#                     i += 1
+#                     j -= 1 
+#         return True
 ```
 

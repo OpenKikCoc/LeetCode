@@ -35,7 +35,25 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def combinationSum(self, nums: List[int], target: int) -> List[List[int]]:
+        if not nums:return []
+        n = len(nums)
+        nums.sort()
+        res = []
 
+        def dfs(path, target, i):
+            if target == 0:
+                res.append(path[:])
+                return 
+            for k in range(i, n):  # 这里的顺序 k 开始搜索，可以保证每个数在其他结果中不会被重复用
+                if nums[k] > target:return 
+                path.append(nums[k])
+                dfs(path, target - nums[k], k)
+                path.pop()
+
+        dfs([], target, 0)
+        return res
 ```
 

@@ -35,7 +35,24 @@ public:
 
 
 
-```python3
+```python
+# 考虑在target右边/左边；本题只有一个答案，就不需要判重
 
+class Solution:
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        res = float('inf')
+        n = len(nums)
+        nums.sort()
+        sumn, v = 0, 0
+        for i in range(n - 2):
+            l = i + 1; r = n - 1
+            while l < r:
+                sumn = nums[i] + nums[r] + nums[l] 
+                v = target - sumn
+                if abs(v) < abs(target - res):es: = sumn
+                if v < 0:r -= 1
+                elif v > 0:l += 1
+                else:return target
+        return res
 ```
 

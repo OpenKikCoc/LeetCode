@@ -35,7 +35,35 @@ public:
 
 
 
-```python3
+```python
+# 递归
+class Solution:
+    def isSymmetric(self, root: TreeNode) -> bool:
+        if not root:return True
+        
+        def dfs(L, R):
+            if not L and not R:return True
+            if not L or not R or L.val != R.val:return False  # 踩坑：不要忘记写L.val
+            return dfs(L.left, R.right) and dfs(L.right, R.left)
 
+        return dfs(root.right, root.left)
+      
+# 迭代
+class Solution:
+    def isSymmetric(self, root: TreeNode) -> bool:
+        if not root:return True
+        left, right = [], []
+        L, R = root.left, root.right
+        while L or R or len(left) or len(right):
+            while L and R:
+                left.append(L)
+                L = L.left
+                right.append(R)
+                R = R.right
+            if L or R:return False
+            L, R = left.pop(), right.pop()
+            if L.val != R.val:return False
+            L, R = L.right, R.left
+        return True
 ```
 

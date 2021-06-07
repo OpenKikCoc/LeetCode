@@ -39,7 +39,37 @@ public:
 
 
 
-```python3
+```python
+# 统一写法：
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        f = [[0] * n for _ in range(m)]
+       
+        for i in range(n):
+            for j in range(m):
+              	if not i and not j:f[i][j] = 1
+                else:
+                		if i > 0:
+                    		f[i][j] += f[i-1][j]
+                		if j > 0:
+                    		f[i][j] += f[i][j-1]
+        return f[n-1][m-1]
 
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        f = [[1] * n for _ in range(m)]
+        for i in range(1, m):
+            for j in range(1, n):
+                f[i][j] = f[i-1][j] + f[i][j-1]
+        return f[m-1][n-1]
+      
+# 优化为一维
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        f = [1] * n
+        for i in range(1, m):
+            for j in range(1, n):
+                f[j] = f[j] + f[j-1]
+        return f[n-1]
 ```
 

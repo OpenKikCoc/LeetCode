@@ -41,7 +41,20 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        dummy = ListNode(None)
+        p = dummy
+        t = 0
+        while l1 or l2 or t:
+            a = l1.val if l1 else 0
+            b = l2.val if l2 else 0 
+            p.next = ListNode((a + b + t) % 10)
+            p = p.next
+            t = (a + b + t) //10
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None 
+        return dummy.next
 ```
 

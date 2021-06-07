@@ -36,7 +36,26 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def combinationSum2(self, nums: List[int], target: int) -> List[List[int]]:
+        if not nums:return []
+        n = len(nums)
+        nums.sort()
+        res = []
 
+        def dfs(i, path, target):
+            if target == 0:
+                res.append(path[:])
+                return
+            for k in range(i, n):
+                if nums[k] > target:return  # 剪枝
+                if k > i and nums[k] == nums[k - 1]:continue  #去重
+                path.append(nums[k])
+                dfs(k + 1, path, target - nums[k]) # 每个数只能用一次，所以这里是 k + 1
+                path.pop()
+        
+        dfs(0, [], target)
+        return res
 ```
 
