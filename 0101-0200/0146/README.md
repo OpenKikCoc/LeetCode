@@ -166,7 +166,90 @@ public:
 
 
 
-```python3
+```python
+# 这道题面试官就是希望我们实现一个简单的双向链表（删除和插入都是O(1))
+# python有一种结合哈希表与双向链表的数据结构OrderedDict，第二种方法里将写一下。
 
+
+# 法一：双向链表 + 哈希表 O(1)
+# 1. k-v的增删改查显然需要一个哈希表来实现，这道题困难之处在于删除时，如果查找删除的元素
+# 2. 借用一个双向链表来实现，初始时，链表有两个dummy节点，分别为 L 和 R；新插入一个元素，将其插入到 L 的后面，然后在哈希表中记录新元素的结点地址；
+# 3. 遇到要删除的时候， 删除 R 前面的那个节点，同时释放哈希表的内存
+# 4. 遇到 get 操作或者 put 操作时，通过哈希表找到节点的地址，然后将其取出，放到 L 的后main，然后修改哈希表。
+# 总之，越新越近的元素放在链表头的位置；越老越久的元素放在链表尾的位置，remove出元素的时候，就删除链表尾的元素
+
+class Node:  # 初始化双向链表的数据结构
+    def __init__(self, key, val):
+        self.key = key
+        self.val = val 
+        self.left = None    
+        self.right = None 
+
+class LRUCache:
+    def __init__(self, capacity: int):  # 初始化需要用的哈希表，以及双链表的头尾节点
+        self.my_dict = collections.defaultdict(int)  # 哈希表里存的是 node.key -- node!!!
+        self.L = Node(-1, -1)
+        self.R = Node(-1, -1)
+        self.L.right = self.R   # 将头尾节点的左右指针初始化
+        self.R.left = self.L 
+        self.maxLen = capacity  # 最大容量值获取出来
+
+    def get(self, key: int) -> int:
+        if key in self.my_dict:  # 如果key已经在哈希表中了，那就从哈希表中先找到对应的节点
+            p = self.my_dict[key]
+            self.remove(p)  # 将其删除掉
+            self.insert(p)  # 然后再插入到链表中（这个时候会插入到链表头部的位置，代表此刻最新：更新位置）
+            return p.val  
+        else:
+            return -1  
+        
+    def put(self, key: int, value: int) -> None:  # 放入到缓存中
+        if key in self.my_dict:    # 如果key已经在缓存中了，那就先把这个点在双向链表中删除（因为操作了，后续还要insert进来）
+            self.remove(self.my_dict[key])  
+            del self.my_dict[key]  # 在哈希中也删除
+        if len(self.my_dict) == self.maxLen:  # 如果不在缓存中，并且缓存已经满了
+            p = self.R.left      # 那么就要删除掉链表中的最后一个节点
+            self.remove(p)
+            del self.my_dict[p.val]  # 并且把这个值在哈希表中删除
+        p = Node(key, value)   # 新的节点 或者是 被删掉后新的节点
+        self.my_dict[key] = p  
+        self.insert(p)  # 加入到链表中
+
+
+    def remove(self, p):
+        p.right.left = p.left
+        p.left.right = p.right
+
+
+    def insert(self, p):
+        p.right = self.L.right 
+        p.left = self.L 
+        self.L.right.left = p 
+        self.L.right = p
+        
+        
+        
+# 法二：用python自带的OrderDict
+from collections import OrderedDict
+class LRUCache:
+    def __init__(self, capacity: int):
+        self.maxsize = capacity
+        self.lrucache = OrderedDict()
+
+    def get(self, key: int) -> int:
+        # 说明在缓存中,重新移动字典的尾部
+        if key in self.lrucache:
+            self.lrucache.move_to_end(key)
+        return self.lrucache.get(key, -1)
+        
+    def put(self, key: int, value: int) -> None:
+        # 如果存在,删掉,重新赋值
+        if key in self.lrucache:
+            del self.lrucache[key]
+        # 在字典尾部添加
+        self.lrucache[key] = value
+        if len(self.lrucache) > self.maxsize:
+            # 弹出字典的头部(因为存储空间不够了)
+            self.lrucache.popitem(last = False)
 ```
 

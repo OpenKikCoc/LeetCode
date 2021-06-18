@@ -46,7 +46,32 @@ public:
 
 
 
-```python3
+```python
+# 递归
+class Solution:
+    def postorderTraversal(self, root: TreeNode) -> List[int]:
+        res = []
+        def dfs(p):
+            if not p:return
+            dfs(p.left)
+            dfs(p.right)
+            res.append(p.val)
 
+        dfs(root)
+        return res
+      
+ # 迭代: 前序遍历写成：父- 右 - 左； 然后return结果的时候 逆序返回
+class Solution:
+    def postorderTraversal(self, root: TreeNode) -> List[int]:
+        res, stack = [], []
+        p = root 
+        while p or stack:
+            while p:
+                stack.append(p)
+                res.append(p.val)
+                p = p.right 
+            p = stack.pop()
+            p = p.left 
+        return res[::-1]
 ```
 

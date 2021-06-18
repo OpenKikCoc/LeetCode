@@ -58,7 +58,35 @@ public:
 
 
 
-```python3
-
+```python
+# 1. 找中点前一个节点 2. 翻转后半部分 3. 拆分插入
+class Solution:
+    def reorderList(self, head: ListNode) -> None:
+        if not head or not head.next:return head 
+        fast, slow = head, head
+        while fast.next and fast.next.next:
+            fast = fast.next.next 
+            slow = slow.next 
+        pre = None 
+        cur = slow.next 
+        p = head 
+        while cur:
+            tmp = cur.next
+            cur.next = pre 
+            pre = cur 
+            cur = tmp 
+        slow.next = pre
+        p1, p2 = head, slow.next
+        while p1 != slow:
+            p1_tmp, p2_tmp = p1.next, p2.next 
+            p1.next = p2
+            p2.next = p1_tmp 
+            p1, p2 = p1_tmp, p2_tmp 
+        if p2:
+            p1.next = p2 
+            p2.next = None 
+        else:
+            p1.next = None
+        return head
 ```
 

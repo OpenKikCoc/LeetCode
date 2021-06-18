@@ -40,7 +40,23 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
+        res = []
 
+        def dfs(p, path, sum):
+            if not p:return 
+            path.append(p.val)
+            sum -= p.val
+            if not p.left and not p.right and sum == 0:
+                res.append(path[:])
+                # return   踩坑：这里不能写return
+            dfs(p.left, path, sum)
+            dfs(p.right, path, sum)
+            path.pop()
+
+        dfs(root, [], sum)
+        return res
 ```
 

@@ -54,7 +54,20 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        if not root:return []
+        res, q = [], collections.deque()
+        q.append(root)
+        while q:
+            tmp = []
+            for _ in range(len(q)):
+                node = q.popleft()
+                tmp.append(node.val)
+                for ch in node.children:  # 踩坑：这里不能用while node.children: 怎么让node指向下一个ch呢
+                    q.append(ch)
+            res.append(tmp)
+        return res
 ```
 

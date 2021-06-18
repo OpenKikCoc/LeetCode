@@ -61,6 +61,6 @@ class Solution:
                 stack.append(c)
             elif not stack or my_dict[c] != stack.pop(): # 踩坑：需要先判断stack不为空
                 return False 
-        return not stack
+        return not stack  # 踩坑！！！最后要判断栈是否为空，栈为空的时候 才能返回True 存在可能还有左扩号没有被匹配完的情况
 ```
 

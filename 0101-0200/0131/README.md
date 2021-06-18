@@ -84,8 +84,19 @@ class Solution:
         return res
     
     
-# 法二：dfs+回溯
-
-    
+# 法2: 回溯
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        res = []
+        
+        def dfs(s, tmp):
+            if not s:
+                res.append(tmp)
+                return 
+            for i in range(1, len(s) + 1):
+                if s[:i] == s[:i][::-1]:
+                    dfs(s[i:], tmp + [s[:i]])
+        dfs(s, [])
+        return res
 ```
 

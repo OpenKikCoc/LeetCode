@@ -45,6 +45,9 @@ public:
 
 
 ```python
+# 层序遍历：用队列
+# 先把root加入到队列中！再进入到while循环判断
+
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:return []

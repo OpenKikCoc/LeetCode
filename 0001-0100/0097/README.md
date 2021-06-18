@@ -30,7 +30,27 @@ public:
 
 
 
-```python3
+```python
+# 暴搜方案数太多，考虑用dp
+# 状态表示f[i][j]: 表示所有由s1[1-i] s2[1-j]交错形成s3[1-i+j]的方案；属性：集合是否非空；true/false
+# 状态计算：如果 s3[i+j] 匹配 s1[i] ，则问题就转化成了 f[i−1][j]；如果 s3[i+j] 匹配 s2[j]，则问题就转化成了 f[i][j−1]。两种情况只要有一种为真，则 f[i][j] 就为真
 
+class Solution:
+    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
+        n, m = len(s1), len(s2)
+        if len(s3) != (n + m):return False
+        f = [[False] * (m+1) for _ in range(n+1)]
+        s1, s2, s3 = ' ' + s1, ' ' + s2, ' ' + s3 
+        f[0][0] = True  # 初始化
+        for i in range(1, n + 1):  # 初始化
+            if f[i-1][0] and s1[i] == s3[i]:
+                f[i][0] = True
+        for i in range(1, m + 1): # 初始化
+            if f[0][i-1] and s2[i] == s3[i]:
+                f[0][i] = True 
+        for i in range(1, n + 1):
+            for j in range(1, m + 1):
+                f[i][j] = (f[i-1][j] and s1[i] == s3[i+j]) or (f[i][j-1] and s2[j] == s3[i+j])
+        return f[n][m]
 ```
 

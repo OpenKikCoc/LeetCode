@@ -80,6 +80,7 @@ public:
 
 
 ```python
+# 同理
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:return []

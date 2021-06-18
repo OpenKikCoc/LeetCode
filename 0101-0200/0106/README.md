@@ -40,7 +40,21 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def buildTree(self, ino: List[int], po: List[int]) -> TreeNode:
+        my_dict = {}
+        for i in range(len(ino)):
+            my_dict[ino[i]] = i 
+        
+        def dfs(ino_L, ino_R, po_L, po_R):
+            if ino_L > ino_R:return 
+            root = TreeNode(po[po_R])
+            idx = my_dict[po[po_R]]
+            root.left = dfs(ino_L, idx - 1, po_L, idx - ino_L + po_L - 1)
+            root.right = dfs(idx + 1, ino_R, idx - ino_L + po_L, po_R - 1)
+            return root 
+        
+        return dfs(0, len(ino) - 1, 0 , len(po) - 1)
 ```
 

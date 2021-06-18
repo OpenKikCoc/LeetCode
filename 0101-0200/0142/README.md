@@ -44,15 +44,17 @@ public:
 ```python
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
-        if not head:return None
-        pF, pS = head, head 
-        while pF and pF.next: 
-            pF, pS = pF.next.next, pS.next
-            if pF == pS:
-                pF = head 
-                while pF != pS:
-                    pF, pS = pF.next, pS.next
-                return pS
-        return None
+        if not head or not head.next:return None 
+        fast, slow = head, head 
+        while fast and fast.next:
+            slow = slow.next 
+            fast = fast.next.next 
+            if slow == fast:
+                fast = head 
+                while slow != fast:
+                    fast = fast.next 
+                    slow = slow.next 
+                return slow
+        return None   # 记得最后如果没有环 返回None
 ```
 

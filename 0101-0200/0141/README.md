@@ -37,13 +37,13 @@ public:
 ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
-        if not head:return False
-        pF, pS = head, head 
-        while pF and pF.next:  # 注意 这里是pF.next! 而不是pF.next.next 当只有一个节点时。
+        if not head or not head.next:return False
+        slow, fast = head, head 
+        while fast and fast.next: # 注意 这里是fast.next! 而不是fast.next.next 当只有一个节点时。
             pF = pF.next.next
-            pS = pS.next
-            if pF == pS:
-                return True 
-        return False
+            slow = slow.next 
+            fast = fast.next.next 
+            if slow == fast:return True 
+        return False      
 ```
 

@@ -45,7 +45,29 @@ public:
 
 
 
-```python3
-
+```python
+# 用set去重(竟然时间和内存占用都要优些)
+class Solution:
+    def findRepeatedDnaSequences(self, s: str) -> List[str]:
+        visited = set()
+        res = set()
+        for i in range(0, len(s) - 9):
+            tmp = s[i:i+10]
+            if tmp in visited:
+                res.add(tmp)
+            visited.add(tmp)
+        return list(res)  
+      
+# 用hash + list
+class Solution:
+    def findRepeatedDnaSequences(self, s: str) -> List[str]:        
+        my_hash = collections.defaultdict(int)
+        for i in range(len(s) - 9):
+            my_hash[s[i:i+10]] += 1
+        res = []
+        for key, val in my_hash.items():
+            if val > 1:
+                res.append(key)
+        return res
 ```
 

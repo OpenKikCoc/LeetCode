@@ -43,7 +43,22 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def averageOfLevels(self, root: TreeNode) -> List[float]:
+        res = []
+        q = collections.deque()
+        q.append(root)
+        while q:
+            tmp = []
+            for _ in range(len(q)):
+                node = q.popleft()
+                tmp.append(node.val)
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
+            res.append(sum(tmp) / len(tmp))
+        return res
 ```
 

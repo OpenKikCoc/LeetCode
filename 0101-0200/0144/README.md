@@ -46,7 +46,33 @@ public:
 
 
 
-```python3
-
+```python
+# 递归写法
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        res = []
+        def dfs(root):
+            if not root:return 
+            res.append(root.val)
+            dfs(root.left)
+            dfs(root.right)
+        dfs(root)
+        return res
+      
+# 迭代
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        if not root:return []
+        res = []
+        stack = []
+        p = root 
+        while p or stack:
+            while p:
+                stack.append(p)
+                res.append(p.val)
+                p = p.left 
+            p = stack.pop()
+            p = p.right 
+        return res
 ```
 

@@ -64,6 +64,42 @@ public:
 };
 ```
 
+
+
+```python
+class Solution:
+    def maximumRemovals(self, s: str, p: str, nums: List[int]) -> int:
+        def check(k):
+            st = [False] * ns
+            for i in range(k):
+                st[nums[i]] = True
+            j = 0
+            for i in range(ns):
+                if not st[i] and j < np and s[i] == p[j]:  # python字符串最后不是'/0' 
+                    j += 1
+            #         if j == np:
+            #             return True
+            # return False
+            return j >= np
+        
+        ns, np = len(s), len(p)
+        n = len(nums)
+        l, r = 0, n + 1
+        while l < r:
+            m = l + (r - l) // 2
+            if check(m):
+                l = m + 1
+            else:
+                r = m 
+        return l - 1
+```
+
+
+
+
+
+
+
 ### [5785. 合并若干三元组以形成目标三元组](https://leetcode-cn.com/problems/merge-triplets-to-form-target-triplet/)
 
 显然只有**某纬度最大的**理应发挥作用 遍历即可
@@ -80,6 +116,10 @@ public:
     }
 };
 ```
+
+
+
+
 
 ### [5787. 最佳运动员的比拼回合](https://leetcode-cn.com/problems/the-earliest-and-latest-rounds-where-players-compete/)
 

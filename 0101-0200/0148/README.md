@@ -114,7 +114,48 @@ public:
 
 
 
-```python3
+```python
+# 只需要掌握 递归版的归并排序
 
+ 迭代的归并排序空间复杂度是S(1); 递归的归并排序:S(logN)
+# 快排的空间复杂度S(logN)
+
+# 选择 迭代的归并排序：自底向上做！（正常递归的归并排序是 自顶向下）
+class Solution:
+    def sortList(self, head: ListNode) -> ListNode:
+        if not head or not head.next: 
+            return head
+        slow, fast = head, head
+        while fast.next and fast.next.next:  # 踩坑：这里不能写fast and fast.next， 当链表只有两个节点的时候，就会陷入死循环，一直递归
+            slow = slow.next
+            fast = fast.next.next
+        # 找到左右部分, 把左部分最后置空
+        mid = slow.next
+        slow.next = None
+        # 递归下去
+        left = self.sortList(head)
+        right = self.sortList(mid)
+        # 合并
+        return self.merge(left, right)
+
+    def merge(self, left, right):
+        dummy = ListNode(0)
+        p = dummy
+        l, r = left, right
+
+        while l and r:
+            if l.val < r.val:
+                p.next = l
+                l = l.next
+                p = p.next
+            else:
+                p.next = r
+                r = r.next
+                p = p.next
+        if l:
+            p.next = l
+        if r:
+            p.next = r
+        return dummy.next
 ```
 

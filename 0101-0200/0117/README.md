@@ -45,11 +45,67 @@ public:
         return root;
     }
 };
+
+
+// 常数空间
+class Solution {
+public:
+    Node* connect(Node *root) {
+        auto head = root;
+        while (root)
+        {
+            Node *dummy = new Node(0);
+            Node *tail = dummy;
+            while (root)
+            {
+                if (root->left)
+                {
+                    tail->next = root->left;
+                    tail = tail->next;
+                }
+                if (root->right)
+                {
+                    tail->next = root->right;
+                    tail = tail->next;
+                }
+                root = root->next;
+            }
+            root = dummy->next;
+        }
+        return head;
+    }
+};
+
 ```
 
 
 
-```python3
+```python
+# 非完美二叉树
+# 算法：1. 从根节点开始BFS，每次遍历一层，从左到右依次遍历每个节点；
+# 2. 遍历时维护下一层节点的链表。对于每个节点，依次判断他的左儿子和右儿子是否存在，如果存在，则插入到下一层链表的末尾
+# 3. 并且每次链表的tail 都要往后走一位。
 
+# 用root记层该层访问节点
+# 用dummy记录下一层合成链表的开头.
+# 用tail记录下一层合成链表的结尾.
+
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        if not root:return 
+        head = root 
+        while root:
+            dummy = ListNode(None)
+            tail = dummy 
+            while root:
+                if root.left:
+                    tail.next = root.left 
+                    tail = tail.next 
+                if root.right:
+                    tail.next = root.right
+                    tail = tail.next 
+                root = root.next 
+            root = dummy.next 
+        return head
 ```
 

@@ -45,7 +45,22 @@ public:
 
 
 
-```python3
-
+```python
+# BFS 
+class Solution:
+    def rightSideView(self, root: TreeNode) -> List[int]:
+        if not root:return []
+        q = collections.deque()
+        q.append(root)
+        res = []
+        while q:
+            tmp = []
+            for _ in range(len(q)):
+                node = q.popleft()
+                tmp.append(node.val)
+                if node.left:q.append(node.left)
+                if node.right:q.append(node.right)
+            res.append(tmp[-1])
+        return res
 ```
 

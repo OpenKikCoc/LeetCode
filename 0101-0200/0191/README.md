@@ -24,8 +24,9 @@ public:
 ```python
 class Solution:
     def hammingWeight(self, n: int) -> int:
-        def lowbit(n):
-            return n & (-n)
+        def lowbit(x):
+            return x & (-x)
+
         cnt = 0
         if n < 0:
             n = n & 0xffffffff

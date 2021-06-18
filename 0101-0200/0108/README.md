@@ -9,10 +9,7 @@
 
 
 ```c++
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
+
  *     TreeNode *left;
  *     TreeNode *right;
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
@@ -38,7 +35,18 @@ public:
 
 
 
-```python3
+```python
+# 递归建立整棵二叉树: 每次以中点为根，以左半部分为左子树，右半部分为右子树。先分别递归建立左子树和右子树，然后令根节点的指针分别指向两棵子树。
 
+class Solution:
+    def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
+        def dfs(l, r):
+            if l > r:return None
+            m = l + (r - l) // 2
+            root = TreeNode(nums[m])
+            root.left = dfs(l, m - 1)
+            root.right = dfs(m + 1, r)
+            return root 
+        return dfs(0, len(nums) - 1)
 ```
 

@@ -59,7 +59,19 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def insertionSortList(self, head: ListNode) -> ListNode:
+        dummy = ListNode(None)
+        p = head
+        while p:   # p指向要插入的节点
+            cur = dummy 
+            pNe = p.next
+            while cur.next and cur.next.val <= p.val:
+                cur = cur.next
+            p.next = cur.next 
+            cur.next = p 
+            p = pNe
+        return dummy.next
 ```
 

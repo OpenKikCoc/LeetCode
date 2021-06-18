@@ -26,7 +26,30 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        n = len(nums)
+        l, r = 0, n
+        while l < r:
+            m = l + (r - l) // 2 
+            if m + 1 < len(nums) and nums[m] < nums[m+1]:
+                l = m + 1 
+            else:
+                r = m 
+        return l 
+      
+      
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        n = len(nums)
+        l, r = 0, n - 1 
+        while l < r:
+            m = l + (r - l) // 2 
+            if nums[m] < nums[m+1]:
+                l = m + 1 
+            else:
+                r = m 
+        return l       
 ```
 

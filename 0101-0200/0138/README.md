@@ -57,7 +57,31 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head:return head
 
+        p = head    # 第一步：复制一个小弟
+        while p:
+            q = Node(p.val)
+            q.next = p.next 
+            p.next = q 
+            p = p.next.next 
+
+        p = head  # 第二步：赋值random指针
+        while p:
+            if p.random:
+                p.next.random = p.random.next 
+            p = p.next.next
+
+        dummy = ListNode(None)  # 第三步：拆分
+        cur = dummy
+        p = head 
+        while p:
+            cur.next = p.next
+            cur = cur.next 
+            p = p.next.next
+        return dummy.next
 ```
 

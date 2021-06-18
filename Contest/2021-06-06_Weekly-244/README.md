@@ -69,6 +69,48 @@ public:
 
 
 
+```python
+# 原地旋转算法(比赛过程中用的算法)
+class Solution:
+    def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
+        n = len(mat)
+        k = 0
+        def rotate():
+            for i in range(n):
+                for j in range(n):
+                    if i < j:
+                        mat[i][j], mat[j][i] =  mat[j][i],  mat[i][j]
+            for row in mat:
+                row.reverse()
+            
+        while True:
+            rotate()
+            k += 1
+            if mat == target:return True
+            if k > 3 :return False
+            
+# 用一个新数组存储旋转后的数组     
+class Solution:
+    def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
+        n = len(mat)
+
+        def rotate():
+            nums = [[0] * n for _ in range(n)]
+            for i in range(n):
+                k = n - 1
+                for j in range(n):
+                    nums[i][j] = mat[k][i]
+                    k -= 1
+            return nums 
+        
+        for i in range(4):
+            mat = rotate() # 踩坑：每次旋转完后 记得要把值赋值给mat,后续才能在此基础上继续旋转
+            if mat == target:return True 
+        return False      
+```
+
+
+
 ### [5777. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)
 
 从最大的开始即可
@@ -135,6 +177,43 @@ public:
     }
 };
 ```
+
+
+
+```python
+# 每个数 变动的次数 等于 比小于他的数的个数；
+# 从前到后扫描，记录一下当前一共有多少个数 比当前数小。
+
+# 哈希表 + 遍历
+class Solution:
+    def reductionOperations(self, nums: List[int]) -> int:
+        import collections
+        my_cnt = collections.Counter(nums)
+        ve = []
+        for k, v in my_cnt.items():
+            ve.append([k,v])
+        ve.sort()
+        n = len(ve)
+        res = 0; c = 0
+        for i in range(n-1, -1, -1):
+            res += c 
+            c += ve[i][1]
+        return res
+      
+# 更简单的写法：
+class Solution:
+    def reductionOperations(self, nums: List[int]) -> int:
+        nums.sort()
+        res = 0
+        s = 0
+        for i in range(1, len(nums)):
+            if nums[i] != nums[i-1]:
+                s += 1
+            res += s 
+        return res
+```
+
+
 
 
 

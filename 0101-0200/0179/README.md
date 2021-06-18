@@ -49,7 +49,30 @@ public:
 
 
 
-```python3
+```python
+#1. 先把nums中的所有数字转化为字符串，形成字符串数组 nums_str
+#2. 比较两个字符串x,y的拼接结果x+y和y+x哪个更大，从而确定x和y谁排在前面；将nums_str降序排序
+#3. 把整个数组排序的结果拼接成一个字符串，并且返回
+
+import functools
+class Solution:
+    def largestNumber(self, nums: List[int]) -> str:
+        nums_str = list(map(str,nums))
+        compare = lambda x, y: 1 if x + y < y + x else -1
+        nums_str.sort(key = functools.cmp_to_key(compare))
+        res = ''.join(nums_str)
+        if res[0] == '0':  # 判断最终拼接完的字符串中首位是不是 "0"，因为如果 nums 至少有一个数字不是 0， 那该数字一定会排在所有的 0 的前面
+            res = '0'
+        return res
+
+      
+      # 区别在于cmp函数的写法（熟悉熟悉）
+class Solution:
+    def largestNumber(self, nums):
+        from functools import cmp_to_key
+        temp = list(map(str,nums))
+        temp.sort(key = cmp_to_key(lambda x,y:int(x+y)-int(y+x)),reverse = True )
+        return ''.join(temp if temp[0]!='0' else '0')
 
 ```
 

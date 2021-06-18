@@ -32,7 +32,15 @@ public:
 
 
 
-```python3
-
+```python
+# 不管是相交还是 不相交，跳出循环的时候 p1 == p2
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        if not headA or not headB:return None
+        p1, p2 = headA, headB
+        while p1 != p2:
+            p1 = p1.next if p1 else headB 
+            p2 = p2.next if p2 else headA
+        return p1  
 ```
 

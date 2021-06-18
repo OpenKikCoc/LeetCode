@@ -40,7 +40,7 @@
 |                                                              | [here](./0634/README.md) |                                         |        |       |
 |                                                              | [here](./0635/README.md) |                                         |        |       |
 | [636. 函数的独占时间](https://leetcode-cn.com/problems/exclusive-time-of-functions/) | [here](./0636/README.md) |                                         | X      |       |
-| [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [here](./0637/README.md) |                                         | X      |       |
+| [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [here](./0637/README.md) |                                         | X      | X     |
 | [638. 大礼包](https://leetcode-cn.com/problems/shopping-offers/) | [here](./0638/README.md) |                                         | X      | note  |
 | [639. 解码方法 2](https://leetcode-cn.com/problems/decode-ways-ii/) | [here](./0639/README.md) |                                         | X      |       |
 | [640. 求解方程](https://leetcode-cn.com/problems/solve-the-equation/) | [here](./0640/README.md) |                                         | X      |       |

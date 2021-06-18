@@ -29,6 +29,7 @@ public:
 
 
 ```python
+# 简单的递归
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if not root:return 0

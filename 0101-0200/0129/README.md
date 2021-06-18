@@ -27,8 +27,6 @@ public:
         int t = v;
         v = v * 10 + root->val;
         if(!root->left && !root->right) {
-            //res += nv;
-            //return;
             res += v;
         }
         dfs(root->left);
@@ -44,7 +42,20 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def sumNumbers(self, root: TreeNode) -> int:
+        self.res = 0 
 
+        def dfs(root, s):
+            if not root:return 
+            s = s * 10 + root.val 
+            if not root.left and not root.right:
+                self.res += s 
+            dfs(root.left, s)
+            dfs(root.right, s)
+
+        dfs(root, 0)
+        return self.res 
 ```
 

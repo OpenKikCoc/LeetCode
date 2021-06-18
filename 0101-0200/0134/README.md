@@ -29,7 +29,25 @@ public:
 
 
 
-```python3
+```python
+# 先枚举，然后优化。
+# 枚举所有起点，去循环判断一边，有没有出现负数的情况。
+# 在i个点，判断在当前点加的油量，能不能走到第i+1个站，依次循环向下走。如果走到第j个战后，没有办法走到j+1个站，说明第i个点开始走，不合法。
+# 那就开始遍历其他点作为起点。贪心的部分就是：如果第i个站 不合法，那第【i+1,j】这些站点 都不可能作为起始站点。
+# 所以每个站 最多只能被遍历一遍。
 
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        n = len(gas)
+        for i in range(n): # 枚举起点
+            left = 0 
+            for j in range(n):
+                k = (i + j) % n 
+                left += gas[k] - cost[k]
+                if left < 0:
+                    break 
+            if left >= 0:return i
+            i = i + j + 1
+        return -1
 ```
 

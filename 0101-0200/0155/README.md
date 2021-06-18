@@ -49,7 +49,37 @@ public:
 
 
 
-```python3
+```python
+# 栈：先进后出；取最小值 应该是取后进去的，栈顶的元素
+# 所以维护一个最小栈，保持栈顶元素 永远是最小的。
 
+class MinStack:
+    def __init__(self):
+        self.A = []
+        self.min = []
+
+    def push(self, val: int) -> None:
+        self.A.append(val)
+        if not self.min or self.min[-1] >= val:
+            self.min.append(val)
+       
+    def pop(self) -> None:
+        if self.A[-1] == self.min[-1]:
+            self.min.pop()
+        self.A.pop()
+
+    def top(self) -> int:
+        return self.A[-1]
+
+    def getMin(self) -> int:
+        return self.min[-1]
+
+
+# Your MinStack object will be instantiated and called as such:
+# obj = MinStack()
+# obj.push(val)
+# obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.getMin()
 ```
 

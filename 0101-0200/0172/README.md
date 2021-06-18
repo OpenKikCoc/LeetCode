@@ -28,7 +28,15 @@ public:
 
 
 
-```python3
-
+```python
+# 如果要在末位产生0，则必然是5×2，即使是原数中包含的0也可以分解，由于2的出现次数一定比5多
+# 因此将题目简化为寻找阶乘中5的个数，即n//5，但是要考虑到这只找到了n中是5倍数的所有数
+class Solution:
+    def trailingZeroes(self, n: int) -> int:
+        res = 0
+        while n > 0:
+            n //= 5
+            res += n
+        return res
 ```
 
