@@ -58,7 +58,7 @@ class Solution:
 
         for i in range(0, 9, 3):  # 遍历每一个小方框
             for j in range(0, 9, 3):
-                st = [False] * 9
+                st = [False] * 9  # m诶个小方框之前的状态都清空，每次都置为False
                 for n in range(3):
                     for m in range(3):
                         if board[i + n][j + m] != '.':

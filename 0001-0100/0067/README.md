@@ -55,16 +55,17 @@ public:
 ```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
-        a, b = a[::-1], b[::-1]
-        t = 0 
-        i = 0
+        n, m = len(a), len(b)
+        i, j, t = n - 1, m - 1, 0 
         res = []
-        while i < len(a) or i < len(b) or t:
-            a1 = int(a[i]) if i < len(a) else 0
-            b1 = int(b[i]) if i < len(b) else 0    
-            t, n = divmod(a1 + b1 + t, 2)
-            res.append(str(n))
-            i += 1
+        while i >=0 or j >= 0 or t:
+            a1 = int(a[i]) if i >=0 else 0
+            a2 = int(b[j]) if j >=0 else 0
+            t += a1 + a2 
+            res.append(str(t % 2))
+            t //= 2
+            i -= 1
+            j -= 1
         return ''.join(res[::-1])
 ```
 

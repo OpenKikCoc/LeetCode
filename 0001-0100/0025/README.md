@@ -54,13 +54,13 @@ public:
 # 1. 先暴力判断是否有k个节点；2. 内部交换，最后再换头尾
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
-        dummy = ListNode(None)
+        dummy = ListNode(0)
         dummy.next = head 
         pre = dummy
         while pre:
             q = pre 
             i = 0
-            while i < k and q: # 注意 不能修改k, 所有用i变量来暴力遍历
+            while i < k and q: # 注意 不能修改k, 所有用i变量来暴力遍历！ 踩坑！这里需要把 q是否存在加入到判断条件里，不会q.next就会报错！
                 q = q.next 
                 i += 1
             if not q:break 
@@ -72,7 +72,7 @@ class Solution:
                 pNe.next = cur 
                 cur, pNe = pNe, tmp
             
-            a = pre.next
+            a = pre.next   # 踩坑：这一部分 也记得要更新pre的位置，所以需要借助一个a
             pre.next = cur 
             a.next = pNe 
             pre = a 

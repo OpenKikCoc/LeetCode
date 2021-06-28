@@ -29,9 +29,8 @@ public:
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         n = len(nums)
-        if n == 0:return 0
         f = [float("-inf")] * (n + 1)
-        f[1] = nums[0]
+        f[1] = nums[0]  # 初始值 
         for i in range(2, n + 1):
             f[i] = max(f[i-1] + nums[i-1], nums[i-1])
         return max(f)

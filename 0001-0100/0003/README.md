@@ -57,7 +57,7 @@ class Solution:
         l = 0; res = 0
         for r in range(len(s)):
             my_dict[s[r]] += 1
-            while my_dict[s[r]] > 1:  # 踩坑：
+            while my_dict[s[r]] > 1:  # 踩坑：想要把l指针往右边移动，那就是判断当前r的数量是否大于1
                 my_dict[s[l]] -= 1
                 l += 1
             res = max(res, r - l + 1)

@@ -56,6 +56,5 @@ class Solution:
             for j in range(1, m +1):
                 f[i][j] = min(f[i - 1][j], f[i][j - 1]) + grid[i-1][j-1]
         return f[n][m]
-    
 ```
 

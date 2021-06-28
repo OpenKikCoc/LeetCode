@@ -44,6 +44,27 @@ public:
 
 
 ```python
+# 1. 用小根堆存储k个排序链表的头指针，并且把每个链表的头指针往后移一位
+# 2. 当小根堆不为空的时候，弹出最小的元素，p的next指针指向那个节点，并且把最小的那条链表的下一个头节点加入到堆中
 
+import heapq
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        dummy = ListNode(0)
+        p = dummy 
+        head = []
+        for i in range(len(lists)):
+            if lists[i]:   # 踩坑，这里需要判断 当前链表是否为空
+                heapq.heappush(head, (lists[i].val, i))
+                lists[i] = lists[i].next 
+        
+        while head:
+            val, idx = heapq.heappop(head)
+            p.next = ListNode(val)
+            p = p.next 
+            if lists[idx]:
+                heapq.heappush(head, (lists[idx].val, idx))
+                lists[idx] = lists[idx].next 
+        return dummy.next
 ```
 

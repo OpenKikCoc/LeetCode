@@ -60,14 +60,12 @@ class Solution:
         pre = dummy
         pre.next = head
         cur = head 
-        while cur and cur.next:
-            pNe = cur.next 
-            tmp = pNe.next 
+        while cur and cur.next:  # 踩坑！ 这里要加上 判断cur.next 
+            pNe = cur.next   # 不然一进来，可能pNe就是None， 
+            cur.next = pNe.next   # 就会导致pNe没有next, 而报错
             pNe.next = cur 
-            cur.next = tmp
             pre.next = pNe
-            pre = cur 
-            cur = tmp 
+            pre, cur = cur, cur.next
         return dummy.next
 ```
 

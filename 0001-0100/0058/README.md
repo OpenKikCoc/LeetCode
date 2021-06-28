@@ -42,9 +42,8 @@ public:
 ```python
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        if not s:return 0
         s = s.strip(' ')
-        if not s:return 0
+        if not s:return 0 # 踩坑： 判断 去掉后面的空格后，是否为空字符串
         res = 0
         for i in range(len(s)-1, -1, -1):
             print(s[i])

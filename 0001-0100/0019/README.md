@@ -39,6 +39,7 @@ public:
 
 
 ```python
+# 删除的点可能是head节点，所以一定要用dummy方便处理头节点被删的情况
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         dummy = ListNode(None)
@@ -49,7 +50,8 @@ class Solution:
         while p2 and p2.next:
             p1 = p1.next 
             p2 = p2.next
-        p1.next = p1.next.next 
+        p1.next = p1.next.next   # 如果这里写p1.next = p2 会有[1] 1这个case过不了
+        # 在这个case下， p1还是在dummy处没动，p2也在第一个点，所以不能直接p1.next = p2
         return dummy.next
 ```
 

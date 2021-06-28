@@ -24,6 +24,22 @@ public:
 ```
 
 
+
+```python
+# python
+class Solution:
+    def largestOddNumber(self, num: str) -> str:
+        if not num:return ""
+        res = ''
+        for i in range(len(num)-1, -1, -1):
+            if int(num[i]) % 2 != 0:
+                res = num[:i+1]
+                return res
+        return res
+```
+
+
+
 ### [5789. 你完成的完整对局数](https://leetcode-cn.com/problems/the-number-of-full-rounds-you-have-played/)
 
 统计其中有多少个 15 整倍数即可，注意加 15 的偏移量保证其为完整的回合
@@ -72,6 +88,29 @@ public:
         return max(0, y - x);
     }
 };
+```
+
+
+
+```python
+# python
+class Solution:
+    def numberOfRounds(self, startTime: str, finishTime: str) -> int:
+        def get(s):
+            h = int(s[0]) * 10 + int(s[1])
+            m = int(s[3]) * 10 + int(s[4])
+            return h * 60 + m 
+        
+        st, ed = get(startTime), get(finishTime)
+        
+        if st > ed:
+            ed += get("24:00")
+        
+        res = 0 
+        for i in range(st + 15, ed + 1):
+            if i % 15 == 0:
+                res += 1
+        return res
 ```
 
 
@@ -182,6 +221,56 @@ public:
 
 
 
+```python
+# python
+class Solution:
+    def countSubIslands(self, g1: List[List[int]], g2: List[List[int]]) -> int:
+        n, m = len(g1), len(g1[0])
+        dx, dy = [1, -1, 0, 0], [0, 0, 1, -1]
+        num = [[0] * m for _ in range(n)]
+        st = [[0] * m for _ in range(n)]
+        
+        self.f = False
+        
+        def dfs1(x, y, k):
+            num[x][y] = k 
+            for i in range(4):
+                nx, ny = x + dx[i], y + dy[i]
+                if 0 <= nx < n and 0 <= ny < m and g1[nx][ny] and not num[nx][ny]:
+                    dfs1(nx, ny, k)
+                    
+        def dfs2(x, y, k):
+            if num[x][y] != k:
+                self.f = False 
+            
+            st[x][y] = k
+            for i in range(4):
+                nx, ny = x + dx[i], y + dy[i]
+                if 0 <= nx < n and 0 <= ny < m and g2[nx][ny] and not st[nx][ny]:
+                    dfs2(nx, ny, k)
+            
+                    
+        cnt = 0
+        for i in range(n):
+            for j in range(m):
+                if g1[i][j] and not num[i][j]:
+                    cnt += 1
+                    dfs1(i, j, cnt)
+        
+        res = 0 
+        for i in range(n):
+            for j in range(m):
+                if g2[i][j] and not st[i][j] and num[i][j]:
+                    self.f = True 
+                    dfs2(i, j, num[i][j])
+                    
+                    if (self.f):
+                        res += 1
+        return res       
+```
+
+
+
 ### [5790. 查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries/)
 
 根据数据集范围推测直接使用前缀和统计查询区间中出现的所有数字，去重遍历即可
@@ -221,3 +310,14 @@ public:
     }
 };
 ```
+
+
+
+```python
+# python
+# 前缀和
+
+```
+
+
+

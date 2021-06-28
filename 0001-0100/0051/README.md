@@ -54,12 +54,8 @@ class Solution:
         udg = [False]*2*n 
 
         def dfs(u):
-            ans = []
-            if u == n:  #搜到最后一行的 后面一个位置。
-                for i in range(n):
-                    ans.append(''.join(path[i]))
-                res.append(ans)
-                # res.append(["".join(path[i]) for i in range(n)])
+            if u == n:  #搜到最后一行的 下一个位置（行）
+                res.append(["".join(path[i]) for i in range(n)])
                 return
             
             for i in range(n):

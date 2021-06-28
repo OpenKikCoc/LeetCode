@@ -53,7 +53,7 @@ class Solution:
         nums.sort()
         sumn = 0
         for i in range(n - 2):
-            if nums[i] > 0:co
+            if nums[i] > 0:break
             if i > 0 and nums[i] == nums[i - 1]:continue  # 去重
             l = i + 1; r = n - 1
             while l < r:

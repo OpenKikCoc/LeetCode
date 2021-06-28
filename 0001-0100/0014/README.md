@@ -27,7 +27,21 @@ public:
 
 
 
-```python3
+```python
+# 先找出数组中字典序最小和最大的字符串，最长公共前缀即为这两个字符串的公共前缀
 
+class Solution:
+    def longestCommonPrefix(self, s: List[str]) -> str:
+        if not s:return ""
+        s.sort()
+        n = len(s)
+        a, b = s[0], s[n-1]
+        res = ""
+        for i in range(len(a)):
+            if i < len(b) and a[i] == b[i]:
+                res += a[i]
+            else:
+                break
+        return res
 ```
 

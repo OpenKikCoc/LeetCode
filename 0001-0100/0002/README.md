@@ -47,13 +47,13 @@ class Solution:
         dummy = ListNode(None)
         p = dummy
         t = 0
-        while l1 or l2 or t:
+        while l1 or l2 or t:  # 踩坑2:记得把t加上，因为最后可能两条链表都遍历完了，但正好还有一个进位
             a = l1.val if l1 else 0
             b = l2.val if l2 else 0 
             p.next = ListNode((a + b + t) % 10)
             p = p.next
             t = (a + b + t) //10
-            l1 = l1.next if l1 else None
+            l1 = l1.next if l1 else None  # 踩坑，这里需要判断一下l1.next是否存在，不然会报错l1没有next元素。如果直接写l1 = l1.nexr
             l2 = l2.next if l2 else None 
         return dummy.next
 ```

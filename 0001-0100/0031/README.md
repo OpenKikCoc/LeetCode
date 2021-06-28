@@ -48,7 +48,7 @@ public:
 # 答题思路：从后往前寻找第一个升序对(i,j)即nums[i]<nums[j] 再从后往前找第一个大于nums[i]的数即为大数，交换着两个元素即将大数换到前面，然后将大数后面的部分倒序
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
-        def reverse(nums, i, j):
+        def reverse(i, j):
             while i < j:
                 nums[i],nums[j] = nums[j], nums[i]
                 i += 1
@@ -64,6 +64,6 @@ class Solution:
         while j > i-1 and nums[j] <= nums[i-1]:
             j -= 1
         nums[j],nums[i-1]=nums[i-1],nums[j]
-        reverse(nums, i, n-1)
+        reverse(i, n-1)
 ```
 
