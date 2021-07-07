@@ -22,13 +22,13 @@ public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
         int n = nums.size();
         unordered_map<int, int> mp;
-        for(auto v : nums) ++mp[v];
+        for (auto v : nums) ++mp[v];
         vector<pair<int, int>> ve;
-        for(auto [k, v] : mp) ve.push_back({v, k});
+        for (auto [k, v] : mp) ve.push_back({v, k});
         sort(ve.begin(), ve.end());
         vector<int> res;
         n = ve.size();
-        for(int i = n-1; i >= n-k; --i) res.push_back(ve[i].second);
+        for (int i = n - 1; i >= n - k; --i) res.push_back(ve[i].second);
         return res;
     }
     // 2.

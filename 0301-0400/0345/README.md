@@ -16,14 +16,14 @@ public:
     }
     string reverseVowels(string s) {
         int n = s.size();
-        int l = 0, r = n-1;
-        while(l < r) {
-            while(l < r && !checkc(s[l])) ++l;
-            if(l >= r) break;
-            while(l < r && !checkc(s[r])) --r;
-            if(l >= r) break;
+        int l = 0, r = n - 1;
+        while (l < r) {
+            while (l < r && !checkc(s[l])) ++ l ;
+            if (l >= r) break;
+            while (l < r && !checkc(s[r])) -- r ;
+            if (l >= r) break;
             swap(s[l], s[r]);
-            ++l, --r;
+            ++ l , -- r ;
         }
         return s;
     }

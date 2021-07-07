@@ -13,6 +13,32 @@ class Solution {
 public:
     string removeDuplicateLetters(string s) {
         string stk;
+        unordered_map<char, bool> ins;
+        unordered_map<char, int> last;
+        for (int i = 0; i < s.size(); i ++ ) last[s[i]] = i;
+
+        for (int i = 0; i < s.size(); i ++ ) {
+            if (ins[s[i]]) continue;
+            while (stk.size() && stk.back() > s[i] && last[stk.back()] > i) {
+                ins[stk.back()] = false;
+                stk.pop_back();
+            }
+            stk += s[i];
+            ins[s[i]] = true;
+        }
+
+        return stk;
+    }
+};
+```
+
+
+
+```c++
+class Solution {
+public:
+    string removeDuplicateLetters(string s) {
+        string stk;
         size_t i = 0;
         for(size_t i = 0;i < s.size(); ++i) {
             if(stk.find(s[i]) != string::npos) continue;
