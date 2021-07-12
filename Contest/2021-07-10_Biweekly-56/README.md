@@ -262,3 +262,36 @@ public:
     }
 };
 ```
+
+或者 dp ，同样拆出二维状态，递推即可
+
+```c++
+class Solution {
+    const int INF = 0x3f3f3f3f;
+
+public:
+    int minCost(int T, vector<vector<int>>& edges, vector<int> a) {
+        int n = a.size();
+        std::vector<std::vector<std::pair<int, int>>> E(n);
+        for (int i = 0; i < (int)edges.size(); ++i) {
+            int u = edges[i][0], v = edges[i][1], w = edges[i][2];
+            E[u].emplace_back(v, w);
+            E[v].emplace_back(u, w);
+        }
+        std::vector<std::vector<int>> f(T + 1, std::vector<int>(n, INF));
+        f[0][0] = a[0];
+        int ans = INF;
+        for (int i = 1; i <= T; ++i) {
+            for (int u = 0; u < n; ++u) {
+                for (auto [v, w] : E[u]) {
+                    if (i >= w) {
+                        f[i][u] = std::min(f[i][u], f[i - w][v] + a[u]);
+                    }
+                }
+            }
+            ans = std::min(ans, f[i][n - 1]);
+        }
+        return ans == INF ? -1 : ans;
+    }
+};
+```

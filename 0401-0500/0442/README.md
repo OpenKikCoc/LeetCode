@@ -7,6 +7,20 @@
 ## 题解
 
 
+```c++
+class Solution {
+public:
+    vector<int> findDuplicates(vector<int>& nums) {
+        vector<int> res;
+        for (auto x: nums) {
+            int p = abs(x) - 1;
+            nums[p] *= -1;
+            if (nums[p] > 0) res.push_back(abs(x));
+        }
+        return res;
+    }
+};
+```
 
 ```c++
 class Solution {
