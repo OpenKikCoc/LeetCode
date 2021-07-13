@@ -6,7 +6,29 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    int findRotateSteps(string ring, string key) {
+        int n = ring.size(), m = key.size();
+        ring = ' ' + ring, key = ' ' + key;
+        vector<vector<int>> f(m + 1, vector<int>(n + 1, 1e8));
+        f[0][1] = 0;
+        for (int i = 1; i <= m; i ++ )
+            for (int j = 1; j <= n; j ++ )
+                if (key[i] == ring[j]) {
+                    for (int k = 1; k <= n; k ++ ) {
+                        int t = abs(k - j);
+                        f[i][j] = min(f[i][j], f[i - 1][k] + min(t, n - t) + 1);
+                    }
+                }
 
+        int res = 1e8;
+        for (int i = 1; i <= n; i ++ ) res = min(res, f[m][i]);
+        return res;
+    }
+};
+```
 
 ```c++
 class Solution {
