@@ -41,7 +41,7 @@
 |                                                              | [here](./0635/README.md) |                                         |        |       |
 | [636. 函数的独占时间](https://leetcode-cn.com/problems/exclusive-time-of-functions/) | [here](./0636/README.md) |                                         | X      |       |
 | [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [here](./0637/README.md) |                                         | X      | X     |
-| [638. 大礼包](https://leetcode-cn.com/problems/shopping-offers/) | [here](./0638/README.md) |                                         | X      | note  |
+| [638. 大礼包](https://leetcode-cn.com/problems/shopping-offers/) | [here](./0638/README.md) | note                                    | X      |       |
 | [639. 解码方法 2](https://leetcode-cn.com/problems/decode-ways-ii/) | [here](./0639/README.md) |                                         | X      |       |
 | [640. 求解方程](https://leetcode-cn.com/problems/solve-the-equation/) | [here](./0640/README.md) |                                         | X      |       |
 | [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [here](./0641/README.md) |                                         | X      |       |
@@ -62,7 +62,7 @@
 |                                                              | [here](./0656/README.md) |                                         |        |       |
 | [657. 机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin/) | [here](./0657/README.md) |                                         | X      |       |
 | [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) | [here](./0658/README.md) |                                         | X      |       |
-| [659. 分割数组为连续子序列](https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/) | [here](./0659/README.md) |                                         | X      |       |
+| [659. 分割数组为连续子序列](https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/) | [here](./0659/README.md) | 堆模拟 以及非常好的贪心                 | X      |       |
 |                                                              | [here](./0660/README.md) |                                         |        |       |
 | [661. 图片平滑器](https://leetcode-cn.com/problems/image-smoother/) | [here](./0661/README.md) |                                         | X      |       |
 | [662. 二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) | [here](./0662/README.md) | note                                    | X      |       |
