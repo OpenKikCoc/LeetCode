@@ -7,6 +7,35 @@
 ## 题解
 
 
+更好的写法
+
+```c++
+class Solution {
+public:
+    bool search(vector<int>& nums, int target) {
+        int n = nums.size();
+        // 旋转排序树组 右端点有意义
+        int l = 0, r = n - 1;
+        while (l < r) {
+            int m = l + r >> 1;
+            if (nums[m] < nums[r]) {
+                if (target > nums[m] && target <= nums[r])
+                    l = m + 1;
+                else
+                    r = m;
+            } else if (nums[m] > nums[r]) {
+                if (target > nums[m] || target <= nums[r])
+                    l = m + 1;
+                else
+                    r = m;
+            } else
+                r -- ;
+        }
+        return nums[l] == target;
+    }
+};
+```
+
 
 ```c++
 class Solution {

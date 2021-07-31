@@ -7,6 +7,24 @@
 ## 题解
 
 
+```c++
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        int n = nums.size();
+        int res = 0, ed = 0, mx = 0;
+        for (int i = 0; i < n - 1; ++ i ) {
+            mx = max(mx, i + nums[i]);
+            if (i == ed) {
+                res ++ ;
+                ed = mx;
+            }
+        }
+        return res;
+    }
+};
+```
+
 
 ```c++
 class Solution {

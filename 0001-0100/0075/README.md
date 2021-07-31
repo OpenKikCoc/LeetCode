@@ -6,7 +6,23 @@
 
 ## 题解
 
-
+```c++
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int n = nums.size();
+        // p <= c2 , cause [2,0,1]
+        for (int c0 = 0, p = 0, c2 = n - 1; p <= c2; ) {
+            if (nums[p] == 0)
+                swap(nums[p ++ ], nums[c0 ++ ]);
+            else if (nums[p] == 2)
+                swap(nums[p], nums[c2 -- ]);
+            else
+                p ++ ;
+        }
+    }
+};
+```
 
 ```c++
 class Solution {

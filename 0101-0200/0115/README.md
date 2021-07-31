@@ -6,7 +6,33 @@
 
 ## 题解
 
+```c++
+// case 61 / 63 会RE
+// Line 17: Char 49: runtime error: signed integer overflow: 4472995859186094240 + 5516694892996182896 cannot be represented in type 'long' (solution.cpp)
+// SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior prog_joined.cpp:26:49
+// 即便是官方标答也是如此 略过
 
+class Solution {
+public:
+    using LL = long long;
+    int numDistinct(string s, string t) {
+        int n = s.size(), m = t.size();
+        if (n < m)
+            return 0;
+        vector<vector<LL>> f(n + 1, vector<LL>(m + 1));
+        for (int i = 0; i <= n; ++ i )
+            f[i][0] = 1;
+        for (int i = 1; i <= n; ++ i )
+            for (int j = 1; j <= m; ++ j )
+                if (s[i - 1] == t[j - 1])
+                    // 可用可不用
+                    f[i][j] = f[i - 1][j - 1] + f[i - 1][j];
+                else
+                    f[i][j] = f[i - 1][j];
+        return f[n][m];
+    }
+};
+```
 
 ```c++
 class Solution {

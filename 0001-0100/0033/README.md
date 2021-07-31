@@ -6,7 +6,54 @@
 
 ## 题解
 
+更好的写法
 
+```c++
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int n = nums.size();
+        // 统一风格 和右端点比较
+        int l = 0, r = n - 1;
+        while (l < r) {
+            int m = l + r >> 1;
+            if (nums[m] < nums[r]) {
+                if (target > nums[m] && target <= nums[r])
+                    l = m + 1;
+                else
+                    r = m;
+            } else if (nums[m] > nums[r]) {
+                if (target > nums[m] || target <= nums[r])
+                    l = m + 1;
+                else
+                    r = m;
+            }
+            // else
+        }
+        return target == nums[l] ? l : -1;
+    }
+};
+```
+
+```c++
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int n = nums.size();
+        int l = 0, r = n;
+        while (l < r) {
+            int m = l + r >> 1;
+            if (nums[m] >= nums[l] && (target < nums[l] || target > nums[m]))
+                l = m + 1;
+            else if (nums[m] <= nums[l] && (target < nums[l] && target > nums[m]))
+                l = m + 1;
+            else
+                r = m;
+        }
+        return l < n && nums[l] == target ? l : -1;
+    }
+};
+```
 
 ```c++
 class Solution {

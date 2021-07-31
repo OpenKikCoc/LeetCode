@@ -7,6 +7,27 @@
 ## 题解
 
 
+```c++
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        int n = height.size();
+        stack<int> st;
+        int res = 0;
+        for (int i = 0; i < n; ++ i ) {
+            while (st.size() && height[st.top()] <= height[i]) {
+                int t = st.top(); st.pop();
+                if (st.size()) {
+                    int l = st.top();
+                    res += (min(height[i], height[l]) - height[t]) * (i - l - 1);
+                }
+            }
+            st.push(i);
+        }
+        return res;
+    }
+};
+```
 
 ```c++
 class Solution {

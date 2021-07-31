@@ -50,6 +50,8 @@ public:
 
         bool numberic = scanInteger(s, i);
 
+        // scanUnsignedInteger scanInteger 必须放前面
+        // 避免短路原则导致 i 没有 ++ 
         if (s[i] == '.') numberic = scanUnsignedInteger(s,  ++ i) || numberic;
         if (s[i] == 'e' || s[i] == 'E') numberic = scanInteger(s,  ++ i) && numberic;
 

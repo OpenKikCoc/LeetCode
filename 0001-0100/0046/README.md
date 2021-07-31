@@ -11,6 +11,45 @@
 ```c++
 class Solution {
 public:
+    vector<int> ns;
+    int n;
+
+    vector<vector<int>> res;
+    vector<int> t;
+    vector<bool> st;
+
+    void dfs(int u) {
+        if (u == n) {
+            res.push_back(t);
+            return;
+        }
+
+        for (int i = 0; i < n; ++ i ) {
+            if (st[i])
+                continue;
+            st[i] = true;
+            t.push_back(ns[i]);
+            dfs(u + 1);
+            t.pop_back();
+            st[i] = false;
+        }
+    }
+
+    vector<vector<int>> permute(vector<int>& nums) {
+        this->ns = nums;
+        this->n = ns.size();
+        st = vector<bool>(n);
+        
+        dfs(0);
+
+        return res;
+    }
+};
+```
+
+```c++
+class Solution {
+public:
     vector<bool> vis;
     vector<int> t;
     vector<vector<int>> res;
