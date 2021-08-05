@@ -11,29 +11,68 @@
 ```c++
 class Solution {
 public:
-    void getnext(string& p, vector<int>& f) {
-        int l = p.size();
-        f.push_back(0);f.push_back(0);
-        for(int i = 1; i < l; ++i) {
-            int j = f[i];
-            while(j && p[i] != p[j]) j = f[j];
-            if(p[i] == p[j]) f.push_back(j+1);
-            else f.push_back(0);
+    int n, m;
+
+    vector<int> get(string & p) {
+        vector<int> f(n + 1);
+        for (int i = 2, j = 0; i <= n; ++ i ) {
+            while (j && p[i] != p[j + 1])
+                j = f[j];
+            if (p[i] == p[j + 1])
+                j ++ ;
+            f[i] = j;
         }
+        return f;
     }
+
     int strStr(string haystack, string needle) {
-        int lt = haystack.size(), lp = needle.size();
-        if(!lp) return 0;
-        vector<int> f;
-        getnext(needle, f);
-        int j = 0;
-        for(int i = 0; i < lt; ++i) {
-            while(j && haystack[i] != needle[j]) j = f[j];
-            if(haystack[i] == needle[j]) ++j;
-            if(j == lp) {
-                return i-lp+1;
+        if (needle.empty())
+            return 0;
+
+        // 以下无法处理两个都是空串or第二个是空串的情况
+        string p = ' ' + needle, s = ' ' + haystack;
+        this->n = p.size() - 1;
+        this->m = s.size() - 1;
+        auto f = get(p);
+        for (int i = 1, j = 0; i <= m; ++ i ) {
+            while (j && s[i] != p[j + 1])
+                j = f[j];
+            if (s[i] == p[j + 1])
+                j ++ ;
+            if (j == n) {
+                return i - n;
+                // j = f[j];
             }
         }
+        return -1;
+    }
+};
+```
+
+
+
+```c++
+// yxc
+class Solution {
+public:
+    int strStr(string s, string p) {
+        if (p.empty()) return 0;
+        int n = s.size(), m = p.size();
+        s = ' ' + s, p = ' ' + p;
+
+        vector<int> next(m + 1);
+        for (int i = 2, j = 0; i <= m; i ++ ) {
+            while (j && p[i] != p[j + 1]) j = next[j];
+            if (p[i] == p[j + 1]) j ++ ;
+            next[i] = j;
+        }
+
+        for (int i = 1, j = 0; i <= n; i ++ ) {
+            while (j && s[i] != p[j + 1]) j = next[j];
+            if (s[i] == p[j + 1]) j ++ ;
+            if (j == m) return i - m;
+        }
+
         return -1;
     }
 };

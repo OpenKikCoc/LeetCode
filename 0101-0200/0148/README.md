@@ -66,18 +66,18 @@ public:
         dummy->next = head;
         ListNode *p = head;
         int len = 0;
-        while(p) {
-            ++len;
+        while (p) {
+            ++ len ;
             p = p->next;
         }
-        for(int d = 1; d < len; d <<= 1) {
+        for (int d = 1; d < len; d <<= 1) {
             ListNode *pre = dummy, *cur = dummy->next;
-            while(cur) {
+            while (cur) {
                 ListNode *l = cur;
                 ListNode *r = cut(l, d);
                 cur = cut(r, d);
                 pre->next = merge(l, r);
-                while(pre->next) pre = pre->next;
+                while (pre->next) pre = pre->next;
             }
         }
         return dummy->next;
@@ -85,10 +85,10 @@ public:
     // 切掉前d个返回新头节点
     ListNode* cut(ListNode* n, int d) {
         ListNode *p = n, *next;
-        while(--d && p) {
+        while ( -- d && p) {
             p = p->next;
         }
-        if(!p) return nullptr;
+        if (!p) return nullptr;
         next = p->next;
         p->next = nullptr;
         return next;
@@ -96,8 +96,8 @@ public:
     ListNode* merge(ListNode* l1, ListNode* l2) {
         ListNode* dummy = new ListNode(-1);
         ListNode* p = dummy;
-        while(l1 && l2) {
-            if(l1->val < l2->val) {
+        while (l1 && l2) {
+            if (l1->val < l2->val) {
                 p->next = l1;
                 l1 = l1->next;
             } else {

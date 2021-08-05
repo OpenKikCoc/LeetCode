@@ -6,6 +6,30 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        if (!head) return head;
+        int n = 0;
+        ListNode* tail;
+        for (auto p = head; p; p = p->next) {
+            tail = p;
+            n ++ ;
+        }
+        k %= n;
+        if (!k) return head;
+
+        auto p = head;
+        for (int i = 0; i < n - k - 1; i ++ ) p = p->next;
+        tail->next = head;
+        head = p->next;
+        p->next = nullptr;
+        return head;
+    }
+};
+```
+
 
 
 ```c++
@@ -22,13 +46,13 @@ public:
     ListNode* rotateRight(ListNode* head, int k) {
         ListNode* t = head;
         int tot = 0;
-        while(t) t = t->next, ++tot;
-        //if(!tot || tot == 1 || tot%k == 0) return head;
-        if(tot <= 1 || k%tot == 0) return head;
+        while (t) t = t->next, ++ tot ;
+        // if (!tot || tot == 1 || tot%k == 0) return head;
+        if (tot <= 1 || k%tot == 0) return head;
         k %= tot;
         ListNode *slow = head, *fast = head;
-        while(k--) fast = fast->next;
-        while(fast->next) {
+        while (k -- ) fast = fast->next;
+        while (fast->next) {
             slow = slow->next;
             fast = fast->next;
         }

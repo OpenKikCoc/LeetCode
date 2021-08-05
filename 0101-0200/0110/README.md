@@ -21,10 +21,10 @@
 class Solution {
 public:
     int helper(TreeNode* root) {
-        if(!root) return 0;
+        if (!root) return 0;
         int l = helper(root->left);
         int r = helper(root->right);
-        if(l == -1 || r == -1 || abs(l-r) > 1) return -1;
+        if (l == -1 || r == -1 || abs(l - r) > 1) return -1;
         return max(l, r) + 1;
     }
     bool isBalanced(TreeNode* root) {
@@ -33,6 +33,25 @@ public:
 };
 ```
 
+```c++
+class Solution {
+public:
+    bool ans;
+
+    bool isBalanced(TreeNode* root) {
+        ans = true;
+        dfs(root);
+        return ans;
+    }
+
+    int dfs(TreeNode* root) {
+        if (!root) return 0;
+        int lh = dfs(root->left), rh = dfs(root->right);
+        if (abs(lh - rh) > 1) ans = false;
+        return max(lh, rh) + 1;
+    }
+};
+```
 
 
 ```python

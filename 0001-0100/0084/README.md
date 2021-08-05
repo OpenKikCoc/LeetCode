@@ -12,16 +12,16 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
+        heights.insert(heights.begin(), 0);
         heights.push_back(0);
-        int n = heights.size();
-        int res = 0;
-        stack<int> s;
-        for(int i = 0; i < n; ++i) {
-            while(!s.empty() && heights[s.top()] >= heights[i]) {
-                int l = s.top(); s.pop();
-                res = max(res, heights[l] * (s.empty() ? i : i-s.top()-1));
+        int n = heights.size(), res = 0;
+        stack<int> st;
+        for (int i = 0; i < n; ++ i ) {
+            while (st.size() && heights[st.top()] > heights[i]) {
+                int t = st.top(); st.pop();
+                res = max(res, heights[t] * (i - st.top() - 1));
             }
-            s.push(i);
+            st.push(i);
         }
         return res;
     }

@@ -13,17 +13,44 @@ class Solution {
 public:
     bool isInterleave(string s1, string s2, string s3) {
         int l1 = s1.size(), l2 = s2.size(), l3 = s3.size();
-        if(l1+l2 != l3) return false;
-        vector<vector<bool>> f(l1+1, vector<bool>(l2+1));
+        if (l1 + l2 != l3) return false;
+        vector<vector<bool>> f(l1 + 1, vector<bool>(l2 + 1));
         f[0][0] = true;
-        for(int i = 1; i <= l1; ++i) if(f[i-1][0] && s1[i-1] == s3[i-1]) f[i][0] = true;
-        for(int i = 1; i <= l2; ++i) if(f[0][i-1] && s2[i-1] == s3[i-1]) f[0][i] = true;
-        for(int i = 1; i <= l1; ++i) {
-            for(int j = 1; j <= l2; ++j) {
-                f[i][j] = (f[i-1][j] && s1[i-1] == s3[i+j-1]) || (f[i][j-1] && s2[j-1] == s3[i+j-1]);
-            }
-        }
+        for (int i = 1; i <= l1; ++ i )
+            if (f[i - 1][0] && s1[i - 1] == s3[i - 1])
+                f[i][0] = true;
+        for (int i = 1; i <= l2; ++ i )
+            if (f[0][i - 1] && s2[i - 1] == s3[i - 1])
+                f[0][i] = true;
+        for (int i = 1; i <= l1; ++ i )
+            for (int j = 1; j <= l2; ++ j )
+                f[i][j] = (f[i - 1][j] && s1[i - 1] == s3[i + j - 1]) || (f[i][j - 1] && s2[j - 1] == s3[i + j - 1]);
         return f[l1][l2];
+    }
+};
+```
+
+
+
+```c++
+// yxc
+class Solution {
+public:
+    bool isInterleave(string s1, string s2, string s3) {
+        int n = s1.size(), m = s2.size();
+        if (s3.size() != n + m) return false;
+
+        vector<vector<bool>> f(n + 1, vector<bool>(m + 1));
+        s1 = ' ' + s1, s2 = ' ' + s2, s3 = ' ' + s3;
+        for (int i = 0; i <= n; i ++ )
+            for (int j = 0; j <= m; j ++ )
+                if (!i && !j) f[i][j] = true;
+                else {
+                    if (i && s1[i] == s3[i + j]) f[i][j] = f[i - 1][j];
+                    if (j && s2[j] == s3[i + j]) f[i][j] = f[i][j] || f[i][j - 1];
+                }
+
+        return f[n][m];
     }
 };
 ```

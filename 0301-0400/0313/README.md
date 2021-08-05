@@ -15,17 +15,17 @@ public:
         set<int> res={1};
         vector<set<int>::iterator> points;
         int k = primes.size();
-        for(int i = 0; i < k; ++i) points.push_back(res.begin());
-        while(res.size() < n) {
+        for (int i = 0; i < k; ++ i ) points.push_back(res.begin());
+        while (res.size() < n) {
             int temp = INT_MAX;
             // 找最小数
-            for(int i = 0; i < k; ++i)
-                temp = min(temp, *points[i]*primes[i]);
+            for (int i = 0; i < k; ++ i )
+                temp = min(temp, *points[i] * primes[i]);
             res.insert(temp);
             // 更新指针 此时可能有多个指针都更新了(计算出的值相同的情况)
-            for(int i = 0; i < k; ++i)
-                if(temp == *points[i] * primes[i])
-                    ++points[i];
+            for (int i = 0; i < k; ++ i )
+                if (temp == *points[i] * primes[i])
+                    ++ points[i] ;
         }
         return *res.rbegin();
     }

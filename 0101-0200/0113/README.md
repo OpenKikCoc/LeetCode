@@ -23,12 +23,13 @@ public:
     vector<vector<int>> res;
     vector<int> t;
     void dfs(TreeNode* root, int sum) {
-        if(!root) return;
+        if (!root) return;
         t.push_back(root->val);
-        if(!root->left && !root->right)
-            if(root->val == sum) res.push_back(t);
-        dfs(root->left, sum-root->val);
-        dfs(root->right, sum-root->val);
+        if (!root->left && !root->right)
+            if (root->val == sum)
+                res.push_back(t);
+        dfs(root->left, sum - root->val);
+        dfs(root->right, sum - root->val);
         t.pop_back();
     }
     vector<vector<int>> pathSum(TreeNode* root, int sum) {

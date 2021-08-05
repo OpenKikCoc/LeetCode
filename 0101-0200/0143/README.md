@@ -6,7 +6,35 @@
 
 ## 题解
 
+```c++
+// yxc
+class Solution {
+public:
+    void reorderList(ListNode* head) {
+        if (!head) return;
+        int n = 0;
+        for (auto p = head; p; p = p->next) n ++ ;
 
+        auto mid = head;
+        for (int i = 0; i < (n + 1) / 2 - 1; i ++ ) mid = mid->next;
+        auto a = mid, b = a->next;
+        for (int i = 0; i < n / 2; i ++ ) {
+            auto c = b->next;
+            b->next = a, a = b, b = c;
+        }
+        auto p = head, q = a;
+        for (int i = 0; i < n / 2; i ++ ) {
+            auto o = q->next;
+            q->next = p->next;
+            p->next = q;
+            p = q->next, q = o;
+        }
+
+        if (n % 2) mid->next = NULL;
+        else mid->next->next = NULL;
+    }
+};
+```
 
 ```c++
 /**
@@ -22,10 +50,10 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        if(!head) return;
+        if (!head) return;
         ListNode *slow = head, *fast = head;
         // 这种写法 结束时 slow在中点上或中点隔板左侧
-        while(fast->next && fast->next->next) {
+        while (fast->next && fast->next->next) {
             slow = slow->next;
             fast = fast->next->next;
         }
@@ -34,7 +62,7 @@ public:
         slow->next = nullptr;
 
         ListNode *pre = nullptr, *cur = nhead, *next;
-        while(cur) {
+        while (cur) {
             next = cur->next;
             cur->next = pre;
             pre = cur;
@@ -43,7 +71,7 @@ public:
 
         ListNode *next2;
         cur = pre, pre = head;
-        while(cur) {
+        while (cur) {
             next = pre->next;
             next2 = cur->next;
             pre->next = cur;

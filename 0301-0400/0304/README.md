@@ -10,20 +10,20 @@
 
 ```c++
 class NumMatrix {
-    vector<vector<int>> psum;
 public:
+    vector<vector<int>> s;
+
     NumMatrix(vector<vector<int>>& matrix) {
-        int m = matrix.size();
-        if(!m) return;
-        int n = matrix[0].size();
-        psum = vector<vector<int>>(m+1, vector<int>(n+1, 0));
-        for(int i = 0; i < m; ++i)
-            for(int j = 0; j < n; ++j)
-                psum[i+1][j+1] = psum[i][j+1] + psum[i+1][j] - psum[i][j] + matrix[i][j];
+        if (matrix.empty() || matrix[0].empty()) return;
+        s = vector<vector<int>>(matrix.size() + 1, vector<int>(matrix[0].size() + 1));
+        for (int i = 1; i <= matrix.size(); i ++ )
+            for (int j = 1; j <= matrix[0].size(); j ++ )
+                s[i][j] = s[i - 1][j] + s[i][j - 1] - s[i - 1][j - 1] + matrix[i - 1][j - 1];
     }
-    
-    int sumRegion(int row1, int col1, int row2, int col2) {
-        return psum[row2+1][col2+1] + psum[row1][col1] - psum[row2+1][col1] - psum[row1][col2+1];
+
+    int sumRegion(int x1, int y1, int x2, int y2) {
+        ++x1, ++y1, ++x2, ++y2;
+        return s[x2][y2] - s[x1 - 1][y2] - s[x2][y1 - 1] + s[x1 - 1][y1 - 1];
     }
 };
 

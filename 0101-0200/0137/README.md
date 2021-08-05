@@ -13,13 +13,36 @@ class Solution {
 public:
     int singleNumber(vector<int>& nums) {
         int res = 0;
-        for(int i = 0; i < 32; ++i) {
+        for (int i = 0; i < 32; ++i) {
             int p = 1 << i;
             int c = 0;
-            for(auto v : nums) if(v & p) ++c;
-            if(c % 3) res |= p;
+            for (auto v : nums)
+                if (v & p)
+                    ++ c ;
+            if (c % 3)
+                res |= p;
         }
         return res;
+    }
+};
+```
+
+非常 trick 的做法
+
+```c++
+// 希望看到 1 的个数是模三余几
+//
+// 状态机模型
+// https://www.acwing.com/video/2853/
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int two = 0, one = 0;
+        for (auto x: nums) {
+            one = (one ^ x) & ~two;
+            two = (two ^ x) & ~one;
+        }
+        return one;
     }
 };
 ```

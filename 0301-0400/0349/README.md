@@ -15,10 +15,11 @@ public:
         vector<int> res;
         unordered_map<int, int> mp;
         unordered_map<int, bool> has;
-        for(auto & v : nums1) ++mp[v];
-        for(auto & v : nums2) {
-            if(mp[v] && !has[v]) --mp[v], res.push_back(v), has[v] = true;
-        }
+        for (auto & v : nums1)
+            ++ mp[v] ;
+        for (auto & v : nums2)
+            if (mp[v] && !has[v])
+                -- mp[v] , res.push_back(v), has[v] = true;
         return res;
     }
 };

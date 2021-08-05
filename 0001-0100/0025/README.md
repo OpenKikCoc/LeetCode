@@ -6,6 +6,39 @@
 
 ## 题解
 
+```c++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        auto dummy = new ListNode(-1);
+        dummy->next = head;
+        for (auto p = dummy;;) {
+            auto q = p;
+            for (int i = 0; i < k && q; i ++ ) q = q->next;
+            if (!q) break;
+            auto a = p->next, b = a->next;
+            for (int i = 0; i < k - 1; i ++ ) {
+                auto c = b->next;
+                b->next = a;
+                a = b, b = c;
+            }
+            auto c = p->next;
+            p->next = a, c->next = b;
+            p = c;
+        }
+        return dummy->next;
+    }
+};
+```
+
 
 
 ```c++
@@ -23,17 +56,17 @@ public:
         ListNode* dummy = new ListNode(-1);
         dummy->next = head;
         ListNode *pre = dummy, *cur = head, *next;
-        while(cur) {
+        while (cur) {
             ListNode *tail = pre;
-            for(int i = 0; i < k; ++i) {
+            for (int i = 0; i < k; ++i) {
                 tail = tail->next;
-                if(!tail) return dummy->next;
+                if (!tail) return dummy->next;
             }
             // tail 是这k个的最后一个
             next = tail->next;
             // 翻转
             ListNode *fpre = tail->next, *fcur = pre->next, *fnext;
-            while(fcur != next) {
+            while (fcur != next) {
                 fnext = fcur->next;
                 fcur->next = fpre;
                 fpre = fcur;

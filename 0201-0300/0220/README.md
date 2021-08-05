@@ -32,11 +32,11 @@ public:
     bool containsNearbyAlmostDuplicate_2(vector<int>& nums, int k, int t) {
         multiset<LL> hash;
         multiset<LL>::iterator it;
-        for (int i = 0; i < nums.size(); ++i) {
+        for (int i = 0; i < nums.size(); ++ i ) {
             it = hash.lower_bound((LL)nums[i] - t);
             if (it != hash.end() && *it <= (LL)nums[i] + t) return true;
             hash.insert(nums[i]);
-            if (i >= k) hash.erase(hash.find(nums[i-k]));
+            if (i >= k) hash.erase(hash.find(nums[i - k]));
         }
         return false;
     }

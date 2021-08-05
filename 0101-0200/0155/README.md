@@ -6,6 +6,30 @@
 
 ## 题解
 
+```c++
+// yxc
+    stack<int> stk, f;
+    MinStack() {
+    }
+
+    void push(int x) {
+        stk.push(x);
+        if (f.empty() || f.top() >= x) f.push(x);
+    }
+
+    void pop() {
+        if (stk.top() <= f.top()) f.pop();
+        stk.pop();
+    }
+
+    int top() {
+        return stk.top();
+    }
+
+    int getMin() {
+        return f.top();
+    }
+```
 
 
 ```c++
@@ -19,8 +43,10 @@ public:
     
     void push(int x) {
         s.push(x);
-        if(ms.empty() || x <= ms.top()) ms.push(x);
-        else ms.push(ms.top());
+        if (ms.empty() || x <= ms.top())
+            ms.push(x);
+        else
+            ms.push(ms.top());
     }
     
     void pop() {

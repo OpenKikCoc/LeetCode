@@ -12,11 +12,11 @@
 class Solution {
 public:
     bool isPowerOfFour(int num) {
-        if(num <= 0) return false;
+        if (num <= 0) return false;
         // 判断是否是2的幂
-        if(num & num-1) return false;
+        if (num & num - 1) return false;
         // 与运算之后是本身 则是4的幂
-        if((num & 0x55555555) == num) return true;
+        if ((num & 0x55555555) == num) return true;
         return false;
     }
 };

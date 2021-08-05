@@ -24,15 +24,15 @@ class Solution {
 public:
     vector<TreeNode*> helper(int s, int t) {
         vector<TreeNode*> ret;
-        if(s > t) {
+        if (s > t) {
             ret.push_back(nullptr);
             return ret;
         }
-        for(int i = s; i <= t; ++i) {
-            auto ls = helper(s, i-1);
-            auto rs = helper(i+1, t);
-            for(auto l : ls) for(auto r : rs) {
-                TreeNode *n = new TreeNode(i);
+        for (int i = s; i <= t; ++ i ) {
+            auto ls = helper(s, i - 1);
+            auto rs = helper(i + 1, t);
+            for (auto l : ls) for (auto r : rs) {
+                TreeNode * n = new TreeNode(i);
                 n->left = l, n->right = r;
                 ret.push_back(n);
             }
@@ -41,7 +41,7 @@ public:
     }
     vector<TreeNode*> generateTrees(int n) {
         vector<TreeNode*> res;
-        if(!n) return res;
+        if (!n) return res;
         res = helper(1, n);
         return res;
     }

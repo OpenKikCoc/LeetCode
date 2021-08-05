@@ -60,13 +60,13 @@ public:
         string tmp;
         stringstream ss;
         ss << preorder;
-        while(getline(ss, tmp, ',')){
-            degree--;// consume one edge
-            if(degree<0){
+        while (getline(ss, tmp, ',')){
+            degree -- ;         // consume one edge
+            if (degree < 0) {
                 return false;
             }
-            if(tmp[0]!='#'){
-                degree+=2;// generate 2 edges
+            if (tmp[0]!='#') {
+                degree += 2;    // generate 2 edges
             }
         }
         return degree == 0;

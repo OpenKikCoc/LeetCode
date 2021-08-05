@@ -30,16 +30,16 @@ public:
 class Solution {
 public:
     Node* connect(Node* root) {
-        if(!root) return nullptr;
+        if (!root) return nullptr;
         queue<Node*> q;
         q.push(root);
-        while(!q.empty()) {
+        while (!q.empty()) {
             int sz = q.size();
-            while(sz--) {
+            while (sz--) {
                 Node* t = q.front(); q.pop();
-                if(sz) t->next = q.front();
-                if(t->left) q.push(t->left);
-                if(t->right) q.push(t->right);
+                if (sz) t->next = q.front();
+                if (t->left) q.push(t->left);
+                if (t->right) q.push(t->right);
             }
         }
         return root;
@@ -50,32 +50,21 @@ public:
 // 常数空间
 class Solution {
 public:
-    Node* connect(Node *root) {
-        auto head = root;
-        while (root)
-        {
-            Node *dummy = new Node(0);
-            Node *tail = dummy;
-            while (root)
-            {
-                if (root->left)
-                {
-                    tail->next = root->left;
-                    tail = tail->next;
-                }
-                if (root->right)
-                {
-                    tail->next = root->right;
-                    tail = tail->next;
-                }
-                root = root->next;
+    Node* connect(Node* root) {
+        if (!root) return root;
+        auto cur = root;
+        while (cur) {
+            auto dummy = new Node(-1);
+            auto pre = dummy;
+            for (auto p = cur; p; p = p->next) {
+                if (p->left) pre = pre->next = p->left;
+                if (p->right) pre = pre->next = p->right;
             }
-            root = dummy->next;
+            cur = dummy->next;
         }
-        return head;
+        return root;
     }
 };
-
 ```
 
 

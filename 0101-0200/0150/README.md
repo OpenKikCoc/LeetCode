@@ -12,20 +12,21 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<int> sta;
+        stack<int> stk;
         for (auto &t : tokens)
             if (t == "+" || t == "-" || t == "*" || t == "/") {
-                int a = sta.top();
-                sta.pop();
-                int b = sta.top();
-                sta.pop();
-                if (t == "+") sta.push(a + b);
-                else if (t == "-") sta.push(b - a);
-                else if (t == "*") sta.push(a * b);
-                else sta.push(b / a);
+                int a = stk.top();
+                stk.pop();
+                int b = stk.top();
+                stk.pop();
+                if (t == "+") stk.push(a + b);
+                else if (t == "-") stk.push(b - a);
+                else if (t == "*") stk.push(a * b);
+                else stk.push(b / a);
             }
-            else sta.push(atoi(t.c_str()));
-        return sta.top();
+            else stk.push(atoi(t.c_str()));
+            // else stk.push(stoi(t));
+        return stk.top();
     }
 };
 ```

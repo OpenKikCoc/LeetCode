@@ -13,7 +13,7 @@ class Solution {
 public:
     int singleNumber(vector<int>& nums) {
         int res = 0;
-        for(auto v : nums) res ^= v;
+        for (auto v : nums) res ^= v;
         return res;
     }
 };

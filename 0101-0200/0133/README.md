@@ -37,17 +37,48 @@ class Solution {
 public:
     Node* vis[101];
     Node* cloneGraph(Node* node) {
-        if(!node) return nullptr;
-        if(vis[node->val]) return vis[node->val];
-        Node* p = new Node(node->val);
+        if (!node)
+            return nullptr;
+        if (vis[node->val])
+            return vis[node->val];
+
+        Node * p = new Node(node->val);
         vis[node->val] = p;
+        
         vector<Node*> nb = node->neighbors;
-        for(int i = 0; i < nb.size(); ++i) p->neighbors.push_back(cloneGraph(nb[i]));
+        for (int i = 0; i < nb.size(); ++ i )
+            p->neighbors.push_back(cloneGraph(nb[i]));
         return p;
     }
 };
 ```
 
+```c++
+class Solution {
+public:
+    unordered_map<Node*, Node*> hash;
+
+    Node* cloneGraph(Node* node) {
+        if (!node) return NULL;
+        dfs(node);  // 复制所有点
+
+        for (auto [s, d]: hash) {
+            for (auto ver: s->neighbors)
+                d->neighbors.push_back(hash[ver]);
+        }
+
+        return hash[node];
+    }
+
+    void dfs(Node* node) {
+        hash[node] = new Node(node->val);
+
+        for (auto ver: node->neighbors)
+            if (hash.count(ver) == 0)
+                dfs(ver);
+    }
+};
+```
 
 
 ```python3

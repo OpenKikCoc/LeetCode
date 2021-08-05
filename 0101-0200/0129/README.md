@@ -6,6 +6,24 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    int ans = 0;
+
+    int sumNumbers(TreeNode* root) {
+        if (root) dfs(root, 0);
+        return ans;
+    }
+
+    void dfs(TreeNode* root, int number) {
+        number = number * 10 + root->val;
+        if (!root->left && !root->right) ans += number;
+        if (root->left) dfs(root->left, number);
+        if (root->right) dfs(root->right, number);
+    }
+};
+```
 
 
 ```c++
@@ -23,12 +41,11 @@ public:
     int res = 0;
     int v = 0;
     void dfs(TreeNode* root) {
-        if(!root) return;
+        if (!root) return;
         int t = v;
         v = v * 10 + root->val;
-        if(!root->left && !root->right) {
+        if (!root->left && !root->right)
             res += v;
-        }
         dfs(root->left);
         dfs(root->right);
         v = t;

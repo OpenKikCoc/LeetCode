@@ -15,13 +15,29 @@ public:
         int n = nums.size();
         vector<int> res(n, 1);
         int l = 1, r = 1;
-        for(int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++ i ) {
             res[i] *= l;
             l *= nums[i];
-            res[n-i-1] *= r;
-            r *= nums[n-i-1];
+            res[n - i - 1] *= r;
+            r *= nums[n - i - 1];
         }
         return res;
+    }
+};
+```
+
+```c++
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> p(n, 1);
+        for (int i = 1; i < n; i ++ ) p[i] = p[i - 1] * nums[i - 1];
+        for (int i = n - 1, s = 1; i >= 0; i -- ) {
+            p[i] *= s;
+            s *= nums[i];
+        }
+        return p;
     }
 };
 ```

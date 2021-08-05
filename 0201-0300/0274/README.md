@@ -20,14 +20,18 @@ public:
 
     int hIndex_2(vector<int>& citations) {
         int l = 0, r = citations.size() + 1;
-        while(l < r) {
+        while (l < r) {
             int m = l + (r - l) / 2;
             
             int c = 0;
-            for(auto & v : citations) if(v >= m) ++c;
+            for (auto & v : citations)
+                if (v >= m)
+                    c ++ ;
 
-            if(c >= m) l = m + 1;
-            else r = m;
+            if (c >= m)
+                l = m + 1;
+            else
+                r = m;
         }
         return l - 1;
     }

@@ -13,21 +13,61 @@ class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
-        if(k > n/2) {
+        if (k > n / 2) {
             int res = 0;
-            for(int i = 0; i < n-1; ++i)
-                res += max(0, prices[i+1] - prices[i]);
+            for (int i = 0; i < n - 1; ++ i )
+                res += max(0, prices[i + 1] - prices[i]);
             return res;
         }
-        vector<int> hs(k+1, INT_MIN), no(k+1);
-        for(int i = 1; i <= n; ++i)
-            for(int c = 1; c <= k; ++c) {
+        vector<int> hs(k + 1, INT_MIN), no(k + 1);
+        for (int i = 1; i <= n; ++ i )
+            for (int c = 1; c <= k; ++ c ) {
                 // hs[i][c] = max(hs[i-1][c], no[i-1][c-1] - prices[i-1]);
                 // no[i][c] = max(no[i-1][c], hs[i-1][c] + prices[i-1]);
-                no[c] = max(no[c], hs[c] + prices[i-1]);
-                hs[c] = max(hs[c], no[c-1] - prices[i-1]);
+                no[c] = max(no[c], hs[c] + prices[i - 1]);
+                hs[c] = max(hs[c], no[c - 1] - prices[i - 1]);
             }
         return no[k];
+    }
+};
+```
+
+
+```c++
+// yxc
+/*
+LeetCode增强了本题的数据，非常卡常。
+
+于是为了应对新数据，对视频中的代码做了如下优化：
+
+1. 将vector换成了数组，大概会快50%。
+2. 类似于背包问题优化空间，将原本的滚动二维数组，直接换成一维数组。
+*/
+int f[10001], g[10001];
+
+class Solution {
+public:
+    int maxProfit(int k, vector<int>& prices) {
+        int INF = 1e8;
+        int n = prices.size();
+        if (k > n / 2) {
+            int res = 0;
+            for (int i = 1; i < n; i ++ )
+                if (prices[i] > prices[i - 1])
+                    res += prices[i] - prices[i - 1];
+            return res;
+        }
+        memset(f, -0x3f, sizeof f);
+        memset(g, -0x3f, sizeof g);
+        f[0] = 0;
+        int res = 0;
+        for (int i = 1; i <= n; i ++ )
+            for (int j = k; j >= 0; j -- ) {
+                g[j] = max(g[j], f[j] - prices[i - 1]);
+                if (j) f[j] = max(f[j], g[j - 1] + prices[i - 1]);
+            }
+        for (int i = 1; i <= k; i ++ ) res = max(res, f[i]);
+        return res;
     }
 };
 ```

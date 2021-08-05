@@ -12,31 +12,15 @@
 class Solution {
 public:
     int nthUglyNumber(int n) {
-        vector<int> ugly(1, 1);
-        for(int i = 0, j = 0, k = 0; ugly.size() < n;) {
-            int v = min(min(ugly[i] * 2, ugly[j] * 3), ugly[k] * 5);
-            ugly.push_back(v);
-            if (v % 2 == 0) ++ i;
-            if (v % 3 == 0) ++ j;
-            if (v % 5 == 0) ++ k;
+        vector<int> q(1, 1);
+        for (int i = 0, j = 0, k = 0; q.size() < n;) {
+            int t = min(q[i] * 2, min(q[j] * 3, q[k] * 5));
+            q.push_back(t);
+            if (q[i] * 2 == t) i ++ ;
+            if (q[j] * 3 == t) j ++ ;
+            if (q[k] * 5 == t) k ++ ;
         }
-        return ugly.back();
-    }
-
-
-    int nthUglyNumber_2(int n) {
-        int two = 0, three = 0, five = 0;
-        long long v = 1;
-        vector<long long> ugly;
-        ugly.push_back(1ll);
-        while(--n) {
-            v = min(min(ugly[two] * 2, ugly[three] * 3), ugly[five] * 5);
-            ugly.push_back(v);
-            if(v % 2 == 0) ++two;
-            if(v % 3 == 0) ++three;
-            if(v % 5 == 0) ++five;
-        }
-        return v;
+        return q.back();
     }
 };
 ```

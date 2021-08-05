@@ -14,14 +14,14 @@ public:
     vector<vector<int>> res;
     vector<int> t;
     void dfs(vector<int>& c, int p, int tar) {
-        if(!tar) {
+        if (!tar) {
             res.push_back(t);
             return;
         }
-        for(int i = p; i < c.size(); ++i) {
-            if(c[i] > tar) return;
+        for (int i = p; i < c.size(); ++ i ) {
+            if (c[i] > tar) return;
             t.push_back(c[i]);
-            dfs(c, i, tar-c[i]);
+            dfs(c, i, tar - c[i]);
             t.pop_back();
         }
     }

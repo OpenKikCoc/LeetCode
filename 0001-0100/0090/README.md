@@ -15,10 +15,10 @@ public:
     vector<int> t;
     void dfs(vector<int>& nums, int step) {
         res.push_back(t);
-        for(int i = step; i < nums.size(); ++i) {
-            if(i > step && nums[i] == nums[i-1]) continue;
+        for (int i = step; i < nums.size(); ++ i ) {
+            if (i > step && nums[i] == nums[i - 1]) continue;
             t.push_back(nums[i]);
-            dfs(nums, i+1);
+            dfs(nums, i + 1);
             t.pop_back();
         }
     }

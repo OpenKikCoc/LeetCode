@@ -45,22 +45,11 @@ public:
   5. 如果还不满足，那么就只需要 3 个数就能表示
 */
     int numSquares(int n) {
-        if(pow(int(sqrt(n)), 2) == n) return 1;
-        while(n%4 == 0) n = n/4;
-        if((n-7)%8 == 0) return 4;
-        for(int b, a = 1; a * a < n; ++a) {
-            b = int(sqrt(n-a*a));
-            if(a*a+b*b == n) return 2;
-        }
-        return 3;
-    }
-
-    int numSquares(int n) {
         vector<int> dp(n+1);
-        for(int i = 1; i <= n; ++i) {
+        for (int i = 1; i <= n; ++ i ) {
             dp[i] = i;
-            for(int j = 1; j <= i/j; ++j) {
-                dp[i] = min(dp[i], dp[i-j*j]+1);
+            for (int j = 1; j <= i / j; ++ j ) {
+                dp[i] = min(dp[i], dp[i - j * j] + 1);
             }
         }
         return dp[n];

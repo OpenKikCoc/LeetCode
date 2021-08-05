@@ -11,16 +11,36 @@
 ```c++
 class Solution {
 public:
+    bool check(char c) {
+        return c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z' || c >= '0' && c <= '9';
+    }
+
+    bool isPalindrome(string s) {
+        for (int i = 0, j = s.size() - 1; i < j; i ++, j -- ) {
+            while (i < j && !check(s[i])) i ++ ;
+            while (i < j && !check(s[j])) j -- ;
+            if (i < j && tolower(s[i]) != tolower(s[j])) return false;
+        }
+
+        return true;
+    }
+};
+
+
+
+// old code
+class Solution {
+public:
     bool isPalindrome(string s) {
         string ss;
-        for(auto c : s) {
-            if(isdigit(c)) ss.push_back(c);
-            else if(isalpha(c)) ss.push_back(tolower(c));
+        for (auto c : s) {
+            if (isdigit(c)) ss.push_back(c);
+            else if (isalpha(c)) ss.push_back(tolower(c));
         }
         int n = ss.size();
-        if(!n) return true;
-        for(int i = 0; i <= n/2; ++i)
-            if(ss[i] != ss[n-1-i]) return false;
+        if (!n) return true;
+        for (int i = 0; i <= n / 2; ++ i )
+            if (ss[i] != ss[n - 1 - i]) return false;
         return true;
     }
 };

@@ -14,11 +14,26 @@ public:
     int maxProduct(vector<int>& nums) {
         int n = nums.size();
         int fmin = 1, fmax = 1, res = INT_MIN;
-        for(int i = 1; i <= n; ++i) {
+        for (int i = 1; i <= n; ++ i ) {
             int a = fmax, b = fmin;
-            fmax = max(nums[i-1], max(a*nums[i-1], b*nums[i-1]));
-            fmin = min(nums[i-1], min(a*nums[i-1], b*nums[i-1]));
+            fmax = max(nums[i - 1], max(a * nums[i - 1], b * nums[i - 1]));
+            fmin = min(nums[i - 1], min(a * nums[i - 1], b * nums[i - 1]));
             res = max(res, fmax);
+        }
+        return res;
+    }
+};
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        int res = nums[0];
+        int f = nums[0], g = nums[0];
+        for (int i = 1; i < nums.size(); i ++ ) {
+            int a = nums[i], fa = f * a, ga = g * a;
+            f = max(a, max(fa, ga));
+            g = min(a, min(fa, ga));
+            res = max(res, f);
         }
         return res;
     }

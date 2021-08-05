@@ -6,38 +6,69 @@
 
 ## 题解
 
-
-
 ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
  *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
 public:
-    ListNode* reverseBetween(ListNode* head, int m, int n) {
-        int tot = n - m + 1;
-        if(tot <= 1) return head;
-        ListNode *dummy = new ListNode(-1);
-        dummy->next = head;
-        ListNode *before = dummy, *start, *cur, *pre = nullptr;
-        while(--m) before = before->next;
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        int d = right - left + 1;
+        if (d <= 1)
+            return head;
         
-        start = before->next;
-        cur = start;
-        //cout <<"pre value="<<before->val<<endl;
-        for(int i = 0; i < tot; ++i) {
-            ListNode *next = cur->next;
+        ListNode * dummy = new ListNode(-1);
+        dummy->next = head;
+        
+        ListNode * before = dummy;
+        while ( -- left)    // ATTENTION
+            before = before->next;
+
+        // 设置pre 注意需要d+1个位移
+        ListNode * pre = before;
+        for (int i = 0; i <= d; ++ i )
+            pre = pre->next;
+        ListNode * cur = before->next;
+        while (d -- ) {
+            auto next = cur->next;
             cur->next = pre;
+
             pre = cur;
             cur = next;
         }
-        start->next = cur;
         before->next = pre;
+        return dummy->next;
+    }
+};
+```
+
+
+
+```c++
+// yxc
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int m, int n) {
+        auto dummy = new ListNode(-1);
+        dummy->next = head;
+
+        auto a = dummy;
+        for (int i = 0; i < m - 1; i ++ ) a = a->next;
+        auto b = a->next, c = b->next;
+        for (int i = 0; i < n - m; i ++ ) {
+            auto t = c->next;
+            c->next = b;
+            b = c, c = t;
+        }
+        a->next->next = c;
+        a->next = b;
         return dummy->next;
     }
 };

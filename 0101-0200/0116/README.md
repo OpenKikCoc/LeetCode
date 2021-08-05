@@ -37,19 +37,19 @@ public:
             // 使用next遍历这一层每个结点p，以处理下一层的连接关系
             for (auto p = root; p; p = p->next) {
                 // p的左儿子的next就是p的右儿子
-                p->left -> next = p->right;
+                p->left->next = p->right;
                 // p的右儿子的next就是p的next的左儿子，要保证p->next存在
                 if (p->next)
-                    p->right -> next = p->next->left;
+                    p->right->next = p->next->left;
             }
             root = root->left; // 每次向左儿子走就走到了下一层的第一个结点
         }
         return source;
     }
     Node* connect2(Node* root) {
-        if(!root) return root;
+        if (!root) return root;
         Node *left = root->left, *right = root->right;
-        while(left) {
+        while (left) {
             left->next = right;
             left = left->right;
             right = right->left;

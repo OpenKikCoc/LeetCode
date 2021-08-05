@@ -38,10 +38,10 @@ public:
         stack<int> nums;
         stack<string> strs;
         int num = 0, len = s.size();
-        for(int i = 0; i < len; ++i) {
-            if(s[i] >= '0' && s[i] <= '9') num = num*10+s[i]-'0';
-            else if((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z')) res.push_back(s[i]);
-            else if(s[i] == '[') {
+        for (int i = 0; i < len; ++ i ) {
+            if (s[i] >= '0' && s[i] <= '9') num = num * 10 + s[i] - '0';
+            else if ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z')) res.push_back(s[i]);
+            else if (s[i] == '[') {
                 nums.push(num);
                 num = 0;
                 strs.push(res);
@@ -51,7 +51,7 @@ public:
                 nums.pop();
                 string top = strs.top();
                 strs.pop();
-                while(times--) top += res;
+                while (times -- ) top += res;
                 res = top;
             }
         }

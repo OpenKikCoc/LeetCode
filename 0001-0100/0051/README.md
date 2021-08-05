@@ -11,30 +11,37 @@
 ```c++
 class Solution {
 public:
+
     int n;
-    vector<vector<string>> res;
-    bool check(vector<string>& b, int r, int c) {
-        for(int i = 0; i < r; ++i) if(b[i][c] == 'Q') return false;
-        for(int i = r-1, j = c-1; i >= 0 && j >= 0; --i, --j) if(b[i][j] == 'Q') return false;
-        for(int i = r-1, j = c+1; i >= 0 && j < n; --i, ++j) if(b[i][j] == 'Q') return false;
-        return true;
+    vector<bool> col, dg, udg;
+    vector<vector<string>> ans;
+    vector<string> path;
+
+    vector<vector<string>> solveNQueens(int _n) {
+        n = _n;
+        col = vector<bool>(n);
+        dg = udg = vector<bool>(n * 2);
+        path = vector<string>(n, string(n, '.'));
+
+        dfs(0);
+        return ans;
     }
-    void dfs(vector<string>& b, int r) {
-        if(r == n) {
-            res.push_back(b);
+
+    void dfs(int u) {
+        if (u == n) {
+            ans.push_back(path);
             return;
         }
-        for(int c = 0; c < n; ++c) if(check(b, r, c)) {
-            b[r][c] = 'Q';
-            dfs(b, r+1);
-            b[r][c] = '.';
+
+        for (int i = 0; i < n; i ++ ) {
+            if (!col[i] && !dg[u - i + n] && !udg[u + i]) {
+                col[i] = dg[u - i + n] = udg[u + i] = true;
+                path[u][i] = 'Q';
+                dfs(u + 1);
+                path[u][i] = '.';
+                col[i] = dg[u - i + n] = udg[u + i] = false;
+            }
         }
-    }
-    vector<vector<string>> solveNQueens(int n) {
-        this->n = n;
-        vector<string> board(n, string(n, '.'));
-        dfs(board, 0);
-        return res;    
     }
 };
 ```

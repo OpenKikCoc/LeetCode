@@ -7,17 +7,56 @@
 ## 题解
 
 
+```c++
+// yxc
+class Solution {
+public:
+    struct Range {
+        int min, max;
+        bool used;
+        Range() : min(INT_MAX), max(INT_MIN), used(false){}
+    };
+
+    int maximumGap(vector<int>& nums) {
+        int n = nums.size();
+        int Min = INT_MAX, Max = INT_MIN;
+        for (auto x: nums) {
+            Min = min(Min, x);
+            Max = max(Max, x);
+        }
+        if (n < 2 || Min == Max) return 0;
+        vector<Range> r(n - 1);
+        int len = (Max - Min + n - 2) / (n - 1);
+        for (auto x: nums) {
+            if (x == Min) continue;
+            int k = (x - Min - 1) / len;
+            r[k].used = true;
+            r[k].min = min(r[k].min, x);
+            r[k].max = max(r[k].max, x);
+        }
+        int res = 0;
+        for (int i = 0, last = Min; i < n - 1; i ++ )
+            if (r[i].used) {
+                res = max(res, r[i].min - last);
+                last = r[i].max;
+            }
+        return res;
+    }
+};
+```
+
 
 ```c++
-class Bucket {
-public:
-    bool used = false;
-    int minval = numeric_limits<int>::max();        // same as INT_MAX
-    int maxval = numeric_limits<int>::min();        // same as INT_MIN
-};
 
 class Solution {
 public:
+    class Bucket {
+    public:
+        bool used = false;
+        int minval = numeric_limits<int>::max();        // same as INT_MAX
+        int maxval = numeric_limits<int>::min();        // same as INT_MIN
+    };
+
     int maximumGap(vector<int>& nums) {
         if (nums.empty() || nums.size() < 2)
             return 0;

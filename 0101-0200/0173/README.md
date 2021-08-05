@@ -6,7 +6,7 @@
 
 ## 题解
 
-
+记忆
 
 ```c++
 /**
@@ -23,7 +23,7 @@ private:
     stack<TreeNode*> s;
 public:
     BSTIterator(TreeNode* root) {
-        while(root) {
+        while (root) {
             s.push(root);
             root = root->left;
         }
@@ -34,9 +34,9 @@ public:
         TreeNode* cur = s.top();
         s.pop();
         int res = cur->val;
-        if(cur->right) {
+        if (cur->right) {
             cur = cur->right;
-            while(cur) {
+            while (cur) {
                 s.push(cur);
                 cur = cur->left;
             }

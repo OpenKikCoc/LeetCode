@@ -20,9 +20,9 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode *prev = nullptr, *next;
-        while(head) {
-            next = head->next;
+        ListNode *prev = nullptr;
+        while (head) {
+            auto next = head->next;
             head->next = prev;
             prev = head;
             head = next;
@@ -34,14 +34,26 @@ public:
         ListNode* dummy = new ListNode(-1);
         dummy->next = head;
         ListNode* pre = nullptr, * cur = head;
-        while(cur != nullptr) {
-            ListNode *next = cur->next;
+        while (cur != nullptr) {
+            auto next = cur->next;
             cur->next = pre;
             pre = cur;
             cur = next;
         }
         dummy->next = pre;
         return dummy->next;
+    }
+};
+
+// 递归
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        if (!head || !head->next) return head;
+        ListNode *tail = reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return tail;
     }
 };
 ```

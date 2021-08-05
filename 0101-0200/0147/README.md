@@ -21,18 +21,22 @@ class Solution {
 public:
     ListNode* insertionSortList(ListNode* head) {
         ListNode *dummy = new ListNode(INT_MIN);
-        ListNode *p = head, *pre = dummy, *next, *start;
-        while(p) {
+        ListNode *pre = dummy;
+        while (head) {
             // 令 pre = dummy 规避对pre是否为空的判断
-            if(pre->val <= p->val) start = pre;
-            else start = dummy;
-            while(start->next && start->next->val < p->val) start = start->next;
+            // 这里多了个 pre 是为了一定程度上加速
+            ListNode * p = nullptr;
+            if (pre->val <= head->val) p = pre;
+            else p = dummy;
+            while (p->next && p->next->val < head->val)
+                p = p->next;
 
-            next = p->next;
-            p->next = start->next;
-            start->next = p;
-            pre = p;
-            p = next;
+            auto next = head->next;
+            head->next = p->next;
+            p->next = head;
+            pre = head;
+            
+            head = next;
         }
         return dummy->next;
     }
@@ -43,10 +47,10 @@ public:
     ListNode* insertionSortList(ListNode* head) {
         ListNode *dummy = new ListNode(-1);
         while (head) {
-            ListNode *next = head->next;
             ListNode *p = dummy;
-            while (p->next && p->next-> val <= head->val) p = p->next;
+            while (p->next && p->next->val <= head->val) p = p->next;
 
+            ListNode *next = head->next;
             head->next = p->next;
             p->next = head;
 

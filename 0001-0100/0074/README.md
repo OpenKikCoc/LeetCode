@@ -15,24 +15,27 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         if (matrix.empty() || matrix[0].empty()) return false;
         int n = matrix.size(), m = matrix[0].size();
-        int l = 0, r = n * m -1;
-        while(l < r) {
-            int mid = l + (r-l)/2;
-            if(matrix[mid / m][mid % m] < target) l = mid + 1;
-            else r = mid;
+
+        int l = 0, r = n * m - 1;
+        while (l < r) {
+            int mid = l + r >> 1;
+            if (matrix[mid / m][mid % m] >= target) r = mid;
+            else l = mid + 1;
         }
-        return matrix[l / m][l % m] == target;
+
+        return matrix[r / m][r % m] == target;
     }
+};
 
     bool searchMatrix2(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
-        if(!m) return false;
+        if (!m) return false;
         int n = matrix[0].size();
-        int u = 0, r = n-1;
-        while(u < m && r >= 0) {
-            if(matrix[u][r] == target) return true;
-            else if(matrix[u][r] < target) ++u;
-            else --r;
+        int u = 0, r = n - 1;
+        while (u < m && r >= 0) {
+            if (matrix[u][r] == target) return true;
+            else if (matrix[u][r] < target) ++ u ;
+            else -- r ;
         }
         return false;
     }

@@ -16,16 +16,16 @@ public:
     vector<bool> vis;
     vector<int> t;
     void dfs(int pos) {
-        if(pos == nums.size()) {
+        if (pos == nums.size()) {
             res.push_back(t);
             return;
         }
-        for(int i = 0; i < nums.size(); ++i) {
-            if(vis[i]) continue;
-            if(i > 0 && nums[i] == nums[i-1] && !vis[i-1]) continue;
+        for (int i = 0; i < nums.size(); ++ i ) {
+            if (vis[i]) continue;
+            if (i > 0 && nums[i] == nums[i - 1] && !vis[i - 1]) continue; // ATTENTION
             vis[i] = true;
             t.push_back(nums[i]);
-            dfs(pos+1);
+            dfs(pos + 1);
             t.pop_back();
             vis[i] = false;
         }

@@ -13,15 +13,15 @@ class Solution {
 public:
     string convert(string s, int numRows) {
         // numRpws = 1, sig = 0;
-        if(numRows == 1) return s;
+        if (numRows == 1) return s;
         int len = s.size();
         int sig = 2 * (numRows - 1);
         string res;
         for(int i = 0; i < numRows; ++i) {
             int j = i;
             int add = sig-i*2;
-            if(add == 0) add = sig;
-            while(j < len) {
+            if (add == 0) add = sig;
+            while (j < len) {
                 res.push_back(s[j]);
                 j += add;
                 add = sig - add;

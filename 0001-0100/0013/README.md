@@ -24,9 +24,9 @@ public:
     int romanToInt(string s) {
         int len = s.size();
         int res = 0, tl, tr;
-        for (int i = 0; i < len-1; ++i) {
+        for (int i = 0; i < len-1; ++ i ) {
             tl = getValue(s[i]);
-            tr = getValue(s[i+1]);
+            tr = getValue(s[i + 1]);
             if (tl < tr) res -= tl;
             else res += tl;
         }

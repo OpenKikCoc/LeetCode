@@ -42,25 +42,25 @@ public:
     int t;
     bool dfs(int u, vector<vector<int>>& G, vector<int>& c, vector<int>& topo) {
         c[u] = -1;
-        //for(int v = 0; v < t; ++v) if(G[u][v])
-        for(auto v : G[u]) {
-            if(c[v] < 0) return false;
-            else if(!c[v] && !dfs(v, G, c, topo)) return false;
+        for (auto v : G[u]) {
+            if (c[v] < 0) return false;
+            else if (!c[v] && !dfs(v, G, c, topo)) return false;
         }
         c[u] = 1;
-        topo[--t] = u;
+        topo[ -- t] = u;
         return true;
     }
     vector<int> findOrder_2(int n, vector<vector<int>>& prerequisites) {
         t = n;
         vector<vector<int>> G(n);
-        for(auto v : prerequisites) G[v[1]].push_back(v[0]);
+        for (auto v : prerequisites) G[v[1]].push_back(v[0]);
         vector<int> c(n);
         vector<int> topo(n);
 
-        for(int u = 0; u < n; ++u) if(!c[u]) {
-            if(!dfs(u, G, c, topo)) return vector<int>{};
-        }
+        for (int u = 0; u < n; ++ u )
+            if (!c[u])
+                if(!dfs(u, G, c, topo)) return vector<int>{};
+        
         return topo;
     }
 };

@@ -9,16 +9,17 @@
 
 
 ```c++
+// 最优
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
         int n = gas.size();
         int tot = 0, cur = 0, s = 0;
-        for(int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++ i ) {
             tot += gas[i] - cost[i];
             cur += gas[i] - cost[i];
-            if(cur < 0) {
-                s = i+1;
+            if (cur < 0) {
+                s = i + 1;
                 cur = 0;
             }
         }
@@ -27,6 +28,26 @@ public:
 };
 ```
 
+```c++
+class Solution {
+public:
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        int n = gas.size();
+        for (int i = 0, j; i < n; ) {  // 枚举起点
+            int left = 0;
+            for (j = 0; j < n; j ++ ) {
+                int k = (i + j) % n;
+                left += gas[k] - cost[k];
+                if (left < 0) break;
+            }
+            if (j == n) return i;
+            i = i + j + 1;
+        }
+
+        return -1;
+    }
+};
+```
 
 
 ```python

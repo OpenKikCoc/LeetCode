@@ -14,12 +14,26 @@ public:
     int rob(vector<int>& nums) {
         int n = nums.size();
         int st = 0, no = 0;
-        for(int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++ i ) {
             int a = st, b = no;
             st = b + nums[i];
             no = max(a, b);
         }
         return max(st, no);
+    }
+};
+
+// yxc
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> f(n + 1), g(n + 1);
+        for (int i = 1; i <= n; i ++ ) {
+            f[i] = g[i - 1] + nums[i - 1];
+            g[i] = max(f[i - 1], g[i - 1]);
+        }
+        return max(f[n], g[n]);
     }
 };
 ```

@@ -6,33 +6,38 @@
 
 ## 题解
 
-
+本质求 s 的最长回文前缀，所以拼接求 next 数组即可。
 
 ```c++
 class Solution {
 public:
-    int lp;
-    vector<int> f;
-    int getNext(string& p) {
-        lp = p.size();
-        f.push_back(0); f.push_back(0);
-        for(int i = 1; i < lp; ++i) {
-            int j = f[i];
-            while(j && p[i] != p[j]) j = f[j];
-            if(p[i] == p[j]) f.push_back(j+1);
-            else f.push_back(0);
+    const static int N = 1e5 + 10;  // 2 * 5e4
+
+    int f[N];
+
+    int get(string s) {
+        memset(f, 0, sizeof f); // f[0] = f[1] = 0;
+        int n = s.size();
+        s = ' ' + s;
+        for (int i = 2, j = 0; i <= n; ++ i ) {
+            if (j && s[i] != s[j + 1])
+                j = f[j];
+            if (s[i] == s[j + 1])
+                j ++ ;
+            f[i] = j;
         }
-        return f[lp];
+        return f[n];
     }
+
     string shortestPalindrome(string s) {
         int n = s.size();
-        string ns(s.rbegin(), s.rend());
-        ns = s + '#' + ns;
-        int coml = getNext(ns);
+        string rs(s.rbegin(), s.rend());
+        auto p = s + '#' + rs;
+        int idx = get(p);
         string res;
-        for(int i = n-1; i >= coml; --i) res.push_back(s[i]);
-        res += s;
-        return res;
+        for (int i = n - 1; i >= idx; -- i )
+            res.push_back(s[i]);
+        return res + s;
     }
 };
 ```

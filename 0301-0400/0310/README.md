@@ -68,27 +68,28 @@ public:
             ans.push_back(0);
             return ans;
         }
-        for(auto e : edges) {
+        for (auto e : edges) {
             G[e[0]].push_back(e[1]);
             G[e[1]].push_back(e[0]);
-            ++degree[e[0]];
-            ++degree[e[1]];
+            ++ degree[e[0]] ;
+            ++ degree[e[1]] ;
         }
-        for(int i = 0; i < n; ++i) 
-            if(degree[i] == 1) q.push(i);
+        for (int i = 0; i < n; ++ i ) 
+            if (degree[i] == 1)
+                q.push(i);
         int left = n;
-        while(left > 2) {
+        while (left > 2) {
             int len = q.size();
             left -= len;
-            while(len--) {
+            while (len -- ) {
                 int u = q.front(); q.pop();
-                for(auto v : G[u]) {
-                    if(degree[v] > 0) --degree[v];
-                    if(degree[v] == 1) q.push(v);
+                for (auto v : G[u]) {
+                    if (degree[v] > 0) -- degree[v] ;
+                    if (degree[v] == 1) q.push(v);
                 }
             }
         }
-        while(!q.empty()) {
+        while (!q.empty()) {
             ans.push_back(q.front());
             q.pop();
         }

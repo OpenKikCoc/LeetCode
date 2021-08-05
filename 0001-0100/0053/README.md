@@ -13,7 +13,7 @@ class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
         int sum = 0, res = INT_MIN;
-        for(auto& v : nums) {
+        for (auto & v : nums) {
             sum = max(sum, 0) + v;
             res = max(res, sum);
         }

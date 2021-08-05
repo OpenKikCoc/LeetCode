@@ -13,14 +13,32 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         // 使用这种写法 必须先判断 x && x%10==0
-        if(x < 0 || x && x%10 == 0) return false;
+        if (x < 0 || x && x % 10 == 0) return false;
         int s = 0;
-        while(s <= x) {
+        while (s <= x) {
             s = s * 10 + x % 10;
-            if(s == x || s == x/10) return true;
+            if (s == x || s == x / 10) return true;
             x /= 10;
         }
         return false;
+    }
+};
+```
+
+或者数值方法
+
+```c++
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if (x < 0) return 0;
+        int y = x;
+        long long res = 0;
+        while (x) {
+            res = res * 10 + x % 10;
+            x /= 10;
+        }
+        return res == y;
     }
 };
 ```

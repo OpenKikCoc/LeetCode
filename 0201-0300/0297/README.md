@@ -6,6 +6,48 @@
 
 ## 题解
 
+```c++
+// yxc
+class Codec {
+public:
+    string path;
+    // Encodes a tree to a single string.
+    string serialize(TreeNode* root) {
+        dfs_s(root);
+        return path;
+    }
+
+    void dfs_s(TreeNode* root) {
+        if (!root) path += "#,";
+        else {
+            path += to_string(root->val) + ',';
+            dfs_s(root->left);
+            dfs_s(root->right);
+        }
+    }
+
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        int u = 0;
+        return dfs_d(data, u);
+    }
+
+    TreeNode* dfs_d(string& data, int& u) {
+        if (data[u] == '#') {
+            u += 2;
+            return NULL;
+        } else {
+            int k = u;
+            while (data[u] != ',') u ++ ;
+            auto root = new TreeNode(stoi(data.substr(k, u - k)));
+            u ++ ;
+            root->left = dfs_d(data, u);
+            root->right = dfs_d(data, u);
+            return root;
+        }
+    }
+};
+```
 
 
 ```c++
@@ -29,7 +71,7 @@ public:
         return ss.str();
     }
     void dfs(TreeNode* r, stringstream& ss) {
-        if(!r) {
+        if (!r) {
             ss << "# ";
             return;
         }
@@ -49,7 +91,7 @@ public:
     void rebuild(TreeNode* & r, stringstream& ss) {
         string t;
         ss >> t;
-        if(t[0] == '#') {
+        if (t[0] == '#') {
             r = nullptr;
             return;
         }

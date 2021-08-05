@@ -25,8 +25,8 @@ public:
         ListNode *dummy = new ListNode(-1);
         dummy->next = head;
         ListNode *fast = dummy, *slow = dummy;
-        while(n--) fast = fast->next;
-        while(fast->next) {
+        while (n -- ) fast = fast->next;
+        while (fast->next) {
             fast = fast->next;
             slow = slow->next;
         }

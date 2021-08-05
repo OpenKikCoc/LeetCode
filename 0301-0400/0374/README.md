@@ -21,15 +21,13 @@
 class Solution {
 public:
     int guessNumber(int n) {
-        long long l = 1, r = (long long)n+1;
-        while(l < r) {
-            long long mid = l+(r-l)/2;
-            int ret = guess(mid);
-            if(ret == 0) return mid;
-            else if(ret > 0) l = mid+1;
-            else if(ret < 0) r = mid;
+        int l = 1, r = n;
+        while (l < r) {
+            int mid = (long long)l + r >> 1;
+            if (guess(mid) <= 0) r = mid;
+            else l = mid + 1;
         }
-        return -1;
+        return l;
     }
 };
 ```

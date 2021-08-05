@@ -21,13 +21,13 @@ class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
         ListNode *fast = head, *slow = head, *ret = nullptr;
-        while(fast && fast->next) {
+        while (fast && fast->next) {
             fast = fast->next->next;
             slow = slow->next;
-            if(fast == slow) {
+            if (fast == slow) {
                 // fast 比 slow 多走了一个环的长度
                 ret = head;
-                while(ret != slow) {
+                while (ret != slow) {
                     ret = ret->next;
                     slow = slow->next;
                 }

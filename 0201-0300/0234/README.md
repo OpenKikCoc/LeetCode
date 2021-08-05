@@ -20,20 +20,21 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        if(!head || !head->next) return true;
-        ListNode *slow = head, *fast = head, *pre = nullptr, *cur = head, *next;
-        while(fast && fast->next) {
+        if (!head || !head->next) return true;
+        ListNode *slow = head, *fast = head, *pre = nullptr, *cur = head;
+        while (fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
 
-            next = cur->next;
+            auto next = cur->next;
             cur->next = pre;
             pre = cur;
             cur = next;
         }
-        if(fast) slow = slow->next;
-        while(pre && slow) {
-            if(pre->val != slow->val) return false;
+        if (fast) slow = slow->next;
+        while (pre && slow) {
+            if (pre->val != slow->val)
+                return false;
             pre = pre->next;
             slow = slow->next;
         }
@@ -42,6 +43,49 @@ public:
 };
 ```
 
+```c++
+// yxc
+class Solution {
+public:
+    bool isPalindrome(ListNode* head) {
+        int n = 0;
+        for (auto p = head; p; p = p->next) n ++ ;
+        if (n <= 1) return true;
+        int half = n / 2;
+        auto a = head;
+        for (int i = 0; i < n - half; i ++ ) a = a->next;
+        auto b = a->next;
+        for (int i = 0; i < half - 1; i ++ ) {
+            auto c = b->next;
+            b->next = a;
+            a = b, b = c;
+        }
+
+        auto p = head, q = a;
+        bool success = true;
+        for (int i = 0; i < half; i ++ ) {
+            if (p->val != q->val) {
+                success = false;
+                break;
+            }
+            p = p->next;
+            q = q->next;
+        }
+
+        auto tail = a;
+        b = a->next;
+        // 将链表恢复原状
+        for (int i = 0; i < half - 1; i ++ ) {
+            auto c = b->next;
+            b->next = a;
+            a = b, b = c;
+        }
+
+        tail->next = NULL;
+        return success;
+    }
+};
+```
 
 
 ```python3

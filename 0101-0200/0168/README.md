@@ -6,17 +6,39 @@
 
 ## 题解
 
+```c++
+// yxc
+class Solution {
+public:
+    string convertToTitle(int n) {
+        int k = 1;
+        for (long long p = 26; n > p; p *= 26) {
+            n -= p;
+            k ++ ;
+        }
 
+        n -- ;
+        string res;
+        while (k -- ) {
+            res += n % 26 + 'A';
+            n /= 26;
+        }
+
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};
+```
 
 ```c++
 class Solution {
 public:
     string convertToTitle(int n) {
         string res;
-        while(n) {
-            int mod = (n-1) % 26;
+        while (n) {
+            int mod = (n - 1) % 26;
             res.push_back('A' + mod);
-            n = (n-1) / 26;
+            n = (n - 1) / 26;
         }
         reverse(res.begin(), res.end());
         return res;

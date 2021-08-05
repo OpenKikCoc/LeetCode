@@ -38,6 +38,27 @@ public:
 };
 ```
 
+```c++
+class Solution {
+public:
+    ListNode* oddEvenList(ListNode* head) {
+        if (!head || !head->next) return head;
+        auto oh = head, ot = oh;
+        auto eh = head->next, et = eh;
+        for (auto p = head->next->next; p;) {
+            ot = ot->next = p;
+            p = p->next;
+            if (p) {
+                et = et->next = p;
+                p = p->next;
+            }
+        }
+        ot->next = eh;
+        et->next = NULL;
+        return oh;
+    }
+};
+```
 
 
 ```python3

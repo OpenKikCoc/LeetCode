@@ -24,12 +24,11 @@ public:
         ListNode *dummy = new ListNode(-1);
         dummy->next = head;
         ListNode *slow = dummy, *fast = dummy->next;
-        while(fast != nullptr) {
-            if(fast->next != nullptr && (fast->val == fast->next->val)) {
+        while (fast != nullptr) {
+            if (fast->next != nullptr && (fast->val == fast->next->val)) {
                 int tmpv = fast->val;
-                while(fast != nullptr && fast->val == tmpv) {
+                while (fast != nullptr && fast->val == tmpv)
                     fast = fast->next;
-                }
             } else {
                 slow->next = fast;    // attention
                 slow = fast;

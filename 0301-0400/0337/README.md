@@ -22,7 +22,7 @@ class Solution {
 public:
     int res = INT_MIN;
     pair<int, int> dfs(TreeNode* n) {
-        if(!n) return {0, 0};
+        if (!n) return {0, 0};
         auto l = dfs(n->left), r = dfs(n->right);
         int zero = max(l.first, l.second) + max(r.first, r.second);
         int one = max(l.first, 0) + max(0, r.first) + n->val;
@@ -30,7 +30,7 @@ public:
         return {zero, one};
     }
     int rob(TreeNode* root) {
-        if(!root) return 0;
+        if (!root) return 0;
         dfs(root);
         return res;
     }

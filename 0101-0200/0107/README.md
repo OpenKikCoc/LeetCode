@@ -22,21 +22,21 @@ class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
         vector<vector<int>> res;
-        if(!root) return res;
         queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()) {
-            int sz = q.size();
-            vector<int> t;
-            while(sz--) {
-                TreeNode* n = q.front(); q.pop();
-                t.push_back(n->val);
-                if(n->left) q.push(n->left);
-                if(n->right) q.push(n->right);
+        if (root) q.push(root);
+        while (q.size()) {
+            vector<int> level;
+            int len = q.size();
+            while (len -- ) {
+                auto t = q.front();
+                q.pop();
+                level.push_back(t->val);
+                if (t->left) q.push(t->left);
+                if (t->right) q.push(t->right);
             }
-            res.push_back(t);
+            res.push_back(level);
         }
-        reverse(res.begin(), res.end());
+        reverse(res.begin(),res.end());
         return res;
     }
 };

@@ -21,11 +21,33 @@
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(!root || root == p || root == q) return root;
+        if (!root || root == p || root == q) return root;
         TreeNode* l = lowestCommonAncestor(root->left, p, q);
         TreeNode* r = lowestCommonAncestor(root->right, p, q);
-        if(l && r) return root;
+        if (l && r) return root;
         return l ? l : r;
+    }
+};
+```
+
+```c++
+class Solution {
+public:
+    TreeNode* ans = NULL;
+
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        dfs(root, p, q);
+        return ans;
+    }
+
+    int dfs(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root) return 0;
+        int state = dfs(root->left, p, q);
+        if (root == p) state |= 1;
+        else if (root == q) state |= 2;
+        state |= dfs(root->right, p, q);
+        if (state == 3 && !ans) ans = root;
+        return state;
     }
 };
 ```

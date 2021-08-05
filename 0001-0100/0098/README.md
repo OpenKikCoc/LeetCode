@@ -21,9 +21,9 @@
 class Solution {
 public:
     bool helper(TreeNode* r, long& pre) {
-        if(!r) return true;
-        if(!helper(r->left, pre)) return false;
-        if(r->val <= pre) return false;
+        if (!r) return true;
+        if (!helper(r->left, pre)) return false;
+        if (r->val <= pre) return false;
         pre = r->val;
         return helper(r->right, pre); 
     }

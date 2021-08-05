@@ -6,6 +6,22 @@
 
 ## 题解
 
+```c++
+// 标准
+class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        for (int i = s.size() - 1; i >= 0; i -- ) {
+            if (s[i] == ' ') continue;
+            int j = i - 1;
+            while (j >= 0 && s[j] != ' ') j -- ;
+            return i - j;
+        }
+        return 0;
+    }
+};
+```
+
 
 
 ```c++
@@ -13,11 +29,11 @@ class Solution {
 public:
     int lengthOfLastWord(string s) {
         int n = s.size();
-        int p = n-1;
-        while(p >= 0 && s[p] == ' ') --p;
-        if(p < 0) return 0;
+        int p = n - 1;
+        while (p >= 0 && s[p] == ' ') -- p ;
+        if (p < 0) return 0;
         int cnt = 0;
-        while(p >= 0 && s[p] != ' ') --p, ++cnt;
+        while (p >= 0 && s[p] != ' ') -- p , ++ cnt ;
         return cnt;
     }
 };

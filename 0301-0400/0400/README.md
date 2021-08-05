@@ -26,14 +26,14 @@ public:
 
     int findNthDigit_2(int n) {
         int base = 1;
-        while(n > 9*pow(10, base-1)*base) {
-            n -= 9*pow(10, base-1)*base;
-            ++base;
+        while (n > 9*pow(10, base - 1) * base) {
+            n -= 9 * pow(10, base - 1) * base;
+            ++ base ;
         }
-        int value = pow(10, base-1) + n/base;
-        int mod = n%base;
-        if(mod) return value/(int)pow(10, base-mod)%10;
-        return (value-1)%10;
+        int value = pow(10, base - 1) + n / base;
+        int mod = n % base;
+        if (mod) return value / (int)pow(10, base - mod) % 10;
+        return (value - 1) % 10;
     }
 };
 ```

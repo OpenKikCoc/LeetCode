@@ -6,6 +6,28 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> res;
+        stack<TreeNode*> stk;
+        while (root || stk.size()) {
+            while (root) {
+                res.push_back(root->val);
+                stk.push(root);
+                root = root->right;
+            }
+
+            root = stk.top()->left;
+            stk.pop();
+        }
+
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};
+```
 
 
 ```c++
@@ -24,16 +46,16 @@ class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
         vector<int> res;
-        if(!root) return res;
+        if (!root) return res;
         stack<TreeNode*> q;
         q.push(root);
-        while(!q.empty()) {
+        while (!q.empty()) {
             TreeNode* r = q.top(); q.pop();
-            if(r) {
+            if (r) {
                 q.push(r);
                 q.push(nullptr);
-                if(r->right) q.push(r->right);
-                if(r->left) q.push(r->left);
+                if (r->right) q.push(r->right);
+                if (r->left) q.push(r->left);
             } else {
                 res.push_back(q.top()->val);
                 q.pop();

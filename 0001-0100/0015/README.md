@@ -6,6 +6,31 @@
 
 ## 题解
 
+更标准的写法
+
+```c++
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> res;
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < nums.size(); i ++ ) {
+            if (i && nums[i] == nums[i - 1]) continue;
+            for (int j = i + 1, k = nums.size() - 1; j < k; j ++ ) {
+                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
+                // 可以适应三数之和为任意值
+                while (j < k - 1 && nums[i] + nums[j] + nums[k - 1] >= 0) k -- ; // ATTENTION
+                if (nums[i] + nums[j] + nums[k] == 0) {
+                    res.push_back({nums[i], nums[j], nums[k]});
+                }
+            }
+        }
+
+        return res;
+    }
+};
+```
+
 
 
 ```c++
@@ -14,22 +39,22 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> res;
-        if(n < 3) return res;
+        if (n < 3) return res;
         sort(nums.begin(), nums.end());
         // if(nums[0] > 0 || nums[n-1] < 0) return res;
         for(int i = 0; i < n-2; ++i) {
-            if(nums[i] > 0) break;  // 可以很多个 0
-            if(i && nums[i] == nums[i-1]) continue;
+            if (nums[i] > 0) break;  // 可以很多个 0
+            if (i && nums[i] == nums[i - 1]) continue;
             int l = i + 1, r = n - 1;
-            while(l < r) {
+            while (l < r) {
                 int sum = nums[i] + nums[l] + nums[r];
-                if(sum == 0) {
+                if (sum == 0) {
                     res.push_back({nums[i], nums[l], nums[r]});
-                    while(l < r && nums[l+1] == nums[l]) ++l;
-                    while(l < r && nums[r-1] == nums[r]) --r;
+                    while (l < r && nums[l + 1] == nums[l]) ++ l ;
+                    while (l < r && nums[r - 1] == nums[r]) -- r ;
                     ++l, --r;
-                } else if(sum < 0) ++l;
-                else --r;
+                } else if (sum < 0) ++ l ;
+                else -- r ;
             }
         }
         return res;

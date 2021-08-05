@@ -22,16 +22,16 @@ public:
     vector<int> twoSum_2(vector<int>& numbers, int target) {
         int n = numbers.size();
         vector<int> res;
-        if(n < 2) return res;
-        int l = 0, r = n-1, v;
-        while(l < r) {
+        if (n < 2) return res;
+        int l = 0, r = n - 1, v;
+        while (l < r) {
             v = numbers[l] + numbers[r];
-            if(v == target) {
-                res.push_back(l+1);
-                res.push_back(r+1);
+            if (v == target) {
+                res.push_back(l + 1);
+                res.push_back(r + 1);
                 break;
-            } else if(v < target) ++l;
-            else --r;
+            } else if (v < target) ++ l ;
+            else -- r ;
         }
         return res;
     }

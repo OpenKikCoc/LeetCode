@@ -17,8 +17,8 @@ public:
     vector<string> ve;
     string add(string x, string y) {
         vector<int> A, B, C;
-        for (int i = x.size() - 1; i >= 0; --i) A.push_back(x[i] - '0');
-        for (int i = y.size() - 1; i >= 0; --i) B.push_back(y[i] - '0');
+        for (int i = x.size() - 1; i >= 0; -- i ) A.push_back(x[i] - '0');
+        for (int i = y.size() - 1; i >= 0; -- i ) B.push_back(y[i] - '0');
         for (int i = 0, t = 0; i < A.size() || i < B.size() || t; ++ i ) {
             if (i < A.size()) t += A[i];
             if (i < B.size()) t += B[i];
@@ -35,7 +35,7 @@ public:
         string tar = sz < 2 ? "" : add(ve[sz - 1], ve[sz - 2]); 
         string v = "";
 
-        for (int i = p; i < num.size(); ++i) {
+        for (int i = p; i < num.size(); ++ i ) {
             // 可以为 0 但不能是前导 0  
             if (v.size() && v[0] == '0') return false;
             v.push_back(num[i]);
@@ -57,11 +57,14 @@ public:
 };
 ```
 
-另一种思路：
+另一种思路（更好的写法）：
 
 >   只要固定前两个数，后面的序列（若合法）就都是固定的
 
 ```c++
+    string add() {
+        ...
+    }
 
     bool isAdditiveNumber(string num) {
         for (int i = 0; i < num.size(); i ++ )

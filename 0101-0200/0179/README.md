@@ -6,7 +6,23 @@
 
 ## 题解
 
-
+```c++
+// yxc
+class Solution {
+public:
+    string largestNumber(vector<int>& nums) {
+        sort(nums.begin(), nums.end(), [](int x, int y) {
+            string a = to_string(x), b = to_string(y);
+            return a + b > b + a;
+        });
+        string res;
+        for (auto x: nums) res += to_string(x);
+        int k = 0;
+        while (k + 1 < res.size() && res[k] == '0') k ++ ;
+        return res.substr(k);
+    }
+};
+```
 
 ```c++
 class Solution {
@@ -18,8 +34,8 @@ public:
             return a + b > b + a;
         });
         string res;
-        for(auto x : nums) res += to_string(x);
-        if(res[0] == '0') return "0";
+        for (auto x : nums) res += to_string(x);
+        if (res[0] == '0') return "0";
         return res;
     }
 
@@ -34,13 +50,13 @@ public:
         return concatenation1 > concatenation2;
     }
     string largestNumber_2(vector<int>& nums) {
-        if(nums.empty()) return "";
-        if(nums.size() == 1) return to_string(nums[0]);
+        if (nums.empty()) return "";
+        if (nums.size() == 1) return to_string(nums[0]);
 
         sort(nums.begin(), nums.end(), cmp);
         string result = "";
-        for(int i : nums) result += to_string(i);
-        if(result[0] == '0') return "0"; // 特殊case，全是0的时候应该输出0而不是00000
+        for (int i : nums) result += to_string(i);
+        if (result[0] == '0') return "0"; // 特殊case，全是0的时候应该输出0而不是00000
         return result;
     }
     

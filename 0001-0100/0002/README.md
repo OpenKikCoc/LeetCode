@@ -25,7 +25,7 @@ public:
         ListNode *dummy = new ListNode(-1);
         ListNode *pre = dummy;
         int v = 0;
-        while(l1 || l2) {
+        while (l1 || l2) {
             v = (l1 ? l1->val : 0) + (l2 ? l2->val : 0) + v;
             if(l1) l1 = l1->next;
             if(l2) l2 = l2->next;
@@ -33,7 +33,7 @@ public:
             pre = pre->next;
             v /= 10;
         }
-        if(v) pre->next = new ListNode(v);
+        if (v) pre->next = new ListNode(v);
         return dummy->next;
     }
 };

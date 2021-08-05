@@ -14,12 +14,24 @@ public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         int has = INT_MIN, no = 0;
-        for(int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++ i ) {
             int a = has, b = no;
             has = max(a, -prices[i]);
-            no = max(b, a+prices[i]);
+            no = max(b, a + prices[i]);
         }
         return no;
+    }
+};
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int res = 0;
+        for (int i = 0, minp = INT_MAX; i < prices.size(); i ++ ) {
+            res = max(res, prices[i] - minp);
+            minp = min(minp, prices[i]);
+        }
+        return res;
     }
 };
 ```

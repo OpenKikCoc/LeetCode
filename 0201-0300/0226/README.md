@@ -21,8 +21,8 @@
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
-        if(root == nullptr) return nullptr;
-        TreeNode *l = invertTree(root->right), *r = invertTree(root->left);
+        if (root == nullptr) return nullptr;
+        TreeNode * l = invertTree(root->right), *r = invertTree(root->left);
         root->left = l, root->right = r;
         return root;
     }

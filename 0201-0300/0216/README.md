@@ -15,13 +15,13 @@ public:
     vector<vector<int>> res;
     vector<int> t;
     void dfs(int pos, int tar) {
-        if(!tar) {
-            if(t.size() == k) res.push_back(t);
+        if (!tar) {
+            if (t.size() == k) res.push_back(t);
             return;
         }
-        for(int i = pos; i <= 9; ++i) {
+        for (int i = pos; i <= 9; ++ i ) {
             t.push_back(i);
-            dfs(i+1, tar-i);
+            dfs(i + 1, tar - i);
             t.pop_back();
         }
     }

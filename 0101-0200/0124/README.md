@@ -24,7 +24,7 @@ class Solution {
 public:
     int res;
     int dfs(TreeNode* root) {
-        if(!root) return 0;
+        if (!root) return 0;
         int l = max(0, dfs(root->left)), r = max(0, dfs(root->right));
         res = max(res, l + r + root->val);
         return max(l, r) + root->val;

@@ -6,6 +6,33 @@
 
 ## 题解
 
+更标准写法
+
+```c++
+class Solution {
+public:
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> res;
+        for (int i = 0; i < nums.size(); i ++ ) {
+            if (i && nums[i] == nums[i - 1]) continue;
+            for (int j = i + 1; j < nums.size(); j ++ ) {
+                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
+                for (int k = j + 1, u = nums.size() - 1; k < u; k ++ ) {
+                    if (k > j + 1 && nums[k] == nums[k - 1]) continue;
+                    while (u - 1 > k && nums[i] + nums[j] + nums[k] + nums[u - 1] >= target) u -- ;
+                    if (nums[i] + nums[j] + nums[k] + nums[u] == target) {
+                        res.push_back({nums[i], nums[j], nums[k], nums[u]});
+                    }
+                }
+            }
+        }
+
+        return res;
+    }
+};
+```
+
 
 
 ```c++
@@ -14,20 +41,20 @@ public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         int n = nums.size();
         vector<vector<int>> res;
-        // if(n < 4) return res;
+        // if (n < 4) return res;
         sort(nums.begin(), nums.end());
-        for(int i = 0; i < n-3; ++i) if(!i || nums[i] != nums[i-1]) {
-            for(int j = i+1; j < n-2; ++j) if(j == i+1 || nums[j] != nums[j-1]) {
-                int l = j+1, r = n-1;
-                while(l < r) {
+        for (int i = 0; i < n-3; ++i) if (!i || nums[i] != nums[i - 1]) {
+            for (int j = i+1; j < n-2; ++j) if (j == i + 1 || nums[j] != nums[j - 1]) {
+                int l = j + 1, r = n - 1;
+                while (l < r) {
                     int sum = nums[i] + nums[j] + nums[l] + nums[r];
-                    if(sum == targest) {
+                    if (sum == targest) {
                         res.push_back({nums[i], nums[j], nums[l], nums[r]});
-                        while(l < r && nums[l] == nums[l+1]) ++l;
-                        while(l < r && nums[r] == nums[r-1]) --r;
-                        ++l, --r;
-                    } else if(sum > target) --r;
-                    else ++l;
+                        while (l < r && nums[l] == nums[l + 1]) ++ l ;
+                        while (l < r && nums[r] == nums[r - 1]) -- r ;
+                        ++ l , -- r ;
+                    } else if (sum > target) -- r ;
+                    else ++ l ;
                 }
             }
         }

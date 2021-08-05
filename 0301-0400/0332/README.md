@@ -11,22 +11,23 @@
 ```c++
 class Solution {
 public:
-    unordered_map<string, priority_queue<string, vector<string>, std::greater<string>>> es;
-    vector<string> st;
-    // 加const才能传入"JFK"
-    void dfs(const string& u) {
-        while(es.count(u) && es[u].size() > 0) {
-            string v = es[u].top();
-            es[u].pop();
-            dfs(v);
-        }
-        st.push_back(u);
-    }
+    unordered_map<string, multiset<string>> g;
+    vector<string> ans;
+
     vector<string> findItinerary(vector<vector<string>>& tickets) {
-        for(auto & it : tickets) es[it[0]].emplace(it[1]);
+        for (auto& e: tickets) g[e[0]].insert(e[1]);
         dfs("JFK");
-        reverse(st.begin(), st.end());
-        return st;
+        reverse(ans.begin(), ans.end());
+        return ans;
+    }
+
+    void dfs(string u) {
+        while (g[u].size()) {
+            auto ver = *g[u].begin();
+            g[u].erase(g[u].begin());
+            dfs(ver);
+        }
+        ans.push_back(u);
     }
 };
 ```

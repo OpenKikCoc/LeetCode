@@ -6,7 +6,21 @@
 
 ## 题解
 
-
+```c++
+class Solution {
+public:
+    vector<string> findRepeatedDnaSequences(string s) {
+        unordered_map<string, int> cnt;
+        for (int i = 0; i + 10 <= s.size(); i ++ )
+            cnt[s.substr(i, 10)] ++ ;
+        vector<string> res;
+        for (auto [s, c]: cnt)
+            if (c > 1)
+                res.push_back(s);
+        return res;
+    }
+};
+```
 
 ```c++
 class Solution {
@@ -15,10 +29,11 @@ public:
     vector<string> findRepeatedDnaSequences_2(string s) {
         vector<string> res;
         unordered_map<string, int> mp;
-        for(int i = 0; i + 10 <= s.size(); ++i) {
+        for (int i = 0; i + 10 <= s.size(); ++ i ) {
             string str = s.substr(i, 10);
-            if(mp[str] == 1) res.push_back(str);
-            ++mp[str];
+            if (mp[str] == 1)
+                res.push_back(str);
+            ++ mp[str] ;
         }
         return res;
     }
@@ -28,9 +43,9 @@ public:
         vector<string> res;
         bitset<1 << 20> s1, s2; 
         int val = 0, mask = (1 << 20) - 1; 
-        for (int i = 0; i < 10; ++i) val = (val << 2) | m[s[i]];
+        for (int i = 0; i < 10; ++ i ) val = (val << 2) | m[s[i]];
         s1.set(val); 
-        for (int i = 10; i < s.size(); ++i) {
+        for (int i = 10; i < s.size(); ++ i ) {
             val = ((val << 2) & mask) | m[s[i]]; 
             if (s2.test(val)) continue; 
             if (s1.test(val)) {

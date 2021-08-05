@@ -7,6 +7,45 @@
 ## 题解
 
 
+```c++
+class Solution {
+public:
+    vector<int> ans;
+
+    vector<int> preorderTraversal(TreeNode* root) {
+        dfs(root);
+        return ans;
+    }
+
+    void dfs(TreeNode* root) {
+        if (!root) return;
+        ans.push_back(root->val);
+        dfs(root->left);
+        dfs(root->right);
+    }
+};
+
+
+class Solution {
+public:
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int> res;
+        stack<TreeNode*> stk;
+        while (root || stk.size()) {
+            while (root) {
+                res.push_back(root->val);
+                stk.push(root);
+                root = root->left;
+            }
+
+            root = stk.top()->right;
+            stk.pop();
+        }
+        return res;
+    }
+};
+```
+
 
 ```c++
 /**
@@ -22,19 +61,19 @@ class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> res;
-      	if(!root) return res;
+      	if (!root) return res;
         stack<TreeNode*> s;
       	TreeNode* t;
         s.push(root);
-        while(!s.empty()){
+        while (!s.empty()){
             t = s.top();
             s.pop();
-            if(t != nullptr){
-                if(t->right) s.push(t->right);  //右节点先压栈，最后处理
-                if(t->left) s.push(t->left);
+            if (t != nullptr){
+                if (t->right) s.push(t->right);  //右节点先压栈，最后处理
+                if (t->left) s.push(t->left);
                 s.push(t);                      //当前节点重新压栈（留着以后处理），因为先序遍历所以最后压栈
                 s.push(nullptr);                //在当前节点之前加入一个空节点表示已经访问过了
-            }else{
+            } else {
               	res.push_back(s.top()->val);
                 s.pop();
             }

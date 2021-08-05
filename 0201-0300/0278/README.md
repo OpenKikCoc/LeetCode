@@ -15,11 +15,11 @@
 class Solution {
 public:
     int firstBadVersion(int n) {
-        int l = 0, r = n;
+        int l = 1, r = n;
         while (l < r) {
-            int m = (long long)l + (r - l) / 2;
-            if(isBadVersion(m)) r = m;
-            else l = m + 1;
+            int mid = (long long)l + r >> 1;
+            if (isBadVersion(mid)) r = mid;
+            else l = mid + 1;
         }
         return l;
     }

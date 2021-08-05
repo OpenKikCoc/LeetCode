@@ -6,6 +6,30 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        unordered_set<int> S;
+        for (auto x: nums) S.insert(x);
+
+        int res = 0;
+        for (auto x: nums) {
+            if (S.count(x) && !S.count(x - 1)) {
+                int y = x;
+                S.erase(x);
+                while (S.count(y + 1)) {
+                    y ++ ;
+                    S.erase(y);
+                }
+                res = max(res, y - x + 1);
+            }
+        }
+
+        return res;
+    }
+};
+```
 
 
 ```c++
@@ -14,7 +38,7 @@ public:
     int longestConsecutive(vector<int>& nums) {
         unordered_map<int, int> tr_l, tr_r;
         int res = 0;
-        for(auto & x : nums) {
+        for (auto & x : nums) {
             int l = tr_r[x - 1], r = tr_l[x + 1];
             tr_l[x - l] = max(tr_l[x - l], l + r + 1);
             tr_r[x + r] = max(tr_r[x + r], l + r + 1);
@@ -26,12 +50,12 @@ public:
     int longestConsecutive2(vector<int>& nums) {
         int n = nums.size();
         unordered_map<int, bool> m;
-        for(auto v : nums) m[v] = true;
+        for (auto v : nums) m[v] = true;
         int res = 0;
-        for(auto v : nums) {
-            if(m[v-1]) continue;
+        for (auto v : nums) {
+            if (m[v - 1]) continue;
             int cnt = 1;
-            while(m[++v]) ++cnt;
+            while (m[ ++ v]) ++ cnt ;
             res = max(res, cnt);
         }
         return res;

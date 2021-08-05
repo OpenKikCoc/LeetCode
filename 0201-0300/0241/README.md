@@ -32,7 +32,8 @@ public:
         for (int i = 0; i < s.size(); ++ i )
             if (isdigit(s[i])) {
                 int j = i, x = 0;
-                while (j < s.size() && isdigit(s[j])) x = x * 10 + (s[j++] - '0');
+                while (j < s.size() && isdigit(s[j]))
+                    x = x * 10 + (s[j ++ ] - '0');
                 i = j - 1;
                 expr.push_back(to_string(x));
             } else expr.push_back(s.substr(i, 1));

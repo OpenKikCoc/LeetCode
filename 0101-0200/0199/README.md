@@ -6,6 +6,28 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    vector<int> rightSideView(TreeNode* root) {
+        queue<TreeNode*> q;
+        vector<int> res;
+        if (!root) return res;
+        q.push(root);
+        while (q.size()) {
+            int len = q.size();
+            for (int i = 0; i < len; i ++ ) {
+                auto t = q.front();
+                q.pop();
+                if (t->left) q.push(t->left);
+                if (t->right) q.push(t->right);
+                if (i == len - 1) res.push_back(t->val);
+            }
+        }
+        return res;
+    }
+};
+```
 
 
 ```c++
@@ -26,15 +48,15 @@ public:
         queue<TreeNode*> q;
         q.push(root);
         TreeNode* tmp;
-        while(!q.empty()) {
+        while (!q.empty()) {
             int tot = q.size();
             int v;
-            while(tot--) {
+            while (tot -- ) {
                 tmp = q.front();
                 q.pop();
                 v = tmp->val;
-                if(tmp->left) q.push(tmp->left);
-                if(tmp->right) q.push(tmp->right);
+                if (tmp->left) q.push(tmp->left);
+                if (tmp->right) q.push(tmp->right);
             }
             res.push_back(v);
         }

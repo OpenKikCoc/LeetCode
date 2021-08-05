@@ -6,6 +6,19 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int k = 0;
+        for (int i = 0; i < nums.size(); i ++ )
+            if (!i || nums[i] != nums[i - 1])
+                nums[k ++ ] = nums[i];
+        return k;
+    }
+};
+```
+
 
 
 ```c++
@@ -13,11 +26,11 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         int n = nums.size(), p = 0;
-        if(!n) return 0;
-        for(int i = 1; i < n; ++i) {
-            if(nums[i] != nums[p]) nums[++p] = nums[i];
+        if (!n) return 0;
+        for (int i = 1; i < n; ++ i ) {
+            if(nums[i] != nums[p]) nums[++ p ] = nums[i];
         }
-        return p+1;
+        return p + 1;
     }
 };
 ```

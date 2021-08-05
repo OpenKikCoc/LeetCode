@@ -22,22 +22,66 @@ class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> res;
-        if(!root) return res;
+        if (!root) return res;
         stack<TreeNode*> s;
-        TreeNode* t;
+        TreeNode * t;
         s.push(root);
-        while(!s.empty()) {
+        while (!s.empty()) {
             t = s.top(); s.pop();
-            if(t) {
-                if(t->right) s.push(t->right);
+            if (t) {
+                if (t->right) s.push(t->right);
                 s.push(t);
                 s.push(nullptr);
-                if(t->left) s.push(t->left);
+                if (t->left) s.push(t->left);
             } else {
                 res.push_back(s.top()->val);
                 s.pop();
             }
         }
+        return res;
+    }
+};
+```
+
+
+
+```c++
+// yxc
+class Solution {
+public:
+    vector<int> ans;
+    vector<int> inorderTraversal(TreeNode* root) {
+        dfs(root);
+        return ans;
+    }
+
+    void dfs(TreeNode* root) {
+        if (!root) return;
+        dfs(root->left);
+        ans.push_back(root->val);
+        dfs(root->right);
+    }
+};
+
+
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> res;
+        stack<TreeNode*> stk;
+
+        while (root || stk.size()) {
+            while (root) {
+                stk.push(root);
+                root = root->left;
+            }
+
+            root = stk.top();
+            stk.pop();
+            res.push_back(root->val);
+            root = root->right;
+        }
+
         return res;
     }
 };

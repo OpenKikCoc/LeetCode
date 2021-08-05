@@ -35,7 +35,8 @@ public:
             S.insert({l->x, x}), S.erase(l);
         else if (r->x == x + 1)
             S.insert({x, r->y}), S.erase(r);
-        else S.insert({x, x});
+        else
+            S.insert({x, x});
     }
     
     vector<vector<int>> getIntervals() {

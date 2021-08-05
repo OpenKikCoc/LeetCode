@@ -7,6 +7,7 @@
 ## 题解
 
 ```c++
+// 标准
 class Solution {
 public:
     vector<vector<string>> ans;
@@ -81,13 +82,13 @@ public:
         unordered_set<string> endw{endWord};
         // 第一个是否找到最短序列标志 第二个是否反转标志
         bool f1 = false, f2 = false;
-        while(!beginw.empty()) {
+        while (!beginw.empty()) {
             unordered_set<string> next;
-            for(auto str : beginw) dirc.erase(str);
-            for(auto str : beginw) {
-                for(int i = 0; i < str.size(); ++i) {
+            for (auto str : beginw) dirc.erase(str);
+            for (auto str : beginw) {
+                for (int i = 0; i < str.size(); ++ i ) {
                     string s = str;
-                    for(char j = 'a'; j <= 'z'; ++j) {
+                    for (char j = 'a'; j <= 'z'; ++ j ) {
                         s[i] = j;
                         if (!dirc.count(s)) continue;
                         // 两个set相遇 f1 true
@@ -100,9 +101,9 @@ public:
                     }
                 }
             }
-            if(f1) break;
+            if (f1) break;
             beginw = next;
-            if(beginw.size() > endw.size()) {
+            if (beginw.size() > endw.size()) {
                 swap(beginw, endw);
                 f2 = !f2;   // 反转
             }
@@ -112,12 +113,12 @@ public:
         return res;
     }
     void dfs(vector<string>& ans, string& begin, string& end) {
-        if(begin == end) {
+        if (begin == end) {
             res.emplace_back(ans);
             return;
         }
-        if(!hash.count(begin)) return;
-        for(auto str : hash[begin]) {
+        if (!hash.count(begin)) return;
+        for (auto str : hash[begin]) {
             ans.emplace_back(str);
             dfs(ans, str, end);
             ans.pop_back();
@@ -131,9 +132,9 @@ public:
         vector<vector<int>> g(n);
         int endi = -1, u, v;
         queue<int> q;
-        for(int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++ i ) {
             if (wordList[i] == endWord) endi = i;
-            for(int j = i + 1; j < n; ++j) {
+            for (int j = i + 1; j < n; ++ j ) {
                 if (canTrans(i, j, wordList)) {
                     g[i].push_back(j);
                     g[j].push_back(i);
@@ -146,19 +147,19 @@ public:
         vector<int> dfn(n, -1);
         q.push(n-1);
         dfn[n-1] = 0;
-        while(!q.empty()) {
+        while (!q.empty()) {
             u = q.front();
             q.pop();
             int len = g[u].size();
-            for(int i = 0; i < len; ++i) {
+            for (int i = 0; i < len; ++ i ) {
                 v = g[u][i];
-                if(dfn[v] == -1) {
+                if (dfn[v] == -1) {
                     dfn[v] = dfn[u] + 1;
                     q.push(v);
                 }
             }
         }
-        if(dfn[endi] == -1) return {};
+        if (dfn[endi] == -1) return {};
         // 回溯路径
         vector<string> path{endWord};
         vector<vector<string>> paths;
@@ -168,30 +169,29 @@ public:
     bool canTrans(int a, int b, vector<string>& ws) {
         string s1 = ws[a], s2 = ws[b];
         int len = s1.size(), cnt = 0;
-        for(int i = 0; i < len; ++i) {
-            if (s1[i] != s2[i]) ++cnt;
+        for (int i = 0; i < len; ++ i ) {
+            if (s1[i] != s2[i]) ++ cnt ;
             if (cnt > 1) return false;
         }
         return true;
     }
     void dfs(vector<vector<int>>& g, vector<int>& dfn, vector<string>& wordList, int i, vector<string>& path, vector<vector<string> >& paths) {
-        if(dfn[i] == 0) {
+        if (dfn[i] == 0) {
             vector<string> v(path);
             reverse(v.begin(), v.end());
             paths.push_back(v);
             return;
         }
         int v, len = g[i].size();
-        for(int j = 0; j < len; ++j) {
+        for (int j = 0; j < len; ++ j ) {
             v = g[i][j];
-            if(dfn[v] == dfn[i] - 1) {
+            if (dfn[v] == dfn[i] - 1) {
                 path.push_back(wordList[v]);
                 dfs(g, dfn, wordList, v, path, paths);
                 path.pop_back();
             }
         }
     }
-*/
 };
 ```
 

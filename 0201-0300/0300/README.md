@@ -14,15 +14,41 @@ public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<int> f;
-        for(int i = 0; i < n; ++i) {
-            if(f.empty() || f.back() < nums[i]) f.push_back(nums[i]);
-            else *lower_bound(f.begin(), f.end(), nums[i]) = nums[i];
-        }
+        for (int i = 0; i < n; ++ i )
+            if (f.empty() || f.back() < nums[i])
+                f.push_back(nums[i]);
+            else
+                *lower_bound(f.begin(), f.end(), nums[i]) = nums[i];
         return f.size();
     }
 };
 ```
 
+```c++
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> q;
+        for (auto x: nums) {
+            if (q.empty() || x > q.back()) q.push_back(x);
+            else {
+                if (x <= q[0]) q[0] = x;
+                else {
+                    int l = 0, r = q.size() - 1;
+                    while (l < r) {
+                        int mid = l + r + 1 >> 1;
+                        if (q[mid] < x) l = mid;
+                        else r = mid - 1;
+                    }
+                    q[r + 1] = x;
+                }
+            }
+        }
+        return q.size();
+    }
+};
+```
 
 
 ```python3

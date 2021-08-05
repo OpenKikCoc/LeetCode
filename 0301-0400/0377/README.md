@@ -23,6 +23,22 @@ public:
 };
 ```
 
+```c++
+// 以下状态定义是错误的
+class Solution {
+public:
+    int combinationSum4(vector<int>& nums, int target) {
+        int n = nums.size();
+        vector<long long> f(target + 1);
+        f[0] = 1;
+        for (auto v : nums)
+            for (int i = target; i >= v; -- i )
+                f[i] = (f[i] + f[i - v]) % INT_MAX;
+        return f[target];
+    }
+};
+```
+
 
 
 ```python3

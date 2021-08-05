@@ -14,14 +14,17 @@ public:
     string getHint(string secret, string guess) {
         int n = secret.size();
         int a = 0, b = 0;
-        for (int i = 0; i < n; ++i) if (secret[i] == guess[i]) ++a, secret[i] = guess[i] = '.';
+        for (int i = 0; i < n; ++ i )
+            if (secret[i] == guess[i])
+                a ++ , secret[i] = guess[i] = '.';
 
         vector<int> cnt(10);
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; ++ i )
             if (isdigit(secret[i]))
-                ++cnt[secret[i] - '0'];
-        for (int i = 0; i < n; ++i)
-            if (isdigit(guess[i]) && cnt[guess[i] - '0']) ++b, --cnt[guess[i] - '0'];
+                cnt[secret[i] - '0'] ++ ;
+        for (int i = 0; i < n; ++ i )
+            if (isdigit(guess[i]) && cnt[guess[i] - '0'])
+                b ++ , cnt[guess[i] - '0'] -- ;
         return to_string(a) + "A" + to_string(b) + "B";
     }
 };

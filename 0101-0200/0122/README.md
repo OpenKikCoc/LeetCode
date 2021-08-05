@@ -13,12 +13,23 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int has = INT_MIN, no = 0;
-        for(auto & c : prices) {
+        for (auto & c : prices) {
             int nhas = max(has, no - c);
             int nno = max(has + c, no);
             has = nhas, no = nno;
         }
         return max(has, no);
+    }
+};
+
+// trick
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int res = 0;
+        for (int i = 0; i + 1 < prices.size(); i ++ )
+            res += max(0, prices[i + 1] - prices[i]);
+        return res;
     }
 };
 ```

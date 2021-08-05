@@ -6,6 +6,23 @@
 
 ## 题解
 
+```c++
+class Solution {
+public:
+    double myPow(double x, int n) {
+        typedef long long LL;
+        bool is_minus = n < 0;
+        double res = 1;
+        for (LL k = abs(LL(n)); k; k >>= 1) {
+            if (k & 1) res *= x;
+            x *= x;
+        }
+        if (is_minus) res = 1 / res;
+        return res;
+    }
+};
+```
+
 
 
 ```c++
@@ -13,13 +30,13 @@ class Solution {
 public:
     double myPow(double x, int N) {
         long n = N;
-        if(n < 0) {
+        if (n < 0) {
             n = -n;
-            x = 1/x;
+            x = 1 / x;
         }
         double res = 1;
-        while(n) {
-            if(n&1) res = res * x;
+        while (n) {
+            if (n & 1) res = res * x;
             x *= x;
             n >>= 1;
         }

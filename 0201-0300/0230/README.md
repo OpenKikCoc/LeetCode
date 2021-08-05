@@ -6,6 +6,30 @@
 
 ## 题解
 
+```c++
+// 更好
+// yxc
+class Solution {
+public:
+    int k, ans;
+
+    int kthSmallest(TreeNode* root, int _k) {
+        k = _k;
+        dfs(root);
+        return ans;
+    }
+
+    bool dfs(TreeNode* root) {
+        if (!root) return false;
+        if (dfs(root->left)) return true;
+        if ( -- k == 0) {
+            ans = root->val;
+            return true;
+        }
+        return dfs(root->right);
+    }
+};
+```
 
 
 ```c++
@@ -24,10 +48,10 @@ class Solution {
 public:
     int res, k;
     void dfs(TreeNode* r) {
-        if(!r) return;
+        if (!r) return;
         dfs(r->left);
-        --k;
-        if(!k) {res = r->val; return;}
+        k -- ;
+        if (!k) {res = r->val; return;}
         dfs(r->right);
     }
     int kthSmallest(TreeNode* root, int k) {

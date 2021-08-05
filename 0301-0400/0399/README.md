@@ -26,13 +26,13 @@ public:
 
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
         //初始化所有节点
-        for (int i = 0; i < equations.size(); i ++) {
+        for (int i = 0; i < equations.size(); i ++ ) {
             string a = equations[i][0], b = equations[i][1];
             p[a] = a, p[b] = b;
             d[a] = 1, d[b] = 1;
         }
         //集合合并
-        for (int i = 0; i < equations.size(); i ++) {
+        for (int i = 0; i < equations.size(); i ++ ) {
             string a = equations[i][0], b = equations[i][1];
             // ra -> b
             string ra = find(a); //找到a的祖先节点

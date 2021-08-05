@@ -11,21 +11,20 @@
 ```c++
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+    vector<vector<int>> merge(vector<vector<int>>& a) {
         vector<vector<int>> res;
-        int n = intervals.size();
-        if(!n) return res;
-        sort(intervals.begin(), intervals.end());
-        int s = intervals[0][0], t = intervals[0][1];
-        for(int i = 1; i < n; ++i) {
-            if(intervals[i][0] <= t) {
-                t = max(t, intervals[i][1]);
-            } else {
-                res.push_back(vector<int>{s, t});
-                s = intervals[i][0], t = intervals[i][1];
-            }
+        if (a.empty()) return res;
+
+        sort(a.begin(), a.end());
+        int l = a[0][0], r = a[0][1];
+        for (int i = 1; i < a.size(); i ++ ) {
+            if (a[i][0] > r) {
+                res.push_back({l, r});
+                l = a[i][0], r = a[i][1];
+            } else r = max(r, a[i][1]);
         }
-        res.push_back(vector<int>{s, t});
+
+        res.push_back({l, r});
         return res;
     }
 };

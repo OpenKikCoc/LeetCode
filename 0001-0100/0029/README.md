@@ -18,7 +18,8 @@ public:
             else return -dividend;
         }
         int sign = 1;
-        if ((dividend>0&&divisor<0) || (dividend<0&&divisor>0)) sign = -1;
+        // 或使用异或判断符号
+        if ((dividend > 0 && divisor < 0) || (dividend < 0 && divisor > 0)) sign = -1;
         // 都转成负数 处理溢出
         if (dividend > 0) dividend = -dividend;
         if (divisor > 0) divisor = -divisor;
@@ -26,19 +27,47 @@ public:
         int cnt = 0;
         int a = dividend;
         // 此时是负数
-        while(a <= divisor) {
+        while (a <= divisor) {
             int b = divisor, p = 1;
-            //cout <<"before while"<< a<<" "<<b<<" "<<p<<endl;
-            while(b > INT_MIN - b && a <= b + b) {
+            while (b > INT_MIN - b && a <= b + b) {
                 b += b;
                 p += p;
             }
-            //cout <<"after while"<< a<<" "<<b<<" "<<p<<endl;
             cnt += p;
             a -= b;
         }
-        if(sign == -1) cnt = -cnt;
+        if (sign == -1) cnt = -cnt;
         return cnt;
+    }
+};
+```
+
+
+
+```c++
+class Solution {
+public:
+    int divide(int x, int y) {
+        typedef long long LL;
+        vector<LL> exp;
+        bool is_minus = false;
+        if (x < 0 && y > 0 || x > 0 && y < 0) is_minus = true;
+
+        LL a = abs((LL)x), b = abs((LL)y);
+        for (LL i = b; i <= a; i = i + i) exp.push_back(i);
+
+        LL res = 0;
+        for (int i = exp.size() - 1; i >= 0; i -- )
+            if (a >= exp[i]) {
+                a -= exp[i];
+                res += 1ll << i;
+            }
+
+        if (is_minus) res = -res;
+
+        if (res > INT_MAX || res < INT_MIN) res = INT_MAX;
+
+        return res;
     }
 };
 ```

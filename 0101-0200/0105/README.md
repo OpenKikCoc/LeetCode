@@ -15,29 +15,36 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
-    unordered_map<int, int> m;
-    TreeNode* build(vector<int>& po, int px, int l, int r) {
-        if(l > r) return nullptr;
-        TreeNode* node = new TreeNode(po[px]);
-        if(l == r) return node;
+    vector<int> po;
+    int n;
+    unordered_map<int, int> mp;
 
-        int ix = m[po[px]];
-        TreeNode* ln = build(po, px+1, l, ix-1);
-        TreeNode* rn = build(po, px-l+ix+1, ix+1, r);
-        node->left = ln;
-        node->right = rn;
-        return node;
+    TreeNode * helper(int l, int r, int px) {
+        if (l > r)
+            return nullptr;
+        
+        // l, r, idx 均为中序遍历中的下标
+        // 显然满足 l + len = idx
+        int v = po[px], idx = mp[v], len = idx - l;
+        TreeNode * t = new TreeNode(v);
+        t->left = helper(l, idx - 1, px + 1);
+        t->right = helper(idx + 1, r, px + len + 1);
+        return t;
     }
+
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int n = preorder.size();
-        if(!n) return nullptr;
-        for(int i = 0; i < n; ++i) m[inorder[i]] = i;
-        return build(preorder, 0, 0, n-1);
+        this->po = preorder;
+        this->n = po.size();
+        for (int i = 0; i < n; ++ i )
+            mp[inorder[i]] = i;
+        return helper(0, n - 1, 0);
     }
 };
 ```
