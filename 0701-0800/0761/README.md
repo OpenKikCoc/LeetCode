@@ -6,7 +6,7 @@
 
 ## 题解
 
-
+转换策略
 
 ```c++
 class Solution {

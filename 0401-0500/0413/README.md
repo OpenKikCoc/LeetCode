@@ -13,10 +13,10 @@ class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
         int len = A.size(), res = 0;
-        if(len < 3) return 0;
+        if (len < 3) return 0;
         int dp = 0;
-        for(int i = 2; i < len; ++i) {
-            if(A[i]-A[i-1] == A[i-1]-A[i-2]) {
+        for (int i = 2; i < len; ++ i ) {
+            if (A[i] - A[i - 1] == A[i - 1] - A[i - 2]) {
                 dp = 1 + dp;
                 res += dp;
             } else {
@@ -28,13 +28,13 @@ public:
 
     int numberOfArithmeticSlices(vector<int>& A) {
         int len = A.size();
-        if(len < 3) return 0;
+        if (len < 3) return 0;
         int one = 0, two = 0, three = 0, res = 0;
-        for(int i = 2; i < len; ++i) {
-            if(A[i] - A[i-1] == A[i-1] - A[i-2]) {
+        for (int i = 2; i < len; ++ i ) {
+            if (A[i] - A[i - 1] == A[i - 1] - A[i - 2]) {
                 // 此处可以优化 因为只用到了two
-                three = two >= 3 ? two+1 : 3;
-                res += three-2;
+                three = two >= 3 ? two + 1 : 3;
+                res += three - 2;
                 one = two, two = three;
             } else {
                 one = two = three = 0;

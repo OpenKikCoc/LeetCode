@@ -22,9 +22,10 @@ class Solution {
 public:
     int res;
     void dfs(TreeNode* node, bool l) {
-        if(!node) return;
-        if(!node->left && !node->right) {
-            if(l) res += node->val;
+        if (!node) return;
+        if (!node->left && !node->right) {
+            if (l)
+                res += node->val;
             return;
         }
         dfs(node->left, true);
@@ -37,6 +38,29 @@ public:
 };
 ```
 
+```c++
+// yxc
+class Solution {
+public:
+    int res = 0;
+
+    int sumOfLeftLeaves(TreeNode* root) {
+        dfs(root);
+        return res;
+    }
+
+    void dfs(TreeNode* root) {
+        if (!root) return;
+        if (root->left) {
+            if (!root->left->left && !root->left->right) {
+                res += root->left->val;
+            }
+        }
+        dfs(root->left);
+        dfs(root->right);
+    }
+};
+```
 
 
 ```python3

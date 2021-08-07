@@ -23,18 +23,18 @@ public:
     int longestPalindrome_2(string s) {
         unordered_map<char, int> m;
         int len = s.size(), res = 0;
-        for(int i = 0; i < len; ++i) {
-            ++m[s[i]];
-        }
+        for (int i = 0; i < len; ++ i )
+            m[s[i]] ++ ;
+        
         bool sig = false;
-        for(unordered_map<char, int>::iterator it = m.begin(); it != m.end(); ++it) {
-            if(it->second & 1) {
+        for (unordered_map<char, int>::iterator it = m.begin(); it != m.end(); ++ it ) {
+            if (it->second & 1) {
                 sig = true;
-                --it->second;
+                it->second -- ;
             }
             res += it->second;
         }
-        if(sig) ++res;
+        if (sig) res ++ ;
         return res;
     }
 };

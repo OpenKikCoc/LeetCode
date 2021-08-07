@@ -22,19 +22,20 @@ class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
         vector<double> res;
-        if(!root) return res;
+        if (!root) return res;
         queue<TreeNode*> q;
         q.push(root);
-        while(!q.empty()) {
+        while (q.size()) {
             int sz = q.size();
-            double tot = 0;
-            for(int i = 0; i < sz; ++i) {
-                TreeNode* fr = q.front(); q.pop();
-                tot += fr->val;
-                if(fr->left) q.push(fr->left);
-                if(fr->right) q.push(fr->right);
+            double sum = 0;
+            for (int i = 0; i < sz; i ++ ) {
+                auto t = q.front();
+                q.pop();
+                sum += t->val;
+                if (t->left) q.push(t->left);
+                if (t->right) q.push(t->right);
             }
-            res.push_back(double(tot)/double(sz));
+            res.push_back(sum / sz);
         }
         return res;
     }

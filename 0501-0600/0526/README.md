@@ -36,20 +36,20 @@ public:
     int n, tot, res;
     map<pair<int, int>, int> m;
     void dfs(int state, int sum, int pos) {
-        if(sum >= tot) {    // if(pos >= n)
-            ++res;
+        if (sum >= tot) {    // if (pos >= n)
+            res ++ ;
             return;
         }
-        for(int i = 1; i <= n; ++i) {
-            if(((state&(1<<i)) == 0) && (i%pos == 0 || pos%i == 0)) {
-                dfs(state | 1<<i, sum + i, pos+1);
+        for (int i = 1; i <= n; ++ i ) {
+            if (((state & (1 << i)) == 0) && ( i % pos == 0 || pos % i == 0)) {
+                dfs(state | 1 << i, sum + i, pos + 1);
             }
         }
     }
     int countArrangement(int N) {
-        n = N, tot = (1+n)*n/2, res = 0;
-        for(int i = 1; i <= n; ++i) {
-            // if((i % 1) == 0 || (1 % i) == 0) // 隐含条件
+        n = N, tot = (1 + n) * n / 2, res = 0;
+        for (int i = 1; i <= n; ++ i ) {
+            // if ((i % 1) == 0 || (1 % i) == 0) // 隐含条件
             dfs(1 << i, i, 2);
         }
         return res;

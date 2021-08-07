@@ -28,12 +28,14 @@ public:
     vector<int> findDuplicates(vector<int>& nums) {
         vector<int> res;
         int t;
-        for(int i = 0; i < nums.size(); ++i) {
+        for (int i = 0; i < nums.size(); ++ i ) {
             int v = nums[i];
-        //for(auto v : nums) {
+        // for (auto v : nums) {
             t = abs(v);
-            if(nums[t-1] < 0) res.push_back(t);
-            else nums[t-1] = -nums[t-1];
+            if (nums[t - 1] < 0)
+                res.push_back(t);
+            else
+                nums[t - 1] = -nums[t - 1];
         }
         return res;
     }

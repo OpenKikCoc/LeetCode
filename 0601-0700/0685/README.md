@@ -92,10 +92,10 @@ struct UnionFind {
     vector<int> fa;
     UnionFind(int n) {
         fa.resize(n);
-        for(int i = 0; i < n; ++i) fa[i] = i;
+        for (int i = 0; i < n; ++ i ) fa[i] = i;
     }
     int find(int x) {
-        if(fa[x] == x) return x;
+        if (fa[x] == x) return x;
         return fa[x] = find(fa[x]);
     }
     void merge(int u, int v) {
@@ -108,21 +108,21 @@ public:
     vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
         int n = edges.size();
         UnionFind uf = UnionFind(n+1);
-        vector<int> pa(n+1);
-        for(int i = 1; i <= n; ++i) pa[i] = i;
+        vector<int> pa(n + 1);
+        for (int i = 1; i <= n; ++ i ) pa[i] = i;
         int conflict = -1, cycle = -1;
-        for(int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++ i ) {
             int u = edges[i][0], v = edges[i][1];
-            if(pa[v] != v) conflict = i;       // v作为后继已经有了前序
+            if (pa[v] != v) conflict = i;       // v作为后继已经有了前序
             else {
                 pa[v] = u;
-                if(uf.find(u) == uf.find(v)) cycle = i;      // 成环
+                if (uf.find(u) == uf.find(v)) cycle = i;      // 成环
                 else uf.merge(u, v);
             }
         }
-        if(conflict < 0) return edges[cycle];
+        if (conflict < 0) return edges[cycle];
         else {
-            if(cycle < 0) return edges[conflict];
+            if (cycle < 0) return edges[conflict];
             else return vector<int>{pa[edges[conflict][1]], edges[conflict][1]};
         }
     }

@@ -17,7 +17,7 @@ public:
         int cnt = 0;
         for (int i = s.size() - 1; i >= 0; -- i ) {
             res.push_back(s[i]);
-            if (++ cnt == K) res.push_back('-'), cnt = 0;
+            if ( ++ cnt == K) res.push_back('-'), cnt = 0;
         }
         if (!res.empty() && res.back() == '-') res.pop_back();
         reverse(res.begin(), res.end());

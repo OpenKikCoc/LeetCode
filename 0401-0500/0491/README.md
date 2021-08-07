@@ -40,19 +40,19 @@ public:
     vector<vector<int>> res;
     vector<int> stack;
     bool is_first(vector<int>& nums, int last, int pos) {
-        for(int i = last+1; i < pos; ++i)
-            if(nums[i] == nums[pos]) return false;
+        for (int i = last + 1; i < pos; ++ i )
+            if (nums[i] == nums[pos]) return false;
         return true;
     }
     void dfs(vector<int>& nums, int last, int pos) {
-        if(pos == nums.size()) return;
-        if((stack.empty() || nums[pos] >= stack.back()) && is_first(nums, last, pos)) {
+        if (pos == nums.size()) return;
+        if ((stack.empty() || nums[pos] >= stack.back()) && is_first(nums, last, pos)) {
             stack.push_back(nums[pos]);
-            if(stack.size() >= 2) res.push_back(stack);
-            dfs(nums, pos, pos+1);
+            if (stack.size() >= 2) res.push_back(stack);
+            dfs(nums, pos, pos + 1);
             stack.pop_back();
         }
-        dfs(nums, last, pos+1);
+        dfs(nums, last, pos + 1);
     }
     vector<vector<int>> findSubsequences(vector<int>& nums) {
         dfs(nums, -1, 0);

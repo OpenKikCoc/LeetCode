@@ -24,8 +24,8 @@ public:
         for (int i = 0; i < nums.size(); ++ i ) {
             sum += nums[i];
             sum %= k;
-            if (hash.count(sum) && hash[sum] <= i-2) return true;
-            if(!hash.count(sum)) hash[sum] = i;
+            if (hash.count(sum) && hash[sum] <= i - 2) return true;
+            if (!hash.count(sum)) hash[sum] = i;
         }
         return false;
     }

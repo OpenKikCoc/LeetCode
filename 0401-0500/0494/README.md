@@ -14,14 +14,14 @@ public:
     int findTargetSumWays(vector<int>& nums, int S) {
         int n = nums.size(); long sum = S;
         // 求和 优化 转化为取一些数达到 sum / 2 的值
-        for(auto& v : nums) sum += v;
-        if(sum & 1 || sum < 2*S) return 0;
+        for (auto& v : nums) sum += v;
+        if (sum & 1 || sum < 2 * S) return 0;
         sum /= 2;
-        vector<int> f(sum+1);
+        vector<int> f(sum + 1);
         f[0] = 1;
-        for(int i = 1; i <= n; ++i)
-            for(int j = sum; j >= nums[i-1]; --j)
-                f[j] = f[j] + f[j-nums[i-1]];
+        for (int i = 1; i <= n; ++ i )
+            for (int j = sum; j >= nums[i - 1]; -- j )
+                f[j] = f[j] + f[j - nums[i - 1]];
         return f[sum];
     }
 };
@@ -43,6 +43,31 @@ public:
                     f[i][j + Offset] += f[i - 1][j + a[i - 1] + Offset];
             }
         return f[n][S + Offset];
+    }
+};
+
+// wzc
+class Solution {
+public:
+    int findTargetSumWays(vector<int>& nums, int S) {
+        int n = nums.size();
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+
+        if (!(-sum <= S && S <= sum))
+            return 0;
+
+        vector<vector<int>> f(n + 1, vector<int>(2 * sum + 1, 0));
+        f[0][0 + sum] = 1;
+
+        for (int i = 1; i <= n; i++)
+            for (int j = -sum; j <= sum; j++) {
+                if (-sum <= j - nums[i - 1])
+                    f[i][j + sum] += f[i - 1][j - nums[i - 1] + sum];
+                if (j + nums[i - 1] <= sum)
+                    f[i][j + sum] += f[i - 1][j + nums[i - 1] + sum];
+            }
+
+        return f[n][S + sum];
     }
 };
 ```

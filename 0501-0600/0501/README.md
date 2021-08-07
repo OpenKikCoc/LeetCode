@@ -46,28 +46,6 @@ public:
 
 
 // 2. 新写法
-class Solution {
-public:
-    vector<int> res;
-    int maxc = 0, cnt = 0, last = INT_MIN;
-    void dfs(TreeNode * root) {
-        if (!root) return;
-        dfs(root->left);
-        if (root->val == last) ++ cnt;
-        else cnt = 1;
-        last = root->val;
-        if (cnt > maxc) res = {last}, maxc = cnt;
-        else if (cnt == maxc) res.push_back(last);
-        dfs(root->right);
-    }
-    vector<int> findMode(TreeNode* root) {
-        dfs(root);
-        return res;
-    }
-};
-
-
-
 // yxc
 class Solution {
 public:

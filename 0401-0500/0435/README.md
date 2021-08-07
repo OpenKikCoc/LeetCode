@@ -18,8 +18,8 @@ public:
             return a[1] < b[1];
         });
         int ans = 0, last = intervals[0][1];
-        for(int i = 1; i < len; ++i)
-            if (intervals[i][0] < last) ans++;
+        for(int i = 1; i < len; ++ i )
+            if (intervals[i][0] < last) ans ++ ;
             else last = intervals[i][1];
         return ans;
     }
@@ -43,6 +43,26 @@ public:
             mxr = intervals[i][1];
         }
         return n - res;
+    }
+};
+```
+
+```c++
+// yxc
+class Solution {
+public:
+    int eraseOverlapIntervals(vector<vector<int>>& q) {
+        sort(q.begin(), q.end(), [](vector<int> a, vector<int> b) {
+            return a[1] < b[1];
+        });
+        if (q.empty()) return 0;
+        int res = 1, r = q[0][1];
+        for (int i = 1; i < q.size(); i ++ )
+            if (q[i][0] >= r) {
+                res ++;
+                r = q[i][1];
+            }
+        return q.size() - res;
     }
 };
 ```

@@ -47,6 +47,53 @@ public:
 };
 ```
 
+```c++
+// yxc
+class Solution {
+public:
+    struct Cell {
+        int h, x, y;
+        bool operator< (const Cell& t) const {
+            return h > t.h;
+        }
+    };
+
+    int trapRainWater(vector<vector<int>>& h) { 
+        if (h.empty() || h[0].empty()) return 0;
+        int n = h.size(), m = h[0].size();
+        priority_queue<Cell> heap;
+        vector<vector<bool>> st(n, vector<bool>(m));
+        for (int i = 0; i < n; i ++ ) {
+            st[i][0] = st[i][m - 1] = true;
+            heap.push({h[i][0], i, 0});
+            heap.push({h[i][m - 1], i, m - 1});
+        }
+        for (int i = 1; i + 1 < m; i ++ ) {
+            st[0][i] = st[n - 1][i] = true;
+            heap.push({h[0][i], 0, i});
+            heap.push({h[n - 1][i], n - 1, i});
+        }
+        int res = 0;
+        int dx[] = {-1, 0, 1, 0}, dy[] = {0, 1, 0, -1};
+        while (heap.size()) {
+            auto t = heap.top();
+            heap.pop();
+            res += t.h - h[t.x][t.y];
+
+            for (int i = 0; i < 4; i ++ ) {
+                int x = t.x + dx[i], y = t.y + dy[i];
+                if (x >= 0 && x < n && y >= 0 && y < m && !st[x][y]) {
+                    heap.push({max(h[x][y], t.h), x, y});
+                    st[x][y] = true;
+                }
+            }
+        }
+
+        return res;
+    }
+};
+```
+
 
 
 ```python3

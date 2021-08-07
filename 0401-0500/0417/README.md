@@ -54,9 +54,9 @@ public:
     void dfs(int x, int y, vector<vector<int>>& matrix, vector<vector<bool>>& vis) {
         vis[x][y] = true;
         int nx, ny;
-        for(int i = 0; i < 4; ++i) {
+        for (int i = 0; i < 4; ++ i ) {
             nx = x + dx[i], ny = y + dy[i];
-            if(nx >= 0 && nx < m && ny >= 0 && ny < n && !vis[nx][ny] && matrix[x][y] <= matrix[nx][ny])
+            if (nx >= 0 && nx < m && ny >= 0 && ny < n && !vis[nx][ny] && matrix[x][y] <= matrix[nx][ny])
                 dfs(nx, ny, matrix, vis);
         }
     }
@@ -66,13 +66,13 @@ public:
         m = matrix.size();
         n = matrix[0].size();
         vector<vector<bool>> canp(m, vector<bool>(n)), cana(m, vector<bool>(n));
-        for(int i = 0; i < n; ++i) dfs(0, i, matrix, canp);
-        for(int i = 0; i < m; ++i) dfs(i, 0, matrix, canp);
-        for(int i = 0; i < n; ++i) dfs(m-1, i, matrix, cana);
-        for(int i = 0; i < m; ++i) dfs(i, n-1, matrix, cana);
-        for(int i = 0; i < m; ++i) {
-            for(int j = 0; j < n; ++j) {
-                if (cana[i][j] && canp[i][j]) res.push_back({i,j});
+        for (int i = 0; i < n; ++ i ) dfs(0, i, matrix, canp);
+        for (int i = 0; i < m; ++ i ) dfs(i, 0, matrix, canp);
+        for (int i = 0; i < n; ++ i ) dfs(m - 1, i, matrix, cana);
+        for (int i = 0; i < m; ++ i ) dfs(i, n - 1, matrix, cana);
+        for (int i = 0; i < m; ++ i ) {
+            for (int j = 0; j < n; ++ j ) {
+                if (cana[i][j] && canp[i][j]) res.push_back({i, j});
             }
         }
         return res;

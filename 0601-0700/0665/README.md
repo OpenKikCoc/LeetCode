@@ -42,15 +42,15 @@ public:
         int len = nums.size();
         if (len <= 1) return true;
         bool change = false;
-        for(int i = 1; i < len; ++i) {
-            if(nums[i-1] > nums[i]) {
+        for (int i = 1; i < len; ++ i ) {
+            if (nums[i - 1] > nums[i]) {
                 // 应该修改前面的数
                 // for [3,4,2,3]
                 // for [2,3,3,2,4]
                 // for [4,2,3]
                 if (!change) {
-                    if(i >= 2 && nums[i-2] > nums[i]) nums[i] = nums[i-1];
-                    else nums[i-1] = nums[i];
+                    if(i >= 2 && nums[i - 2] > nums[i]) nums[i] = nums[i - 1];
+                    else nums[i - 1] = nums[i];
                     change = true;
                 } else return false;
             }

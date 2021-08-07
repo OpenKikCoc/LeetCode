@@ -31,20 +31,6 @@ public:
         reverse(res.begin(), res.end());
         return res;
     }
-    string frequencySort_2(string s) {
-        unordered_map<char, int> m;
-        int len = s.size();
-        for(int i = 0; i < len; ++i) ++m[s[i]];
-        vector<pair<char, int>> vp;
-        for(auto iter = m.begin(); iter != m.end(); ++iter)
-            vp.push_back(*iter);
-        sort(vp.begin(), vp.end(), [](const pair<char, int>& a, const pair<char, int>& b) {
-            return a.second > b.second;
-        });
-        string res;
-        for(int i = 0; i < vp.size(); ++i) res += string(vp[i].second, vp[i].first);
-        return res;
-    }
 };
 ```
 

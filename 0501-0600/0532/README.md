@@ -13,6 +13,27 @@ class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
+        int res = 0, n = nums.size();
+        for (int l = 0, r = 0; r < n; ++ r ) {
+            while (r + 1 < n && nums[r + 1] == nums[r])
+                r ++ ;
+            while (l < r && nums[r] - nums[l] > k)
+                l ++ ;
+            if (l < r && nums[r] - nums[l] == k)
+                res ++ ;
+        }
+        return res;
+    }
+};
+```
+
+
+```c++
+// yxc
+class Solution {
+public:
+    int findPairs(vector<int>& nums, int k) {
+        sort(nums.begin(), nums.end());
         int res = 0;
         for (int i = 0, j = 0; i < nums.size(); ++ i ) {
             // 枚举后面的 可以保证解决 k = 0 的情况

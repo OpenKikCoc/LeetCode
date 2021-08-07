@@ -33,31 +33,6 @@ public:
         return cnt;
     }
 };
-
-class Solution_2 {
-public:
-    int n;
-    void dfs(int x, vector<vector<int>>& M, vector<bool>& vis) {
-        vis[x] = true;
-        for(int i = 0; i < n; ++i) {
-            if (M[x][i] == 1 && !vis[i]) {
-                dfs(i, M, vis);
-            }
-        }
-    }
-    int findCircleNum(vector<vector<int>>& M) {
-        n = M.size();
-        int res = 0;
-        vector<bool> vis(n);
-        for(int i = 0; i < n; ++i) {
-            if (!vis[i]) {
-                dfs(i, M, vis);
-                res++;
-            }
-        }
-        return res;
-    }
-};
 ```
 
 

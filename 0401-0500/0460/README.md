@@ -111,7 +111,7 @@ public:
 // ---------------------------------------------------------------
 struct Node {
     int cnt, time, key, value;
-    Node(int c, int t, int k, int v):cnt(c),time(t),key(k),value(v) {}
+    Node(int c, int t, int k, int v): cnt(c), time(t), key(k), value(v) {}
     bool operator < (const Node& rhs) const {
         return cnt == rhs.cnt ? time < rhs.time : cnt < rhs.cnt;
     }
@@ -128,32 +128,32 @@ public:
     }
     
     int get(int key) {
-        if(!cap) return -1;
+        if (!cap) return -1;
         auto it = m.find(key);
-        if(it == m.end()) return -1;
+        if (it == m.end()) return -1;
         auto node = it->second;
         s.erase(node);
-        ++node.cnt, node.time = ++time;
+        ++ node.cnt, node.time = ++ time;
         s.insert(node);
         it->second = node;
         return node.value;
     }
     
     void put(int key, int value) {
-        if(!cap) return;
+        if (!cap) return;
         auto it = m.find(key);
-        if(it == m.end()) {
-            if(m.size() == cap) {
+        if (it == m.end()) {
+            if (m.size() == cap) {
                 m.erase(s.begin()->key);
                 s.erase(s.begin());
             }
-            Node node = Node(1, ++time, key, value);
+            Node node = Node(1, ++ time, key, value);
             m.insert({key, node});
             s.insert(node);
         } else {
             Node node = it->second;
             s.erase(node);
-            ++node.cnt, node.time = ++time, node.value = value;
+            ++ node.cnt, node.time = ++ time, node.value = value;
             s.insert(node);
             it->second = node;
         }

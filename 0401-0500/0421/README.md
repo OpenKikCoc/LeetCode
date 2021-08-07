@@ -26,12 +26,12 @@ public:
         int p = 0, res = 0;
         for (int i = 30; i >= 0; -- i ) {
             int u = x >> i & 1;
-            //if (s[p][!u]) p = s[p][!u], res = res * 2 + !u;
-            //else p = s[p][u], res = res * 2 + u;
+            // if (s[p][!u]) p = s[p][!u], res = res * 2 + !u;
+            // else p = s[p][u], res = res * 2 + u;
             if (s[p][!u]) p = s[p][!u], res |= 1 << i;
             else p = s[p][u];
         }
-        //return res ^ x;
+        // return res ^ x;
         return res;
     }
 

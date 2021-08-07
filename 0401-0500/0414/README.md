@@ -21,28 +21,6 @@ public:
         if (s < 3) return a;
         return c;
     }
-
-    int thirdMax_2(vector<int>& nums) {
-        int n = nums.size();
-        long long m1 = LONG_MIN, m2 = LONG_MIN, m3 = LONG_MIN;
-        for(int i = 0; i < n; ++i) {
-            if(nums[i] >= m3) {
-                if(nums[i] == m3) continue;
-                m1 = m2;
-                m2 = m3;
-                m3 = nums[i];
-            } else if(nums[i] >= m2) {
-                if(nums[i] == m2) continue;
-                m1 = m2;
-                m2 = nums[i];
-            } else if(nums[i] >= m1) {
-                if(nums[i] == m1) continue;
-                m1 = nums[i];
-            }
-            //cout << m1<<" "<<m2<<" "<<m3<<endl;
-        }
-        return m1 == LONG_MIN ? m3 : m1;
-    }
 };
 ```
 

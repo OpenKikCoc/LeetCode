@@ -24,6 +24,7 @@ public:
         vector<int> q(1, -1);
         int cnt = 0;
         for (auto & r : intervals)
+            // 考虑最后两个元素
             if (r[0] > q[cnt]) {
                 q.push_back(r[1] - 1);
                 q.push_back(r[1]);

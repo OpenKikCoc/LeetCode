@@ -21,7 +21,7 @@ public:
         int id = 0, mx = 0, maxid = 0;
         int res = 0;
         for (int i = 1; i < n; ++ i ) {
-            mp[i] = i < mx ? min(mp[2*id - i], mx - i) : 1;
+            mp[i] = i < mx ? min(mp[2 * id - i], mx - i) : 1;
             while (ms[i + mp[i]] == ms[i - mp[i]]) ++ mp[i];
             if (i + mp[i] > mx) {
                 mx = i + mp[i];

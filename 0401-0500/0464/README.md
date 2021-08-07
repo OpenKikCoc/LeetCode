@@ -45,27 +45,25 @@ public:
     //unordered_map<pair<int,int>, int> m;  // hash不可用
     map<pair<int, int>, int> m;
     bool dfs(int state, int sum) {
-        if(sum >= tot) return true;
-        if(m.find({state, sum}) != m.end()) return m[{state,sum}];
+        if (sum >= tot) return true;
+        if (m.find({state, sum}) != m.end()) return m[{state, sum}];
         bool f = true;
-        for(int i = 1; i <= mxInt; ++i) {
-            if((state & (1<<i)) == 0) {
-                if(dfs(state | (1<<i), sum+i)) {
+        for (int i = 1; i <= mxInt; ++ i )
+            if ((state & (1 << i)) == 0)
+                if (dfs(state | (1 << i), sum + i)) {
                     f = false;
                     break;
                 }
-            }
-        }
         return m[{state,sum}] = f;
     }
     bool canIWin(int maxChoosableInteger, int desiredTotal) {
         mxInt = maxChoosableInteger, tot = desiredTotal;
         // 所有数相加仍小于tot false
-        if((mxInt+1)*mxInt/2 < tot) return false;
-        for(int i = 1; i <= mxInt; ++i) {
+        if ((mxInt + 1) * mxInt / 2 < tot) return false;
+        for (int i = 1; i <= mxInt; ++ i )
             // 选择 i 当前sum为i
-            if(dfs(1 << i, i)) return true;
-        }
+            if (dfs(1 << i, i))
+                return true;
         return false;
     }
 };

@@ -76,36 +76,36 @@ public:
         const int n = target.size();
         vector<vector<int>> pos(26);
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i ++ )
             pos[target[i] - 'a'].push_back(i);
 
         vector<int> used;
-        for (int c = 0; c < 26; c++)
+        for (int c = 0; c < 26; c ++ )
             if (!pos[c].empty())
                 used.push_back(c);
 
         const int m = stickers.size();
         const int INF = 1000000000;
 
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < m; i ++ ) {
             memset(seen[i], 0, sizeof(seen[i]));
             for (char c : stickers[i])
-                seen[i][c - 'a']++;
+                seen[i][c - 'a'] ++ ;
         }
 
-        for (int s = 1; s < (1 << n); s++)
+        for (int s = 1; s < (1 << n); s ++ )
             f[s] = INF;
 
         f[0] = 0;
 
-        for (int s = 0; s < (1 << n) - 1; s++) {
+        for (int s = 0; s < (1 << n) - 1; s ++ ) {
             if (f[s] == INF) continue;
 
-            for (int i = 0; i < m; i++) {
+            for (int i = 0; i < m; i ++ ) {
                 int t = s;
                 for (char c : used)
-                    for (int j = 0, k = 0; j < pos[c].size() && k < seen[i][c]; j++, k++)
-                        if ((s >> pos[c][j]) & 1) k--;
+                    for (int j = 0, k = 0; j < pos[c].size() && k < seen[i][c]; j ++ , k ++ )
+                        if ((s >> pos[c][j]) & 1) k -- ;
                         else t |= 1 << pos[c][j];
 
                 f[t] = min(f[t], f[s] + 1);

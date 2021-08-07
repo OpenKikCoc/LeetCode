@@ -51,18 +51,18 @@ public:
         stack<int> s1, s2;
         ListNode* p;
         p = l1;
-        while(p) {
+        while (p) {
             s1.push(p->val);
             p = p->next;
         }
         p = l2;
-        while(p) {
+        while (p) {
             s2.push(p->val);
             p = p->next;
         }
         // p = nullptr;
         int carry = 0;
-        while(!s1.empty() && !s2.empty()) {
+        while (!s1.empty() && !s2.empty()) {
             int v1 = s1.top(), v2 = s2.top();
             s1.pop(); s2.pop();
             int v = v1 + v2 + carry;
@@ -71,20 +71,20 @@ public:
             n->next = p;
             p = n;
         }
-        while(!s1.empty()) {
+        while (!s1.empty()) {
             int v1 = s1.top();
             s1.pop();
             int v = v1 + carry;
-            carry = v/10; v = v%10;
+            carry = v / 10; v = v % 10;
             ListNode* n = new ListNode(v);
             n->next = p;
             p = n;
         }
-        while(!s2.empty()) {
+        while (!s2.empty()) {
             int v2 = s2.top();
             s2.pop();
             int v = v2 + carry;
-            carry = v/10; v = v%10;
+            carry = v / 10; v = v % 10;
             ListNode* n = new ListNode(v);
             n->next = p;
             p = n;

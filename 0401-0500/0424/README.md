@@ -9,7 +9,23 @@
 
 
 ```c++
-
+class Solution {
+public:
+    int characterReplacement(string s, int k) {
+        int res = 0;
+        for (auto c = 'A'; c <= 'Z'; ++ c ) {
+            for (int l = 0, r = 0, cnt = 0; r < s.size(); ++ r ) {
+                if (s[r] == c) ++ cnt ;
+                while (r - l + 1 - cnt > k) {
+                    if (s[l] == c) -- cnt;
+                    ++ l ;
+                }
+                res = max(res, r - l + 1);
+            }
+        }
+        return res;
+    }
+};
 ```
 
 

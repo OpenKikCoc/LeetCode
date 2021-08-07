@@ -35,24 +35,6 @@ public:
         return res;
     }
 };
-
-class Solution_2 {
-public:
-    // 定义状态dp[i] 表示i在路径上且其他路径都在左右子树中的最大值
-    // dp[i] = max(dp[lson], dp[rson]) + 1;
-    int res = INT_MIN;
-    int dp(TreeNode* n) {
-        if(!n) return 0;
-        int l = dp(n->left), r = dp(n->right);
-        res = max(res, l+r+1);
-        return max(l, r)+1;
-    }
-    int diameterOfBinaryTree(TreeNode* root) {
-        if(!root) return 0;
-        dp(root);
-        return res-1;
-    }
-};
 ```
 
 

@@ -34,17 +34,17 @@ public:
     
     string addStrings_2(string num1, string num2) {
         int n1 = num1.size(), n2 = num2.size();
-        int p1 = n1-1, p2 = n2-1, carry = 0;
+        int p1 = n1 - 1, p2 = n2 - 1, carry = 0;
         string res;
-        while(p1 >= 0 || p2 >= 0) {
-            int v1 = (p1 >= 0 ? num1[p1]-'0':0), v2 = (p2 >= 0 ? num2[p2]-'0':0);
+        while (p1 >= 0 || p2 >= 0) {
+            int v1 = (p1 >= 0 ? num1[p1] - '0' : 0), v2 = (p2 >= 0 ? num2[p2] - '0' : 0);
             int v = v1 + v2 + carry;
             carry = v / 10;
             v = v % 10;
-            res.push_back('0'+v);
+            res.push_back('0' + v);
             --p1, --p2;
         }
-        if(carry) res.push_back('1');
+        if (carry) res.push_back('1');
         reverse(res.begin(), res.end());
         return res;
     }

@@ -17,7 +17,7 @@ public:
         vector<int> f(n + 1, INT_MIN);
         f[0] = 0;
         // i [0,n)
-        for (int i = 0; i < n; ++ i) {
+        for (int i = 0; i < n; ++ i ) {
             if (f[i] < 0) continue;
             // 剪枝
             for (int j = n - i; j; -- j )

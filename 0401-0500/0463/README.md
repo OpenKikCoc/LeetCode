@@ -35,15 +35,15 @@ public:
     vector<vector<bool>> vis;
     vector<int> dx = {-1, 0, 0, 1}, dy = {0, -1, 1, 0};
     void dfs(int x, int y) {
-        //cout << x << " " << y << endl;
+        // cout << x << " " << y << endl;
         vis[x][y] = true;
-        for(int i = 0; i < 4; ++i) {
+        for (int i = 0; i < 4; ++ i ) {
             int nx = x + dx[i], ny = y + dy[i];
-            if(nx < 0 || nx >= n || ny < 0 || ny >= m || !g[nx][ny]) {
-                ++res;
+            if (nx < 0 || nx >= n || ny < 0 || ny >= m || !g[nx][ny]) {
+                ++ res ;
                 continue;
             }
-            if(vis[nx][ny]) continue;
+            if (vis[nx][ny]) continue;
             dfs(nx, ny);
         }
     }
@@ -52,10 +52,10 @@ public:
         res = 0;
         g = grid;
         vis = vector<vector<bool>>(n, vector<bool>(m));
-        for(int i = 0; i < n; ++i)
-            for(int j = 0; j < m; ++j)
-                if(g[i][j] && !vis[i][j]) dfs(i, j);
-        //cout << endl;
+        for (int i = 0; i < n; ++ i )
+            for (int j = 0; j < m; ++ j )
+                if (g[i][j] && !vis[i][j])
+                    dfs(i, j);
         return res;
     }
 };

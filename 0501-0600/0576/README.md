@@ -11,25 +11,25 @@
 ```c++
 class Solution {
 public:
-    int m, n, N, mod = 1e9+7;
+    int m, n, N, mod = 1e9 + 7;
     int dx[4] = {0, -1, 1, 0}, dy[4] = {-1, 0, 0, 1};
 
     int findPaths(int m, int n, int N, int i, int j) {
-        if(!N) return 0;
-        vector<vector<int>> pre(m+2, vector<int>(n+2)), cur(m+2, vector<int>(n+2));
-        for(int i = 1; i <= m; ++i) ++pre[i][1], ++pre[i][n];    // 向左右
-        for(int i = 1; i <= n; ++i) ++pre[1][i], ++pre[m][i];    // 向上下
-        int res = pre[i+1][j+1];
-        for(int k = 2; k <= N; ++k) {
-            for(int x = 1; x <= m; ++x)
-                for(int y = 1; y <= n; ++y) {
+        if (!N) return 0;
+        vector<vector<int>> pre(m + 2, vector<int>(n + 2)), cur(m + 2, vector<int>(n + 2));
+        for (int i = 1; i <= m; ++ i ) ++ pre[i][1], ++ pre[i][n];    // 向左右
+        for (int i = 1; i <= n; ++ i ) ++ pre[1][i], ++ pre[m][i];    // 向上下
+        int res = pre[i + 1][j + 1];
+        for (int k = 2; k <= N; ++ k ) {
+            for (int x = 1; x <= m; ++ x )
+                for (int y = 1; y <= n; ++ y ) {
                     cur[x][y] = 0;
-                    cur[x][y] += pre[x-1][y]; cur[x][y] %= mod;
-                    cur[x][y] += pre[x+1][y]; cur[x][y] %= mod;
-                    cur[x][y] += pre[x][y-1]; cur[x][y] %= mod;
-                    cur[x][y] += pre[x][y+1]; cur[x][y] %= mod;
+                    cur[x][y] += pre[x - 1][y]; cur[x][y] %= mod;
+                    cur[x][y] += pre[x + 1][y]; cur[x][y] %= mod;
+                    cur[x][y] += pre[x][y - 1]; cur[x][y] %= mod;
+                    cur[x][y] += pre[x][y + 1]; cur[x][y] %= mod;
                 }
-            res = res + cur[i+1][j+1];
+            res = res + cur[i + 1][j + 1];
             res %= mod;
             pre = cur;
         }
