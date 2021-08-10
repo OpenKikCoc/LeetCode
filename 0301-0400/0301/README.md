@@ -6,6 +6,11 @@
 
 ## 题解
 
+### 括号匹配问题两个原则
+
+-   左右括号数量相同
+-   对于任意前缀，左括号数量都大于等于右括号数量
+
 风格一致的写法
 
 ```c++
@@ -14,6 +19,8 @@ public:
     vector<string> ans;
 
     vector<string> removeInvalidParentheses(string s) {
+        // l 代表左括号比右括号多的个数(不计要删的右括号)
+        // r 代表需要删除的右括号个数
         int l = 0, r = 0;
         for (auto x: s)
             if (x == '(') l ++ ;
@@ -37,7 +44,7 @@ public:
             int k = u;
             while (k < s.size() && s[k] == '(') k ++ ;
             l -= k - u;
-            // 枚举删除多少个括号字符
+            // 剪枝: 枚举删除多少个括号字符 而非在哪个位置删除
             for (int i = k - u; i >= 0; i -- ) {
                 if (l >= 0) dfs(s, k, path, cnt, l, r);
                 path += '(';
@@ -48,6 +55,7 @@ public:
             while (k < s.size() && s[k] == ')') k ++ ;
             r -= k - u;
             for (int i = k - u; i >= 0; i -- ) {
+                // cnt >= 0 : 必须时刻满足当前已有的左括号数量大于等于右括号数量
                 if (cnt >= 0 && r >= 0) dfs(s, k, path, cnt, l, r);
                 path += ')';
                 cnt --, r ++ ;

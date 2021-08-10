@@ -4,7 +4,7 @@
 
 | Title                                                        | Solution                 | Note                                    | binacs | tracy |
 | ------------------------------------------------------------ | ------------------------ | --------------------------------------- | ------ | ----- |
-| [301. 删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/) | [here](./0301/README.md) | 复杂回溯                                | X      |       |
+| [301. 删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/) | [here](./0301/README.md) | 复杂回溯<br>非常好的题 **重复做**       | X      |       |
 |                                                              | [here](./0302/README.md) |                                         |        |       |
 | [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [here](./0303/README.md) |                                         | X      |       |
 | [304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | [here](./0304/README.md) |                                         | X      |       |
