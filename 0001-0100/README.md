@@ -45,7 +45,7 @@
 | [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/) | [here](./0039/README.md) | 注意：剪枝                                                   | X      | X     |            |
 | [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [here](./0040/README.md) |                                                              | X      | X     |            |
 | [41. 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) | [here](./0041/README.md) | 经典 置换法                                                  | X      |       |            |
-| [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [here](./0042/README.md) | 单调栈<br/>和 [0084.柱状图中最大的矩形同思路](./0084/README.md) 同思路 | X      |       |            |
+| [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [here](./0042/README.md) | 单调栈<br>和 [0084.柱状图中最大的矩形同思路](./0084/README.md) 同思路<br>**以及纵向计算的双指针优化思路** | X      |       |            |
 | [43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [here](./0043/README.md) | 经典乘                                                       | X      | X     | O          |
 | [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [here](./0044/README.md) |                                                              | X      | X     | O          |
 | [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [here](./0045/README.md) | 经典 trick                                                   | X      | X     | O          |

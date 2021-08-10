@@ -54,7 +54,35 @@ public:
 };
 ```
 
+进一步的，前面做法本质是求每行（横向）累积的雨水。
 
+实际上可以通过记录某位置两侧分别最大的高度，来直接累积每列（纵向）累积的雨水。
+
+分别记录的过程可以双指针优化：
+
+```c++
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        int l = 0, r = height.size() - 1;
+        int lmax = 0, rmax = 0, res = 0;
+        while (l < r) {
+            if (height[l] < height[r]) {
+                if (height[l] > lmax)
+                    lmax = height[l ++ ];
+                else
+                    res += lmax - height[l ++ ];
+            } else {
+                if (height[r] > rmax)
+                    rmax = height[r -- ];
+                else
+                    res += rmax - height[r -- ];
+            }
+        }
+        return res;
+    }
+};
+```
 
 
 
