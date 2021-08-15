@@ -30,6 +30,7 @@ public:
         int cnt = n;
         for (int i = 0; i < n * 2; i += 2 ) {
             int a = row[i] / 2, b = row[i + 1] / 2;
+            // 环等价于联通块 找环即找联通块
             if (find(a) != find(b)) {
                 p[find(a)] = find(b);
                 cnt -- ;

@@ -7,6 +7,64 @@
 ## 题解
 
 ```c++
+// 归一后的写法
+class LRUCache {
+public:
+    struct Node {
+        int k, v;
+    };
+
+    int cap;
+    list<Node> cache;
+    unordered_map<int, list<Node>::iterator> hash;
+
+    LRUCache(int capacity) {
+        this->cap = capacity;
+    }
+    
+    Node remove(list<Node>::iterator it) {
+        auto [k, v] = *it;
+        cache.erase(it);
+        hash.erase(k);
+        return {k, v};
+    }
+
+    void insert(int k, int v) {
+        cache.push_front({k, v});
+        hash[k] = cache.begin();
+    }
+
+    int get(int key) {
+        if (hash.find(key) == hash.end())
+            return -1;
+        auto it = hash[key];
+        auto [k, v] = remove(it);
+        insert(k, v);
+        return v;
+    }
+    
+    void put(int key, int value) {
+        if (hash.find(key) == hash.end()) {
+            if (hash.size() == cap) {
+                auto _ = remove( -- cache.end());
+            }
+        } else
+            auto _ = remove(hash[key]);
+        insert(key, value);
+    }
+};
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
+```
+
+
+
+```c++
 class LRUCache {
 public:
     using PII = pair<int, int>;

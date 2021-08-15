@@ -69,6 +69,7 @@ public:
     vector<int> fallingSquares(vector<vector<int>>& pos) {
         for (auto& p: pos) {
             int a = p[0], b = a + p[1];
+            // 对中点离散化 故坐标都*2压入和
             xs.push_back(a * 2), xs.push_back(b * 2), xs.push_back(a + b);
         }
         sort(xs.begin(), xs.end());
@@ -79,6 +80,7 @@ public:
         for (auto& p: pos) {
             int a = p[0], b = a + p[1];
             a = get(a * 2), b = get(b * 2);
+            // 离散化
             int h = query(1, a + 1, b - 1);
             update(1, a, b, h + p[1]);
             res.push_back(tr[1].v);

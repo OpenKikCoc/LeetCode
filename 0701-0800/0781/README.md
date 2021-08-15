@@ -28,6 +28,21 @@ public:
 };
 ```
 
+```c++
+class Solution {
+public:
+    int numRabbits(vector<int>& answers) {
+        unordered_map<int, int> cnt;
+        for (auto x: answers) cnt[x] ++ ;
+        int res = 0;
+        for (auto [k, v]: cnt)
+            // 【v / (k + 1) 向上取整】个组
+            res += (v + k) / (k + 1) * (k + 1);
+        return res;
+    }
+};
+```
+
 
 
 ```python3

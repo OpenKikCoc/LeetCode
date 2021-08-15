@@ -9,6 +9,76 @@
 
 
 ```c++
+// 与lru风格一致的写法
+class LFUCache {
+public:
+    struct Node {
+        int k, v, c;
+    };
+
+    int cap;
+    int min_c;
+    unordered_map<int, list<Node>> cache;
+    unordered_map<int, list<Node>::iterator> hash;
+
+    Node remove(list<Node>::iterator it) {
+        auto [k, v, c] = *it;
+        cache[c].erase(it);
+        if (cache[c].size() == 0) {
+            cache.erase(c);
+            if (min_c == c)
+                min_c ++ ;
+        }
+        hash.erase(k);
+        return {k, v, c};
+    }
+
+    void insert(int k, int v, int c) {
+        cache[c].push_front({k, v, c});
+        hash[k] = cache[c].begin();
+    }
+
+    LFUCache(int capacity) {
+        this->cap = capacity;
+        this->min_c = 0;
+    }
+    
+    int get(int key) {
+        if (hash.find(key) == hash.end())
+            return -1;
+        auto it = hash[key];
+        auto [k, v, c] = remove(it);
+        insert(k, v, c + 1);
+        return v;
+    }
+    
+    void put(int key, int value) {
+        if (cap == 0) return;
+        int ori_cnt = 0;
+        if (hash.find(key) == hash.end()) {
+            if (hash.size() == cap)
+                auto _ = remove( -- cache[min_c].end());
+        } else {
+            auto [_k, _v, _c] = remove(hash[key]);
+            ori_cnt = _c;
+        }
+        if (ori_cnt == 0)
+            min_c = 1;
+        insert(key, value, ori_cnt + 1);
+    }
+};
+
+/**
+ * Your LFUCache object will be instantiated and called as such:
+ * LFUCache* obj = new LFUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
+```
+
+
+
+```c++
 // 网络很多做法并不是 O1
 
 class LFUCache {

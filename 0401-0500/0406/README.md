@@ -60,6 +60,8 @@ public:
             int l = 1, r = n;
             while (l < r) {
                 int mid = l + r >> 1;
+                // mid - query(mid)
+                // 位置总长减去此前较低的，即是将来会放较高的数量
                 if (mid - query(mid) >= k + 1) r = mid;
                 else l = mid + 1;
             }
