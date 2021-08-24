@@ -6,6 +6,26 @@
 
 ## 题解
 
+[espressif-2021](../../Contest/2021-08-21_espressif-2021/README.md) 学到的新思路
+
+>   思考 0
+
+```c++
+class Solution {
+public:
+    using LL = long long;
+    int findNthDigit(int n) {
+        LL k = n;
+        for (LL i = 1; ; ++ i )
+            if (i * pow(10, i) > k)
+                return to_string(k / i)[k % i] - '0';
+            else
+                k += pow(10, i);
+        return -1;
+    }
+};
+```
+
 
 
 ```c++
