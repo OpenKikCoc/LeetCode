@@ -38,7 +38,7 @@ class Solution:
 
         cnt = 0
         if n < 0:
-            n = n & 0xffffffff
+            n = n & (1 << 32 - 1)
         while n:
             n -= lowbit(n)
             cnt += 1

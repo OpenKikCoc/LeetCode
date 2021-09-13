@@ -67,6 +67,13 @@ public:
 
 
 ```python
+"""
+这道题中 k 可能很大，所以我们令 k=k%n，n是链表长度。
+1. 创建两个指针first, second，分别指向头结点
+2. 先让first向后移动 k 个位置，然后first和second同时向后移动，直到first走到链表最后一个元素。
+3. 此时first指向链表末尾，second指向分界点。然后我们把链表从分界点处断开，然后把后半段接在前半段前面即可。
+
+"""
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if not head:return 

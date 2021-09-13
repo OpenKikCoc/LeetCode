@@ -57,6 +57,8 @@ public:
 
 
 ```python
+# DFS：子集问题，是属于 【不区分顺序】，而全排列这类题都是区分顺序的题
+
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         if not nums:return []

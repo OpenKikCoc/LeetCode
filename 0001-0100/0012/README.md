@@ -28,6 +28,9 @@ public:
 
 
 ```python
+# 使用字典，记录每个数值 对应的 字符，并且是把大数值写在前面
+# 对于 num, 遍历字典的 key, 看当前数是否大于这个key
+
 class Solution:
     def intToRoman(self, num: int) -> str:
         my_dict ={1000: 'M', 900:'CM', 500: 'D', 400: 'CD', 100: 'C', 90: 'XC', 50: 'L', 40: 'XL', 10: 'X', 9: 'IX', 5: 'V', 4: 'IV', 1: 'I' }  # 使用哈希表，按照从大到小顺序排列

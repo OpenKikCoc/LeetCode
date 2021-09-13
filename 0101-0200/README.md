@@ -35,8 +35,8 @@
 | [129. 求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [here](./0129/README.md) |                             | X      | X     |
 | [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [here](./0130/README.md) |                             | X      | X     |
 | [131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | [here](./0131/README.md) |                             | X      | X     |
-| [132. 分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | [here](./0132/README.md) |                             | X      |       |
-| [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/) | [here](./0133/README.md) | 细节 trick                  | X      |       |
+| [132. 分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | [here](./0132/README.md) |                             | X      | X     |
+| [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/) | [here](./0133/README.md) | 细节 trick                  | X      | X     |
 | [134. 加油站](https://leetcode-cn.com/problems/gas-station/) | [here](./0134/README.md) | 线性做法                    | X      | X     |
 | [135. 分发糖果](https://leetcode-cn.com/problems/candy/)     | [here](./0135/README.md) | 线性做法 & 记忆化dp         | X      |       |
 | [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [here](./0136/README.md) |                             | X      | X     |

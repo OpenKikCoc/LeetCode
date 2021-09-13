@@ -41,7 +41,31 @@ public:
 
 
 
-```python3
+```python
+"""
+1. 将 Largest Rectangle in Histogram 问题扩展到二维。
+2. 一行一行考虑，类比 Largest Rectangle in Histogram，一行内所有柱形条的高度 heights 就是当前 (i, j) 位置能往上延伸的最大高度。
+3. 直接套用 Largest Rectangle in Histogram 的单调栈算法即可。
 
+枚举每一行的时间复杂度是 O(n)O(n)，行内单调栈的时间复杂度是 O(m)O(m)，故总时间复杂度为 $O(nm)
+"""
+class Solution:
+    def maximalRectangle(self, matrix: List[List[str]]) -> int:
+        # the same as 84.
+        if not matrix or not matrix[0]: return 0
+        res, n = 0, len(matrix[0])
+        heights = [0] * (n + 1)
+        for row in matrix:
+            for i in range(n):
+                if row[i] == "1":
+                    heights[i] += 1
+                else:
+                    heights[i] = 0
+            stack = [-1]
+            for i in range(len(heights)):
+                while stack and heights[i] < heights[stack[-1]]:
+                    res = max(res, heights[stack.pop()] * (i - stack[-1] - 1)) # height x width
+                stack.append(i)
+        return res
 ```
 

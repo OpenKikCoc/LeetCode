@@ -47,6 +47,7 @@ public:
 # 1. 用两个变量记录第一行和第一列是否有0
 # 2. 遍历整个矩阵，用矩阵的第一行和第一列记录
 # 3. 把含有0的行和列都置为0
+
 class Solution:
     def setZeroes(self, arr: List[List[int]]) -> None:
         n, m = len(arr), len(arr[0])

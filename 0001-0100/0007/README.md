@@ -27,6 +27,21 @@ public:
 
 
 ```python
+# 推荐以下写法，直接按照每一位来进行反转，依次把 x 的低位放到 res 的高位
+
+class Solution:
+    def reverse(self, x: int) -> int:
+        sign = 1  # 用sign标记这是个负数 还是个正数，可以省好几行代码
+        if x < 0 : sign = -1
+        x = x * sign
+
+        n = 0
+        while x :
+            n = n * 10 + x % 10
+            x //= 10
+
+        return n * sign if n < 2 ** 31 else 0
+      
 # 这种方法太复杂了...非常不推荐
 class Solution:
     def reverse(self, x: int) -> int:
@@ -52,20 +67,6 @@ class Solution:
             s = tmp[:-1].lstrip('0') + tmp[-1]
         if int(s) > (1 << 31) - 1 or int(s) < - ((1 << 31) - 1):return 0
         return int(s)
-      
-# 推荐以下写法，直接按照每一位来进行反转
-class Solution:
-    def reverse(self, x: int) -> int:
-        sign = 1  # 用sign标记这是个负数 还是个正数，可以省好几行代码
-        if x < 0 : sign = -1
-        x = x * sign
-
-        n = 0
-        while x :
-            n = n * 10 + x % 10
-            x //= 10
-
-        return n * sign if n < 2 ** 31 else 0
 
 ```
 

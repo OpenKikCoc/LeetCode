@@ -85,8 +85,29 @@ class Solution:
         return dummy.next
       
 # 法二：
+"""
+为了方便处理边界情况，我们定义一个虚拟元素 dummy 指向链表头节点。
+然后从前往后扫描整个链表，每次扫描元素相同的一段，如果这段中的元素个数多于1个，则将整段元素直接删除。
 
-
+时间复杂度分析：整个链表只扫描一遍，所以时间复杂度是 O(n。
+"""
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode* p = dummy;
+        while (p->next)
+        {
+            ListNode* q = p->next;
+            while (q && q->val == p->next->val)
+                q = q->next;
+            if (p->next->next == q) p = p->next;
+            else p->next = q;
+        }
+        return dummy->next;
+    }
+};
 
 
 ```

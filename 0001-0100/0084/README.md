@@ -75,7 +75,41 @@ public:
 
 
 
-```python3
+```python
+#方法：枚举所有柱形的上边界，作为整个矩形的上边界。
+#然后找出左右边界：1. 找出左边离它最近的并且比它小的柱形；2.找出右边离它最近并且比它小的柱形。
+#这就是要找“在一个数组中，每个数的左边第一个比它小/大的数”，于是可以想到用单调栈来解决这类问题。
 
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int:
+        n=len(heights)
+        left,right=[0]*n,[0]*n
+        #栈里保存的是元素下标
+        stack=[]
+        res=0
+        for i in range(n):
+            while stack and heights[stack[-1]]>=heights[i]:
+                stack.pop()
+            if not stack:
+                left[i]=-1
+            else:
+                left[i]=stack[-1]
+            stack.append(i)
+        while len(stack) > 0: stack.pop() # 先清空单调栈
+        #stack.clear()
+        for i in range(n-1,-1,-1):
+            while stack and heights[stack[-1]]>=heights[i]:
+                stack.pop()
+            if not stack:
+                #右边界的下一个位置    
+                right[i]=n
+            else:
+                right[i]=stack[-1]
+            stack.append(i)
+        #更新答案：
+        for i in range(n):
+            res=max(res,heights[i]*(right[i]-left[i]-1))
+        return res
+      
 ```
 

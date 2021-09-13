@@ -58,6 +58,12 @@ public:
 
 
 ```python
+"""
+状态定义：dp[i][j]表示从(0,0)走到(i,j)的路径数
+状态转移方程：dp[i][j] = dp[i][j-1]+dp[i-1][j]
+初始状态：dp[0][i] = 1,dp[i][0] = 1
+"""
+
 # 统一写法：
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:

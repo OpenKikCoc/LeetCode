@@ -52,15 +52,19 @@ public:
 ```python
 # 把左括号 都加入到stack中，当来了右括号时，右括号的对应值 与 栈顶元素对比：如果相同 就继续对比
 # 如果不同，就直接return False 
+# 如果栈为空，但此时来了一个 左括号，那可以直接返回 False
+
 class Solution:
     def isValid(self, s: str) -> bool:
         my_dict = {")":"(", "}":"{", "]":"["}
         stack = []
         for c in s:
-            if c not in my_dict:   # 把左括号 都加入到栈中
+            if c not in my_dict:   
                 stack.append(c)
-            elif not stack or my_dict[c] != stack.pop(): # ！！踩坑：需要先判断stack不为空；并且逻辑符号是 or （就是如果栈为空了，还有右括号来的话，那就可以直接return False了）
+            # ！！踩坑：需要先判断stack不为空；并且逻辑符号是 or （就是如果栈为空了，还有右括号来的话，那就可以直接return False了）
+            elif not stack or my_dict[c] != stack.pop(): 
                 return False 
-        return not stack  # 踩坑！！！最后要判断栈是否为空，栈为空的时候 才能返回True 存在可能还有左扩号没有被匹配完的情况
+         # 踩坑！最后要判断栈是否为空，栈为空的时候 才能返回True 存在可能还有左扩号没有被匹配完的情况
+        return not stack 
 ```
 

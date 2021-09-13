@@ -42,6 +42,23 @@ public:
 # 定义映射，将单一字母映射到数字。
 # 从前往后扫描，如果发现 s[i+1] 的数字比 s[i] 的数字大，res减去当前数；否则直接累计 s[i] 的值。
 # 最后一个数字一定是加上去的，所以第一个if判断里 要加一个条件 i + 1 < n
+
+
+# 更好理解的写法：最后一个数单独拎出来，因为最后一个数字总是要加上去的
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        my_dict = {'I':1, 'V': 5, 'X' :10, 'L' :50, 'C' : 100, 'D':500, 'M':1000}
+        n = len(s)
+        res = 0
+        for i in range(n-1):
+            if my_dict[s[i]] < my_dict[s[i+1]]:
+                res -= my_dict[s[i]]
+            else:
+                res += my_dict[s[i]]
+        res += my_dict[s[n-1]]
+        return res
+
+
 class Solution:
     def romanToInt(self, s: str) -> int:
         my_dict = {'I' : 1, 'V' : 5, 'X' : 10, 'L' : 50, 'C' : 100, 'D' : 500, 'M' : 1000}

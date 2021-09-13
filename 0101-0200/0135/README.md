@@ -61,6 +61,27 @@ public:
 
 ```python
 # 和滑雪的题 类似：记忆化搜索
+"""
+(前向扫描+后向扫描) O(n)
+1.初始化一个糖果列表，给每个孩子初始化1个糖果；
+2.从左往右，如果当前的孩子比左边孩子优秀，他的糖果比前面的多1；
+3.从右往左，如果当前孩子比右边孩子优秀，他的糖果比右边至少多1.
+4.对糖果列表求和。
+"""
 
+class Solution:
+    def candy(self, ratings: List[int]) -> int:
+        n = len(ratings)
+        if n == 0: return 0
+        res = [1] * n
+
+        for i in range(1, n):
+            if ratings[i] > ratings[i-1]:
+                res[i] = res[i-1] + 1
+        for i in range(n-2, -1, -1):
+            if ratings[i]>ratings[i+1]:
+                res[i] = max(res[i],res[i+1]+1)
+
+        return sum(res)
 ```
 

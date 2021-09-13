@@ -51,11 +51,17 @@ public:
 
 
 ```python
+"""
+模拟人工加法的过程。
+1. 从低位到高位，依次计算出每一位数字，过程中需要记录进位。
+2. 如果最高位进位是1，则需要将整个数组后移一位，并在第0个位置写上1。
+【时间复杂度分析：整个数组只遍历了一遍，所以时间复杂度是 O(n)。】
+"""
 class Solution:
     def plusOne(self, nums: List[int]) -> List[int]:
         n = len(nums)
         nums[n-1] += 1
-        res = [];t = 0;i = n - 1
+        res, t, i = [], 0,  n - 1
         while i >= 0 or t:
             if i >= 0:
                 t = t + nums[i]

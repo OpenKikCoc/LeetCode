@@ -32,6 +32,11 @@ public:
 
 
 ```python
+"""
+二分法：
+当前数的平方都小于或者等于目标值时，就全部舍弃（因为我们要找的是第一个大于target的整数）
+最后return的答案是，第一个大于target的整数减去1 即可。 
+"""
 class Solution:
     def mySqrt(self, x: int) -> int:
       	if x == 0 or x == 1:return x   # 特殊case判断

@@ -42,18 +42,23 @@ public:
 
 
 ```python
+# 用两个指针 + 一个虚拟头节点
+# 遍历两个指针，存在的话就是节点的值，不存在的话，值就为0
+
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummy = ListNode(None)
         p = dummy
         t = 0
-        while l1 or l2 or t:  # 踩坑2:记得把t加上，因为最后可能两条链表都遍历完了，但正好还有一个进位
+        # 踩坑:记得把t加上，因为最后可能两条链表都遍历完了，但正好还有一个进位
+        while l1 or l2 or t:  
             a = l1.val if l1 else 0
             b = l2.val if l2 else 0 
-            p.next = ListNode((a + b + t) % 10)
+            p.next = ListNode((a + b + t) % 10
             p = p.next
             t = (a + b + t) //10
-            l1 = l1.next if l1 else None  # 踩坑，这里需要判断一下l1.next是否存在，不然会报错l1没有next元素。如果直接写l1 = l1.nexr
+             # 踩坑，这里需要判断一下l1.next是否存在，不然会报错 : l1可能没有next元素。
+            l1 = l1.next if l1 else None 
             l2 = l2.next if l2 else None 
         return dummy.next
 ```

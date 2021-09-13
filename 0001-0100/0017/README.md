@@ -38,6 +38,11 @@ public:
 
 
 ```python
+# dfs
+# 用字典记录 数字 对应的 字母选项
+# 然后 dfs 记录当前遍历到第几个数字字符 以及 当前的path 
+# dfs 返回的条件是：当前数字字符被遍历完了，就把 path 加入到 res中
+
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         n = len(digits)
@@ -47,10 +52,11 @@ class Solution:
         res = []
         def dfs(u, path):
             if u == n:
-                res.append(path)  # 字符串是不可变类型，不会把这次递归的结果返回给上一次，所以不需要pop，也不需要path[:]
+                res.append(path)  
+                # 一定要写 return 
                 return 
             for c in my_dic[digits[u]]:
-                dfs(u + 1, path + c) # 字符串不能写成：path.append(c) or path.add(c) 
+                dfs(u + 1, path + c) 
 
         dfs(0, '')
         return res

@@ -87,7 +87,7 @@ public:
 # 1. 先暴力判断是否有k个节点；2. 内部交换，最后再换头尾
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
-        dummy = ListNode(0)
+        dummy = ListNode(-1)
         dummy.next = head 
         pre = dummy
         while pre:

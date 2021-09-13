@@ -63,6 +63,7 @@ public:
 
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
+        # res 初始化一个很大的值
         res = float('inf')
         n = len(nums)
         nums.sort()

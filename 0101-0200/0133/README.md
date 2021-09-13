@@ -81,7 +81,31 @@ public:
 ```
 
 
-```python3
+```python
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val = 0, neighbors = None):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+"""
 
+# 递归地访问(复制)邻居节点，用一个map来存储节点访问情况
+class Solution:
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        my_dict = dict()
+        if not node:return None
+
+        def dfs(node):
+            my_dict[node]=Node(node.val)
+            for ver in node.neighbors:
+                if ver not in my_dict:
+                    dfs(ver)
+
+        dfs(node)
+        for k,v in my_dict.items():
+            for ver in k.neighbors:
+                v.neighbors.append(my_dict[ver])
+        return my_dict[node]
 ```
 

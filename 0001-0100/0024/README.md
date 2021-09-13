@@ -81,15 +81,23 @@ public:
 
 
 ```python
+# 添加虚拟头结点 dummy。定义 pre 指针初始指向 dummy。
+# 定义 cur 指向 head, 若 cur 或 cur.next 为空，则终止循环。
+# 按照一定的次序，修改 pNe 和 cur 的 next 指针，具体参见代码。
+
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         dummy = ListNode(None)
         pre = dummy
+        # 踩坑！初始化pre.next = head， 可以覆盖到一些特殊case:[], [1]
         pre.next = head
         cur = head 
-        while cur and cur.next:  # 踩坑！ 这里要加上 判断cur.next 
-            pNe = cur.next   # 不然一进来，可能pNe就是None， 
-            cur.next = pNe.next   # 就会导致pNe没有next, 而报错
+        # 踩坑！ 这里要加上 判断cur.next 
+        while cur and cur.next:  
+            # 不然一进来，可能pNe就是None，
+            pNe = cur.next    
+            # 就会导致pNe没有next, 而报错
+            cur.next = pNe.next   
             pNe.next = cur 
             pre.next = pNe
             pre, cur = cur, cur.next

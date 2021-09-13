@@ -29,6 +29,19 @@ public:
 
 
 ```python
+"""
+经典的编辑距离问题。
+状态表示：f[i,j] 表示将 word1 的前 i 个字符变成 word2 的前 j 个字符，最少需要进行多少次操作。
+状态转移，一共有四种情况（假定word的下标从1开始）：
+
+1. 将 word1[i] 删除或在 word2[j] 后面添加 word1[i]，则其操作次数等于 f[i−1,j]+1；
+2. 将 word2[j] 删除或在 word1[i] 后面添加 word2[j]，则其操作次数等于 f[i,j−1]+1；
+3. 如果 word1[i]=word2[j]，则其操作次数等于 f[i−1,j−1]；
+4. 如果 word1[i]≠word2[j]，则其操作次数等于 f[i−1,j−1]+1；
+时间复杂度分析：状态数 O(n2)，状态转移复杂度是 O(1)，所以总时间复杂度是 O(n2)。
+
+"""
+
 class Solution:
     def minDistance(self, s1: str, s2: str) -> int:
         n, m = len(s1), len(s2)

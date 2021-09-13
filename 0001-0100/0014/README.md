@@ -55,14 +55,15 @@ public:
 
 class Solution:
     def longestCommonPrefix(self, s: List[str]) -> str:
-        if not s:return ""
         s.sort()
-        n = len(s)
-        a, b = s[0], s[n-1]
-        res = ""
-        for i in range(len(a)):
-            if i < len(b) and a[i] == b[i]:
-                res += a[i]
+        res = ''
+        s1, s2 = s[0], s[-1]
+        p1, p2 = 0, 0 
+        while p1 < len(s1) and p2 < len(s2):
+            if s1[p1] == s2[p2]:
+                res += s1[p1]
+                p1 += 1
+                p2 += 1
             else:
                 break
         return res

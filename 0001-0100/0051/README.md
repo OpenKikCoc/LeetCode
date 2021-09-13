@@ -55,13 +55,15 @@ public:
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         res = []
-        path = [["."]*n for i in range(n)]
-        col = [False]*n 
-        dg = [False]*2*n 
-        udg = [False]*2*n 
+        path = [["."] * n for _ in range(n)]
+        col = [False] * n 
+        dg = [False] * 2 * n 
+        udg = [False] * 2 * n 
 
         def dfs(u):
-            if u == n:  #搜到最后一行的 下一个位置（行）
+           #搜到最后一行的 下一个位置（行）
+            if u == n: 
+                # 把每一行都转换拼接为一个字符串
                 res.append(["".join(path[i]) for i in range(n)])
                 return
             

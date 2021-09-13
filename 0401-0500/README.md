@@ -38,20 +38,20 @@
 | [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/) | [here](./0432/README.md) | 经典 设计题<br>重复                                          | X      |       |
 | [433. 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/) | [here](./0433/README.md) |                                                              | X      |       |
 | [434. 字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | [here](./0434/README.md) |                                                              | X      |       |
-| [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | [here](./0435/README.md) | 按右端点排序                                                 | X      |       |
+| [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | [here](./0435/README.md) | 按右端点排序                                                 | X      | X     |
 | [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | [here](./0436/README.md) |                                                              | X      |       |
 | [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) | [here](./0437/README.md) |                                                              | X      |       |
 | [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [here](./0438/README.md) | 经典 滑动窗口                                                | X      |       |
 |                                                              | [here](./0439/README.md) |                                                              |        |       |
 | [440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/) | [here](./0440/README.md) | 计数 dp 经典<br>重复                                         | X      |       |
 | [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | [here](./0441/README.md) |                                                              | X      |       |
-| [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | [here](./0442/README.md) | 经典 原地置换的思路                                          | X      |       |
+| [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | [here](./0442/README.md) | 经典 原地置换的思路                                          | X      | X     |
 | [443. 压缩字符串](https://leetcode-cn.com/problems/string-compression/) | [here](./0443/README.md) |                                                              | X      |       |
 |                                                              | [here](./0444/README.md) |                                                              |        |       |
 | [445. 两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) | [here](./0445/README.md) | 翻转 类高精度加即可                                          | X      |       |
 | [446. 等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | [here](./0446/README.md) | 经典 定义转化与计数方法<br>重复                              | X      |       |
 | [447. 回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) | [here](./0447/README.md) |                                                              | X      |       |
-| [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [here](./0448/README.md) | 同442 原地置换                                               | X      |       |
+| [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [here](./0448/README.md) | 同442 原地置换                                               | X      | X     |
 | [449. 序列化和反序列化二叉搜索树](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | [here](./0449/README.md) | 经典 重复                                                    | X      |       |
 | [450. 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [here](./0450/README.md) | 删除某值变为删除其子的某值<br>找后继 转换 重复               | X      |       |
 | [451. 根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | [here](./0451/README.md) |                                                              | X      |       |

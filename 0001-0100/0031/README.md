@@ -35,22 +35,28 @@ public:
 # 答题思路：从后往前寻找第一个升序对(i,j)即nums[i]<nums[j] 再从后往前找第一个大于nums[i]的数即为大数，交换着两个元素即将大数换到前面，然后将大数后面的部分倒序
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
-        def reverse(i, j):
+        def reversed(i, j):
             while i < j:
-                nums[i],nums[j] = nums[j], nums[i]
+                nums[i], nums[j] = nums[j], nums[i]
                 i += 1
                 j -= 1
 
         n = len(nums)
-        if n < 2:return nums
         i = n - 1
-        while i > 0 and nums[i-1] >= nums[i]:
+        
+        # 踩坑！ 一定要记得 当nums[i] > nums[i-1]的时候 要跳出循环 有一种写法很容易进入死循话
+        # while i > 0:
+        #      if nums[i] <= nums[i-1]:
+        #              i -= 1
+        
+        while i > 0 and nums[i] <= nums[i-1]:    
             i -= 1
         if i == 0:return nums.reverse()
-        j = n - 1
-        while j > i-1 and nums[j] <= nums[i-1]:
-            j -= 1
-        nums[j],nums[i-1]=nums[i-1],nums[j]
-        reverse(i, n-1)
+        j = i - 1
+        p = n - 1
+        while p > j and nums[p] <= nums[j]:
+            p -= 1
+        nums[j], nums[p] = nums[p], nums[j]
+        reversed(j+1, n-1)
 ```
 

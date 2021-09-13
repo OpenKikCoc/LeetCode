@@ -40,6 +40,7 @@ public:
 
 ```python
 # 删除的点可能是head节点，所以一定要用dummy方便处理头节点被删的情况
+
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         dummy = ListNode(None)

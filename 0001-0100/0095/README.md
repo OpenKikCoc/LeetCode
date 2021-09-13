@@ -55,6 +55,7 @@ public:
 # 1. 对于每段连续的序列 l, l+1,...,r, 枚举二叉搜索树根节点的位置
 # 2. 分别递归求出左右子树的所有方案
 # 3. 左子树的任意一种方案和右子树的任意一种方案拼在一起，可以得到当前节点的一种方案，所以将左右子树的所有方案两两组和，并记录到答案中
+
 class Solution:
     def generateTrees(self, n: int) -> List[TreeNode]:
         if not n:return []

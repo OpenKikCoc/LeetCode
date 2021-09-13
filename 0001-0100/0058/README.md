@@ -56,17 +56,27 @@ public:
 
 
 ```python
+# 双指针
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        s = s.strip()
+        n = len(s)
+        p1 = p2 = n-1
+        while p1 >= 0 and s[p1] != ' ':
+                p1 -= 1
+        return p2 - p1
+
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         s = s.strip(' ')
         if not s:return 0 # 踩坑： 判断 去掉后面的空格后，是否为空字符串
         res = 0
         for i in range(len(s)-1, -1, -1):
-            print(s[i])
             if s[i] != ' ':
                 res += 1
             else:break
         return res
+  
       
       
 class Solution:

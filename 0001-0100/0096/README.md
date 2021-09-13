@@ -52,7 +52,22 @@ public:
 
 
 
-```python3
+```python
+"""
+(动态规划) O(n2)
+状态表示：f[n] 表示 n个节点的二叉搜索树共有多少种。
+状态转移：左子树可以有 0,1,…n−1 个节点，对应的右子树有 n−1,n−2,…,0 个节点，f[n] 是所有这些情况的加和，所以 f[n]=∑n−1k=0 f[k]∗f[n−1−k]
 
+时间复杂度分析：状态总共有 nn 个，状态转移的复杂度是 O(n)，所以总时间复杂度是 O(n2)。
+"""
+
+class Solution:
+    def numTrees(self, n: int) -> int:
+        f = [0] * (n + 1)
+        f[0] = 1
+        for i in range(1, n + 1):
+            for j in range(1, i + 1):
+                f[i] += f[j - 1] * f[i - j]
+        return f[-1]
 ```
 
