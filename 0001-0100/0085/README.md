@@ -47,7 +47,7 @@ public:
 2. 一行一行考虑，类比 Largest Rectangle in Histogram，一行内所有柱形条的高度 heights 就是当前 (i, j) 位置能往上延伸的最大高度。
 3. 直接套用 Largest Rectangle in Histogram 的单调栈算法即可。
 
-枚举每一行的时间复杂度是 O(n)O(n)，行内单调栈的时间复杂度是 O(m)O(m)，故总时间复杂度为 $O(nm)
+枚举每一行的时间复杂度是 O(n)，行内单调栈的时间复杂度是 O(m)，故总时间复杂度为 $O(nm)
 """
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:

@@ -70,7 +70,28 @@ public:
 
 
 
-```python3
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def binaryTreePaths(self, root: TreeNode) -> List[str]:
+        if not root:return []
+        res = []
 
+        def dfs(u, path):
+            if not u:return
+            path.append(str(u.val))  # 注意输出，这里要改成str
+            if not u.left and not u.right:
+                res.append(path[:])
+            dfs(u.left, path)
+            dfs(u.right, path)
+            path.pop()
+
+        dfs(root,[])
+        return ["->".join(a) for a in res]  
 ```
 

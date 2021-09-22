@@ -28,7 +28,17 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def countPrimes(self, n: int) -> int:
+        isPrimes = [1] * n
+        res = 0
+        for i in range(2, n):
+            if isPrimes[i] == 1: res += 1
+            j = i
+            while i * j < n:
+                isPrimes[i * j] = 0
+                j += 1
+        return res
 ```
 

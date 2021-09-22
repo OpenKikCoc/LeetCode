@@ -210,3 +210,34 @@ int main() {
 }
 ```
 
+
+
+```python
+class Solution:
+    def countDigitOne(self, n: int) -> int:
+        nums = []
+        while n:
+            nums.append(n % 10)
+            n //= 10 
+        n = len(nums)
+        res = 0
+
+        for i in range(n - 1, -1, -1):
+            l, r, t = 0, 0, 1
+            for j in range(n - 1, i, -1):
+                l = l * 10 + nums[j]
+            for j in range(i - 1, -1, -1):
+                r = r * 10 + nums[j]
+                t *= 10 
+
+        
+            res += l * t
+            if nums[i] ==  1:
+                res += (r + 1)
+            elif nums[i] > 1:
+                res += t
+        return res
+
+
+```
+

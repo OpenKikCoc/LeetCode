@@ -63,5 +63,20 @@ class Solution:
                     matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j] 
         for row in matrix:
             row.reverse()
+            
+"""
+一次遍历，找规律：有四个数一起变化
+"""
+
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        n = len(matrix)
+        for i in range(n // 2):
+            for j in range(i, n - i - 1):
+                x1, y1 = i, j
+                x2, y2 = j, n - i - 1
+                x3, y3 = n - i - 1, n - j - 1
+                x4, y4 = n - j - 1, i 
+                matrix[x1][y1], matrix[x2][y2], matrix[x3][y3], matrix[x4][y4] = matrix[x4][y4], matrix[x1][y1], matrix[x2][y2], matrix[x3][y3]
 ```
 

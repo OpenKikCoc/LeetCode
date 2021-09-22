@@ -70,7 +70,33 @@ public:
 
 
 
-```python3
+```python
+class MyQueue:
 
+    def __init__(self):
+        self.A = []
+        self.B = []
+
+
+    def push(self, x: int) -> None:
+        while self.B:
+            self.A.append(self.B.pop())
+        self.A.append(x)
+
+
+    def pop(self) -> int:
+        while self.A:
+            self.B.append(self.A.pop())
+        return self.B.pop()
+
+
+    def peek(self) -> int:
+        while self.A:
+            self.B.append(self.A.pop())
+        return self.B[-1]
+
+
+    def empty(self) -> bool:
+        return not self.A and not self.B
 ```
 

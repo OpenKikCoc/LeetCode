@@ -35,7 +35,38 @@ public:
 
 
 
-```python3
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+
+#暴力解法：
+# class Solution:
+#     def countNodes(self, root: TreeNode) -> int:
+#         if not root:return 0
+#         return 1+self.countNodes(root.left)+self.countNodes(root.right)
+
+
+        
+
+class Solution:
+    def countNodes(self, root: TreeNode) -> int:
+        if not root:return 0
+        l,r=root.left,root.right
+        x,y=1,1
+        while l:
+            l=l.left
+            x+=1
+        while r:
+            r=r.right
+            y+=1
+        if x==y:
+            return pow(2,x)-1
+        return self.countNodes(root.left)+1+self.countNodes(root.right)
 
 ```
 

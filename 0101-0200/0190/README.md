@@ -23,7 +23,7 @@ public:
 
 
 ```python
-# 使用位运算 n >> i & 1 可以取出 nn 的第 i 位二进制数。我们从小到大依次取出 n 的所有二进制位，然后逆序累加到另一个无符号整数中。
+# 使用位运算 n >> i & 1 可以取出 n 的第 i 位二进制数。我们从小到大依次取出 n 的所有二进制位，然后逆序累加到另一个无符号整数中。
 class Solution:
     def reverseBits(self, n: int) -> int:
         res = 0

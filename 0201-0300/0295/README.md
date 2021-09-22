@@ -73,7 +73,39 @@ public:
 
 
 
-```python3
+```python
+class MedianFinder:
 
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.minh = []
+        self.maxh = []
+
+
+    def addNum(self, num: int) -> None:
+        heapq.heappush(self.maxh, -num)
+        if self.minh and self.minh[0] < - self.maxh[0]:
+            minv = heapq.heappop(self.minh)
+            maxv = - heapq.heappop(self.maxh)
+            heapq.heappush(self.maxh, -minv)
+            heapq.heappush(self.minh, maxv)
+        if len(self.maxh) > len(self.minh) + 1:
+            heapq.heappush(self.minh, -heapq.heappop(self.maxh))
+
+
+    def findMedian(self) -> float:
+        if len(self.maxh) + len(self.minh) & 1:
+            return -self.maxh[0]
+        else:
+            return (-self.maxh[0] + self.minh[0]) / 2
+
+
+
+# Your MedianFinder object will be instantiated and called as such:
+# obj = MedianFinder()
+# obj.addNum(num)
+# param_2 = obj.findMedian()
 ```
 

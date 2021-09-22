@@ -111,5 +111,26 @@ class Solution:
             res=max(res,heights[i]*(right[i]-left[i]-1))
         return res
       
+"""
+和 接雨水 类似；维护 单调递增栈，找到左右两边 第一个 比当前数 小
+
+"""
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int:
+        # 尾部追加一个0 保证最终可以将栈排空（不会有遗漏某些情况的可能）
+        heights.append(0)
+        n = len(heights)
+        res = 0
+        stack = []  # 维护一个单调递增栈
+        for i in range(n):
+            while stack and heights[stack[-1]] > heights[i]:
+                t = stack[-1]
+                stack.pop()
+                if not stack:
+                    res = max(res, heights[t] * (i - (-1) - 1))
+                else:
+                    res = max(res, heights[t] * (i - stack[-1] - 1))
+            stack.append(i)
+        return res
 ```
 

@@ -66,7 +66,19 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        l,r = 1, len(nums)-1
+        while l <r :
+            m = l + (r - l) // 2
+            cnt = 0
+            for num in nums:
+                if num <= m:
+                    cnt += 1
+            if cnt <= m:
+                l = m + 1
+            else:r = m
+        return l
 ```
 

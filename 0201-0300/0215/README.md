@@ -80,7 +80,32 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def findKthLargest(self, arr: List[int], k: int) -> int:
+        def partition(l, r):
+            x = random.randint(l, r)
+            arr[x], arr[r] = arr[r], arr[x]
+            less, more = l - 1, r 
+            while l < more:
+                if arr[l] < arr[r]:
+                    less += 1
+                    arr[l], arr[less] = arr[less], arr[l]
+                    l += 1
+                elif arr[l] > arr[r]:
+                    more -= 1
+                    arr[l], arr[more] = arr[more], arr[l]
+                else:l += 1
+            arr[more], arr[r] = arr[r], arr[more]
+            return less+1 # 返回的这个位置，是这个数的位置一定是确定好的，比这个数小的都在左边，大于或者等于的都在右边
 
+        n = len(arr)
+        l, r = 0, n - 1
+        while l < r:
+            q = partition(l, r)
+            if q < n - k:
+                l = q + 1
+            else:r = q 
+        return arr[l]  # 跳出循环 推出的时候 一定是 l == r == n -k
 ```
 

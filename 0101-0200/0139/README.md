@@ -61,6 +61,7 @@ public:
 
 ```python
 # f[i] 表示s[0:i]能否被break； f[1] 表示s[0]单独一个字母是可以被break的
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)

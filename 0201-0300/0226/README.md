@@ -31,7 +31,11 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root:return 
+        root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
+        return root
 ```
 

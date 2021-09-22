@@ -55,7 +55,20 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def removeElements(self, head: ListNode, val: int) -> ListNode:
+        dummy=ListNode(None)
+        dummy.next=head
+        pre=dummy
+        cur=pre.next
+        while cur:
+            if cur.val==val:
+                pre.next=cur.next
+                cur=pre.next
+            else:
+                cur=cur.next
+                pre=pre.next
+        return dummy.next
 ```
 

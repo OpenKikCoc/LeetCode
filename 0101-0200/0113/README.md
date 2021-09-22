@@ -52,7 +52,7 @@ class Solution:
             sum -= p.val
             if not p.left and not p.right and sum == 0:
                 res.append(path[:])
-                # return   踩坑：这里不能写return
+                # return   踩坑：这里不能写return。它和dfs在同一层级，不能return 
             dfs(p.left, path, sum)
             dfs(p.right, path, sum)
             path.pop()

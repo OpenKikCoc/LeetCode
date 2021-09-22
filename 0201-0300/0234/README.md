@@ -88,7 +88,35 @@ public:
 ```
 
 
-```python3
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
+class Solution:
+    def isPalindrome(self, head: ListNode) -> bool:
+        if not head or not head.next:return True
+        dummy=ListNode(None)
+        dummy.next=head
+        p1,p2=dummy,dummy
+        stack=[]
+        while p2 and p2.next:
+            p1,p2=p1.next,p2.next.next
+        p1=p1.next
+        while p1:
+            stack.append(p1)
+            p1=p1.next
+        p=head
+        while stack:
+            q=stack.pop()
+            if p.val!=q.val:
+                return False
+            p=p.next
+        return True
+            
+
+        
 ```
 

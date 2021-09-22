@@ -108,7 +108,59 @@ public:
 
 
 
-```python3
+```python
+# python3
+# 【二叉树被序列化为一个【字符串】！ 并且讲这个【字符串】反序列化为原始的树结构】
+# 题目要求的 序列化 和 反序列化 是 可逆操作。因此，序列化的字符串应携带 完整的二叉树信息。【通常使用的前序、中序、后序、层序遍历记录的二叉树的信息不完整，即唯一的输出序列可能对应着多种二叉树可能性。】
+# 序列化：通过 层序遍历 实现
+# 反序列化：根据序列化拿到的层序遍历的结果，按照 层 重构二叉树。借助一个指针 i 指向当前节点 root 的左、右结点，每构建一个 node 的左右节点，指针就向右移动 1 位（i += 1)
 
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Codec:
+    def serialize(self, root):
+        if not root:return 
+        q = collections.deque()
+        q.append(root)
+        res = []
+        while q:
+            node = q.popleft()
+            if node:
+                res.append(str(node.val))
+                # 不管 node.left 是否存在 都要放到队列中，这样如果不存在，该位置就可以被置为'null'
+                q.append(node.left)  
+                q.append(node.right)
+            else:  
+                # 当前位置没有结点时，需要进行标识为'null'
+                res.append("null")  
+        return '[' + ','.join(res) + ']'
+
+    def deserialize(self, data):
+        if not data:return
+        
+        # 前后的 [ ] 这两个字符串 不需要进入重构二叉树
+        nums = data[1:-1].split(',')  
+        
+        # 层序遍历的第一个点 就是 root 的值
+        root = TreeNode(int(nums[0]))        
+        q = collections.deque()
+        q.append(root)
+        i = 1
+        while q:
+            node = q.popleft()
+            if nums[i] != "null":
+                node.left = TreeNode(int(nums[i]))
+                q.append(node.left)
+            i += 1
+            if nums[i] != "null":
+                node.right = TreeNode(int(nums[i]))
+                q.append(node.right)
+            i += 1
+        return root
 ```
 

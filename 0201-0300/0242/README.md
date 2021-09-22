@@ -41,7 +41,10 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        a, b = sorted(s), sorted(t)
+        return a == b
 ```
 

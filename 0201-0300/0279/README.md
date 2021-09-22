@@ -59,7 +59,31 @@ public:
 
 
 
-```python3
+```python
+"""
+完全背包问题
+
+(动态规划) O(nn‾√)
+设 f(i) 表示通过平方数组成 i 所需要完全平方数的最少数量。
+初始时，f(0)=0其余待定。
+转移时，对于一个 i，枚举 j，f(i)=min(f(i−j∗j)+1) ，其中 1≤j≤√i。
+最终答案为 f(n)。
+"""
+
+import math
+class Solution:
+    def numSquares(self, n: int) -> int:
+
+        goods = [i * i for i in range(1, int(math.sqrt(n))+1)]
+
+        f = [float('inf')] * (n+1)
+        f[0] = 0
+
+        for good in goods:
+            for j in range(good, n+1):
+                f[j] = min(f[j], f[j-good]+1)
+
+        return f[-1]
 
 ```
 

@@ -27,7 +27,19 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def summaryRanges(self, nums: List[int]) -> List[str]:
+        i=0;res=[]
+        while i<len(nums):
+            j=i+1
+            while j<len(nums) and nums[j]==nums[j-1]+1:
+                j+=1
+            if j==i+1:
+                res.append(str(nums[i]))
+            else:
+                res.append(str(nums[i])+'->'+str(nums[j-1]))
+            i=j 
+        return res
 ```
 

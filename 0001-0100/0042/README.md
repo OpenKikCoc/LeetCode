@@ -87,10 +87,7 @@ public:
 
 
 ```python
-#这不是一道典型的单调栈的应用题，和单调栈一般的用法关系不大
-#用单调栈的思想，比较难构想和模拟
-#更好的写法是双指针，但是这道题用单调栈的思路可以帮忙熟悉单调栈的用法，对以后的写单调栈类型的题有帮助的哦 
-
+# 维护一个【单调递减栈】
 #处理当前数时，需要把栈里小于或者等于它的数值都弹出去
 #高度：栈顶元素和上一个元素的高度差；宽度：是1
 #宽度：当前柱子的左边界到下一个柱子的右边界
@@ -101,14 +98,11 @@ class Solution:
         stack = []  # 栈里存储的是下标
         res = 0; n = len(h)
         for i in range(n):
-            last = 0
-            while stack and h[stack[-1]] <= h[i]:
-                res += (h[stack[-1]] - last) * (i - stack[-1] - 1)
-                last = h[stack[-1]]
-                stack.pop()
-            if stack:
-                res += (h[i] - last) * (i - stack[-1] - 1)
+            while stack and h[stack[-1]] < h[i]:
+                t = stack.pop()
+                if stack:
+                    res += (min(h[i], h[stack[-1]]) - h[t]) * (i - stack[-1] - 1)
             stack.append(i)
-        return res   
+        return res
 ```
 

@@ -24,7 +24,15 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        my_dic = dict()
+        for c in nums:
+            if c in my_dic:
+                return True
+            else:
+                my_dic[c] = 1
+        return False
 ```
 

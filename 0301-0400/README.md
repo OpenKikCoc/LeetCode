@@ -40,7 +40,7 @@
 | [334. 递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) | [here](./0334/README.md) |                                         | X      |       |
 | [335. 路径交叉](https://leetcode-cn.com/problems/self-crossing/) | [here](./0335/README.md) | 思维 分情况讨论                         | X      |       |
 | [336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs/) | [here](./0336/README.md) | 预处理思维                              | X      |       |
-| [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/) | [here](./0337/README.md) |                                         | X      |       |
+| [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/) | [here](./0337/README.md) |                                         | X      | X     |
 | [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [here](./0338/README.md) | 递推                                    | X      |       |
 |                                                              | [here](./0339/README.md) |                                         |        |       |
 |                                                              | [here](./0340/README.md) |                                         |        |       |

@@ -27,7 +27,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def nthUglyNumber(self, n: int) -> int:
+        nums = [2, 3, 5]
+        m = len(nums)
+        p = [0] * m
+        f = [1] * n 
+        for i in range(1, n):
+            f[i] = min(x * f[y] for x, y in zip(nums, p))
+            for j in range(m):
+                if f[i] == nums[j] * f[p[j]]:
+                    p[j] += 1
+        return f[-1]
 ```
 
