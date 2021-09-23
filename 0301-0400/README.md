@@ -4,7 +4,7 @@
 
 | Title                                                        | Solution                 | Note                                    | binacs | tracy |
 | ------------------------------------------------------------ | ------------------------ | --------------------------------------- | ------ | ----- |
-| [301. 删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/) | [here](./0301/README.md) | 复杂回溯<br>非常好的题 **重复做**       | X      |       |
+| [301. 删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/) | [here](./0301/README.md) | 复杂回溯<br>非常好的题 **重复做**       | X      | X     |
 |                                                              | [here](./0302/README.md) |                                         |        |       |
 | [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [here](./0303/README.md) |                                         | X      |       |
 | [304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | [here](./0304/README.md) |                                         | X      |       |
@@ -12,11 +12,11 @@
 | [306. 累加数](https://leetcode-cn.com/problems/additive-number/) | [here](./0306/README.md) | 高精度加法 熟练度                       | X      |       |
 | [307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/) | [here](./0307/README.md) | 树状数组模版题                          | X      |       |
 |                                                              | [here](./0308/README.md) |                                         |        |       |
-| [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [here](./0309/README.md) | 经典                                    | X      |       |
+| [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [here](./0309/README.md) | 经典                                    | X      | X     |
 | [310. 最小高度树](https://leetcode-cn.com/problems/minimum-height-trees/) | [here](./0310/README.md) | 本质就是 dp 求树中心                    | X      |       |
 |                                                              | [here](./0311/README.md) |                                         |        |       |
-| [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [here](./0312/README.md) |                                         | X      |       |
-| [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [here](./0313/README.md) | 经典                                    | X      |       |
+| [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [here](./0312/README.md) |                                         | X      | X     |
+| [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [here](./0313/README.md) | 经典                                    | X      | X     |
 |                                                              | [here](./0314/README.md) |                                         |        |       |
 | [315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | [here](./0315/README.md) | 树状数组 模版题                         | X      |       |
 | [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/) | [here](./0316/README.md) | 经典 贪心 + 单调栈                      | X      |       |
@@ -25,7 +25,7 @@
 | [319. 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/) | [here](./0319/README.md) | 数学                                    | X      |       |
 |                                                              | [here](./0320/README.md) |                                         |        |       |
 | [321. 拼接最大数](https://leetcode-cn.com/problems/create-maximum-number/) | [here](./0321/README.md) | **经典题 贪心 分治 单调栈**<br>综合应用 | X      |       |
-| [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [here](./0322/README.md) |                                         | X      |       |
+| [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [here](./0322/README.md) |                                         | X      | X     |
 |                                                              | [here](./0323/README.md) |                                         |        |       |
 | [324. 摆动排序 II](https://leetcode-cn.com/problems/wiggle-sort-ii/) | [here](./0324/README.md) | trick 思维 三数排序                     | X      |       |
 |                                                              | [here](./0325/README.md) |                                         |        |       |
@@ -41,7 +41,7 @@
 | [335. 路径交叉](https://leetcode-cn.com/problems/self-crossing/) | [here](./0335/README.md) | 思维 分情况讨论                         | X      |       |
 | [336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs/) | [here](./0336/README.md) | 预处理思维                              | X      |       |
 | [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/) | [here](./0337/README.md) |                                         | X      | X     |
-| [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [here](./0338/README.md) | 递推                                    | X      |       |
+| [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [here](./0338/README.md) | 递推                                    | X      | X     |
 |                                                              | [here](./0339/README.md) |                                         |        |       |
 |                                                              | [here](./0340/README.md) |                                         |        |       |
 | [341. 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/) | [here](./0341/README.md) |                                         | X      |       |
@@ -50,7 +50,7 @@
 | [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [here](./0344/README.md) |                                         | X      |       |
 | [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | [here](./0345/README.md) |                                         | X      |       |
 |                                                              | [here](./0346/README.md) |                                         |        |       |
-| [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [here](./0347/README.md) |                                         | X      |       |
+| [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [here](./0347/README.md) |                                         | X      | X     |
 |                                                              | [here](./0348/README.md) |                                         |        |       |
 | [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [here](./0349/README.md) |                                         | X      |       |
 | [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [here](./0350/README.md) |                                         | X      |       |
@@ -97,11 +97,11 @@
 | [391. 完美矩形](https://leetcode-cn.com/problems/perfect-rectangle/) | [here](./0391/README.md) | 分情况讨论 背                           | X      |       |
 | [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [here](./0392/README.md) |                                         | X      |       |
 | [393. UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/) | [here](./0393/README.md) | 线性处理字符串                          | X      |       |
-| [394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | [here](./0394/README.md) |                                         | X      |       |
+| [394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | [here](./0394/README.md) |                                         | X      | X     |
 | [395. 至少有K个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [here](./0395/README.md) | trick + 滑动窗口                        | X      |       |
 | [396. 旋转函数](https://leetcode-cn.com/problems/rotate-function/) | [here](./0396/README.md) | 递推 公式优化                           | X      |       |
 | [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | [here](./0397/README.md) |                                         | X      |       |
 | [398. 随机数索引](https://leetcode-cn.com/problems/random-pick-index/) | [here](./0398/README.md) |                                         | X      |       |
-| [399. 除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [here](./0399/README.md) | 并查集 OR floyd<br>重复做               | X      |       |
+| [399. 除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [here](./0399/README.md) | 并查集 OR floyd<br>重复做               | X      | X     |
 | [400. 第N个数字](https://leetcode-cn.com/problems/nth-digit/) | [here](./0400/README.md) | 经典 数位dp<br>重复做  同剑指offer      | X      |       |
 

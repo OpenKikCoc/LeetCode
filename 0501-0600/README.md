@@ -41,12 +41,12 @@
 | [535. TinyURL 的加密与解密](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | [here](./0535/README.md) | 经典设计题                                                   | X      |       |
 |                                                              | [here](./0536/README.md) |                                                              |        |       |
 | [537. 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/) | [here](./0537/README.md) | `sscanf`                                                     | X      |       |
-| [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [here](./0538/README.md) |                                                              | X      |       |
+| [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [here](./0538/README.md) |                                                              | X      | X     |
 | [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) | [here](./0539/README.md) | `sscanf`                                                     | X      |       |
 | [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | [here](./0540/README.md) | 二分 性质                                                    | X      |       |
 | [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/) | [here](./0541/README.md) |                                                              | X      |       |
 | [542. 01 矩阵](https://leetcode-cn.com/problems/01-matrix/)  | [here](./0542/README.md) |                                                              | X      |       |
-| [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [here](./0543/README.md) |                                                              | X      |       |
+| [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [here](./0543/README.md) |                                                              | X      | X     |
 |                                                              | [here](./0544/README.md) |                                                              |        |       |
 |                                                              | [here](./0545/README.md) |                                                              |        |       |
 | [546. 移除盒子](https://leetcode-cn.com/problems/remove-boxes/) | [here](./0546/README.md) | 区间dp进阶 状态定义<br>**使用 `g` 数组本质是区间dp的优化**<br>重复做 | X      |       |
@@ -63,7 +63,7 @@
 | [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [here](./0557/README.md) |                                                              | X      |       |
 | [558. 四叉树交集](https://leetcode-cn.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/) | [here](./0558/README.md) | 细节                                                         | X      |       |
 | [559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [here](./0559/README.md) |                                                              | X      |       |
-| [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [here](./0560/README.md) |                                                              | X      |       |
+| [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [here](./0560/README.md) |                                                              | X      | X     |
 | [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | [here](./0561/README.md) |                                                              |        |       |
 |                                                              | [here](./0562/README.md) |                                                              |        |       |
 | [563. 二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | [here](./0563/README.md) |                                                              | X      |       |
@@ -84,7 +84,7 @@
 |                                                              | [here](./0578/README.md) |                                                              |        |       |
 |                                                              | [here](./0579/README.md) |                                                              |        |       |
 |                                                              | [here](./0580/README.md) |                                                              |        |       |
-| [581. 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) | [here](./0581/README.md) | 进阶做法 思维<br>重复做                                      | X      |       |
+| [581. 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) | [here](./0581/README.md) | 进阶做法 思维<br>重复做                                      | X      | X     |
 |                                                              | [here](./0582/README.md) |                                                              |        |       |
 | [583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/) | [here](./0583/README.md) |                                                              | X      |       |
 |                                                              | [here](./0584/README.md) |                                                              |        |       |

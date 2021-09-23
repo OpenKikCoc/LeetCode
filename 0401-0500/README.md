@@ -5,11 +5,11 @@
 | Title                                                        | Solution                 | Note                                                         | binacs | tracy |
 | ------------------------------------------------------------ | ------------------------ | ------------------------------------------------------------ | ------ | ----- |
 | [401. 二进制手表](https://leetcode-cn.com/problems/binary-watch/) | [here](./0401/README.md) |                                                              | X      |       |
-| [402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [here](./0402/README.md) | 经典 单调栈                                                  | X      |       |
+| [402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [here](./0402/README.md) | 经典 单调栈                                                  | X      | X     |
 | [403. 青蛙过河](https://leetcode-cn.com/problems/frog-jump/) | [here](./0403/README.md) | 记忆化<br>注意状态定义与转移相匹配                           | X      |       |
 | [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | [here](./0404/README.md) |                                                              | X      |       |
 | [405. 数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/) | [here](./0405/README.md) |                                                              | X      |       |
-| [406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [here](./0406/README.md) | 经典<br>贪心 OR BIT 两种做法                                 | X      |       |
+| [406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [here](./0406/README.md) | 经典<br>贪心 OR BIT 两种做法                                 | X      | X     |
 | [407. 接雨水 II](https://leetcode-cn.com/problems/trapping-rain-water-ii/) | [here](./0407/README.md) | 三维接雨水 贪心<br>dp转图论思想                              | X      |       |
 |                                                              | [here](./0408/README.md) |                                                              |        |       |
 | [409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) | [here](./0409/README.md) |                                                              | X      |       |
@@ -17,9 +17,9 @@
 |                                                              | [here](./0411/README.md) |                                                              |        |       |
 | [412. Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [here](./0412/README.md) |                                                              | X      |       |
 | [413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/) | [here](./0413/README.md) | 思路更清晰的解法                                             | X      |       |
-| [414. 第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [here](./0414/README.md) | trick<br>变量 `s`                                            | X      |       |
+| [414. 第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [here](./0414/README.md) | trick<br>变量 `s`                                            | X      | X     |
 | [415. 字符串相加](https://leetcode-cn.com/problems/add-strings/) | [here](./0415/README.md) |                                                              | X      |       |
-| [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [here](./0416/README.md) | bitset优化 可拓展                                            | X      |       |
+| [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [here](./0416/README.md) | bitset优化 可拓展                                            | X      | X     |
 | [417. 太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/) | [here](./0417/README.md) |                                                              | X      |       |
 |                                                              | [here](./0418/README.md) |                                                              |        |       |
 | [419. 甲板上的战舰](https://leetcode-cn.com/problems/battleships-in-a-board/) | [here](./0419/README.md) |                                                              | X      |       |
@@ -40,8 +40,8 @@
 | [434. 字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | [here](./0434/README.md) |                                                              | X      |       |
 | [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | [here](./0435/README.md) | 按右端点排序                                                 | X      | X     |
 | [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | [here](./0436/README.md) |                                                              | X      |       |
-| [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) | [here](./0437/README.md) |                                                              | X      |       |
-| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [here](./0438/README.md) | 经典 滑动窗口                                                | X      |       |
+| [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) | [here](./0437/README.md) |                                                              | X      | X     |
+| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [here](./0438/README.md) | 经典 滑动窗口                                                | X      | X     |
 |                                                              | [here](./0439/README.md) |                                                              |        |       |
 | [440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/) | [here](./0440/README.md) | 计数 dp 经典<br>重复                                         | X      |       |
 | [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | [here](./0441/README.md) |                                                              | X      |       |
@@ -64,7 +64,7 @@
 | [458. 可怜的小猪](https://leetcode-cn.com/problems/poor-pigs/) | [here](./0458/README.md) | 小猪查毒 经典位运算题                                        | X      |       |
 | [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/) | [here](./0459/README.md) |                                                              | X      |       |
 | [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/) | [here](./0460/README.md) | 经典<br>统一风格的写法                                       | X      |       |
-| [461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [here](./0461/README.md) |                                                              | X      |       |
+| [461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [here](./0461/README.md) |                                                              | X      | X     |
 | [462. 最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/) | [here](./0462/README.md) | 中位数                                                       | X      |       |
 | [463. 岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/) | [here](./0463/README.md) | 优雅实现                                                     | X      |       |
 | [464. 我能赢吗](https://leetcode-cn.com/problems/can-i-win/) | [here](./0464/README.md) | 优化后的状压搜索实现                                         | X      |       |
@@ -97,11 +97,11 @@
 | [491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/) | [here](./0491/README.md) | **极好的搜索题 堪称LeetCode最佳**<br>需去重<br>重点在于递归时枚举的含义<br>【每个位置该放什么】进而用 `set` 去重 | X      |       |
 | [492. 构造矩形](https://leetcode-cn.com/problems/construct-the-rectangle/) | [here](./0492/README.md) |                                                              | X      |       |
 | [493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [here](./0493/README.md) | 逆序对变种 单独统计再归并                                    | X      |       |
-| [494. 目标和](https://leetcode-cn.com/problems/target-sum/)  | [here](./0494/README.md) | dp思路的思维<br>转化为取一些数其和达到 `S / 2`               | X      |       |
+| [494. 目标和](https://leetcode-cn.com/problems/target-sum/)  | [here](./0494/README.md) | dp思路的思维<br>转化为取一些数其和达到 `S / 2`               | X      | X     |
 | [495. 提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/) | [here](./0495/README.md) |                                                              | X      |       |
 | [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | [here](./0496/README.md) |                                                              | X      |       |
 | [497. 非重叠矩形中的随机点](https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles/) | [here](./0497/README.md) | 前缀和+二分+随机数<br>**采用前缀和的随机化方法**<br>本题是二维随机 之前有一维随机 都是前缀和 | X      |       |
 | [498. 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | [here](./0498/README.md) | 优雅遍历方式                                                 | X      |       |
 |                                                              | [here](./0499/README.md) |                                                              |        |       |
-| [500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/) | [here](./0500/README.md) |                                                              | X      |       |
+| [500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/) | [here](./0500/README.md) |                                                              | X      | X     |
 

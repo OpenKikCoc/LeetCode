@@ -41,7 +41,20 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def convertBST(self, root: TreeNode) -> TreeNode:
+        self.total=0
+        def dfs(root):
+            if root:
+                print("val=", root.val, " before dfs.right total=", self.total)
+                dfs(root.right)
+                print("val=", root.val, " after dfs.right total=", self.total)
+                self.total+=root.val
+                root.val=self.total
+                dfs(root.left)
+        
+        dfs(root)
+        return root
 ```
 

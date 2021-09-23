@@ -42,7 +42,7 @@
 | [736. Lisp 语法解析](https://leetcode-cn.com/problems/parse-lisp-expression/) | [here](./0736/README.md) | 经典 递归处理字符串<br>**重复做**                            | X      |       |
 |                                                              | [here](./0737/README.md) |                                                              |        |       |
 | [738. 单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [here](./0738/README.md) | 思维题 重复                                                  | X      |       |
-| [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [here](./0739/README.md) |                                                              |        |       |
+| [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [here](./0739/README.md) |                                                              | X      | X     |
 | [740. 删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn/) | [here](./0740/README.md) | 一开始想的状态转移可以简化<br>**重点在于想到题意影响两侧本质就是上一个影响本个** | X      |       |
 | [741. 摘樱桃](https://leetcode-cn.com/problems/cherry-pickup/) | [here](./0741/README.md) | 比摘花生稍复杂一点点 1A                                      | X      |       |
 |                                                              | [here](./0742/README.md) |                                                              |        |       |

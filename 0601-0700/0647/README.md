@@ -53,7 +53,23 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def countSubstrings(self, s: str) -> int:
+        self.res = 0 
+        n = len(s)
 
+        def dfs(i, j):
+            while i >= 0 and j < n and s[i] == s[j]:
+                self.res += 1 
+                i -= 1 
+                j += 1 
+            
+        for i in range(n):
+            dfs(i, i)
+            dfs(i, i + 1)
+        return self.res
+
+        
 ```
 

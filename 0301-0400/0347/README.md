@@ -28,7 +28,16 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        my_cnt = collections.Counter(nums)
+        q = []
+        for key, v in my_cnt.items():
+            heapq.heappush(q, (-v ,key))
+        res = []
+        for _ in range(k):
+            res.append(heapq.heappop(q)[1])
+        return res
 ```
 

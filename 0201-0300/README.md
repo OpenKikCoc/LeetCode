@@ -30,7 +30,7 @@
 | [224. 基本计算器](https://leetcode-cn.com/problems/basic-calculator/) | [here](./0224/README.md)  | 典型                                                         | X      | X     |
 | [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [here](./0225/README.md)  |                                                              | X      | X     |
 | [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [here](./0226/README.md)  |                                                              | X      | X     |
-| [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/) | [here](./0227/README.md)  | 典型                                                         | X      |       |
+| [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/) | [here](./0227/README.md)  | 典型                                                         | X      | X     |
 | [228. 汇总区间](https://leetcode-cn.com/problems/summary-ranges/) | [here](./0228/README.md)  |                                                              | X      | X     |
 | [229. 求众数 II](https://leetcode-cn.com/problems/majority-element-ii/) | [here](./0229/README.md)  | 摩尔投票法进阶                                               | X      |       |
 | [230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [here](./0230/README.md)  |                                                              | X      | X     |
@@ -92,7 +92,7 @@
 |                                                              | [here](./0286/README.md)  |                                                              |        |       |
 | [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [here](./0287/README.md)  | 经典 trick **另有快慢指针思维解法**                          | X      |       |
 |                                                              | [here](./0288/README.md)  |                                                              |        |       |
-| [289. 生命游戏](https://leetcode-cn.com/problems/game-of-life/) | [here](./0289/README.md)  | 位运算 trick                                                 | X      |       |
+| [289. 生命游戏](https://leetcode-cn.com/problems/game-of-life/) | [here](./0289/README.md)  | 位运算 trick                                                 | X      | X     |
 | [290. 单词规律](https://leetcode-cn.com/problems/word-pattern/) | [here](./0290/README.md)  |                                                              | X      |       |
 |                                                              | [here](./0291/README.md)  |                                                              |        |       |
 | [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)  | [here](./0292/README.md)  | 经典                                                         | X      |       |

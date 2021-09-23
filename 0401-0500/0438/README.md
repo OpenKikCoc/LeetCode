@@ -57,7 +57,40 @@ public:
 
 
 
-```python3
+```python
+class Solution(object):
+    def findAnagrams(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: List[int]
+        """
+        if not s or not p or len(s) < len(p):
+            return []
 
+        res = []
+        sc = [0] * 26
+        pc = [0] * 26
+
+        # 先把pc，sc的hashmap给建好，并且先进行第一次比较
+        for i in range(len(p)):
+            sc[ord(s[i]) - ord("a")] += 1
+            pc[ord(p[i]) - ord("a")] += 1
+
+        if sc == pc:
+            res.append(0)
+
+        pLen = len(p)
+        for i in range(pLen, len(s)):
+            # 右指针+= 1
+            sc[ord(s[i]) - ord("a")] += 1
+
+            # 左指针-= 1
+            sc[ord(s[i - pLen]) - ord("a")] -= 1
+
+            # 假如两个哈希表对的上，则append左指针的位置
+            if sc == pc:
+                res.append(i - pLen + 1)
+        return res
 ```
 

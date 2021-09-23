@@ -29,7 +29,18 @@ public:
 
 
 
-```python3
-
+```python
+# 单调栈
+class Solution:
+    def dailyTemperatures(self, T: List[int]) -> List[int]:
+        n=len(T)
+        res=[0]*n
+        stack=[]
+        for i in range(n):
+            while stack and T[stack[-1]]<T[i]:
+                res[stack[-1]]=i-stack[-1]
+                stack.pop()
+            stack.append(i)
+        return res
 ```
 

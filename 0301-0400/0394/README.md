@@ -62,7 +62,31 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def decodeString(self, s: str) -> str:
+        u = 0
 
+        def dfs(s):
+            nonlocal u 
+            res = ''
+            while u < len(s) and s[u] != ']':
+                if s[u].isalpha():
+                    res += s[u]
+                    u += 1
+                elif s[u].isdigit():
+                    k = u 
+                    while s[k].isdigit():
+                        k += 1
+                    x =int(s[u:k])
+                    u = k + 1 # 跳过左括号
+                    y = dfs(s)
+                    u += 1  #跳过右括号
+
+                    while x:
+                        res += y 
+                        x -= 1
+            return res 
+        return dfs(s)
 ```
 

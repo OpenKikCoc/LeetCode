@@ -74,7 +74,28 @@ public:
 
 
 
-```python3
+```python
+#dp : 0/1背包问题：选 就是 正数；不选 就是负数
+# f[i][j] 前i个数 总和为j的所有方案的集合；属性：数量
+# 状态计算：分为两个子集：1) a[i]取正；f[i - 1][j - a[i]]
+#                     2）a[i]取负 :f[i - 1][j + a[i]]
+# f[0][0] = 1
 
+class Solution:
+    def findTargetSumWays(self, a: List[int], S: int) -> int:
+        if S > 1000 or S < -1000:return 0
+        n = len(a)
+        offset = 1000 
+        f = [[0] * 2001 for _ in range(n + 1)]
+        f[0][offset] = 1  
+
+        for i in range(1, n + 1):
+            for j in range(-1000, 1001):
+                if j - a[i - 1] >= -1000:
+                    f[i][j + offset] += f[i - 1][j - a[i - 1] + offset]
+                if j + a[i - 1] <= 1000:
+                    f[i][j + offset] += f[i - 1][j + a[i - 1] + offset]
+
+        return f[n][S + offset]
 ```
 

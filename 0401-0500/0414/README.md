@@ -26,7 +26,19 @@ public:
 
 
 
-```python3
+```python
+"""
+模拟遍历：每次保存更新最大值，次大值，第三大值
+"""
 
+class Solution:
+    def thirdMax(self, nums: List[int]) -> int:
+        a=-1e20;b=-1e20;c=-1e20;s=0
+        for x in nums:
+            if x>a: c=b;b=a;a=x;s+=1
+            elif x<a and x>b: c=b;b=x;s+=1
+            elif x<b and x>c: c=x;s+=1
+        if s<3: return a
+        return c
 ```
 

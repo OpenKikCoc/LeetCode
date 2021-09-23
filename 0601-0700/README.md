@@ -20,11 +20,11 @@
 |                                                              | [here](./0614/README.md) |                                                              |        |       |
 |                                                              | [here](./0615/README.md) |                                                              |        |       |
 |                                                              | [here](./0616/README.md) |                                                              |        |       |
-| [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [here](./0617/README.md) |                                                              | X      |       |
+| [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [here](./0617/README.md) |                                                              | X      | X     |
 |                                                              | [here](./0618/README.md) |                                                              |        |       |
 |                                                              | [here](./0619/README.md) |                                                              |        |       |
 |                                                              | [here](./0620/README.md) |                                                              |        |       |
-| [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler/) | [here](./0621/README.md) | trick 思维题                                                 | X      |       |
+| [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler/) | [here](./0621/README.md) | trick 思维题                                                 | X      | X     |
 | [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) | [here](./0622/README.md) | 数组实现 队列与循环队列<br>hh与tt的开闭 【前闭后开】<br>`tt + 1 == hh` 主要是为了能够区分队空和队满 | X      |       |
 | [623. 在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/) | [here](./0623/README.md) |                                                              | X      |       |
 |                                                              | [here](./0624/README.md) |                                                              |        |       |
@@ -50,7 +50,7 @@
 |                                                              | [here](./0644/README.md) |                                                              |        |       |
 | [645. 错误的集合](https://leetcode-cn.com/problems/set-mismatch/) | [here](./0645/README.md) | 细节                                                         | X      |       |
 | [646. 最长数对链](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/) | [here](./0646/README.md) |                                                              | X      |       |
-| [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [here](./0647/README.md) |                                                              | X      |       |
+| [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [here](./0647/README.md) |                                                              | X      | X     |
 | [648. 单词替换](https://leetcode-cn.com/problems/replace-words/) | [here](./0648/README.md) | 实现                                                         | X      |       |
 | [649. Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [here](./0649/README.md) | 模拟转化为思维题<br>trick                                    | X      |       |
 | [650. 只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard/) | [here](./0650/README.md) | 数学 约数分解的做法<br>trick                                 | X      |       |
