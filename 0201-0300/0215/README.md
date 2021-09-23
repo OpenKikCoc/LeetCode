@@ -81,6 +81,19 @@ public:
 
 
 ```python
+# 用堆: 时间复杂度O(n*logn)
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        maxHeap = []
+        for x in nums:
+            heapq.heappush(maxHeap, -x)
+        for _ in range(k - 1):
+            heapq.heappop(maxHeap)
+        return -maxHeap[0]
+
+
+
+# 用快排 O(n)
 class Solution:
     def findKthLargest(self, arr: List[int], k: int) -> int:
         def partition(l, r):

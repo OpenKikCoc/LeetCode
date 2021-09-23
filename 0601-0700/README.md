@@ -25,7 +25,7 @@
 |                                                              | [here](./0619/README.md) |                                                              |        |       |
 |                                                              | [here](./0620/README.md) |                                                              |        |       |
 | [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler/) | [here](./0621/README.md) | trick 思维题                                                 | X      | X     |
-| [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) | [here](./0622/README.md) | 数组实现 队列与循环队列<br>hh与tt的开闭 【前闭后开】<br>`tt + 1 == hh` 主要是为了能够区分队空和队满 | X      |       |
+| [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) | [here](./0622/README.md) | 数组实现 队列与循环队列<br>hh与tt的开闭 【前闭后开】<br>`tt + 1 == hh` 主要是为了能够区分队空和队满 | X      | X     |
 | [623. 在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/) | [here](./0623/README.md) |                                                              | X      |       |
 |                                                              | [here](./0624/README.md) |                                                              |        |       |
 |                                                              | [here](./0625/README.md) |                                                              |        |       |
