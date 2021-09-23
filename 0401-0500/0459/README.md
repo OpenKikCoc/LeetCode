@@ -46,7 +46,23 @@ public:
 
 
 
-```python3
+```python
+# 暴力解法1：就是找前缀，看s是否能有几个这样前缀组成。
+# class Solution:
+#     def repeatedSubstringPattern(self, s: str) -> bool:
+#         n = len(s)
+#         for i in range(1, len(s) // 2 + 1):
+#             a, b = divmod(n, i)
+#             if b == 0 and s[:i] * a  == s:
+#                 return True
+#         return False
 
+# 暴力解法2：我们知道如果s是重复字符串，那么可以由两个子串组成。我们通过ss = s + s就有4个子串组成，
+# 删除首尾字母，那么 ss[1:-1]就有应该有2个子串组成，就是说ss[1:-1]是否存在s
+class Solution:
+    def repeatedSubstringPattern(self, s: str) -> bool:
+        return (s+s)[1:-1].find(s) != -1
+      
+# 解法3：KMP
 ```
 

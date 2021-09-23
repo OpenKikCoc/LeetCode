@@ -36,7 +36,17 @@ public:
 ```
 
 
-```python3
-
+```python
+# 也可以用普通的遍历一遍；这里用的是二分查找
+class Solution:
+    def isPerfectSquare(self, num: int) -> bool:
+        l, r = 1, num
+        while l < r:
+            mid = (l + r) // 2
+            if mid * mid < num:
+                l = mid + 1
+            else:
+                r = mid
+        return l * l == num
 ```
 

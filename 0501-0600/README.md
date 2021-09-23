@@ -4,9 +4,9 @@
 
 | Title                                                        | Solution                 | Note                                                         | binacs | tracy |
 | ------------------------------------------------------------ | ------------------------ | ------------------------------------------------------------ | ------ | ----- |
-| [501. 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) | [here](./0501/README.md) |                                                              | X      |       |
+| [501. 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) | [here](./0501/README.md) |                                                              | X      | X     |
 | [502. IPO](https://leetcode-cn.com/problems/ipo/)            | [here](./0502/README.md) | 易知贪心规则<br>记录实现                                     | X      |       |
-| [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [here](./0503/README.md) |                                                              | X      |       |
+| [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [here](./0503/README.md) |                                                              | X      | X     |
 | [504. 七进制数](https://leetcode-cn.com/problems/base-7/)    | [here](./0504/README.md) |                                                              | X      |       |
 |                                                              | [here](./0505/README.md) |                                                              |        |       |
 | [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/) | [here](./0506/README.md) |                                                              | X      |       |
@@ -19,7 +19,7 @@
 | [513. 找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) | [here](./0513/README.md) |                                                              | X      |       |
 | [514. 自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [here](./0514/README.md) | 优雅实现<br>`if` 实现合法性判断                              | X      |       |
 | [515. 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | [here](./0515/README.md) |                                                              | X      |       |
-| [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [here](./0516/README.md) |                                                              | X      |       |
+| [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [here](./0516/README.md) |                                                              | X      | X     |
 | [517. 超级洗衣机](https://leetcode-cn.com/problems/super-washing-machines/) | [here](./0517/README.md) | 证明和推导过程 证明可取下界<br>思维 重复                     | X      |       |
 | [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | [here](./0518/README.md) |                                                              | X      |       |
 | [519. 随机翻转矩阵](https://leetcode-cn.com/problems/random-flip-matrix/) | [here](./0519/README.md) | 设计题 思维                                                  | X      |       |
@@ -50,7 +50,7 @@
 |                                                              | [here](./0544/README.md) |                                                              |        |       |
 |                                                              | [here](./0545/README.md) |                                                              |        |       |
 | [546. 移除盒子](https://leetcode-cn.com/problems/remove-boxes/) | [here](./0546/README.md) | 区间dp进阶 状态定义<br>**使用 `g` 数组本质是区间dp的优化**<br>重复做 | X      |       |
-| [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [here](./0547/README.md) |                                                              | X      |       |
+| [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [here](./0547/README.md) |                                                              | X      | X     |
 |                                                              | [here](./0548/README.md) |                                                              |        |       |
 |                                                              | [here](./0549/README.md) |                                                              |        |       |
 |                                                              | [here](./0550/README.md) |                                                              |        |       |
@@ -62,7 +62,7 @@
 | [556. 下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii/) | [here](./0556/README.md) |                                                              | X      |       |
 | [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [here](./0557/README.md) |                                                              | X      |       |
 | [558. 四叉树交集](https://leetcode-cn.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/) | [here](./0558/README.md) | 细节                                                         | X      |       |
-| [559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [here](./0559/README.md) |                                                              | X      |       |
+| [559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [here](./0559/README.md) |                                                              | X      | X     |
 | [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [here](./0560/README.md) |                                                              | X      | X     |
 | [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | [here](./0561/README.md) |                                                              |        |       |
 |                                                              | [here](./0562/README.md) |                                                              |        |       |
@@ -70,7 +70,7 @@
 | [564. 寻找最近的回文数](https://leetcode-cn.com/problems/find-the-closest-palindrome/) | [here](./0564/README.md) | trick 思维 实现<br>重复                                      | X      |       |
 | [565. 数组嵌套](https://leetcode-cn.com/problems/array-nesting/) | [here](./0565/README.md) |                                                              | X      |       |
 | [566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) | [here](./0566/README.md) |                                                              | X      |       |
-| [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [here](./0567/README.md) | 典型 滑动窗口                                                | X      |       |
+| [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [here](./0567/README.md) | 典型 滑动窗口                                                | X      | X     |
 |                                                              | [here](./0568/README.md) |                                                              |        |       |
 |                                                              | [here](./0569/README.md) |                                                              |        |       |
 |                                                              | [here](./0570/README.md) |                                                              |        |       |
@@ -86,13 +86,13 @@
 |                                                              | [here](./0580/README.md) |                                                              |        |       |
 | [581. 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) | [here](./0581/README.md) | 进阶做法 思维<br>重复做                                      | X      | X     |
 |                                                              | [here](./0582/README.md) |                                                              |        |       |
-| [583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/) | [here](./0583/README.md) |                                                              | X      |       |
+| [583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/) | [here](./0583/README.md) |                                                              | X      | X     |
 |                                                              | [here](./0584/README.md) |                                                              |        |       |
 |                                                              | [here](./0585/README.md) |                                                              |        |       |
 |                                                              | [here](./0586/README.md) |                                                              |        |       |
 | [587. 安装栅栏](https://leetcode-cn.com/problems/erect-the-fence/) | [here](./0587/README.md) | 模版题 凸包点                                                | X      |       |
 |                                                              | [here](./0588/README.md) |                                                              |        |       |
-| [589. N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [here](./0589/README.md) |                                                              | X      |       |
+| [589. N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [here](./0589/README.md) |                                                              | X      | X     |
 |                                                              | [here](./0590/README.md) |                                                              |        |       |
 | [591. 标签验证器](https://leetcode-cn.com/problems/tag-validator/) | [here](./0591/README.md) | 栈 经典线性处理字符串                                        | X      |       |
 | [592. 分数加减运算](https://leetcode-cn.com/problems/fraction-addition-and-subtraction/) | [here](./0592/README.md) | `标准分数计算 + gcd` `sscanf`                                | X      |       |

@@ -43,7 +43,13 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def maxDepth(self, root: 'Node') -> int:
+        if not root:return 0
+        maxn = 0
+        for ch in root.children:
+            maxn = max(self.maxDepth(ch), maxn)
+        return maxn + 1
 ```
 

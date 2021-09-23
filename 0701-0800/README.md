@@ -21,7 +21,7 @@
 | [715. Range 模块](https://leetcode-cn.com/problems/range-module/) | [here](./0715/README.md) | 复杂模拟 使用哨兵数值                                        | X      |       |
 |                                                              | [here](./0716/README.md) |                                                              |        |       |
 | [717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) | [here](./0717/README.md) | trick                                                        | X      |       |
-| [718. 最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | [here](./0718/README.md) |                                                              | X      |       |
+| [718. 最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | [here](./0718/README.md) |                                                              | X      | X     |
 | [719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/) | [here](./0719/README.md) | 经典 二分 + 双指针                                           | X      |       |
 | [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/) | [here](./0720/README.md) | 经典 Trie + dfs                                              | X      |       |
 | [721. 账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [here](./0721/README.md) | 繁琐模拟                                                     | X      |       |
@@ -41,9 +41,9 @@
 | [735. 行星碰撞](https://leetcode-cn.com/problems/asteroid-collision/) | [here](./0735/README.md) | 显然单调栈 有更简单写法<br>重复做                            | X      |       |
 | [736. Lisp 语法解析](https://leetcode-cn.com/problems/parse-lisp-expression/) | [here](./0736/README.md) | 经典 递归处理字符串<br>**重复做**                            | X      |       |
 |                                                              | [here](./0737/README.md) |                                                              |        |       |
-| [738. 单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [here](./0738/README.md) | 思维题 重复                                                  | X      |       |
+| [738. 单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [here](./0738/README.md) | 思维题 重复                                                  | X      | X     |
 | [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [here](./0739/README.md) |                                                              | X      | X     |
-| [740. 删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn/) | [here](./0740/README.md) | 一开始想的状态转移可以简化<br>**重点在于想到题意影响两侧本质就是上一个影响本个** | X      |       |
+| [740. 删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn/) | [here](./0740/README.md) | 一开始想的状态转移可以简化<br>**重点在于想到题意影响两侧本质就是上一个影响本个** | X      | X     |
 | [741. 摘樱桃](https://leetcode-cn.com/problems/cherry-pickup/) | [here](./0741/README.md) | 比摘花生稍复杂一点点 1A                                      | X      |       |
 |                                                              | [here](./0742/README.md) |                                                              |        |       |
 | [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/) | [here](./0743/README.md) |                                                              | X      |       |
@@ -66,7 +66,7 @@
 |                                                              | [here](./0760/README.md) |                                                              |        |       |
 | [761. 特殊的二进制序列](https://leetcode-cn.com/problems/special-binary-string/) | [here](./0761/README.md) | 递归 思维题 类似括号匹配<br>**特别注意** 重复                | X      |       |
 | [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/) | [here](./0762/README.md) |                                                              | X      |       |
-| [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [here](./0763/README.md) | 经典边界思路                                                 | X      |       |
+| [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [here](./0763/README.md) | 经典边界思路                                                 | X      | X     |
 | [764. 最大加号标志](https://leetcode-cn.com/problems/largest-plus-sign/) | [here](./0764/README.md) |                                                              | X      |       |
 | [765. 情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/) | [here](./0765/README.md) | **经典图论模型 每次交换环中断** <br>重复                     | X      |       |
 | [766. 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/) | [here](./0766/README.md) |                                                              | X      |       |
@@ -87,7 +87,7 @@
 | [781. 森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/) | [here](./0781/README.md) | 数学                                                         | X      |       |
 | [782. 变为棋盘](https://leetcode-cn.com/problems/transform-to-chessboard/) | [here](./0782/README.md) | 数学 略麻烦<br>重复做                                        | X      |       |
 | [783. 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | [here](./0783/README.md) |                                                              | X      |       |
-| [784. 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) | [here](./0784/README.md) | 注意写法 无需for 以及^32的trick                              | X      |       |
+| [784. 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) | [here](./0784/README.md) | 注意写法 无需for 以及^32的trick                              | X      | X     |
 | [785. 判断二分图](https://leetcode-cn.com/problems/is-graph-bipartite/) | [here](./0785/README.md) | 染色法判二分 确定无环                                        | X      |       |
 | [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | [here](./0786/README.md) | 二分 + **双指针单调优化**                                    | X      |       |
 | [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/) | [here](./0787/README.md) | 标准bellman ford                                             | X      |       |

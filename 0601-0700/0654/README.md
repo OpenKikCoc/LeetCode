@@ -83,7 +83,28 @@ public:
 
 
 
-```python3
+```python
+# 属于 重构二叉树的题型
+# 采用递归算法，假设 build(l, r) 表示对数组中 [l, r] 闭区间的部分构造二叉树；
+# 首先找出最大值及其所在位置 max_i，
+# 然后构造一个新的结点 rt， 递归 build(l, max_i - 1) 和 build(max_i + 1, r) 分别作为 rt 的# 左右儿子，最后返回该结点 rt
 
+class Solution:
+    def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:
+        if not nums:return 
+
+        def build(l, r):
+            if l > r:return 
+            max_num, max_i = nums[l], l 
+            for i in range(l + 1, r + 1):
+                if max_num < nums[i]:
+                    max_num = nums[i]
+                    max_i = i  
+            rt = TreeNode(max_num)
+            rt.left = build(l, max_i - 1)
+            rt.right = build(max_i + 1, r)
+            return rt
+
+        return build(0, len(nums) - 1)
 ```
 

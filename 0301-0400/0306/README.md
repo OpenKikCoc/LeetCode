@@ -86,7 +86,43 @@ public:
 
 
 
-```python3
+```python
+#需要自己处理一个很大的数：用高精度来存这个数。
+#就是用一个数组来表示/存这个数
+#O(N)=N*N*N
+class Solution:
+    def isAdditiveNumber(self, num: str) -> bool:
+        #高精度加法的模板！背下来！
+        def add(x,y):
+            A=[];B=[];C=[]
+            for i in range(len(x)-1,-1,-1): A.append(int(x[i]))
+            for i in range(len(y)-1,-1,-1): B.append(int(y[i]))
+            t=0;i=0
+            while i<len(A) or i<len(B) or t:
+                if i<len(A): t+=A[i]
+                if i<len(B): t+=B[i]
+                C.append(t%10)
+                t//=10
+                i+=1
 
+            z=""
+            for i in range(len(C)-1,-1,-1):
+                z+=str(C[i])
+            return z
+
+        n=len(num)
+        for i in range(n):
+            for j in range(i+1,n-1):
+                a=-1;b=i;c=j
+                while True:
+                    #排除前导0
+                    if (b-a>1 and num[a+1]=='0') or (c-b>1 and num[b+1]=='0'):
+                        break
+                    x=num[a+1:b+1];y=num[b+1:c+1]
+                    z=add(x,y)
+                    if num[c+1:c+1+len(z)]!=z:break
+                    a=b;b=c;c+=len(z)
+                    if c+1==len(num): return True
+        return False     
 ```
 

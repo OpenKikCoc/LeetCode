@@ -102,7 +102,36 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def compress(self, chars: List[str]) -> int:
+        # 重新整理字符串的指针
+        k=0
+        i=0
+        while i<len(chars):
+            # 相同字符串的右下标
+            j=i+1
+            while j<len(chars) and chars[i]==chars[j]:
+                j+=1
+            # 得到相同字符串的长度
+            length=j-i
+
+            # 给头字母赋值
+            chars[k]=chars[i]
+            k+=1
+   
+            # 假如是length > 1的话，说明要往后面填数字
+            if length>1:
+                for c in str(length):
+                    chars[k]=c
+                    k+=1
+
+            # 更新左下标
+            i = j
+
+        # 返回我们填完数字的最后一位
+        print(k)
+
 
 ```
 

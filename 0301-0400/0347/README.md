@@ -29,12 +29,13 @@ public:
 
 
 ```python
+# 法一：1. 用哈希表统计每个元素出现的次数； 2. 原地建堆，取前k个； 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         my_cnt = collections.Counter(nums)
         q = []
         for key, v in my_cnt.items():
-            heapq.heappush(q, (-v ,key))
+            heapq.heappush(q, (-v ,key))   #  堆的元素可以是元组/列表 类型; 小根堆 所以 取负数
         res = []
         for _ in range(k):
             res.append(heapq.heappop(q)[1])

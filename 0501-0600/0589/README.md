@@ -77,7 +77,37 @@ public:
 
 
 
-```python3
+```python
+# 递归写法
+class Solution:
+    def preorder(self, root: 'Node') -> List[int]:
+        def dfs(p):
+            if not p:return
+            res.append(p.val)
+            for ch in p.children:
+                dfs(ch)
+
+        res = []
+        dfs(root)
+        return res  
+      
+# 迭代写法
+class Solution(object):
+    def preorder(self, root):
+        if not root:
+            return None
+        stack = []
+        res = []
+        stack.append(root)
+        while stack:    
+            node = stack.pop()
+            res.append(node.val)
+            cur_level = []
+            for cur in node.children:
+                cur_level.append(cur)
+            for i in range(len(cur_level) - 1, -1, -1):
+                stack.append(cur_level[i])
+        return res
 
 ```
 

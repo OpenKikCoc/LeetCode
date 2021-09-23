@@ -46,7 +46,18 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def monotoneIncreasingDigits(self, N: int) -> int:
+        s = list(str(N))  # 踩坑，要转化为string类型的列表
+        n = len(s)
+        k = 0 
+        while k + 1 < n and s[k] <= s[k + 1]:k += 1
+        if k == n - 1:return N 
+        while k and s[k - 1] == s[k]:k -= 1 
+        s[k] = str(int(s[k]) - 1) # 最开始相等的位置， 减去1
+        for i in range(k + 1, n):  # 后面位置都变成 ‘9’
+            s[i] = '9'
+        return ''.join(s).lstrip('0')
 ```
 

@@ -57,7 +57,29 @@ public:
 
 
 
-```python3
+```python
+# 选了x 不能选择x + 1 和 x - 1；这和打家劫舍的题很像
+# 状态机dp问题：有限制的选择问题（一般 有限制的选择问题 都可以用dp来做：背包问题也是有限制的选择问题）
+# 用一个数组存储每个数字出现的次数；
+# 考虑前i个数， 每个数都后面一个数都有影响；选择了i，就不能选i + 1；
+# 对于每个数都有两种情况：选 :  f[i][1]: / 不选 : f[i][0]； 
+# f[i][0] : 不选i，那i - 1  可选 可不选；1) 选i - 1 2）不选 i -1 ：f[i][0] = max(f[i-1][0], f[i-1][1])
+# f[i][1]: 选择了i，那i-1一定不能选；f[i][1] = f[i-1][0] + i * cnt[i](i选一个 还是选两个 对其他数的影响都是一样的)
+# 时间复杂度是O(N)， 一共有N个状态
 
+class Solution:
+    def deleteAndEarn(self, nums: List[int]) -> int:
+        n = len(nums)
+        cnt = [0] * 10010
+        m = 0
+        for x in nums:
+            cnt[x] += 1 
+            m = max(m, x)
+        print(m)
+        f = [[0] * 2 for i in range(m + 1)]
+        for i in range(1, m + 1):
+            f[i][0] = max(f[i - 1][0], f[i - 1][1])
+            f[i][1] = f[i - 1][0] + cnt[i] * i 
+        return max(f[m][0], f[m][1])
 ```
 

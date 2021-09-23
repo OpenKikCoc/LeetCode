@@ -53,7 +53,20 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def addStrings(self, num1: str, num2: str) -> str:
+        s1, s2 = num1[::-1], num2[::-1]
+        n, m = len(s1), len(s2)
 
+        res= []
+        i, t = 0, 0 
+        while i < n or i < m or t:
+            a = int(s1[i]) if i < n else 0 
+            b = int(s2[i]) if i < m else 0 
+            t, k = divmod(a + b + t, 10)
+            res.append(str(k))
+            i += 1
+        return ''.join(res[::-1])
 ```
 

@@ -40,7 +40,26 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def findTarget(self, root: TreeNode, k: int) -> bool:   
+        res = []    
+        def dfs(root):
+            if not root:return
+            dfs(root.left)
+            res.append(root.val)
+            dfs(root.right)
+        dfs(root)
+        sumn = 0
+        l, r = 0, len(res) - 1
+        while l < r:
+            sumn = res[l] + res[r]
+            if sumn == k:
+                return True
+            elif sumn > k:
+                r -= 1
+            else:
+                l += 1
+        return False
 ```
 

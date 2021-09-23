@@ -96,18 +96,20 @@ public:
 
 """
 
+#当有两个维度时，很重要的是想如何确定一个维度，然后在按照另外一个维度重新排列
+#【如果两个维度一起考虑，一定会顾此失彼】
+#按照身高来排列，身高一定是从大到小拍，让高个子在前面；然后按照k维度重新插入队列。
+
 class Solution:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
         people.sort(key=lambda x:(-x[0],x[1]))
         res=[]
         for p in people:
             res.insert(p[1],p)
-        
-
+        #等同于如下代码：
         # for i in range(len(people)):
         #     res.insert(people[i][1],people[i])
-        return res
-
+        return res    
 
 # class Solution:
 #     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
