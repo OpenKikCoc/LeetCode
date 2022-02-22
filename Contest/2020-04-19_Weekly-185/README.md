@@ -124,9 +124,50 @@ public:
 
 ### [1420. 生成数组](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
-todo
+经典前缀和优化
 
 
 ```c++
+class Solution {
+public:
+    using LL = long long;
+    const static int N = 55, M = 110, MOD = 1e9 + 7;
 
+    // 有 i 个数，搜索代价为 j ，最大值为 k 的所有方案
+    int f[N][N][M];
+
+    int numOfArrays(int n, int m, int _k) {
+        if (!_k)
+            return 0;
+        
+        memset(f, 0, sizeof f);
+        for (int i = 1; i <= m; ++ i )
+            f[1][1][i] = 1;
+        
+        // i: 数的个数
+        for (int i = 2; i <= n; ++ i )
+            // j: 搜索代价
+            for (int j = 1; j <= _k && j <= i; ++ j ) {
+                // 优化
+                int sum = 0;
+
+                // k: 最大值
+                for (int k = 1; k <= m; ++ k ) {
+                    // 1. 最大值出现在前 i - 1 个元素中，则数组末尾的元素可以从 1 到 k 中随便取
+                    f[i][j][k] = (LL)f[i - 1][j][k] * k % MOD;
+                    // 2. 最大值出现在数组末尾，则此前搜索代价为 j - 1
+                    // for (int x = 0; x < k; ++ x )
+                    //     f[i][j][k] = ((LL)f[i][j][k] + f[i - 1][j - 1][x]) % MOD;
+                    // 优化
+                    f[i][j][k] = ((LL)f[i][j][k] + sum) % MOD;
+                    sum = (sum + f[i - 1][j - 1][k]) % MOD;
+                }
+            }
+        
+        int res = 0;
+        for (int i = 1; i <= m; ++ i )
+            res = (res + f[n][_k][i]) % MOD;
+        return res;
+    }
+};
 ```

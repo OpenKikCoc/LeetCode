@@ -117,7 +117,7 @@ public:
 //斜线号：字符实体为 &frasl; ，对应的字符是 / 。
 ```
 
-### [1411. 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/)
+### [1411. 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-3-grid/)
 
 数学找规律
 
