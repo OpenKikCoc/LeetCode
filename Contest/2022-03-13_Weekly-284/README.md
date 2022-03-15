@@ -1,7 +1,7 @@
-## [比赛链接]()
+## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-284/)
 
 
-### [找出数组中的所有 K 近邻下标](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/)
+### [2200. 找出数组中的所有 K 近邻下标](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/)
 
 模拟即可
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [统计可以提取的工件](https://leetcode-cn.com/problems/count-artifacts-that-can-be-extracted/)
+### [2201. 统计可以提取的工件](https://leetcode-cn.com/problems/count-artifacts-that-can-be-extracted/)
 
 简单前缀和
 
@@ -61,7 +61,7 @@ public:
 };
 ```
 
-### [K 次操作后最大化顶端元素](https://leetcode-cn.com/problems/maximize-the-topmost-element-after-k-moves/) [TAG]
+### [2202. K 次操作后最大化顶端元素](https://leetcode-cn.com/problems/maximize-the-topmost-element-after-k-moves/) [TAG]
 
 思维题：分情况讨论 + 分析
 
@@ -92,7 +92,7 @@ public:
 };
 ```
 
-### [得到要求路径的最小带权子图](https://leetcode-cn.com/problems/minimum-weighted-subgraph-with-the-required-paths/) [TAG]
+### [2203. 得到要求路径的最小带权子图](https://leetcode-cn.com/problems/minimum-weighted-subgraph-with-the-required-paths/) [TAG]
 
 经典图论：**枚举中间点**
 
