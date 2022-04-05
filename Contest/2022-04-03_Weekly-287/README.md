@@ -26,6 +26,22 @@ public:
 ```
 
 
+
+```python
+class Solution:
+    def convertTime(self, a: str, b: str) -> int:
+        s1, s2 = int(a[0:2]) * 60 + int(a[3:5]), int(b[0:2]) * 60 + int(b[3:5])
+        res = 0
+        diff = s2 - s1
+        for x in [60, 15, 5, 1]:
+            while diff >= x:
+                diff -= x
+                res += 1
+        return res
+```
+
+
+
 ### [5235. 找出输掉零场或一场比赛的玩家](https://leetcode-cn.com/problems/find-players-with-zero-or-one-losses/)
 
 模拟
@@ -62,6 +78,52 @@ public:
 };
 ```
 
+
+
+```python
+# 自己的写法
+class Solution:
+    def findWinners(self, nums: List[List[int]]) -> List[List[int]]:
+        n = len(nums)
+        dict1 = collections.defaultdict(int)
+        dict2 = collections.defaultdict(int)
+        for i in range(n):
+            if nums[i][0] not in dict2:
+                dict1[nums[i][0]] += 1
+            dict2[nums[i][1]] += 1
+            if nums[i][1] in dict1:
+                del dict1[nums[i][1]]
+        res = [[] for i in range(2)]
+        for k in dict1.keys():
+            res[0].append(k)
+        for k, v in dict2.items():
+            if v == 1:
+                res[1].append(k)
+        res[0].sort()
+        res[1].sort()
+        return res     
+      
+      
+# dict1: 统计参赛的队伍的参赛次数
+# dict2: 记录输了比赛的队伍的输了的次数
+class Solution:
+    def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
+        dict1 = Counter()
+        dict2 = Counter()
+        for x, y in matches:
+            dict1[x] += 1
+            dict1[y] += 1
+            dict2[y] += 1
+        s = []
+        t = []
+        for i in sorted(dict1):
+            if dict2[i] == 0:
+                s.append(i)
+            if dict2[i] == 1:
+                t.append(i)
+        return s, t
+```
+
 ### [5219. 每个小孩最多能分到多少糖果](https://leetcode-cn.com/problems/maximum-candies-allocated-to-k-children/)
 
 二分答案 注意右边界
@@ -94,6 +156,28 @@ public:
         return l - 1;
     }
 };
+```
+
+
+
+```python
+class Solution:
+    def maximumCandies(self, nums: List[int], k: int) -> int:
+        # 注意右边界
+        l, r = 1, max(nums) + 1
+        
+        def check(m):
+            c = 0
+            for x in nums:
+                c += x // m
+            return c >= k 
+        while l < r:
+            m = l + (r - l) // 2
+            if check(m):
+                l = m + 1
+            else:
+                r = m 
+        return l - 1
 ```
 
 ### [5302. 加密解密字符串](https://leetcode-cn.com/problems/encrypt-and-decrypt-strings/)
@@ -215,3 +299,41 @@ public:
  */
 ```
 
+
+
+```python
+class Encrypter(object):
+
+    def __init__(self, keys, values, dictionary):
+        """
+        :type keys: List[str]
+        :type values: List[str]
+        :type dictionary: List[str]
+        """
+        self.keys = keys
+        self.values = values
+        self.key_index = dict()
+        for i, k in enumerate(keys):
+            self.key_index[k] = i
+        self.cache = collections.defaultdict(int)
+        for d in dictionary:
+            self.cache[self.encrypt(d)]+=1
+
+    def encrypt(self, word1):
+        """
+        :type word1: str
+        :rtype: str
+        """
+        ans = []
+        for w in word1:
+            ans.append(self.values[self.key_index[w]])
+        return ''.join(ans)
+
+
+    def decrypt(self, word2):
+        """
+        :type word2: str
+        :rtype: int
+        """
+        return self.cache[word2]
+```

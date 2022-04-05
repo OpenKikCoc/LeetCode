@@ -36,7 +36,21 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def knightProbability(self, n: int, k: int, row: int, column: int) -> float:
+        f = [[[0] * (k + 1) for _ in range(n + 1)] for _ in range(n + 1)]
+        for i in range(n):
+            for j in range(n):
+                f[i][j][k] = 1
+        dx, dy = [-2, -1, 1, 2, 2, 1, -1, -2], [1, 2, 2, 1, -1, -2, -2, -1]
+        for i in range(k - 1, -1, -1):
+            for x in range(n):
+                for y in range(n):
+                    for u in range(8):
+                        nx, ny = x + dx[u], y + dy[u]
+                        if 0 <= nx < n and 0 <= ny < n:
+                            f[x][y][i] += f[nx][ny][i + 1] / 8
+        return f[row][column][0]
 ```
 

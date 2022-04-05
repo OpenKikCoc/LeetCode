@@ -91,7 +91,7 @@
 | [685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/) | [here](./0685/README.md) | tarjan找环 理清楚几种情况<br>优雅的实现思路<br>重复          | X      |       |
 | [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/) | [here](./0686/README.md) | kmp 细节                                                     | X      |       |
 | [687. 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) | [here](./0687/README.md) |                                                              | X      | X     |
-| [688. “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/) | [here](./0688/README.md) | 细节                                                         | X      |       |
+| [688. “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/) | [here](./0688/README.md) | 细节                                                         | X      | X     |
 | [689. 三个无重叠子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [here](./0689/README.md) | 线性 逆序dp找方案<br>经典 重复                               | X      |       |
 | [690. 员工的重要性](https://leetcode-cn.com/problems/employee-importance/) | [here](./0690/README.md) |                                                              | X      |       |
 | [691. 贴纸拼词](https://leetcode-cn.com/problems/stickers-to-spell-word/) | [here](./0691/README.md) | 背包进阶+ 双重记忆化搜索<br>注意不是按次数是按位<br>OR 直接状压dp | X      |       |

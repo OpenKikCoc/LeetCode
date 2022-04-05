@@ -59,23 +59,25 @@ public:
 ```python
 class Solution:
     def findRightInterval(self, nums: List[List[int]]) -> List[int]:
-        n=len(nums)
-        #排序前给每一项的末尾添加索引
+        n = len(nums)
+        # 排序前给每一项的末尾添加索引
         for i in range(n):
             nums[i].append(i)
 
-        nums.sort(key=lambda x:x[0])
-        res=[-1]*n 
+        nums.sort(key=lambda x: x[0])
+        res = [-1] * n
 
         for i in range(n):
-            l,r=0,n-1 
-            while l<r:
-                m=l+(r-l)//2 
-                if nums[m][0]<nums[i][1]:
-                    l=m+1
-                else:r=m 
-            if nums[l][0]>=nums[i][1]:
-                res[nums[i][2]]=nums[l][2]
+            l, r = 0, n - 1
+            while l < r:
+                m = l + (r - l) // 2
+                if nums[m][0] < nums[i][1]:
+                    l = m + 1
+                else:
+                    r = m
+            if nums[l][0] >= nums[i][1]:
+                res[nums[i][2]] = nums[l][2]
         return res
+
 ```
 

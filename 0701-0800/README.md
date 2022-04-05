@@ -93,7 +93,7 @@
 | [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/) | [here](./0787/README.md) | 标准bellman ford                                             | X      |       |
 | [788. 旋转数字](https://leetcode-cn.com/problems/rotated-digits/) | [here](./0788/README.md) |                                                              | X      |       |
 | [789. 逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/) | [here](./0789/README.md) | 思路                                                         | X      |       |
-| [790. 多米诺和托米诺平铺](https://leetcode-cn.com/problems/domino-and-tromino-tiling/) | [here](./0790/README.md) | 经典线性dp                                                   | X      |       |
+| [790. 多米诺和托米诺平铺](https://leetcode-cn.com/problems/domino-and-tromino-tiling/) | [here](./0790/README.md) | 经典线性dp                                                   | X      | X     |
 | [791. 自定义字符串排序](https://leetcode-cn.com/problems/custom-sort-string/) | [here](./0791/README.md) |                                                              | X      |       |
 | [792. 匹配子序列的单词数](https://leetcode-cn.com/problems/number-of-matching-subsequences/) | [here](./0792/README.md) | trick 类似多路归并的思路来优化匹配过程                       | X      |       |
 | [793. 阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/) | [here](./0793/README.md) | 二分性质 + 数学                                              | X      |       |
