@@ -17,7 +17,7 @@
 |                                                              | [here](./0711/README.md) |                                                              |        |       |
 | [712. 两个字符串的最小ASCII删除和](https://leetcode-cn.com/problems/minimum-ascii-delete-sum-for-two-strings/) | [here](./0712/README.md) |                                                              | X      |       |
 | [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | [here](./0713/README.md) |                                                              | X      |       |
-| [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [here](./0714/README.md) |                                                              | X      |       |
+| [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [here](./0714/README.md) |                                                              | X      | X     |
 | [715. Range 模块](https://leetcode-cn.com/problems/range-module/) | [here](./0715/README.md) | 复杂模拟 使用哨兵数值                                        | X      |       |
 |                                                              | [here](./0716/README.md) |                                                              |        |       |
 | [717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) | [here](./0717/README.md) | trick                                                        | X      |       |
@@ -102,6 +102,6 @@
 | [796. 旋转字符串](https://leetcode-cn.com/problems/rotate-string/) | [here](./0796/README.md) | 字符串hash                                                   | X      |       |
 | [797. 所有可能的路径](https://leetcode-cn.com/problems/all-paths-from-source-to-target/) | [here](./0797/README.md) |                                                              | X      |       |
 | [798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/) | [here](./0798/README.md) | 很有意思的题目<br>十分trick的**差分**                        | X      |       |
-| [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/) | [here](./0799/README.md) | dp                                                           | X      |       |
+| [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/) | [here](./0799/README.md) | dp                                                           | X      | X     |
 |                                                              | [here](./0800/README.md) |                                                              |        |       |
 

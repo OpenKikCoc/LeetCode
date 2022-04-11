@@ -48,27 +48,69 @@ public:
 
 
 
-```python
-# 可以用dp来写；这里写另外一种思路，叫：！！！前后缀分解 （枚举两次交易的分界点）==> 涉及到分两次买入的情况都可以用这种思路 ： 可以枚举第二次交易的买入时间，比如是第i次交易买入的。（如何求这一类方案的最值呢？）
-# f[i]: 在第1-i天 进行买卖一次的最大收益值（可以分为：1. 在第i天卖出；2.不在第i天卖出）
-# 总收益就转换为：第一次交易是在前i-1天内完成的,可以表示成f[i-1]；第二次交易是在第i天买入，后面再卖出，最大收益是：第i天之后股票的最大值减去第i天的价格。
-# 枚举完分界点后，就可以把一个问题分解成 两个独立的子问题；（搜Acwing--前后缀分解，会出来相关题型）
+**思路**
 
+> **前后缀分解思想**：
+>
+> 枚举两次交易的分界点 （涉及到分两次买入的情况都可以用这种思路），假设枚举第二次交易的买入时间为第$i$天，就可以把一个问题分解成两个独立的子问题；
+>
+> 1） 前$i$天交易一次的最大收益
+>
+> 2） 在第$i$天买入，后面再卖出的一次交易的最大收益
+>
+> 1. 枚举第一次交易：遍历数组，从前向后扫描，用$f[i]$记录前$i$天中只买卖一次的最大收益（不一定在第$i$天卖）
+>
+> 2. 枚举第二次交易：遍历数组，从后向前扫描，计算只买卖一次并且在第$i$天买入的最大收益。最大收益等于第$i$天之后股票的最大价格减去第i天的价格；
+>
+>    在此基础上再加上$f[i-1]$，就是两第二次交易在第$i$天买入，两次交易的总收益最大值。
+>
+> 3. 枚举过程中，维护总收益的最大值。
+>
+> ------
+>
+> **状态机dp**：
+>
+> 分别维护以下三种状态的最大值:
+>
+> fstBought: 第一次买入(后)的状态； fstSold：第一次卖出（后）的状态
+>
+> secBought: 第二次买入(后)的状态； secSold：第二次卖出（后）的状态
+>
+> 答案是第二次卖出后的状态的最大值
+
+```python
+# 前后缀分解
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
         f = [0] * (n + 1)
 
         minv = float('inf')
-        for i in range(1, n + 1):   #f从1开始，f[i]对应的是prices[i-1]
-            f[i] = max(f[i-1], prices[i-1] - minv)
-            minv = min(minv, prices[i-1])
-        
+        for i in range(1, n + 1):  
+            f[i] = max(f[i - 1], prices[i - 1] - minv)
+            minv = min(minv, re)
+
         maxv = float('-inf')
-        res = 0
+        m
         for i in range(n, 0, -1):
-            res = max(res, maxv - prices[i-1] + f[i-1]) 
-            maxv = max(maxv, prices[i-1])
-        return res      
+            res = max(res, maxv - prices[i - 1] + f[i - 1])
+            maxv = max(maxv, prices[i - 1])
+        return res
+
+```
+
+```python
+# 状态机dp
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        n = len(prices)
+        fstSold, secSold = 0, 0 
+        fstBought, secBought = -prices[0], -prices[0]
+        for i in range(1, n + 1):
+            fstSold = max(fstSold, fstBought + prices[i - 1])
+            fstBought = max(fstBought, - prices[i - 1])
+            secSold = max(secSold, secBought + prices[i - 1])
+            secBought = max(secBought, fstSold - prices[i - 1])
+        return secSold
 ```
 

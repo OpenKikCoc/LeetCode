@@ -40,43 +40,50 @@ public:
 
 
 
+**思路**
+
+> **普通dp**
+>
+> 1. 状态表示：$f[i]$: 前 $i$ 天可以最多赚到多少钱；
+> 2. 状态转移：1）第 $i$ 天不偷，那就是 $f[i-1]$ ；2. 第 $i$ 天偷，那就只能 $i-2$ 天偷
+>
+> ------
+>
+> **状态机dp**
+>
+> 1. 状态表示：
+>
+>    $f[i]$ 表示考虑了前 $i$ 个房间，且盗窃了第 $i$ 个房间所能得到的最大收益
+>
+>    $g[i]$ 表示考虑了前 $i$ 个房间，且不盗窃第 $i$ 个房间所能得到的最大收益
+>
+> 2. 状态转移
+>
+>    $f[i]$：表示在第 $i$ 家偷，那 $i-1$ 家就不能偷，$f[i] = g[i-1] + nums[i-1]$
+>
+>    $g[i]$: 表示不偷第 $i$ 家，那 $i-1$ 家也是可偷可不偷, $g[i] = max(g[i-1], f[i-1])$
+
 ```python
-# 正常dp思维：f[i]: 前i天 可以最多赚到多少钱；
-# 1. 第i天不偷，那就是f[i-1] ；2. 第i天偷，那就只能i-2天偷！
+# dp
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
         f = [0] * (n + 1)
         for i in range(1, n + 1):
-            f[i] = max(f[i-1], f[i-2] + nums[i-1])
+            f[i] = max(f[i - 1], f[i - 2] + nums[i - 1])
         return f[n]
-      
-# 状态机dp解法
-#  f(i) 表示考虑了前 ii 个房间，且盗窃了第 i 个房间所能得到的最大收益，g(i) 表示不盗窃第 i 个房间所能得到的最大收益
-# f[i]：表示在第i家偷，那i-1家就不能偷，f[i] = g[i-1] + nums[i-1]
-# g[i]: 表示不偷第i家，那i-1家也是可偷可不偷, g[i] = max(g[i-1], f[i-1])
-class Solution:
-    def rob(self, nums: List[int]) -> int:
-        n = len(nums)
-        f = [0] * (n + 1); g = [0] * (n + 1)
-        # f[1] = nums[0]  
-        for i in range(1, n + 1): # 由于没有直接初始化特判别f[1] = nums[0] 所以 这里需要从1开始计算
-            f[i] = g[i-1] + nums[i-1]
-            g[i] = max(f[i-1], g[i-1])
-        return max(f[n], g[n])
+```
 
-      
-# 状态机dp解法      
+```python
+# 状态机dp
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
-        f = [0] * (n + 1); g =[0] * (n + 1)
-        f[1] = nums[0]
-        for i in range(2, n + 1): 
+        f, g = [0] * (n + 1), [0] * (n + 1)
+        for i in range(1, n + 1):
             f[i] = g[i - 1] + nums[i - 1]
-            g[i] = max(f[i - 1], g[i -1])
+            g[i] = max(f[i - 1], g[i - 1])
         return max(f[n], g[n])
-
 ```
 
