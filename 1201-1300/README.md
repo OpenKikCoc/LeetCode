@@ -65,7 +65,7 @@
 | 59                                                           |                          |                                        |        |       |
 | 60                                                           |                          |                                        |        |       |
 | [1261. 在受污染的二叉树中查找元素](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/) | [here](./1261/README.md) |                                        |        |       |
-| [1262. 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/) | [here](./1262/README.md) | 自己写了不少垃圾代码（只留了一个标准） | X      |       |
+| [1262. 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/) | [here](./1262/README.md) | 自己写了不少垃圾代码（只留了一个标准） | X      | X     |
 | [1263. 推箱子](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/) | [here](./1263/README.md) |                                        |        |       |
 |                                                              |                          |                                        |        |       |
 | 1265                                                         |                          |                                        |        |       |
