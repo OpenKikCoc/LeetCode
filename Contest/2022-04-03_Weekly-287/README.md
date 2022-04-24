@@ -271,23 +271,23 @@ class Encrypter {
 
 public:
     Encrypter(vector<char>& keys, vector<string>& values,
-              vector<string>& dictionary) {
+        vector<string>& dictionary) {
         for (int i = 0; i < int(keys.size()); i++)
-        	en[keys[i]] = values[i];
+            en[keys[i]] = values[i];
         // 用哈希表记录每个加密后的字符串的出现次数
         for (auto s : dictionary)
-        	cnt[encrypt(s)]++;
+            cnt[encrypt(s)]++;
     }
 
     string encrypt(string word1) {
         std::string s;
         for (auto c : word1)
-        	s += en[c];
+            s += en[c];
         return s;
     }
 
     int decrypt(string word2) {
-    	return cnt[word2];
+        return cnt[word2];
     }
 };
 
