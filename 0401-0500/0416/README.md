@@ -6,8 +6,6 @@
 
 ## 题解
 
-
-
 ```c++
 class Solution {
 public:
@@ -44,39 +42,76 @@ public:
 
 
 
+> **思路**
+>
+> 两个子集的和要想等，说明 $sum(nums) 模 2 == 0$ ，且每个子集的和应该是 $sum(nums) / 2$
+>
+> 可以把这道题转化为：从 $nums$ 中任选若干数字，这些数字之和要等于 $sum(nums)/2$ ，那么剩下数字就自动构成另一个子集
+>
+> $==>$ 这就是经典的**01背包问题**：背包的容积是  $sum(nums)/2$，从 $n = len(nums)$ 中选，每个物品的体积是 $nums[i]$ ，问能否恰好装满这个包
+>
+> 1. 状态定义：$f[i,j]$ 表示遍历到第 $i$ 个物品时是否可凑出  $sum(nums)/2$
+>
+> 2. 状态转移：
+>
+>    1） 第 $i$ 个物品装: $f[i, j] = f[i - 1, j - nums[i]]$
+>
+>    2） 第 $i$ 个物品不装： $f[i, j] = f[i - 1, j]$
+>
+>    两个状态有一个为 $True$ 就说明存在符合题意的方案
+>
+> 3. 初始化：$f[i, 0] = True; $ 表示： $0$ 个物品凑成体积为 $0$ 的方案是存在的
+
 ```python
+# 朴素dp
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-        # 两个子集的和要想等，说明nums之和应该为偶数，且每个子集的和应该是sum(nums)/2
-        if sum(nums) % 2 == 1 or len(nums) == 1:
-            return False
-        # 这样就转化为了：从nums中任选数字，这些数字之和要等于sum(nums)/2，那么剩下的就是另一个子集
-        # 这就是一个01背包问题，背包容积是sum(nums)/2,从N=len(nums)中选，每个物品的体积是nums[i]，问能否恰好装满这个包
-        # 闫氏dp分析法
-        # 状态表示：dp[i][j]表示遍历到第i位时是否可凑出target。
-        # 状态计算：第i个物品装或不装：dp[i][j] = dp[i-1][j-nums[i]]装 or dp[i-1][j]不装,有一个为True就说明在前i个数中是存在符合要求的方案的
-        # 注意：j = 0时初始化为True，从定义出发，j=0说明sum(nums)/2==0，说明sum(num)==0,那么相当于全0数组分割，当然是True
-        # N, V = len(nums), int(sum(nums)/2)
-        # 注意这里j也要开多一位，因为需要取到V
-        # dp = [[False] * (V + 1) for _ in range(N+1)]
-        # for i in range(N+1):
-        #     dp[i][0] = True
-        # nums = [0] + nums
-        # for i in range(1, N+1):
-        #     for j in range(V+1):
-        #         if j < nums[i]:
-        #             dp[i][j] = dp[i-1][j]
-        #         else:
-        #             dp[i][j] = dp[i-1][j-nums[i]] or dp[i-1][j]
-        # return dp[N][V]
-        # 状态压缩
-        N, V = len(nums), int(sum(nums)/2)
-        dp = [False] * (V + 1)
-        dp[0] = True
-        nums = [0] + nums
-        for num in nums:
-            for j in range(V, num-1, -1):
-                dp[j] = dp[j-num] or dp[j]
-        return dp[V]
+        # 剪枝
+        if sum(nums) % 2 == 1 or len(nums) == 1:return False
+        n, v = len(nums), int(sum(nums) / 2)
+
+        f = [[False] * (v + 1) for _ in range(n + 1)]
+        f[i][0] = True
+        for i in range(1, n + 1):
+            for j in range(v + 1):
+                if j < nums[i - 1]:
+                    f[i][j] = f[i - 1][j]
+                else:
+                    f[i][j] = f[i - 1][j - nums[i - 1]] or f[i - 1][j]
+        return f[n][v]
+```
+
+```python
+# 滚动数组优化
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+        # 剪枝
+        if sum(nums) % 2 == 1 or len(nums) == 1:return False
+        n, v = len(nums), int(sum(nums) / 2)
+
+        f = [[False] * (v + 1) for _ in range(2)]
+        f[0][0] = True
+        for i in range(1, n + 1):
+            for j in range(v + 1):
+                if j < nums[i - 1]:
+                    f[i & 1][j] = f[(i - 1) & 1][j]
+                else:
+                    f[i & 1][j] = f[(i - 1) & 1][j - nums[i - 1]] or f[(i - 1) & 1][j]
+        return f[n & 1][v]
+
+# 空间压缩
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+      	# 剪枝
+        if sum(nums) % 2 == 1 or len(nums) == 1:return False
+        n, v = len(nums), int(sum(nums) / 2)
+        
+        f = [False] * (v + 1)
+        f[0] = True
+
+        for i in range(n):
+            for j in range(v, nums[i - 1] - 1, -1):
+                f[j] = f[j - nums[i - 1]] or f[j]
+        return f[v]
 ```
 

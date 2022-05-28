@@ -34,7 +34,16 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def guessNumber(self, n: int) -> int:
+        l, r = 1, n + 1
+        while l < r:
+            m = l + (r - l) // 2
+            if guess(m) > 0:
+                l = m + 1
+            else:
+                r = m
+        return l
 ```
 

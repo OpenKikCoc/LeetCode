@@ -77,7 +77,7 @@
 |                                                              | [here](./0471/README.md) |                                                              |        |       |
 | [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/) | [here](./0472/README.md) |                                                              | X      |       |
 | [473. 火柴拼正方形](https://leetcode-cn.com/problems/matchsticks-to-square/) | [here](./0473/README.md) | 搜索 细节                                                    | X      |       |
-| [474. 一和零](https://leetcode-cn.com/problems/ones-and-zeroes/) | [here](./0474/README.md) |                                                              | X      |       |
+| [474. 一和零](https://leetcode-cn.com/problems/ones-and-zeroes/) | [here](./0474/README.md) |                                                              | X      | X     |
 | [475. 供暖器](https://leetcode-cn.com/problems/heaters/)     | [here](./0475/README.md) | 显然二分 注意`check`函数写法                                 | X      |       |
 | [476. 数字的补数](https://leetcode-cn.com/problems/number-complement/) | [here](./0476/README.md) |                                                              | X      |       |
 | [477. 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/) | [here](./0477/README.md) |                                                              | X      |       |

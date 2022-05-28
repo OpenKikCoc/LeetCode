@@ -77,7 +77,7 @@
 | [371. 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/) | [here](./0371/README.md) | 经典                                    | X      |       |
 | [372. 超级次方](https://leetcode-cn.com/problems/super-pow/) | [here](./0372/README.md) | 细节                                    | X      |       |
 | [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) | [here](./0373/README.md) | 经典 堆                                 | X      |       |
-| [374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [here](./0374/README.md) |                                         | X      |       |
+| [374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [here](./0374/README.md) |                                         | X      | X     |
 | [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | [here](./0375/README.md) | 思维 区间dp                             | X      |       |
 | [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [here](./0376/README.md) | 经典 dp OR 贪心<br>另yxc贪心策略的证明  | X      |       |
 | [377. 组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) | [here](./0377/README.md) | 状态定义                                | X      | X     |
