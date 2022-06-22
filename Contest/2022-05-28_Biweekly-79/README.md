@@ -97,7 +97,7 @@ public:
 };
 ```
 
-### [2286. 以组为单位订音乐会的门票 ](https://leetcode.cn/problems/booking-concert-tickets-in-groups/)[TAG]
+### [2286. 以组为单位订音乐会的门票 ](https://leetcode.cn/problems/booking-concert-tickets-in-groups/) [TAG]
 
 线段树二分
 
