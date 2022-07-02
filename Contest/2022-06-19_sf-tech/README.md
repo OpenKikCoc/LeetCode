@@ -71,6 +71,31 @@ public:
 ```
 
 
+
+```python
+class Solution:
+    def hasCycle(self, graph: str) -> bool:
+        paths = graph.split(',')
+        edge = defaultdict(set)
+        d = defaultdict(int)
+        for path in paths:
+            x, y = path.split('->')
+            edge[x].add(y)
+            d[y] += 1
+        queue = deque([x for x in edge if x not in d])
+        vis = set(queue)
+        while queue:
+            node = queue.popleft()
+            for x in edge[node]:
+                d[x] -= 1
+                if d[x] == 0:
+                    queue.append(x)
+                    vis.add(x)
+        return len(vis) != len(edge)
+```
+
+
+
 ### [小哥派件装载问题](https://leetcode.cn/contest/sf-tech/problems/cINqyA/)
 
 01 背包
@@ -95,6 +120,21 @@ public:
 };
 ```
 
+
+
+```python
+class Solution:
+    def minRemainingSpace(self, nums: List[int], m: int) -> int:
+        n = len(nums)
+        f = [0] * (m + 1)
+        for i in range(n):
+            for j in range(m, nums[i] - 1, -1):
+                f[j] = max(f[j], f[j - nums[i]] + nums[i])
+        return m - f[m]
+```
+
+
+
 ###[收件节节高](https://leetcode.cn/contest/sf-tech/problems/8oimK4/) 
 
 简单 dp
@@ -118,6 +158,43 @@ public:
     }
 };
 ```
+
+
+
+```python
+class Solution:
+    def findMaxCI(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        n = len(nums)
+        res, tmp = 1, 1
+        for i in range(1, n):
+            if nums[i] - nums[i - 1] > 0:
+                tmp += 1
+            else:
+                tmp = 1
+            res = max(res,tmp)        
+        return res
+      
+# Mine      
+class Solution:
+    def findMaxCI(self, nums: List[int]) -> int:
+        if not nums:return 0
+        n = len(nums)
+        l, r = 0, 0
+        res = 1
+        while r < len(nums) - 1:
+            if nums[r] < nums[r + 1]:
+                r += 1
+            else:
+                res = max(res, r - l + 1)
+                r += 1
+                l = r
+        res = max(res, r - l + 1)
+        return res      
+```
+
+
 
 ### [顺丰中转场车辆入场识别-电子围栏 ](https://leetcode.cn/contest/sf-tech/problems/uWWzsv/)TODO
 
@@ -222,5 +299,29 @@ public:
         return res <= m;
     }
 };
+```
+
+
+
+```python
+class Solution:
+    def isCompliance(self, dis: List[List[int]], n: int) -> bool:
+        m = len(dis)
+        p = [i for i in range(m)]
+        
+        def find(x):
+            if p[x] != x:
+                p[x] = find(p[x])
+            return p[x]
+    
+        size = m
+        for i in range(m):
+            for j in range(m):
+                if dis[i][j] <= 2:
+                    if find(i) != find(j):
+                        p[find(i)] = find(j)
+                        size -= 1
+        
+        return size <= n
 ```
 
