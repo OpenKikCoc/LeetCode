@@ -75,7 +75,14 @@ public:
 
 
 
-```python3
-
+```python
+class Solution:
+    def intersect(self, t1: 'Node', t2: 'Node') -> 'Node':
+        if t1.isLeaf:
+            return Node(True, True, None, None, None, None) if t1.val else t2
+        if t2.isLeaf:
+            return Node(True, True, None, None, None, None) if t2.val else t1
+        tl, tr, bl, br = self.intersect(t1.topLeft, t2.topLeft), self.intersect(t1.topRight, t2.topRight), self.intersect(t1.bottomLeft, t2.bottomLeft), self.intersect(t1.bottomRight, t2.bottomRight)
+        return Node(tl.val, True, None, None, None, None) if tl.isLeaf and tr.isLeaf and bl.isLeaf and br.isLeaf and tl.val == tr.val == bl.val == br.val else Node(False, False, tl, tr, bl, br)
 ```
 

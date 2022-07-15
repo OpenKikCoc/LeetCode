@@ -33,7 +33,23 @@ public:
 
 
 
-```python3
+```python
+class Solution:
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+        n = len(edges)
+        p = [i for i in range(n + 1)]
 
+        def find(x):
+            if p[x] != x:
+                p[x] = find(p[x])
+            return p[x]
+
+        for x in edges:
+            a, b = x[0], x[1]
+            pa, pb = find(a), find(b)
+            if pa != pb:
+                p[pb] = pa
+            else:
+                return x
 ```
 

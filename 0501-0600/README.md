@@ -61,7 +61,7 @@
 |                                                              | [here](./0555/README.md) |                                                              |        |       |
 | [556. 下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii/) | [here](./0556/README.md) |                                                              | X      |       |
 | [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [here](./0557/README.md) |                                                              | X      |       |
-| [558. 四叉树交集](https://leetcode-cn.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/) | [here](./0558/README.md) | 细节                                                         | X      |       |
+| [558. 四叉树交集](https://leetcode-cn.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/) | [here](./0558/README.md) | 细节                                                         | X      | X     |
 | [559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [here](./0559/README.md) |                                                              | X      | X     |
 | [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [here](./0560/README.md) |                                                              | X      | X     |
 | [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | [here](./0561/README.md) |                                                              |        |       |

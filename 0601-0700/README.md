@@ -87,7 +87,7 @@
 |                                                              | [here](./0681/README.md) |                                                              |        |       |
 | [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/) | [here](./0682/README.md) |                                                              | X      |       |
 |                                                              | [here](./0683/README.md) |                                                              |        |       |
-| [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [here](./0684/README.md) |                                                              | X      |       |
+| [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [here](./0684/README.md) |                                                              | X      | X     |
 | [685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/) | [here](./0685/README.md) | tarjan找环 理清楚几种情况<br>优雅的实现思路<br>重复          | X      |       |
 | [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/) | [here](./0686/README.md) | kmp 细节                                                     | X      |       |
 | [687. 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) | [here](./0687/README.md) |                                                              | X      | X     |
