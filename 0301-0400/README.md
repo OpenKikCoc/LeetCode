@@ -49,7 +49,7 @@
 | [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/) | [here](./0343/README.md) | 经典                                    | X      |       |
 | [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [here](./0344/README.md) |                                         | X      |       |
 | [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | [here](./0345/README.md) |                                         | X      |       |
-|                                                              | [here](./0346/README.md) |                                         |        |       |
+| [346. 数据流中的移动平均值](https://leetcode.cn/problems/moving-average-from-data-stream/) | [here](./0346/README.md) |                                         |        | X     |
 | [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [here](./0347/README.md) |                                         | X      | X     |
 |                                                              | [here](./0348/README.md) |                                         |        |       |
 | [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [here](./0349/README.md) |                                         | X      | X     |

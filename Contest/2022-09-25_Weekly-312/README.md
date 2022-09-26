@@ -27,7 +27,15 @@ public:
 
 
 ```python
-
+class Solution:
+    def sortPeople(self, a: List[str], b: List[int]) -> List[str]:
+        c = []
+        n = len(a)
+        for i in range(n):
+            c.append((-b[i], a[i]))
+        c.sort()
+        res = [y for x, y in c]
+        return res
 ```
 
 
@@ -63,7 +71,18 @@ public:
 
 
 ```python
-
+class Solution:
+    def longestSubarray(self, a: List[int]) -> int:
+        maxv = max(a)
+        length = 1
+        tmp = 0
+        for i in a:
+            if i == maxv:
+                tmp += 1
+                length = max(tmp, length)
+            else:
+                tmp = 0
+        return length  
 ```
 
 
@@ -117,7 +136,26 @@ public:
 
 
 ```python
-
+class Solution:
+    def goodIndices(self, a: List[int], k: int) -> List[int]:
+        n = len(a)
+        f = [0 for i in range(n)]
+        g = [0 for i in range(n)]
+        for i in range(1, n):
+            if a[i] <= a[i - 1]:
+                f[i] = f[i - 1] + 1
+            else:
+                f[i] = 0
+        for i in range(n - 1)[::-1]:
+            if a[i] <= a[i + 1]:
+                g[i] = g[i + 1] + 1
+            else:
+                g[i] = 0
+        res = []
+        for i in range(k, n - k):
+            if f[i - 1] >= k - 1 and g[i + 1] >= k - 1:
+                res.append(i)
+        return res
 ```
 
 
