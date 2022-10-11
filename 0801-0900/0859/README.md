@@ -1,4 +1,4 @@
-#  
+# [859. 亲密字符串](https://leetcode.cn/problems/buddy-strings/) 
 
 ## 题意
 
