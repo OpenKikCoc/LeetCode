@@ -25,6 +25,16 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def findMaxK(self, nums: List[int]) -> int:
+        S = set(nums)
+        res = -1
+        for x in nums:
+            if x > 0 and -x in S:
+                res = max(res, x)
+        return res
+```
 
 ### [6205. 反转之后不同整数的数目](https://leetcode.cn/problems/count-number-of-distinct-integers-after-reverse-operations/)
 
@@ -54,6 +64,32 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def countDistinctIntegers(self, nums: List[int]) -> int:
+        def reverse(x):
+            res = 0
+            while x:
+                res = res * 10 + x % 10
+                x //= 10
+            return res
+                
+        myset = set(nums)
+        for x in nums:
+            myset.add(reverse(x))
+        return len(myset)
+      
+# 别人的
+class Solution:
+    def countDistinctIntegers(self, nums: List[int]) -> int:
+        res = set(nums)
+        for x in nums:
+            res.add(int(str(x)[::-1]))
+        return len(res)
+```
+
+
+
 ### [6219. 反转之后的数字和](https://leetcode.cn/problems/sum-of-number-and-its-reverse/)
 
 
@@ -80,6 +116,32 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def sumOfNumberAndReverse(self, num: int) -> bool:
+        def reverse(x):
+            res = 0
+            while x:
+                res = res * 10 + x % 10
+                x //= 10
+            return res
+        
+        for i in range(num + 1):
+            if i + reverse(i) == num:
+                return True
+        return False
+
+
+class Solution:
+    def sumOfNumberAndReverse(self, num: int) -> bool:
+        for x in range(10**5 + 1):
+            if x + int(str(x)[::-1]) == num:
+                return True
+        return False
+```
+
+
 
 ### [6207. 统计定界子数组的数目](https://leetcode.cn/problems/count-subarrays-with-fixed-bounds/) [TAG]
 
@@ -155,5 +217,23 @@ public:
         return res;
     }
 };
+```
+
+```python
+class Solution:
+    def countSubarrays(self, nums: List[int], minK: int, maxK: int) -> int:
+        n = len(nums)
+        res, l = 0, 0
+        p1, p2 = -1, -1
+        for r in range(n):
+            if nums[r] == minK:
+                p1 = r
+            if nums[r] == maxK:
+                p2 = r
+            if nums[r] < minK or nums[r] > maxK:
+                l = r + 1
+            res += max(0, min(p1, p2) - l + 1)
+
+        return res
 ```
 
