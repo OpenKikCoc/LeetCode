@@ -37,6 +37,19 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def haveConflict(self, a: List[str], b: List[str]) -> bool:
+        if a[1] >= b[0] and a[0] <= b[1]:
+            return True
+        return False
+      
+class Solution:
+    def haveConflict(self, event1: List[str], event2: List[str]) -> bool:
+        return max(event1, event2)[0] <= min(event1, event2)[1]
+```
+
+
 
 ### [6224. 最大公因数等于 K 的子数组数目](https://leetcode.cn/problems/number-of-subarrays-with-gcd-equal-to-k/)
 
@@ -63,6 +76,43 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def subarrayGCD(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        res = 0
+        for i in range(n):
+            x = nums[i]
+            if x % k != 0:
+                continue
+            j = i
+            g = x
+            count = 0
+            while j >= 0 and nums[j] % k == 0:
+                # gcd(x, y) 求两个数字的最大公约数的内置函数
+                g = gcd(g, nums[j])
+                j -= 1
+                if g == k:
+                    count += 1
+            res += count
+        return res
+      
+      
+import math
+class Solution:
+    def subarrayGCD(self, nums: List[int], k: int) -> int:
+        sol = 0
+        for i in range(len(nums)):
+            curr = 0
+            for j in range(i, len(nums)):
+                curr = math.gcd(curr, nums[j])
+                sol += curr == k
+
+        return sol
+```
+
+
 
 ### [6216. 使数组相等的最小开销](https://leetcode.cn/problems/minimum-cost-to-make-array-equal/)
 
@@ -146,6 +196,29 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def minCost(self, nums: List[int], cost: List[int]) -> int:
+        order = sorted(range(len(nums)), key=nums.__getitem__)
+        nums = [nums[i] for i in order]
+        cost = [cost[i] for i in order]
+
+        front = [0] * len(nums)
+        curr = 0
+        for i in range(len(nums) - 1):
+            curr += cost[i]
+            front[i + 1] = front[i] + curr * (nums[i + 1] - nums[i])
+
+        sol = front[len(nums) - 1]
+        curr, back = cost[-1], 0
+        for i in reversed(range(len(nums) - 1)):
+            back += curr * (nums[i + 1] - nums[i])
+            sol = min(sol, front[i] + back)
+            curr += cost[i]
+
+        return sol
+```
+
 
 
 ### [6217. 使数组相似的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-arrays-similar/)
@@ -188,3 +261,19 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def makeSimilar(self, nums1: List[int], nums2: List[int]) -> int:
+        nums1_odd = sorted(i for i in nums1 if i % 2)
+        nums1_even = sorted(i for i in nums1 if i % 2 == 0)
+
+        nums2_odd = sorted(i for i in nums2 if i % 2)
+        nums2_even = sorted(i for i in nums2 if i % 2 == 0)
+
+        return (
+            sum(max(0, i - j) for i, j in zip(nums1_odd, nums2_odd))
+            + sum(max(0, i - j) for i, j in zip(nums1_even, nums2_even))
+        ) // 2
+```
+
