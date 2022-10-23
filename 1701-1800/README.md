@@ -1,4 +1,4 @@
-# 1701 - 0900
+# 1701 - 1800
 
 
 
@@ -73,7 +73,7 @@
 |                                                              | [here](./1767/README.md) |      |        |       |
 |                                                              | [here](./1768/README.md) |      |        |       |
 |                                                              | [here](./1769/README.md) |      |        |       |
-|                                                              | [here](./1770/README.md) |      |        |       |
+| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/) | [here](./1770/README.md) |      |        |       |
 |                                                              | [here](./1771/README.md) |      |        |       |
 |                                                              | [here](./1772/README.md) |      |        |       |
 |                                                              | [here](./1773/README.md) |      |        |       |
@@ -93,7 +93,7 @@
 |                                                              | [here](./1787/README.md) |      |        |       |
 |                                                              | [here](./1788/README.md) |      |        |       |
 |                                                              | [here](./1789/README.md) |      |        |       |
-| [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [here](./1790/README.md) |      |        |       |
+|                                                              | [here](./1790/README.md) |      |        |       |
 |                                                              | [here](./1791/README.md) |      |        |       |
 |                                                              | [here](./1792/README.md) |      |        |       |
 |                                                              | [here](./1793/README.md) |      |        |       |

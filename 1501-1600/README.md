@@ -1,105 +1,107 @@
-# 0000 - 0000
+# 1501 - 1600
 
 
 
-| Title | Solution | Note | binacs | tracy |
-| ----- | -------- | ---- | ------ | ----- |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
-|       |          |      |        |       |
+| Title                                                        | Solution                 | Note | binacs | tracy |
+| ------------------------------------------------------------ | ------------------------ | ---- | ------ | ----- |
+|                                                              | [here](./1501/README.md) |      |        |       |
+|                                                              | [here](./1502/README.md) |      |        |       |
+|                                                              | [here](./1503/README.md) |      |        |       |
+|                                                              | [here](./1504/README.md) |      |        |       |
+|                                                              | [here](./1505/README.md) |      |        |       |
+|                                                              | [here](./1506/README.md) |      |        |       |
+|                                                              | [here](./1507/README.md) |      |        |       |
+|                                                              | [here](./1508/README.md) |      |        |       |
+|                                                              | [here](./1509/README.md) |      |        |       |
+|                                                              | [here](./1510/README.md) |      |        |       |
+|                                                              | [here](./1511/README.md) |      |        |       |
+|                                                              | [here](./1512/README.md) |      |        |       |
+|                                                              | [here](./1513/README.md) |      |        |       |
+|                                                              | [here](./1514/README.md) |      |        |       |
+|                                                              | [here](./1515/README.md) |      |        |       |
+|                                                              | [here](./1516/README.md) |      |        |       |
+|                                                              | [here](./1517/README.md) |      |        |       |
+|                                                              | [here](./1518/README.md) |      |        |       |
+|                                                              | [here](./1519/README.md) |      |        |       |
+|                                                              | [here](./1520/README.md) |      |        |       |
+|                                                              | [here](./1521/README.md) |      |        |       |
+|                                                              | [here](./1522/README.md) |      |        |       |
+|                                                              | [here](./1523/README.md) |      |        |       |
+|                                                              | [here](./1524/README.md) |      |        |       |
+|                                                              | [here](./1525/README.md) |      |        |       |
+|                                                              | [here](./1526/README.md) |      |        |       |
+|                                                              | [here](./1527/README.md) |      |        |       |
+|                                                              | [here](./1528/README.md) |      |        |       |
+|                                                              | [here](./1529/README.md) |      |        |       |
+|                                                              | [here](./1530/README.md) |      |        |       |
+|                                                              | [here](./1531/README.md) |      |        |       |
+|                                                              | [here](./1532/README.md) |      |        |       |
+|                                                              | [here](./1533/README.md) |      |        |       |
+|                                                              | [here](./1534/README.md) |      |        |       |
+|                                                              | [here](./1535/README.md) |      |        |       |
+|                                                              | [here](./1536/README.md) |      |        |       |
+|                                                              | [here](./1537/README.md) |      |        |       |
+|                                                              | [here](./1538/README.md) |      |        |       |
+|                                                              | [here](./1539/README.md) |      |        |       |
+|                                                              | [here](./1540/README.md) |      |        |       |
+|                                                              | [here](./1541/README.md) |      |        |       |
+|                                                              | [here](./1542/README.md) |      |        |       |
+|                                                              | [here](./1543/README.md) |      |        |       |
+|                                                              | [here](./1544/README.md) |      |        |       |
+|                                                              | [here](./1545/README.md) |      |        |       |
+|                                                              | [here](./1546/README.md) |      |        |       |
+|                                                              | [here](./1547/README.md) |      |        |       |
+|                                                              | [here](./1548/README.md) |      |        |       |
+|                                                              | [here](./1549/README.md) |      |        |       |
+|                                                              | [here](./1550/README.md) |      |        |       |
+|                                                              | [here](./1551/README.md) |      |        |       |
+|                                                              | [here](./1552/README.md) |      |        |       |
+|                                                              | [here](./1553/README.md) |      |        |       |
+|                                                              | [here](./1554/README.md) |      |        |       |
+|                                                              | [here](./1555/README.md) |      |        |       |
+|                                                              | [here](./1556/README.md) |      |        |       |
+|                                                              | [here](./1557/README.md) |      |        |       |
+|                                                              | [here](./1558/README.md) |      |        |       |
+|                                                              | [here](./1559/README.md) |      |        |       |
+|                                                              | [here](./1560/README.md) |      |        |       |
+|                                                              | [here](./1561/README.md) |      |        |       |
+|                                                              | [here](./1562/README.md) |      |        |       |
+|                                                              | [here](./1563/README.md) |      |        |       |
+|                                                              | [here](./1564/README.md) |      |        |       |
+|                                                              | [here](./1565/README.md) |      |        |       |
+|                                                              | [here](./1566/README.md) |      |        |       |
+|                                                              | [here](./1567/README.md) |      |        |       |
+|                                                              | [here](./1568/README.md) |      |        |       |
+|                                                              | [here](./1569/README.md) |      |        |       |
+| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/) | [here](./1570/README.md) |      |        |       |
+|                                                              | [here](./1571/README.md) |      |        |       |
+|                                                              | [here](./1572/README.md) |      |        |       |
+|                                                              | [here](./1573/README.md) |      |        |       |
+|                                                              | [here](./1574/README.md) |      |        |       |
+|                                                              | [here](./1575/README.md) |      |        |       |
+|                                                              | [here](./1576/README.md) |      |        |       |
+|                                                              | [here](./1577/README.md) |      |        |       |
+|                                                              | [here](./1578/README.md) |      |        |       |
+|                                                              | [here](./1579/README.md) |      |        |       |
+|                                                              | [here](./1580/README.md) |      |        |       |
+|                                                              | [here](./1581/README.md) |      |        |       |
+|                                                              | [here](./1582/README.md) |      |        |       |
+|                                                              | [here](./1583/README.md) |      |        |       |
+|                                                              | [here](./1584/README.md) |      |        |       |
+|                                                              | [here](./1585/README.md) |      |        |       |
+|                                                              | [here](./1586/README.md) |      |        |       |
+|                                                              | [here](./1587/README.md) |      |        |       |
+|                                                              | [here](./1588/README.md) |      |        |       |
+|                                                              | [here](./1589/README.md) |      |        |       |
+|                                                              | [here](./1590/README.md) |      |        |       |
+|                                                              | [here](./1591/README.md) |      |        |       |
+|                                                              | [here](./1592/README.md) |      |        |       |
+|                                                              | [here](./1593/README.md) |      |        |       |
+|                                                              | [here](./1594/README.md) |      |        |       |
+|                                                              | [here](./1595/README.md) |      |        |       |
+|                                                              | [here](./1596/README.md) |      |        |       |
+|                                                              | [here](./1597/README.md) |      |        |       |
+|                                                              | [here](./1598/README.md) |      |        |       |
+|                                                              | [here](./1599/README.md) |      |        |       |
+|                                                              | [here](./1600/README.md) |      |        |       |
 

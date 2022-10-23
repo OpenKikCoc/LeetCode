@@ -1,105 +1,107 @@
-# 0000 - 0000
+# 1901 - 2000
 
 
 
 | Title                                                        | Solution                 | Note | binacs | tracy |
 | ------------------------------------------------------------ | ------------------------ | ---- | ------ | ----- |
-| 1901                                                         |                          |      |        |       |
-| 02                                                           |                          |      |        |       |
-| 03                                                           |                          |      |        |       |
-| 04                                                           |                          |      |        |       |
-| 05                                                           |                          |      |        |       |
-| 06                                                           |                          |      |        |       |
-| 07                                                           |                          |      |        |       |
-| 08                                                           |                          |      |        |       |
-| 09                                                           |                          |      |        |       |
-| 10                                                           |                          |      |        |       |
-| 11                                                           |                          |      |        |       |
-| 12                                                           |                          |      |        |       |
-| 13                                                           |                          |      |        |       |
-| 14                                                           |                          |      |        |       |
-| 15                                                           |                          |      |        |       |
-| 16                                                           |                          |      |        |       |
-| 17                                                           |                          |      |        |       |
-| 18                                                           |                          |      |        |       |
-| 19                                                           |                          |      |        |       |
-| 20                                                           |                          |      |        |       |
-| 21                                                           |                          |      |        |       |
-| 22                                                           |                          |      |        |       |
-| 23                                                           |                          |      |        |       |
-| 24                                                           |                          |      |        |       |
-| 25                                                           |                          |      |        |       |
-| 26                                                           |                          |      |        |       |
-| 27                                                           |                          |      |        |       |
-| 28                                                           |                          |      |        |       |
-| 29                                                           |                          |      |        |       |
-| 30                                                           |                          |      |        |       |
-| 31                                                           |                          |      |        |       |
-| 32                                                           |                          |      |        |       |
-| 33                                                           |                          |      |        |       |
-| 34                                                           |                          |      |        |       |
-| 35                                                           |                          |      |        |       |
-| 36                                                           |                          |      |        |       |
-| 37                                                           |                          |      |        |       |
-| 38                                                           |                          |      |        |       |
-| 39                                                           |                          |      |        |       |
-| 40                                                           |                          |      |        |       |
-| 41                                                           |                          |      |        |       |
-| 42                                                           |                          |      |        |       |
-| 43                                                           |                          |      |        |       |
-| 44                                                           |                          |      |        |       |
-| 45                                                           |                          |      |        |       |
-| 46                                                           |                          |      |        |       |
-| 47                                                           |                          |      |        |       |
-| 48                                                           |                          |      |        |       |
-| 49                                                           |                          |      |        |       |
-| 50                                                           |                          |      |        |       |
-| 51                                                           |                          |      |        |       |
-| [1952. 三除数](https://leetcode-cn.com/problems/three-divisors/) | [here](./1952/README.md) |      |        | X     |
-| [1953. 你可以工作的最大周数](https://leetcode-cn.com/problems/maximum-number-of-weeks-for-which-you-can-work/) | [here](./1953/README.md) |      |        | X     |
-| [1954. 收集足够苹果的最小花园周长](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | [here](./1954/README.md) |      |        | X     |
-| [1955. 统计特殊子序列的数目](https://leetcode-cn.com/problems/count-number-of-special-subsequences/) | [here](./1955/README.md) |      |        | X     |
-|                                                              |                          |      |        |       |
-| [1957. 删除字符使字符串变好](https://leetcode-cn.com/problems/delete-characters-to-make-fancy-string/) | [here](./1957/README.md) |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
-|                                                              |                          |      |        |       |
+|                                                              | [here](./1901/README.md) |      |        |       |
+|                                                              | [here](./1902/README.md) |      |        |       |
+|                                                              | [here](./1903/README.md) |      |        |       |
+|                                                              | [here](./1904/README.md) |      |        |       |
+|                                                              | [here](./1905/README.md) |      |        |       |
+|                                                              | [here](./1906/README.md) |      |        |       |
+|                                                              | [here](./1907/README.md) |      |        |       |
+|                                                              | [here](./1908/README.md) |      |        |       |
+|                                                              | [here](./1909/README.md) |      |        |       |
+|                                                              | [here](./1910/README.md) |      |        |       |
+|                                                              | [here](./1911/README.md) |      |        |       |
+|                                                              | [here](./1912/README.md) |      |        |       |
+|                                                              | [here](./1913/README.md) |      |        |       |
+|                                                              | [here](./1914/README.md) |      |        |       |
+|                                                              | [here](./1915/README.md) |      |        |       |
+|                                                              | [here](./1916/README.md) |      |        |       |
+|                                                              | [here](./1917/README.md) |      |        |       |
+|                                                              | [here](./1918/README.md) |      |        |       |
+|                                                              | [here](./1919/README.md) |      |        |       |
+|                                                              | [here](./1920/README.md) |      |        |       |
+|                                                              | [here](./1921/README.md) |      |        |       |
+|                                                              | [here](./1922/README.md) |      |        |       |
+|                                                              | [here](./1923/README.md) |      |        |       |
+|                                                              | [here](./1924/README.md) |      |        |       |
+|                                                              | [here](./1925/README.md) |      |        |       |
+|                                                              | [here](./1926/README.md) |      |        |       |
+|                                                              | [here](./1927/README.md) |      |        |       |
+|                                                              | [here](./1928/README.md) |      |        |       |
+|                                                              | [here](./1929/README.md) |      |        |       |
+|                                                              | [here](./1930/README.md) |      |        |       |
+|                                                              | [here](./1931/README.md) |      |        |       |
+|                                                              | [here](./1932/README.md) |      |        |       |
+|                                                              | [here](./1933/README.md) |      |        |       |
+|                                                              | [here](./1934/README.md) |      |        |       |
+|                                                              | [here](./1935/README.md) |      |        |       |
+|                                                              | [here](./1936/README.md) |      |        |       |
+|                                                              | [here](./1937/README.md) |      |        |       |
+|                                                              | [here](./1938/README.md) |      |        |       |
+|                                                              | [here](./1939/README.md) |      |        |       |
+|                                                              | [here](./1940/README.md) |      |        |       |
+|                                                              | [here](./1941/README.md) |      |        |       |
+|                                                              | [here](./1942/README.md) |      |        |       |
+|                                                              | [here](./1943/README.md) |      |        |       |
+|                                                              | [here](./1944/README.md) |      |        |       |
+|                                                              | [here](./1945/README.md) |      |        |       |
+|                                                              | [here](./1946/README.md) |      |        |       |
+|                                                              | [here](./1947/README.md) |      |        |       |
+|                                                              | [here](./1948/README.md) |      |        |       |
+|                                                              | [here](./1949/README.md) |      |        |       |
+|                                                              | [here](./1950/README.md) |      |        |       |
+|                                                              | [here](./1951/README.md) |      |        |       |
+|                                                              | [here](./1952/README.md) |      |        |       |
+|                                                              | [here](./1953/README.md) |      |        |       |
+|                                                              | [here](./1954/README.md) |      |        |       |
+|                                                              | [here](./1955/README.md) |      |        |       |
+|                                                              | [here](./1956/README.md) |      |        |       |
+|                                                              | [here](./1957/README.md) |      |        |       |
+|                                                              | [here](./1958/README.md) |      |        |       |
+|                                                              | [here](./1959/README.md) |      |        |       |
+|                                                              | [here](./1960/README.md) |      |        |       |
+|                                                              | [here](./1961/README.md) |      |        |       |
+|                                                              | [here](./1962/README.md) |      |        |       |
+|                                                              | [here](./1963/README.md) |      |        |       |
+|                                                              | [here](./1964/README.md) |      |        |       |
+|                                                              | [here](./1965/README.md) |      |        |       |
+|                                                              | [here](./1966/README.md) |      |        |       |
+|                                                              | [here](./1967/README.md) |      |        |       |
+|                                                              | [here](./1968/README.md) |      |        |       |
+|                                                              | [here](./1969/README.md) |      |        |       |
+| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/) | [here](./1970/README.md) |      |        |       |
+|                                                              | [here](./1971/README.md) |      |        |       |
+|                                                              | [here](./1972/README.md) |      |        |       |
+|                                                              | [here](./1973/README.md) |      |        |       |
+|                                                              | [here](./1974/README.md) |      |        |       |
+|                                                              | [here](./1975/README.md) |      |        |       |
+|                                                              | [here](./1976/README.md) |      |        |       |
+|                                                              | [here](./1977/README.md) |      |        |       |
+|                                                              | [here](./1978/README.md) |      |        |       |
+|                                                              | [here](./1979/README.md) |      |        |       |
+|                                                              | [here](./1980/README.md) |      |        |       |
+|                                                              | [here](./1981/README.md) |      |        |       |
+|                                                              | [here](./1982/README.md) |      |        |       |
+|                                                              | [here](./1983/README.md) |      |        |       |
+|                                                              | [here](./1984/README.md) |      |        |       |
+|                                                              | [here](./1985/README.md) |      |        |       |
+|                                                              | [here](./1986/README.md) |      |        |       |
+|                                                              | [here](./1987/README.md) |      |        |       |
+|                                                              | [here](./1988/README.md) |      |        |       |
+|                                                              | [here](./1989/README.md) |      |        |       |
+|                                                              | [here](./1990/README.md) |      |        |       |
+|                                                              | [here](./1991/README.md) |      |        |       |
+|                                                              | [here](./1992/README.md) |      |        |       |
+|                                                              | [here](./1993/README.md) |      |        |       |
+|                                                              | [here](./1994/README.md) |      |        |       |
+|                                                              | [here](./1995/README.md) |      |        |       |
+|                                                              | [here](./1996/README.md) |      |        |       |
+|                                                              | [here](./1997/README.md) |      |        |       |
+|                                                              | [here](./1998/README.md) |      |        |       |
+|                                                              | [here](./1999/README.md) |      |        |       |
+|                                                              | [here](./2000/README.md) |      |        |       |
 
