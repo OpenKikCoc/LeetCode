@@ -29,7 +29,15 @@ public:
 ```
 
 ```python
-
+class Solution:
+    def differenceOfSum(self, nums: List[int]) -> int:
+        sumA = sum(nums)
+        sumB = 0
+        for x in nums:
+            while x:
+                sumB += x % 10
+                x //= 10
+        return sumA - sumB if sumA - sumB > 0 else sumB - sumA
 ```
 
 ### [6292. 子矩阵元素加 1](https://leetcode.cn/problems/increment-submatrices-by-one/)
@@ -73,7 +81,30 @@ public:
 ```
 
 ```python
-
+class Solution:
+    def rangeAddQueries(self, n: int, queries: List[List[int]]) -> List[List[int]]:
+        g = [[0] * (n + 1) for _ in range(n + 1)]
+        for q in queries:
+            u, l, d, r = q[0], q[1], q[2], q[3]
+            g[u][l] += 1
+            g[u][r + 1] -= 1
+            g[d + 1][l] -= 1
+            g[d + 1][r + 1] += 1
+            
+        for i in range(n):
+            for j in range(n):
+                if i > 0:
+                    g[i][j] += g[i - 1][j]
+                if j > 0:
+                    g[i][j] += g[i][j - 1]
+                if i > 0 and j > 0:
+                    g[i][j] -= g[i - 1][j - 1]
+        
+        res = [[0] * (n) for _ in range(n)]
+        for i in range(n):
+            for j in range(n):
+                res[i][j] = g[i][j]
+        return res
 ```
 
 ### [6293. 统计好子数组的数目](https://leetcode.cn/problems/count-the-number-of-good-subarrays/)
@@ -120,7 +151,32 @@ public:
 ```
 
 ```python
-
+class Solution:
+    def countGood(self, nums: List[int], k: int) -> int:
+        self.sumn = 0
+        myHash = collections.defaultdict(int)
+        
+        def add(x):
+            num = myHash[x]
+            self.sumn  += num
+            myHash[x] += 1
+            
+        def remove(x):
+            myHash[x] -= 1
+            num = myHash[x]
+            self.sumn  -= num
+        
+        res = 0
+        n = len(nums)
+        l = 0
+        for r in range(0, n):
+            add(nums[r])
+            while l < r and self.sumn  >= k:
+                remove(nums[l])
+                l += 1
+            if self.sumn  < k:
+                res += l
+        return res
 ```
 
 ### [6294. 最大价值和与最小价值和的差值](https://leetcode.cn/problems/difference-between-maximum-and-minimum-price-sum/)
