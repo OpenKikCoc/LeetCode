@@ -1,4 +1,4 @@
-## [比赛链接](https://leetcode.cn/contest/biweekly-contest-109/)
+## 比赛链接](https://leetcode.cn/contest/biweekly-contest-109/)
 
 >   virtual rank
 >
@@ -37,6 +37,13 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def isGood(self, nums: List[int]) -> bool:
+        return sorted(nums) == ([i + 1 for i in range(len(nums) - 1)] + [len(nums) - 1])
+```
+
+
 
 ### [2785. 将字符串中的元音字母排序](https://leetcode.cn/problems/sort-vowels-in-a-string/)
 
@@ -64,6 +71,26 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def sortVowels(self, s: str) -> str:
+        tmp = []
+        res = []
+        for ch in s:
+            if ch.lower() in "aeiou":
+                tmp.append(ch)
+        tmp.sort(reverse = True)
+        for ch in s:
+            if ch.lower() in "aeiou":
+                res.append(tmp[-1])
+                tmp.pop()
+            else:
+                res.append(ch)
+        return "".join(res)
+```
+
+
 
 ### [2786. 访问数组中的位置使分数最大](https://leetcode.cn/problems/visit-array-positions-to-maximize-score/)
 
@@ -96,6 +123,93 @@ public:
     }
 };
 ```
+
+```python
+# f[i][0] 表示前i个最后停到偶数的最大分数; f[i][1] 表示前i个最后停到奇数位置的最大分数
+# 状态转移：以 nums[i] 奇偶性进行转移。
+class Solution:
+    def maxScore(self, nums: List[int], x: int) -> int:
+        n = len(nums)
+        f = [[0] * 2 for _ in range(n)]
+        if nums[0] % 2 == 0:
+            f[0][0] = nums[0]
+            f[0][1] = nums[0] - x   # f[0][1] 是不可达的状态，不合规的状态。可直接表示称“不可达”
+        else:
+            f[0][0] = nums[0] - x
+            f[0][1] = nums[0]
+        for i in range(1, n):
+            if nums[i] % 2 == 0:
+                f[i][0] = max(f[i-1][0] + nums[i], f[i-1][1] + nums[i] - x)
+                f[i][1] = f[i-1][1] 
+            else:
+                f[i][0] = f[i-1][0]
+                f[i][1] = max(f[i-1][1] + nums[i], f[i-1][0] + nums[i]- x)
+        
+        return max(f[-1][0], f[-1][1])
+```
+
+```python
+class Solution:
+    def maxScore(self, nums: List[int], x: int) -> int:
+        n = len(nums)
+        f = [[float('-inf')] * 2 for _ in range(n)]
+        f[0][nums[i] & 1] = nums[i]
+        
+        a = f[0][0]
+        b = f[0][1]
+        
+        for i in range(1, n):
+          	z = nums[i] & 1
+            if z & 1 == 0:
+              	na = max(a, na + nums[i], nb + nums[i] - x)
+                a = na
+                nb = b
+                b = nb
+            else:
+              	nb = max(nb, nb + nums[i], na + nums[i] - x)
+                b = nb
+                na = a
+                a = na
+                
+        return max(a, b)
+      
+      
+class Solution:
+    def maxScore(self, nums: List[int], x: int) -> int:
+        n = len(nums)
+        f = [[float('-inf')] * 2 for _ in range(n)]
+        f[0][nums[0] & 1] = nums[i]
+        
+        a = f[0][0]
+        b = f[0][1]
+        
+        for i in range(1, n):
+          	z = nums[i] & 1
+            if z & 1 == 0:
+              	a = max(a, na + nums[i], nb + nums[i] - x)
+                b = b
+            else:
+              	b = max(nb, nb + nums[i], na + nums[i] - x)
+                a = a
+                
+        return max(a, b)
+```
+
+```python
+class Solution:
+    def maxScore(self, nums: List[int], x: int) -> int:
+        n = len(nums)
+        f = [float('-inf')] * 2
+        f[nums[0] & 1] = nums[i]
+      
+        for i in range(1, n):
+          	z = nums[i] & 1
+            f[z] = max(f[z], f[z] + nums[i], f[~z] + nums[i] - x)
+            f[~z] = f[~z]
+        return max(f[0], f[1])
+```
+
+
 
 ### [2787. 将一个数字表示成幂的和的方案数](https://leetcode.cn/problems/ways-to-express-an-integer-as-sum-of-powers/)
 

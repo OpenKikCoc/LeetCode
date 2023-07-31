@@ -20,6 +20,23 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def averageValue(self, nums: List[int]) -> int:
+        res = 0
+        cnt = 0
+        for x in nums:
+            if x % 3 == 0 and x % 2 == 0:
+                res += x
+                cnt += 1
+        
+        if cnt != 0:
+            return res // cnt
+        else:
+            return 0
+```
+
+
 
 ### [6221. 最流行的视频创作者](https://leetcode.cn/problems/most-popular-video-creator/)
 
@@ -62,6 +79,45 @@ public:
 };
 ```
 
+```python
+class Solution(object):
+    def mostPopularCreator(self, creators, ids, views):
+        """
+        :type creators: List[str]
+        :type ids: List[str]
+        :type views: List[int]
+        :rtype: List[List[str]]
+        """
+        n = len(creators)
+        viewcount = {}
+        videos = {}
+        
+        maximum = 0
+        for i in range(n):
+            name = creators[i]
+            if name not in viewcount:
+                viewcount[name] = 0
+                videos[name] = []
+            viewcount[name] += views[i]
+            maximum = max(maximum,viewcount[name])
+            videos[name].append([-views[i],ids[i]])
+        #    print name
+            
+            
+      #  print viewcount
+            
+            
+        ans = []
+            
+        for name in viewcount:
+            if viewcount[name] == maximum:
+                videos[name].sort()
+                ans.append([name,videos[name][0][1]])
+        return ans
+```
+
+
+
 ### [6222. 美丽整数的最小增量](https://leetcode.cn/problems/minimum-addition-to-make-integer-beautiful/)
 
 一开始想在遍历的时候记录 tot 的变化，实际上实现起来非常麻烦
@@ -97,6 +153,33 @@ public:
     }
 };
 ```
+
+```python
+class Solution(object):
+    def makeIntegerBeautiful(self, n, target):
+        def gettot(num):
+            output = 0
+            while num > 0: 
+                output += num%10
+                num = num//10
+            return output 
+        
+        curr = n
+        digit = 10
+        
+        ans = 0
+        while gettot(curr) > target:
+            if curr % digit > 0:
+                diff = digit - curr % digit
+                curr += diff
+                ans += diff
+                
+           # print(curr,digit,ans)
+            digit *= 10
+        return ans
+```
+
+
 
 ### [6223. 移除子树后的二叉树高度](https://leetcode.cn/problems/height-of-binary-tree-after-subtree-removal-queries/) [TAG]
 
