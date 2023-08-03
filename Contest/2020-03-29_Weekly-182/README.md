@@ -125,12 +125,79 @@ public:
 
 ```
 
-### [1397. 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/)
+### [1397. 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/) [TAG]
 
 数位dp
 
-todo
-
 ```c++
+class Solution {
+public:
+    const static int MOD = 1e9 + 7;
 
+    vector<int> get_next(string & s) {
+        int m = s.size();
+        vector<int> nxt(m + 1);
+        nxt[0] = nxt[1] = 0;
+        for (int i = 1; i < m; ++ i ) {
+            int j = nxt[i];
+            while (j && s[j] != s[i])
+                j = nxt[j];
+            if (s[j] == s[i])
+                nxt[i + 1] = j + 1;
+            else
+                nxt[i + 1] = 0;
+        }
+        return nxt;
+    }
+
+    int n, m;
+    vector<vector<int>> g, f;
+
+    int calc(string & s, int flag) {
+        int ret = 0, cur = 0;
+        for (int i = 0; i < n; ++ i ) {
+            int x = s[i] - 'a';
+            for (int c = 0; c < x; ++ c )
+                ret = (ret + f[n - i - 1][g[cur][c]]) % MOD;
+            cur = g[cur][x];    // ATTENTION
+            if (cur == m)
+                break;
+            if (i == n - 1 && flag && cur != m)
+                ret = (ret + 1) % MOD;
+        }
+        return ret;
+    }
+
+    int findGoodStrings(int n, string s1, string s2, string evil) {
+        this->n = n, this->m = evil.size();
+
+        auto next = get_next(evil);
+
+        // ATTENTION
+        this->g = vector<vector<int>>(m + 1, vector<int>(26));
+        for (int i = 0; i < m; ++ i )
+            for (int c = 0; c < 26; ++ c ) {
+                int j = i;
+                while (j && evil[j] != 'a' + c)
+                    j = next[j];
+                if (evil[j] == 'a' + c)
+                    g[i][c] = j + 1;
+                else
+                    g[i][c] = 0;
+            }
+        
+        // 数位 dp 的预处理
+        this->f = vector<vector<int>>(n + 1, vector<int>(m + 1));
+        for (int j = 0; j < m; ++ j )
+            f[0][j] = 1;
+        for (int i = 1; i <= n; ++ i )
+            for (int j = 0; j < m; ++ j ) {
+                f[i][j] = 0;
+                for (int c = 0; c < 26; ++ c )
+                    f[i][j] = (f[i][j] + f[i - 1][g[j][c]]) % MOD;
+            }
+        
+        return (calc(s2, 1) - calc(s1, 0) + MOD) % MOD;
+    }
+};
 ```
