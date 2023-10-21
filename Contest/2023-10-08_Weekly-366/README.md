@@ -1,4 +1,4 @@
-## [比赛链接]()
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-366/)
 
 
 ### [2894. 分类求和并作差](https://leetcode.cn/problems/divisible-and-non-divisible-sums-difference/)
