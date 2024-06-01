@@ -7,6 +7,43 @@
 ## 题解
 
 
+```c++
+class Solution {
+public:
+    int divide(int x, int y) {
+        // ATTENTION 最小剪枝
+        if (x == INT_MIN && y == -1)
+            return INT_MAX;
+
+        bool is_minus = false;
+        if (x < 0 && y > 0 || x > 0 && y < 0) is_minus = true;
+        int a = x < 0 ? x : -x, b = y < 0 ? y : -y;
+
+        vector<int> exp;
+        // for (int i = b; i >= a; i = i + i) exp.push_back(i);
+        for (int i = b; i >= a; i = i + i) {
+            exp.push_back(i);
+            if (i < a / 2)  // ATTENTION: pre check to void runtime error
+                break;
+        }
+
+        int res = 0;
+        for (int i = exp.size() - 1; i >= 0; i -- )
+            if (a <= exp[i]) {
+                a -= exp[i];    // 负数 所以同样要减
+                res += 1ll << i;
+            }
+
+        if (is_minus) {
+            if (res == INT_MIN)
+                return INT_MIN; // ATTENTION 细节 意味着 INT_MIN/1
+            return -res;
+        }
+        return res;
+    }
+};
+```
+
 
 ```c++
 class Solution {

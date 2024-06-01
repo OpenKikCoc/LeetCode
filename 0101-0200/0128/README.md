@@ -10,6 +10,28 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
+        int n = nums.size();
+        unordered_map<int, bool> m;
+        for (auto v : nums)
+            m[v] = true;
+        int res = 0;
+        for (auto v : nums) {
+            if (m[v - 1])
+                continue;
+            int cnt = 1;
+            while (m[ ++ v])
+                cnt ++ ;
+            res = max(res, cnt);
+        }
+        return res;
+    }
+};
+```
+
+```c++
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
         unordered_set<int> S;
         for (auto x: nums) S.insert(x);
 

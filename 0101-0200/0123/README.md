@@ -17,7 +17,7 @@ public:
         int fstBuy = INT_MIN, secBuy = INT_MIN;
         for (int i = 1; i <= n; ++ i ) {
             fstSell = max(fstSell, fstBuy + prices[i - 1]);
-            fstBuy = max(fstBuy, -prices[i-1]);
+            fstBuy = max(fstBuy, -prices[i - 1]);
             secSell = max(secSell, secBuy + prices[i - 1]);
             secBuy = max(secBuy, fstSell - prices[i - 1]);
         }

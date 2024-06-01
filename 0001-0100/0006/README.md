@@ -7,6 +7,30 @@
 ## 题解
 
 
+```c++
+// 更简单实现
+class Solution {
+public:
+    string convert(string s, int numRows) {
+        if (numRows < 2)
+            return s;
+        
+        vector<string> t(numRows);
+        int line = 0, flag = -1;    // flag 初始化-1特殊处理
+        for (auto x : s) {
+            t[line].push_back(x);
+            if (line == 0 || line == numRows - 1)
+                flag = -flag;
+            line += flag;
+        }
+
+        string res;
+        for (auto x : t)
+            res += x;
+        return res;
+    }
+};
+```
 
 ```c++
 class Solution {

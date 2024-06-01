@@ -8,7 +8,7 @@
 
 直接 bfs topo 即可，略
 
-也可以 dfs topo
+也可以 bfs topo
 
 ```c++
 class Solution {
@@ -38,6 +38,44 @@ public:
 };
 ```
 
+```c++
+class Solution {
+public:
+    const static int N = 1e5 + 10;
+
+    int h[N], e[N], ne[N], idx;
+    void init() {
+        memset(h, -1, sizeof h);
+        idx = 0;
+    }
+    void add(int a, int b) {
+        e[idx] = b, ne[idx] = h[a], h[a] = idx ++ ;
+    }
+
+    int d[N], q[N];
+
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        init();
+        memset(d, 0, sizeof d);
+        for (auto & p : prerequisites)
+            add(p[1], p[0]), d[p[0]] ++ ;
+        
+        int hh = 0, tt = -1;
+        for (int i = 0; i < numCourses; ++ i )
+            if (!d[i])
+                q[ ++ tt] = i;
+        while (hh <= tt) {
+            int t = q[hh ++ ];
+            for (int i = h[t]; ~i; i = ne[i]) {
+                int j = e[i];
+                if ( -- d[j] == 0)
+                    q[ ++ tt] = j;
+            }
+        }
+        return tt == numCourses - 1;
+    }
+};
+```
 
 
 ```python
