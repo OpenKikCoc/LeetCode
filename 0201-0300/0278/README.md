@@ -1,4 +1,4 @@
-#  [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)
+#  [278. 第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)
 
 ## 题意
 

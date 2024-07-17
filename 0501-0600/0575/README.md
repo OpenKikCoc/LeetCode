@@ -1,4 +1,4 @@
-#  [575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)
+#  [575. 分糖果](https://leetcode.cn/problems/distribute-candies/)
 
 ## 题意
 

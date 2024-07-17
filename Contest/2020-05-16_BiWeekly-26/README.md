@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-26/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-26/)
 
-### [1446. 连续字符](https://leetcode-cn.com/problems/consecutive-characters/)
+### [1446. 连续字符](https://leetcode.cn/problems/consecutive-characters/)
 
 连续相同的字符最多有多少个
 
@@ -33,7 +33,7 @@
 ```
 
 
-### [1447. 最简分数](https://leetcode-cn.com/problems/simplified-fractions/)
+### [1447. 最简分数](https://leetcode.cn/problems/simplified-fractions/)
 
 给定 n ，返回所有分母小于等于n的最简分数。
 
@@ -49,7 +49,7 @@
     }
 ```
 
-### [1448. 统计二叉树中好节点的数目](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree/)
+### [1448. 统计二叉树中好节点的数目](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/)
 
 好节点：从根到该节点路径上的所有节点值都不大于该节点本身的值。
 
@@ -69,7 +69,7 @@
     }
 ```
 
-### [1449. 数位成本和为目标值的最大数字](https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)
+### [1449. 数位成本和为目标值的最大数字](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/)
 
 每一个数字有其消耗，在总消耗为target的情况下选出【最大整数】（其实就是选出的数字个数最多 且这些数字组合起来最大）
 

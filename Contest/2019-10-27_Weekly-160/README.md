@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-160/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-160/)
 
 
-### [1237. 找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/) 
+### [1237. 找出给定方程的正整数解](https://leetcode.cn/problems/find-positive-integer-solution-for-a-given-equation/) 
 
 暴力 也可以从右上角/左下角扫描
 
@@ -16,7 +16,7 @@
 ```
 
 
-### [1238. 循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/) [TAG]
+### [1238. 循环码排列](https://leetcode.cn/problems/circular-permutation-in-binary-representation/) [TAG]
 
 格雷码
 
@@ -40,7 +40,7 @@
 
 题解区有先生成 n 位格雷码再旋转数组的操作 也可
 
-### [1239. 串联字符串的最大长度](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
+### [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 
 搜索即可 也可状压dp 略
 
@@ -72,7 +72,7 @@
     }
 ```
 
-### [1240. 铺瓷砖](https://leetcode-cn.com/problems/tiling-a-rectangle-with-the-fewest-squares/) [TAG]
+### [1240. 铺瓷砖](https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/) [TAG]
 
 todo
 

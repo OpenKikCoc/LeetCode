@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-220/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-220/)
 
 34min finished
 
-### [5629. 重新格式化电话号码](https://leetcode-cn.com/problems/reformat-phone-number/)
+### [5629. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 
 略
 
@@ -29,7 +29,7 @@ public:
 ```
 
 
-### [1695. 删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/)
+### [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value/)
 
 简单滑动窗口
 
@@ -80,7 +80,7 @@ public:
 };
 ```
 
-### [1696. 跳跃游戏 VI](https://leetcode-cn.com/problems/jump-game-vi/)
+### [1696. 跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi/)
 
 简单单调队列优化dp
 
@@ -105,7 +105,7 @@ public:
 };
 ```
 
-### [1697. 检查边长度限制的路径是否存在](https://leetcode-cn.com/problems/checking-existence-of-edge-length-limited-paths/) [TAG]
+### [1697. 检查边长度限制的路径是否存在](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/) [TAG]
 
 离线并查集
 

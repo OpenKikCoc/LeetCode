@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-276/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-276/)
 
 
-### [2138. 将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/)
+### [2138. 将字符串拆分为若干长度为 k 的组](https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k/)
 
 略
 
@@ -29,7 +29,7 @@ public:
 ```
 
 
-### [2139. 得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/)
+### [2139. 得到目标值的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-score/)
 
 略
 
@@ -56,7 +56,7 @@ public:
 };
 ```
 
-### [2140. 解决智力问题](https://leetcode-cn.com/problems/solving-questions-with-brainpower/)
+### [2140. 解决智力问题](https://leetcode.cn/problems/solving-questions-with-brainpower/)
 
 略 注意递推细节
 
@@ -82,9 +82,9 @@ public:
 };
 ```
 
-### [2141. 同时运行 N 台电脑的最长时间](https://leetcode-cn.com/problems/maximum-running-time-of-n-computers/) [TAG]
+### [2141. 同时运行 N 台电脑的最长时间](https://leetcode.cn/problems/maximum-running-time-of-n-computers/) [TAG]
 
-[ABC227 D题](https://leetcode-cn.com/link/?target=https://atcoder.jp/contests/abc227/tasks/abc227_d)
+[ABC227 D题](https://leetcode.cn/link/?target=https://atcoder.jp/contests/abc227/tasks/abc227_d)
 
 经典题目 trick思维
 

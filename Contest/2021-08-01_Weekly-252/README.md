@@ -1,7 +1,7 @@
 ## [比赛链接]()
 
 
-### [5830. 三除数](https://leetcode-cn.com/problems/three-divisors/)
+### [5830. 三除数](https://leetcode.cn/problems/three-divisors/)
 
 模拟即可
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [5831. 你可以工作的最大周数](https://leetcode-cn.com/problems/maximum-number-of-weeks-for-which-you-can-work/)
+### [5831. 你可以工作的最大周数](https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work/)
 
 贪心加思维
 
@@ -69,7 +69,7 @@ public:
 
 
 
-### [5187. 收集足够苹果的最小花园周长](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
+### [5187. 收集足够苹果的最小花园周长](https://leetcode.cn/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 
 一开始题意理解错了。。
 
@@ -139,7 +139,7 @@ public:
 
 
 
-### [5833. 统计特殊子序列的数目](https://leetcode-cn.com/problems/count-number-of-special-subsequences/) [TAG]
+### [5833. 统计特殊子序列的数目](https://leetcode.cn/problems/count-number-of-special-subsequences/) [TAG]
 
 核心在于 **状态定义** 和 **转移**
 

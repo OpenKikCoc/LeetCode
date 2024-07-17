@@ -1,4 +1,4 @@
-#  [679. 24 点游戏](https://leetcode-cn.com/problems/24-game/)
+#  [679. 24 点游戏](https://leetcode.cn/problems/24-game/)
 
 ## 题意
 

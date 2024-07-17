@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-207/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-207/)
 
 rating 269/4115
 
 46分钟 3/4 wa2
 
-### [1592. 重新排列单词间的空格](https://leetcode-cn.com/problems/rearrange-spaces-between-words/)
+### [1592. 重新排列单词间的空格](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 
 统计模拟即可 注意一个单词的情况 wa了一次
 
@@ -35,7 +35,7 @@ rating 269/4115
 ```
 
 
-### [1593. 拆分字符串使唯一子字符串的数目最大](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)
+### [1593. 拆分字符串使唯一子字符串的数目最大](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/)
 
 搜索 pos是当前产生的字符串截断的位置
 
@@ -69,7 +69,7 @@ rating 269/4115
     }
 ```
 
-### [1594. 矩阵的最大非负积](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/)
+### [1594. 矩阵的最大非负积](https://leetcode.cn/problems/maximum-non-negative-product-in-a-matrix/)
 
 简单dp 忘了取模wa了一发 = =
 
@@ -103,7 +103,7 @@ rating 269/4115
     }
 ```
 
-### [1595. 连通两组点的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/) [TAG]
+### [1595. 连通两组点的最小成本](https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points/) [TAG]
 
 想半天二分图。。。
 

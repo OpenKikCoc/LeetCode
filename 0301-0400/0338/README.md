@@ -1,4 +1,4 @@
-#  [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+#  [338. 比特位计数](https://leetcode.cn/problems/counting-bits/)
 
 ## 题意
 

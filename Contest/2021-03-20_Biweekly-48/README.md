@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-48/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-48/)
 
 
-### [1796. 字符串中第二大的数字](https://leetcode-cn.com/problems/second-largest-digit-in-a-string/)
+### [1796. 字符串中第二大的数字](https://leetcode.cn/problems/second-largest-digit-in-a-string/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [1797. 设计一个验证系统](https://leetcode-cn.com/problems/design-authentication-manager/)
+### [1797. 设计一个验证系统](https://leetcode.cn/problems/design-authentication-manager/)
 
 略
 
@@ -65,7 +65,7 @@ public:
  */
 ```
 
-### [1798. 你能构造出连续值的最大数目](https://leetcode-cn.com/problems/maximum-number-of-consecutive-values-you-can-make/) [TAG]
+### [1798. 你能构造出连续值的最大数目](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/) [TAG]
 
 类似的总结
 
@@ -85,7 +85,7 @@ public:
 };
 ```
 
-### [1799. N 次操作后的最大分数和](https://leetcode-cn.com/problems/maximize-score-after-n-operations/)
+### [1799. N 次操作后的最大分数和](https://leetcode.cn/problems/maximize-score-after-n-operations/)
 
 显然状压 dp 注意实现
 

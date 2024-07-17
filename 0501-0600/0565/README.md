@@ -1,4 +1,4 @@
-#  [565. 数组嵌套](https://leetcode-cn.com/problems/array-nesting/)
+#  [565. 数组嵌套](https://leetcode.cn/problems/array-nesting/)
 
 ## 题意
 

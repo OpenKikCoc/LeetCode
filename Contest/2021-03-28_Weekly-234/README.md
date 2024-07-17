@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-234/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-234/)
 
 virtual ranking: 91 / 4997
 
-### [1805. 字符串中不同整数的数目](https://leetcode-cn.com/problems/number-of-different-integers-in-a-string/)
+### [1805. 字符串中不同整数的数目](https://leetcode.cn/problems/number-of-different-integers-in-a-string/)
 
 模拟即可
 
@@ -30,7 +30,7 @@ public:
 ```
 
 
-### [1806. 还原排列的最少操作步数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)
+### [1806. 还原排列的最少操作步数](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)
 
 模拟即可 前面在想数学解法花了一些时间
 
@@ -98,7 +98,7 @@ public:
 ```
  
 
-### [1807. 替换字符串中的括号内容](https://leetcode-cn.com/problems/evaluate-the-bracket-pairs-of-a-string/)
+### [1807. 替换字符串中的括号内容](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)
 
 线性扫描即可
 
@@ -136,7 +136,7 @@ public:
 };
 ```
 
-### [1808. 好因子的最大数目](https://leetcode-cn.com/problems/maximize-number-of-nice-divisors/)
+### [1808. 好因子的最大数目](https://leetcode.cn/problems/maximize-number-of-nice-divisors/)
 
 根据题意显然约数个数定理
 

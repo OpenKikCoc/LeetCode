@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-254)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-254)
 
 >   rank: 133 / 4348
 
 
-### [5843. 作为子字符串出现在单词中的字符串数目](https://leetcode-cn.com/problems/number-of-strings-that-appear-as-substrings-in-word/)
+### [5843. 作为子字符串出现在单词中的字符串数目](https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word/)
 
 模拟即可
 
@@ -46,7 +46,7 @@ public:
 };
 ```
 
-### [5832. 构造元素不等于两相邻元素平均值的数组](https://leetcode-cn.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+### [5832. 构造元素不等于两相邻元素平均值的数组](https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors/)
 
 思维题
 
@@ -69,7 +69,7 @@ public:
 };
 ```
 
-### [5844. 数组元素的最小非零乘积](https://leetcode-cn.com/problems/minimum-non-zero-product-of-the-array-elements/)
+### [5844. 数组元素的最小非零乘积](https://leetcode.cn/problems/minimum-non-zero-product-of-the-array-elements/)
 
 分析知：
 
@@ -144,7 +144,7 @@ public:
 
 
 
-### [5845. 你能穿过矩阵的最后一天](https://leetcode-cn.com/problems/last-day-where-you-can-still-cross/)
+### [5845. 你能穿过矩阵的最后一天](https://leetcode.cn/problems/last-day-where-you-can-still-cross/)
 
 显然二分即可
 

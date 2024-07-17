@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-286)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-286)
 
 
-### [5268. 找出两数组的不同](https://leetcode-cn.com/problems/find-the-difference-of-two-arrays/)
+### [5268. 找出两数组的不同](https://leetcode.cn/problems/find-the-difference-of-two-arrays/)
 
 略
 
@@ -36,7 +36,7 @@ public:
 ```
 
 
-### [5236. 美化数组的最少删除数](https://leetcode-cn.com/problems/minimum-deletions-to-make-array-beautiful/)
+### [5236. 美化数组的最少删除数](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/)
 
 贪心 略
 
@@ -57,7 +57,7 @@ public:
 };
 ```
 
-### [5253. 找到指定长度的回文数](https://leetcode-cn.com/problems/find-palindrome-with-fixed-length/) [TAG]
+### [5253. 找到指定长度的回文数](https://leetcode.cn/problems/find-palindrome-with-fixed-length/) [TAG]
 
 观察 折半 构造
 
@@ -94,7 +94,7 @@ public:
 };
 ```
 
-### [5269. 从栈中取出 K 个硬币的最大面值和](https://leetcode-cn.com/problems/maximum-value-of-k-coins-from-piles/)
+### [5269. 从栈中取出 K 个硬币的最大面值和](https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/)
 
 简单分组背包 略
 

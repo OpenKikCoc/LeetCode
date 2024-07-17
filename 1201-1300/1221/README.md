@@ -1,4 +1,4 @@
-# [1221. 分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) 
+# [1221. 分割平衡字符串](https://leetcode.cn/problems/split-a-string-in-balanced-strings/) 
 
 ## 题意
 

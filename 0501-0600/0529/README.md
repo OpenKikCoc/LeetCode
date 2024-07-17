@@ -1,4 +1,4 @@
-#  [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
+#  [529. 扫雷游戏](https://leetcode.cn/problems/minesweeper/)
 
 ## 题意
 

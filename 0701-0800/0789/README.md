@@ -1,4 +1,4 @@
-#  [789. 逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/)
+#  [789. 逃脱阻碍者](https://leetcode.cn/problems/escape-the-ghosts/)
 
 ## 题意
 

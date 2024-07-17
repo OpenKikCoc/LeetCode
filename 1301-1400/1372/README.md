@@ -1,4 +1,4 @@
-#  **[LeetCode 1372. 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)** 
+#  **[LeetCode 1372. 二叉树中的最长交错路径](https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree/)** 
 
 ## 题意
 

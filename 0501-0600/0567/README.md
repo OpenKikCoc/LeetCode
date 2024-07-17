@@ -1,4 +1,4 @@
-#  [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
+#  [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)
 
 ## 题意
 

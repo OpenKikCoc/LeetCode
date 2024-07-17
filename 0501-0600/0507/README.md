@@ -1,4 +1,4 @@
-#  [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)
+#  [507. 完美数](https://leetcode.cn/problems/perfect-number/)
 
 ## 题意
 

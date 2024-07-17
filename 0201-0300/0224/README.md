@@ -1,4 +1,4 @@
-#  [224. 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
+#  [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
 
 ## 题意
 

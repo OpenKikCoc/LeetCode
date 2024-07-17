@@ -1,4 +1,4 @@
-#  [645. 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
+#  [645. 错误的集合](https://leetcode.cn/problems/set-mismatch/)
 
 ## 题意
 

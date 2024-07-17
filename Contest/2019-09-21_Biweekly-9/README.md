@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-9/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-9/)
 
 
-### [1196. 最多可以买到的苹果数量](https://leetcode-cn.com/problems/how-many-apples-can-you-put-into-the-basket/)
+### [1196. 最多可以买到的苹果数量](https://leetcode.cn/problems/how-many-apples-can-you-put-into-the-basket/)
 
 略
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1197. 进击的骑士](https://leetcode-cn.com/problems/minimum-knight-moves/)
+### [1197. 进击的骑士](https://leetcode.cn/problems/minimum-knight-moves/)
 
 时限较紧，使用 map pair 记录距离超时，故使用静态数组
 
@@ -72,7 +72,7 @@ public:
 };
 ```
 
-### [1198. 找出所有行中最小公共元素](https://leetcode-cn.com/problems/find-smallest-common-element-in-all-rows/)
+### [1198. 找出所有行中最小公共元素](https://leetcode.cn/problems/find-smallest-common-element-in-all-rows/)
 
 并非使用堆。
 
@@ -98,7 +98,7 @@ public:
 };
 ```
 
-### [1199. 建造街区的最短时间](https://leetcode-cn.com/problems/minimum-time-to-build-blocks/) [TAG]
+### [1199. 建造街区的最短时间](https://leetcode.cn/problems/minimum-time-to-build-blocks/) [TAG]
 
 贪心: 哈夫曼树合并
 

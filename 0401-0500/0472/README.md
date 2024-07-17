@@ -1,4 +1,4 @@
-#  [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/)
+#  [472. 连接词](https://leetcode.cn/problems/concatenated-words/)
 
 ## 题意
 

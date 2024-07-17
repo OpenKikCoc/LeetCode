@@ -1,4 +1,4 @@
-#  [553. 最优除法](https://leetcode-cn.com/problems/optimal-division/)
+#  [553. 最优除法](https://leetcode.cn/problems/optimal-division/)
 
 ## 题意
 

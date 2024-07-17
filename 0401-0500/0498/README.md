@@ -1,4 +1,4 @@
-#  [498. 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/)
+#  [498. 对角线遍历](https://leetcode.cn/problems/diagonal-traverse/)
 
 ## 题意
 

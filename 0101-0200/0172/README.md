@@ -1,4 +1,4 @@
-#  [172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+#  [172. 阶乘后的零](https://leetcode.cn/problems/factorial-trailing-zeroes/)
 
 ## 题意
 

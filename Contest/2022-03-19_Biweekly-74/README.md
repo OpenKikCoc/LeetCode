@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-74/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-74/)
 
 >   virtual rank: 255 / 5442
 
 
-### [6020. 将数组划分成相等数对](https://leetcode-cn.com/problems/divide-array-into-equal-pairs/)
+### [6020. 将数组划分成相等数对](https://leetcode.cn/problems/divide-array-into-equal-pairs/)
 
 略
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [6021. 字符串中最多数目的子字符串](https://leetcode-cn.com/problems/maximize-number-of-subsequences-in-a-string/)
+### [6021. 字符串中最多数目的子字符串](https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string/)
 
 有更简单思路：
 
@@ -115,7 +115,7 @@ public:
 };
 ```
 
-### [6022. 将数组和减半的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/)
+### [6022. 将数组和减半的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/)
 
 >   1e7 除不到 30 次小于 1 ，精度可以接受，所以也可以不加 EPS
 
@@ -147,7 +147,7 @@ public:
 };
 ```
 
-### [6023. 用地毯覆盖后的最少白色砖块](https://leetcode-cn.com/problems/minimum-white-tiles-after-covering-with-carpets/)
+### [6023. 用地毯覆盖后的最少白色砖块](https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets/)
 
 >   有  wqs 二分 优化可以复杂度 O(n log n) ===> TODO 整理优化
 

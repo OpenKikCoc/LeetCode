@@ -1,4 +1,4 @@
-#  [722. 删除注释](https://leetcode-cn.com/problems/remove-comments/)
+#  [722. 删除注释](https://leetcode.cn/problems/remove-comments/)
 
 ## 题意
 

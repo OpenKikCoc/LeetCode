@@ -1,4 +1,4 @@
-#  [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+#  [300. 最长上升子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
 ## 题意
 

@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-241/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-241/)
 
 AK 52min
 
 rank: 62 / 4490
 
-### [5759. 找出所有子集的异或总和再求和](https://leetcode-cn.com/problems/sum-of-all-subset-xor-totals/)
+### [5759. 找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/)
 
 暴力枚举即可 枚举技巧 bit
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [5760. 构成交替字符串需要的最小交换次数](https://leetcode-cn.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+### [5760. 构成交替字符串需要的最小交换次数](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)
 
 模拟即可 因为可以直接交换所以计算其不同处即可
 
@@ -72,7 +72,7 @@ public:
 };
 ```
 
-### [5761. 找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum/)
+### [5761. 找出和为指定值的下标对](https://leetcode.cn/problems/finding-pairs-with-a-certain-sum/)
 
 模拟题 hash 维护即可
 
@@ -119,7 +119,7 @@ public:
  */
 ```
 
-### [5762. 恰有 K 根木棍可以看到的排列数目](https://leetcode-cn.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) [TAG]
+### [5762. 恰有 K 根木棍可以看到的排列数目](https://leetcode.cn/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) [TAG]
 
 经典题目 dp时考虑当前枚举的是所有当中最小的即可
 

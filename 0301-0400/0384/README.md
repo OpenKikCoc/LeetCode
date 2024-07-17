@@ -1,4 +1,4 @@
-#  [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/)
+#  [384. 打乱数组](https://leetcode.cn/problems/shuffle-an-array/)
 
 ## 题意
 

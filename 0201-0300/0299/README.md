@@ -1,4 +1,4 @@
-#  [299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/)
+#  [299. 猜数字游戏](https://leetcode.cn/problems/bulls-and-cows/)
 
 ## 题意
 

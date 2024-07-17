@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-205/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-205/)
 
 
-### [1576. 替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
+### [1576. 替换所有的问号](https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
 
 模拟即可 注意 `s[i+1] != '?'`
 
@@ -42,7 +42,7 @@
     }
 ```
 
-### [1577. 数的平方等于两数乘积的方法数](https://leetcode-cn.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
+### [1577. 数的平方等于两数乘积的方法数](https://leetcode.cn/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
 
 hash 表存储结果即可
 
@@ -63,7 +63,7 @@ hash 表存储结果即可
     }
 ```
 
-### [1578. 避免重复字母的最小删除成本](https://leetcode-cn.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)
+### [1578. 避免重复字母的最小删除成本](https://leetcode.cn/problems/minimum-deletion-cost-to-avoid-repeating-letters/)
 
 dp
 
@@ -99,7 +99,7 @@ Heltion版本代码
 
 也可以一次遍历 在所有连续相同的字符中留下话费最大的即可
 
-### [1579. 保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) [TAG]
+### [1579. 保证图可完全遍历](https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) [TAG]
 
 并查集
 

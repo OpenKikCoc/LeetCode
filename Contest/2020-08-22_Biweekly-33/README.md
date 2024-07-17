@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-33/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-33/)
 
 
-### [1556. 千位分隔数](https://leetcode-cn.com/problems/thousand-separator/)
+### [1556. 千位分隔数](https://leetcode.cn/problems/thousand-separator/)
 
 略
 
@@ -23,7 +23,7 @@
 ```
 
 
-### [1557. 可以到达所有点的最少点数目](https://leetcode-cn.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
+### [1557. 可以到达所有点的最少点数目](https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 统计入度0即可
 
@@ -39,7 +39,7 @@
 
 ### 
 
-#### [1558. 得到目标数组的最少函数调用次数](https://leetcode-cn.com/problems/minimum-numbers-of-function-calls-to-make-target-array/) [TAG]
+#### [1558. 得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/) [TAG]
 
 贪心 尽可能乘2
 
@@ -63,7 +63,7 @@
     }
 ```
 
-### [1559. 二维网格图中探测环](https://leetcode-cn.com/problems/detect-cycles-in-2d-grid/) [TAG]
+### [1559. 二维网格图中探测环](https://leetcode.cn/problems/detect-cycles-in-2d-grid/) [TAG]
 
 dfs 记录写法
 

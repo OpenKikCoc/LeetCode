@@ -1,4 +1,4 @@
-#  [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)
+#  [268. 丢失的数字](https://leetcode.cn/problems/missing-number/)
 
 ## 题意
 

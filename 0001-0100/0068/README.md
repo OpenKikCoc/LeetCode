@@ -1,4 +1,4 @@
-#  [68. 文本左右对齐](https://leetcode-cn.com/problems/text-justification/)
+#  [68. 文本左右对齐](https://leetcode.cn/problems/text-justification/)
 
 ## 题意
 

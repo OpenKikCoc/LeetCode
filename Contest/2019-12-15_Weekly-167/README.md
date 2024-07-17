@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-167/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-167/)
 
 
-### [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+### [1290. 二进制链表转整数](https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
 略
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1291. 顺次数](https://leetcode-cn.com/problems/sequential-digits/)
+### [1291. 顺次数](https://leetcode.cn/problems/sequential-digits/)
 
 顺次数不会超出 `123456789` 的所有连续子串的范围 so直接遍历检查就好
 
@@ -41,7 +41,7 @@
     }
 ```
 
-### [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+### [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 简单二分check
 
@@ -72,7 +72,7 @@
     }
 ```
 
-### [1293. 网格中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) [TAG]
+### [1293. 网格中的最短路径](https://leetcode.cn/problems/shortest-path-in-a-grid-with-obstacles-elimination/) [TAG]
 
 网格最短路 bfs
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-236/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-236/)
 
 
-### [1822. 数组元素积的符号](https://leetcode-cn.com/problems/sign-of-the-product-of-an-array/)
+### [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)
 
 直接判正负号即可
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [1823. 找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/)
+### [1823. 找出游戏的获胜者](https://leetcode.cn/problems/find-the-winner-of-the-circular-game/)
 
 约瑟夫环 略
 
@@ -40,7 +40,7 @@ public:
 };
 ```
 
-### [1824. 最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps/) [TAG]
+### [1824. 最少侧跳次数](https://leetcode.cn/problems/minimum-sideway-jumps/) [TAG]
 
 显然分层最短路 考虑递推dp
 
@@ -82,7 +82,7 @@ public:
 };
 ```
 
-### [1825. 求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average/) [TAG]
+### [1825. 求出 MK 平均值](https://leetcode.cn/problems/finding-mk-average/) [TAG]
 
 显然平衡树
 

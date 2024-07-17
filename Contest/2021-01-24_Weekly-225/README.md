@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-225/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-225/)
 
 
-### [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)
+### [1736. 替换隐藏数字得到的最晚时间](https://leetcode.cn/problems/latest-time-by-replacing-hidden-digits/)
 
 扫一遍即可
 
@@ -55,7 +55,7 @@ public:
 };
 ```
 
-### [1737. 满足三条件之一需改变的最少字符数](https://leetcode-cn.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)
+### [1737. 满足三条件之一需改变的最少字符数](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
 没读题导致 WA
 
@@ -102,7 +102,7 @@ public:
 
 代码可简单优化 略
 
-### [1738. 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
+### [1738. 找出第 K 大的异或坐标值](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/)
 
 堆即可
 
@@ -185,7 +185,7 @@ public:
 };
 ```
 
-### [1739. 放置盒子](https://leetcode-cn.com/problems/building-boxes/) [TAG]
+### [1739. 放置盒子](https://leetcode.cn/problems/building-boxes/) [TAG]
 
 如果摆 `k` 层，共可以摆
 

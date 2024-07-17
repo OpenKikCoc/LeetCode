@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-57/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-57/)
 
 >   virtual rank: 75 / 2933
 
 
-### [5804. 检查是否所有字符出现次数相同](https://leetcode-cn.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)
+### [5804. 检查是否所有字符出现次数相同](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/)
 
 模拟 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [5805. 最小未被占据椅子的编号](https://leetcode-cn.com/problems/the-number-of-the-smallest-unoccupied-chair/)
+### [5805. 最小未被占据椅子的编号](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/)
 
 维护堆即可 略
 
@@ -97,7 +97,7 @@ public:
 
 
 
-### [5806. 描述绘画结果](https://leetcode-cn.com/problems/describe-the-painting/)
+### [5806. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
 
 显然差分即可，本题要求分割点需单独成段，特殊标记即可。略
 
@@ -164,7 +164,7 @@ public:
 
 
 
-### [5196. 队列中可以看到的人数](https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/)
+### [5196. 队列中可以看到的人数](https://leetcode.cn/problems/number-of-visible-people-in-a-queue/)
 
 此类题目显然先想考虑 `按高度加入` or `按方向加入`
 

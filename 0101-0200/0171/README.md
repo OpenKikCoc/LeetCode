@@ -1,4 +1,4 @@
-#  [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)
+#  [171. Excel表列序号](https://leetcode.cn/problems/excel-sheet-column-number/)
 
 ## 题意
 

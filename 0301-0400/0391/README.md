@@ -1,4 +1,4 @@
-#  [391. 完美矩形](https://leetcode-cn.com/problems/perfect-rectangle/)
+#  [391. 完美矩形](https://leetcode.cn/problems/perfect-rectangle/)
 
 ## 题意
 

@@ -1,4 +1,4 @@
-#  [66. 加一](https://leetcode-cn.com/problems/plus-one/)
+#  [66. 加一](https://leetcode.cn/problems/plus-one/)
 
 ## 题意
 

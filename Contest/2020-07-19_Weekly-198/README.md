@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-198/) 微软专场
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-198/) 微软专场
 
 
-### [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)
+### [1518. 换酒问题](https://leetcode.cn/problems/water-bottles/)
 
 略
 
@@ -17,7 +17,7 @@
 ```
 
 
-### [1519. 子树中标签相同的节点数](https://leetcode-cn.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
+### [1519. 子树中标签相同的节点数](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 树DP 略
 
@@ -44,7 +44,7 @@
     }
 ```
 
-### [1520. 最多的不重叠子字符串](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-substrings/) [TAG]
+### [1520. 最多的不重叠子字符串](https://leetcode.cn/problems/maximum-number-of-non-overlapping-substrings/) [TAG]
 
 > 给你一个只包含小写字母的字符串 s ，你需要找到 s 中最多数目的非空子字符串，满足如下条件：
 >
@@ -100,9 +100,9 @@
     }
 ```
 
-### [1521. 找到最接近目标值的函数值](https://leetcode-cn.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/) [TAG]
+### [1521. 找到最接近目标值的函数值](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/) [TAG]
 
-可以部分参考 [898. 子数组按位或操作](https://leetcode-cn.com/problems/bitwise-ors-of-subarrays/) 
+可以部分参考 [898. 子数组按位或操作](https://leetcode.cn/problems/bitwise-ors-of-subarrays/) 
 
 ** 1 动态维护 **
 

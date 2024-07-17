@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-214/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-214/)
 
 
-### [1646. 获取生成数组中的最大值](https://leetcode-cn.com/problems/get-maximum-in-generated-array/)
+### [1646. 获取生成数组中的最大值](https://leetcode.cn/problems/get-maximum-in-generated-array/)
 
 直接生成
 
@@ -21,7 +21,7 @@
 ```
 
 
-### [1647. 字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
+### [1647. 字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
 排序即可
 
@@ -50,7 +50,7 @@
     }
 ```
 
-### [1648. 销售价值减少的颜色球](https://leetcode-cn.com/problems/sell-diminishing-valued-colored-balls/) [TAG]
+### [1648. 销售价值减少的颜色球](https://leetcode.cn/problems/sell-diminishing-valued-colored-balls/) [TAG]
 
 使用 `堆` 找到可选最大值，复杂度 `O(orders * log n)` ，数据较大会超
 
@@ -84,7 +84,7 @@
     }
 ```
 
-### [1649. 通过指令创建有序数组](https://leetcode-cn.com/problems/create-sorted-array-through-instructions/)
+### [1649. 通过指令创建有序数组](https://leetcode.cn/problems/create-sorted-array-through-instructions/)
 
 裸数据结构
 

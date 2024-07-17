@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-51/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-51/)
 
 virtual ranking: 176 / 2675
 
-### [1844. 将所有数字用字符替换](https://leetcode-cn.com/problems/replace-all-digits-with-characters/)
+### [1844. 将所有数字用字符替换](https://leetcode.cn/problems/replace-all-digits-with-characters/)
 
 略
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [1845. 座位预约管理系统](https://leetcode-cn.com/problems/seat-reservation-manager/)
+### [1845. 座位预约管理系统](https://leetcode.cn/problems/seat-reservation-manager/)
 
 BIT维护即可 略
 
@@ -76,7 +76,7 @@ public:
  */
 ```
 
-### [1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)
+### [1846. 减小和重新排列数组后的最大元素](https://leetcode.cn/problems/maximum-element-after-decreasing-and-rearranging/)
 
 略
 
@@ -94,7 +94,7 @@ public:
 };
 ```
 
-### [1847. 最近的房间](https://leetcode-cn.com/problems/closest-room/)
+### [1847. 最近的房间](https://leetcode.cn/problems/closest-room/)
 
 显然堆维护即可
 

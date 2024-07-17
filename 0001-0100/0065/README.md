@@ -1,4 +1,4 @@
-#  [65. 有效数字](https://leetcode-cn.com/problems/valid-number/)
+#  [65. 有效数字](https://leetcode.cn/problems/valid-number/)
 
 ## 题意
 

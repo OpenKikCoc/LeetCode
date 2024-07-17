@@ -1,4 +1,4 @@
-#  [730. 统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/)
+#  [730. 统计不同回文子序列](https://leetcode.cn/problems/count-different-palindromic-subsequences/)
 
 ## 题意
 

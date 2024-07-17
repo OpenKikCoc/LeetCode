@@ -1,4 +1,4 @@
-#  [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)
+#  [503. 下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/)
 
 ## 题意
 

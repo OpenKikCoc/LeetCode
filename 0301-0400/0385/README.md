@@ -1,4 +1,4 @@
-#  [385. 迷你语法分析器](https://leetcode-cn.com/problems/mini-parser/)
+#  [385. 迷你语法分析器](https://leetcode.cn/problems/mini-parser/)
 
 ## 题意
 

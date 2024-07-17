@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-187/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-187/)
 
 
-### [1436. 旅行终点站](https://leetcode-cn.com/problems/destination-city/)
+### [1436. 旅行终点站](https://leetcode.cn/problems/destination-city/)
 
 s->t的数组 求最终的t
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [1437. 是否所有 1 都至少相隔 k 个元素](https://leetcode-cn.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)
+### [1437. 是否所有 1 都至少相隔 k 个元素](https://leetcode.cn/problems/check-if-all-1s-are-at-least-length-k-places-away/)
 
 O(n) 扫描 记录
 
@@ -47,7 +47,7 @@ public:
 };
 ```
 
-### [1438. 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) [TAG]
+### [1438. 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) [TAG]
 
 连续子数组的最大最小值之差的绝对值不超过limit
 
@@ -107,7 +107,7 @@ public:
 
 
 
-### [1439. 有序矩阵中的第 k 个最小数组和](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/) [TAG]
+### [1439. 有序矩阵中的第 k 个最小数组和](https://leetcode.cn/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/) [TAG]
 
 任意一行选一个数 求第k小
 

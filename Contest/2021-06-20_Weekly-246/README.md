@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-246)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-246)
 
 rank: 64 / 4135
 
 
-### [5788. 字符串中的最大奇数](https://leetcode-cn.com/problems/largest-odd-number-in-string/)
+### [5788. 字符串中的最大奇数](https://leetcode.cn/problems/largest-odd-number-in-string/)
 
 碰到一个奇数作为末尾数字返回即可
 
@@ -40,7 +40,7 @@ class Solution:
 
 
 
-### [5789. 你完成的完整对局数](https://leetcode-cn.com/problems/the-number-of-full-rounds-you-have-played/)
+### [5789. 你完成的完整对局数](https://leetcode.cn/problems/the-number-of-full-rounds-you-have-played/)
 
 统计其中有多少个 15 整倍数即可，注意加 15 的偏移量保证其为完整的回合
 
@@ -115,7 +115,7 @@ class Solution:
 
 
 
-### [5791. 统计子岛屿](https://leetcode-cn.com/problems/count-sub-islands/)
+### [5791. 统计子岛屿](https://leetcode.cn/problems/count-sub-islands/)
 
 简单 dfs 注意判断子岛屿的全局标记方式即可
 
@@ -271,7 +271,7 @@ class Solution:
 
 
 
-### [5790. 查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries/)
+### [5790. 查询差绝对值的最小值](https://leetcode.cn/problems/minimum-absolute-difference-queries/)
 
 根据数据集范围推测直接使用前缀和统计查询区间中出现的所有数字，去重遍历即可
 

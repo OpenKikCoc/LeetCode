@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-200/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-200/)
 
-### [1534. 统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
+### [1534. 统计好三元组](https://leetcode.cn/problems/count-good-triplets/)
 
 暴力即可
 
@@ -18,7 +18,7 @@
     }
 ```
 
-### [1535. 找出数组游戏的赢家](https://leetcode-cn.com/problems/find-the-winner-of-an-array-game/)
+### [1535. 找出数组游戏的赢家](https://leetcode.cn/problems/find-the-winner-of-an-array-game/)
 
 每次比较数组前两个，留下大的，小的放末尾。当大的保留次数达到k即返回大的值。
 
@@ -93,7 +93,7 @@
     }
 ```
 
-### [1536. 排布二进制网格的最少交换次数](https://leetcode-cn.com/problems/minimum-swaps-to-arrange-a-binary-grid/) [TAG]
+### [1536. 排布二进制网格的最少交换次数](https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid/) [TAG]
 
 要求：主对角线以上的格子全0
 
@@ -130,7 +130,7 @@
     }
 ```
 
-### [1537. 最大得分](https://leetcode-cn.com/problems/get-the-maximum-score/)
+### [1537. 最大得分](https://leetcode.cn/problems/get-the-maximum-score/)
 
 两个递增有序数组 从任意一个头部起遇相同数字可换位置 求最终总和：
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-19/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-19/)
 
 
-### [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+### [1342. 将数字变成 0 的操作次数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 模拟即可
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+### [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 
 区间和
 
@@ -37,7 +37,7 @@
     }
 ```
 
-### [1344. 时钟指针的夹角](https://leetcode-cn.com/problems/angle-between-hands-of-a-clock/)
+### [1344. 时钟指针的夹角](https://leetcode.cn/problems/angle-between-hands-of-a-clock/)
 
 模拟即可
 
@@ -57,7 +57,7 @@
     }
 ```
 
-### [1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/) [TAG]
+### [1345. 跳跃游戏 IV](https://leetcode.cn/problems/jump-game-iv/) [TAG]
 
 bfs 需要注意的是使用map记录优化
 

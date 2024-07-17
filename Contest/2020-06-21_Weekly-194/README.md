@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-194/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-194/)
 
 
-### [1486. 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
+### [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/)
 
 略
 
@@ -14,7 +14,7 @@
 ```
 
 
-### [1487. 保证文件名唯一](https://leetcode-cn.com/problems/making-file-names-unique/)
+### [1487. 保证文件名唯一](https://leetcode.cn/problems/making-file-names-unique/)
 
 略
 
@@ -39,7 +39,7 @@
     }
 ```
 
-### [1488. 避免洪水泛滥](https://leetcode-cn.com/problems/avoid-flood-in-the-city/)
+### [1488. 避免洪水泛滥](https://leetcode.cn/problems/avoid-flood-in-the-city/)
 
 贪心 写法思路完全正确 vector二分查找超时
 
@@ -115,7 +115,7 @@
 
 
 
-### [1489. 找到最小生成树里的关键边和伪关键边](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+### [1489. 找到最小生成树里的关键边和伪关键边](https://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 
 Kruskal 检查选边不选边得到的mst即可
 

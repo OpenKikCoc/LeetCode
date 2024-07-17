@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-255/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-255/)
 
 
-### [1979. 找出数组的最大公约数](https://leetcode-cn.com/problems/find-greatest-common-divisor-of-array/)
+### [1979. 找出数组的最大公约数](https://leetcode.cn/problems/find-greatest-common-divisor-of-array/)
 
 模拟 略
 
@@ -26,7 +26,7 @@ public:
 };
 ```
 
-### [1980. 找出不同的二进制字符串](https://leetcode-cn.com/problems/find-unique-binary-string/)
+### [1980. 找出不同的二进制字符串](https://leetcode.cn/problems/find-unique-binary-string/)
 
 考虑显然每个二进制串唯一对应一个数字，转化数字标识即可
 
@@ -75,7 +75,7 @@ public:
 };
 ```
 
-### [1981. 最小化目标值与所选元素的差](https://leetcode-cn.com/problems/minimize-the-difference-between-target-and-chosen-elements/)
+### [1981. 最小化目标值与所选元素的差](https://leetcode.cn/problems/minimize-the-difference-between-target-and-chosen-elements/)
 
 较显然的是一个分组背包问题
 
@@ -157,18 +157,18 @@ public:
 
 
 
-### [1982. 从子集的和还原数组](https://leetcode-cn.com/problems/find-array-given-subset-sums/) [TAG]
+### [1982. 从子集的和还原数组](https://leetcode.cn/problems/find-array-given-subset-sums/) [TAG]
 
 核心在于将负数集合转化为正数集合
 
 随后简化处理流程
 
 ```c++
-// https://leetcode-cn.com/problems/find-array-given-subset-sums/solution/ti-jie-cong-zi-ji-de-he-huan-yuan-shu-zu-q9qw/
+// https://leetcode.cn/problems/find-array-given-subset-sums/solution/ti-jie-cong-zi-ji-de-he-huan-yuan-shu-zu-q9qw/
 // 全非负数的基础版 题目链接 https://www.codechef.com/problems/ANUMLA
 // 理解思路
 
-// https://leetcode-cn.com/problems/find-array-given-subset-sums/solution/jian-yi-ti-jie-by-sfiction-9i43/
+// https://leetcode.cn/problems/find-array-given-subset-sums/solution/jian-yi-ti-jie-by-sfiction-9i43/
 // 本题有负值，则将所有数 -min_element 转化为非负问题
 // [非负问题中最小值必为0 次小值就是原集合的最小值] ===> [最大值与最小值差即为该数的绝对值 正负性待定]。递归求解
 

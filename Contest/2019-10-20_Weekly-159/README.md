@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-159/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-159/)
 
 
-### [1232. 缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)
+### [1232. 缀点成线](https://leetcode.cn/problems/check-if-it-is-a-straight-line/)
 
 可以直接使用 line 每个点与第一个点比较就可以过
 
@@ -48,7 +48,7 @@
     }
 ```
 
-### [1233. 删除子文件夹](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem/)
+### [1233. 删除子文件夹](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/)
 
 排序暴力即可
 
@@ -72,7 +72,7 @@
     }
 ```
 
-### [1234. 替换子串得到平衡字符串](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/)
+### [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/)
 
 
 
@@ -149,7 +149,7 @@ public:
     }
 ```
 
-### [1235. 规划兼职工作](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/) [TAG]
+### [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/) [TAG]
 
 显然要按照结束时间排序
 

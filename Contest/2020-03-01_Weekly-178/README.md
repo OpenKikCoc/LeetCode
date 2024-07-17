@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-178/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-178/)
 
 
-### [1365. 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+### [1365. 有多少小于当前数字的数字](https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
 每个元素 `nums[i]`，统计数组中比它小的所有数字的数目。
 
@@ -72,7 +72,7 @@ public:
 
 
 
-### [1366. 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/) 
+### [1366. 通过投票对团队排名](https://leetcode.cn/problems/rank-teams-by-votes/) 
 
 > 参赛团队的排名次序依照其所获「排位第一」的票的多少决定。如果存在多个团队并列的情况，将继续考虑其「排位第二」的票的数量。以此类推，直到不再存在并列的情况。
 > 如果在考虑完所有投票情况后仍然出现并列现象，则根据团队字母的字母顺序进行排名。
@@ -143,7 +143,7 @@ public:
 };
 ```
 
-### [1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) 
+### [1367. 二叉树中的列表](https://leetcode.cn/problems/linked-list-in-binary-tree/) 
 
 > 如果在二叉树中，存在一条一直向下的路径，且每个点的数值恰好一一对应以 `head` 为首的链表中每个节点的值，那么请你返回 `True` ，否则返回 `False` 。
 
@@ -194,7 +194,7 @@ public:
 
 
 
-### [1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) [TAG]
+### [1368. 使网格图至少有一条有效路径的最小代价](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) [TAG]
 
 最短路 可以直接到达的边权为0 需要翻转的点边权为1
 

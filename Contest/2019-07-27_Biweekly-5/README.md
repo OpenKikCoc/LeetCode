@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-5/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-5/)
 
 
-### [1133. 最大唯一数](https://leetcode-cn.com/problems/largest-unique-number/)
+### [1133. 最大唯一数](https://leetcode.cn/problems/largest-unique-number/)
 
 略
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [1134. 阿姆斯特朗数](https://leetcode-cn.com/problems/armstrong-number/)
+### [1134. 阿姆斯特朗数](https://leetcode.cn/problems/armstrong-number/)
 
 略
 
@@ -46,7 +46,7 @@ public:
 };
 ```
 
-### [1135. 最低成本联通所有城市](https://leetcode-cn.com/problems/connecting-cities-with-minimum-cost/)
+### [1135. 最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/)
 
 MST 模版题 略
 
@@ -86,7 +86,7 @@ public:
 };
 ```
 
-### [1136. 平行课程](https://leetcode-cn.com/problems/parallel-courses/)
+### [1136. 平行课程](https://leetcode.cn/problems/parallel-courses/)
 
 拓扑排序板子题 略
 

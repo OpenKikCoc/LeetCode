@@ -1,4 +1,4 @@
-#  [78. 子集](https://leetcode-cn.com/problems/subsets/)
+#  [78. 子集](https://leetcode.cn/problems/subsets/)
 
 ## 题意
 

@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-199/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-199/)
 
-### [1528. 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
+### [1528. 重新排列字符串](https://leetcode.cn/problems/shuffle-string/)
 
 pair排序即可
 
@@ -33,7 +33,7 @@ pair排序即可
 
 
 
-### [1529. 灯泡开关 IV](https://leetcode-cn.com/problems/bulb-switcher-iv/)
+### [1529. 灯泡开关 IV](https://leetcode.cn/problems/bulb-switcher-iv/)
 
 显然需要从最左侧考虑 边处理边记录整个右侧的状态 扫一遍即可
 
@@ -64,7 +64,7 @@ pair排序即可
 
 
 
-### [1530. 好叶子节点对的数量](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/) [TAG]
+### [1530. 好叶子节点对的数量](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/) [TAG]
 
 >   记一下这种写法
 
@@ -90,9 +90,9 @@ pair排序即可
     }
 ```
 
-### [1531. 压缩字符串 II](https://leetcode-cn.com/problems/string-compression-ii/) [TAG]
+### [1531. 压缩字符串 II](https://leetcode.cn/problems/string-compression-ii/) [TAG]
 
-dp 解释参考 [题解](https://leetcode-cn.com/problems/string-compression-ii/solution/dong-tai-gui-hua-shi-jian-on3kong-jian-on2-by-newh/)
+dp 解释参考 [题解](https://leetcode.cn/problems/string-compression-ii/solution/dong-tai-gui-hua-shi-jian-on3kong-jian-on2-by-newh/)
 
 ```c++
     int calc(int x) {

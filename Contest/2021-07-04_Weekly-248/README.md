@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-248)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-248)
 
 >   rank: 31 / 4450
 
 
-### [5800. 基于排列构建数组](https://leetcode-cn.com/problems/build-array-from-permutation/)
+### [5800. 基于排列构建数组](https://leetcode.cn/problems/build-array-from-permutation/)
 
 模拟即可 略
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [5801. 消灭怪物的最大数量](https://leetcode-cn.com/problems/eliminate-maximum-number-of-monsters/)
+### [5801. 消灭怪物的最大数量](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/)
 
 处理怪物抵达城堡的时间 贪心排序即可
 
@@ -51,7 +51,7 @@ public:
 };
 ```
 
-### [5802. 统计好数字的数目](https://leetcode-cn.com/problems/count-good-numbers/)
+### [5802. 统计好数字的数目](https://leetcode.cn/problems/count-good-numbers/)
 
 标准快速幂 略
 
@@ -80,7 +80,7 @@ public:
 };
 ```
 
-### [5803. 最长公共子路径](https://leetcode-cn.com/problems/longest-common-subpath/)
+### [5803. 最长公共子路径](https://leetcode.cn/problems/longest-common-subpath/)
 
 多字符串的 LCS 问题
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-11/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-11/)
 
 
-### [1228. 等差数列中缺失的数字](https://leetcode-cn.com/problems/missing-number-in-arithmetic-progression/)
+### [1228. 等差数列中缺失的数字](https://leetcode.cn/problems/missing-number-in-arithmetic-progression/)
 
 投票统计法 然后校验 liouzhou_101和自己思路一致
 
@@ -28,7 +28,7 @@
 ```
 
 
-### [1229. 安排会议日程](https://leetcode-cn.com/problems/meeting-scheduler/)
+### [1229. 安排会议日程](https://leetcode.cn/problems/meeting-scheduler/)
 
 预选 + 暴力判断
 
@@ -52,7 +52,7 @@
     }
 ```
 
-### [1230. 抛掷硬币](https://leetcode-cn.com/problems/toss-strange-coins/)
+### [1230. 抛掷硬币](https://leetcode.cn/problems/toss-strange-coins/)
 
 线性 dp
 
@@ -73,7 +73,7 @@
     }
 ```
 
-### [1231. 分享巧克力](https://leetcode-cn.com/problems/divide-chocolate/)
+### [1231. 分享巧克力](https://leetcode.cn/problems/divide-chocolate/)
 
 二分即可
 

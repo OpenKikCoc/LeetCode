@@ -1,4 +1,4 @@
-#  [691. 贴纸拼词](https://leetcode-cn.com/problems/stickers-to-spell-word/)
+#  [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/)
 
 ## 题意
 

@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-287)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-287)
 
 >   453 / 6811
 
-### [6055. 转化时间需要的最少操作数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-convert-time/)
+### [6055. 转化时间需要的最少操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-convert-time/)
 
 模拟
 
@@ -42,7 +42,7 @@ class Solution:
 
 
 
-### [5235. 找出输掉零场或一场比赛的玩家](https://leetcode-cn.com/problems/find-players-with-zero-or-one-losses/)
+### [5235. 找出输掉零场或一场比赛的玩家](https://leetcode.cn/problems/find-players-with-zero-or-one-losses/)
 
 模拟
 
@@ -124,7 +124,7 @@ class Solution:
         return s, t
 ```
 
-### [5219. 每个小孩最多能分到多少糖果](https://leetcode-cn.com/problems/maximum-candies-allocated-to-k-children/)
+### [5219. 每个小孩最多能分到多少糖果](https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/)
 
 二分答案 注意右边界
 
@@ -180,7 +180,7 @@ class Solution:
         return l - 1
 ```
 
-### [5302. 加密解密字符串](https://leetcode-cn.com/problems/encrypt-and-decrypt-strings/)
+### [5302. 加密解密字符串](https://leetcode.cn/problems/encrypt-and-decrypt-strings/)
 
 Trie + 搜索即可
 

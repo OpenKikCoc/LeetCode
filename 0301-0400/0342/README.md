@@ -1,4 +1,4 @@
-#  [342. 4的幂](https://leetcode-cn.com/problems/power-of-four/)
+#  [342. 4的幂](https://leetcode.cn/problems/power-of-four/)
 
 ## 题意
 

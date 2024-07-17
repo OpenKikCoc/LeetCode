@@ -1,4 +1,4 @@
-#  [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/)
+#  [713. 乘积小于K的子数组](https://leetcode.cn/problems/subarray-product-less-than-k/)
 
 ## 题意
 

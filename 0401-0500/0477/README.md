@@ -1,4 +1,4 @@
-#  [477. 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
+#  [477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/)
 
 ## 题意
 

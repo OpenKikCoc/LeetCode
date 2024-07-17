@@ -1,4 +1,4 @@
-#  [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
+#  [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 
 ## 题意
 

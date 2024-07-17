@@ -1,4 +1,4 @@
-#  [210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)
+#  [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
 
 ## 题意
 

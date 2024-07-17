@@ -1,4 +1,4 @@
-#  [165. 比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/)
+#  [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/)
 
 ## 题意
 

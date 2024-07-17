@@ -1,4 +1,4 @@
-#  [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+#  [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
 
 ## 题意
 

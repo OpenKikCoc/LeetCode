@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-58)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-58)
 
 
-### [5193. 删除字符使字符串变好](https://leetcode-cn.com/problems/delete-characters-to-make-fancy-string/)
+### [5193. 删除字符使字符串变好](https://leetcode.cn/problems/delete-characters-to-make-fancy-string/)
 
 线性处理皆可 略
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [5827. 检查操作是否合法](https://leetcode-cn.com/problems/check-if-move-is-legal/)
+### [5827. 检查操作是否合法](https://leetcode.cn/problems/check-if-move-is-legal/)
 
 任意方向合法均可 主要是理解题意
 
@@ -98,7 +98,7 @@ public:
 
 
 
-### [5828. K 次调整数组大小浪费的最小总空间](https://leetcode-cn.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
+### [5828. K 次调整数组大小浪费的最小总空间](https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations/)
 
 显然需要预处理【区间最值】和【区间和】
 
@@ -224,7 +224,7 @@ public:
 
 
 
-### [5220. 两个回文子字符串长度的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/) [TAG]
+### [5220. 两个回文子字符串长度的最大乘积](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-substrings/) [TAG]
 
 非常好的 manacher 应用题 重复做
 

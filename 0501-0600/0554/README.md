@@ -1,4 +1,4 @@
-#  [554. 砖墙](https://leetcode-cn.com/problems/brick-wall/)
+#  [554. 砖墙](https://leetcode.cn/problems/brick-wall/)
 
 ## 题意
 

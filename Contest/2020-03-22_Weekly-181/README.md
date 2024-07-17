@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-181/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-181/)
 
 
-### [1389. 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/)
+### [1389. 按既定顺序创建目标数组](https://leetcode.cn/problems/create-target-array-in-the-given-order/)
 
 在index[i]插入nums[i]
 
@@ -40,7 +40,7 @@ public:
 
 
 
-### [1390. 四因数](https://leetcode-cn.com/problems/four-divisors/) 
+### [1390. 四因数](https://leetcode.cn/problems/four-divisors/) 
 
 整数数组 `nums`，返回该数组中恰有四个因数的这些整数的各因数之和。
 
@@ -144,7 +144,7 @@ public:
 
 
 
-### [1391. 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/)
+### [1391. 检查网格中是否存在有效路径](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/)
 
 搜索即可
 
@@ -251,7 +251,7 @@ public:
 
 
 
-### [1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/) [TAG]
+### [1392. 最长快乐前缀](https://leetcode.cn/problems/longest-happy-prefix/) [TAG]
 
 求字符串的最长快乐前缀(既是前缀也是后缀)
 

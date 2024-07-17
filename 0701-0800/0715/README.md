@@ -1,4 +1,4 @@
-#  [715. Range 模块](https://leetcode-cn.com/problems/range-module/)
+#  [715. Range 模块](https://leetcode.cn/problems/range-module/)
 
 ## 题意
 

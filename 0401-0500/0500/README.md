@@ -1,4 +1,4 @@
-#  [500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/)
+#  [500. 键盘行](https://leetcode.cn/problems/keyboard-row/)
 
 ## 题意
 

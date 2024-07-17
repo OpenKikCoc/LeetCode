@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-203/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-203/)
 
 
-### [1560. 圆形赛道上经过次数最多的扇区](https://leetcode-cn.com/problems/most-visited-sector-in-a-circular-track/)
+### [1560. 圆形赛道上经过次数最多的扇区](https://leetcode.cn/problems/most-visited-sector-in-a-circular-track/)
 
 题意：
 
@@ -26,7 +26,7 @@
 ```
 
 
-### [1561. 你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)
+### [1561. 你可以获得的最大硬币数目](https://leetcode.cn/problems/maximum-number-of-coins-you-can-get/)
 
 容易推出贪心策略：
 
@@ -41,7 +41,7 @@
     }
 ```
 
-### [1562. 查找大小为 M 的最新分组](https://leetcode-cn.com/problems/find-latest-group-of-size-m/)
+### [1562. 查找大小为 M 的最新分组](https://leetcode.cn/problems/find-latest-group-of-size-m/)
 
 长度为 n 起始全 0 的串，每次会有一位变成 1（因此共n次操作），求满足存在一个连续长为 m 的最后一个操作的次数。
 
@@ -138,7 +138,7 @@ public:
 ```
 
 
-### [1563. 石子游戏 V](https://leetcode-cn.com/problems/stone-game-v/) [TAG]
+### [1563. 石子游戏 V](https://leetcode.cn/problems/stone-game-v/) [TAG]
 
 题意理解有问题，其实这题是每次选中点切分成两组。
 
@@ -196,7 +196,7 @@ int idx = 101, a[10001], sum[10001];
 ```
 
 考虑不用记忆化搜索的优化：
-https://leetcode-cn.com/problems/stone-game-v/solution/on2dong-tai-gui-hua-jie-fa-by-huangyuyang/
+https://leetcode.cn/problems/stone-game-v/solution/on2dong-tai-gui-hua-jie-fa-by-huangyuyang/
 
 ```c++
 const int N = 505;

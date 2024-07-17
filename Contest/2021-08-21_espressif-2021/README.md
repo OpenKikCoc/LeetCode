@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/espressif-2021/)
+## [比赛链接](https://leetcode.cn/contest/espressif-2021/)
 
 基本全是原题
 
-### [录取分数线](https://leetcode-cn.com/contest/espressif-2021/problems/QXquF0/)
+### [录取分数线](https://leetcode.cn/contest/espressif-2021/problems/QXquF0/)
 
 排序即可 略
 
@@ -17,7 +17,7 @@ public:
 ```
 
 
-### [调整电平](https://leetcode-cn.com/contest/espressif-2021/problems/i4tX1E/)
+### [调整电平](https://leetcode.cn/contest/espressif-2021/problems/i4tX1E/)
 
 经典数学 `某数有奇数个约数当且仅当其为完全平方数`
 
@@ -32,9 +32,9 @@ public:
 };
 ```
 
-### [签到序列](https://leetcode-cn.com/contest/espressif-2021/problems/fSghVj/)
+### [签到序列](https://leetcode.cn/contest/espressif-2021/problems/fSghVj/)
 
-与 [400. 第 N 位数字](https://leetcode-cn.com/problems/nth-digit/) 完全相同，赛榜学到新思路
+与 [400. 第 N 位数字](https://leetcode.cn/problems/nth-digit/) 完全相同，赛榜学到新思路
 
 ```c++
 class Solution {
@@ -51,7 +51,7 @@ public:
 };
 ```
 
-### [自行车拉力赛](https://leetcode-cn.com/contest/espressif-2021/problems/z9nHkj/)
+### [自行车拉力赛](https://leetcode.cn/contest/espressif-2021/problems/z9nHkj/)
 
 贪心，注意实现
 

@@ -1,4 +1,4 @@
-#  [495. 提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/)
+#  [495. 提莫攻击](https://leetcode.cn/problems/teemo-attacking/)
 
 ## 题意
 

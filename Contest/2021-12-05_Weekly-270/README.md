@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-270/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-270/)
 
 
-### [2094. 找出 3 位偶数](https://leetcode-cn.com/problems/finding-3-digit-even-numbers/)
+### [2094. 找出 3 位偶数](https://leetcode.cn/problems/finding-3-digit-even-numbers/)
 
 注意需要按次数 dfs 否则 `100^3` TLE
 
@@ -46,7 +46,7 @@ public:
 ```
 
 
-### [2095. 删除链表的中间节点](https://leetcode-cn.com/problems/delete-the-middle-node-of-a-linked-list/)
+### [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/)
 
 坑
 
@@ -82,7 +82,7 @@ public:
 };
 ```
 
-### [2096. 从二叉树一个节点到另一个节点每一步的方向](https://leetcode-cn.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)
+### [2096. 从二叉树一个节点到另一个节点每一步的方向](https://leetcode.cn/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)
 
 1A
 
@@ -163,7 +163,7 @@ public:
 };
 ```
 
-### [2097. 合法重新排列数对](https://leetcode-cn.com/problems/valid-arrangement-of-pairs/) [TAG]
+### [2097. 合法重新排列数对](https://leetcode.cn/problems/valid-arrangement-of-pairs/) [TAG]
 
 分析和建图较为简单直接
 

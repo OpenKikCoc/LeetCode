@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-221/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-221/)
 
 手速问题 3/4
 
 virtual rating: 175 / 3397
 
-### [1704. 判断字符串的两半是否相似](https://leetcode-cn.com/problems/determine-if-string-halves-are-alike/)
+### [1704. 判断字符串的两半是否相似](https://leetcode.cn/problems/determine-if-string-halves-are-alike/)
 
 略
 
@@ -29,7 +29,7 @@ public:
 ```
 
 
-### [1705. 吃苹果的最大数目](https://leetcode-cn.com/problems/maximum-number-of-eaten-apples/)
+### [1705. 吃苹果的最大数目](https://leetcode.cn/problems/maximum-number-of-eaten-apples/)
 
 优先队列贪心即可
 
@@ -56,7 +56,7 @@ public:
 };
 ```
 
-### [1706. 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)
+### [1706. 球会落何处](https://leetcode.cn/problems/where-will-the-ball-fall/)
 
 模拟即可
 
@@ -87,7 +87,7 @@ public:
 };
 ```
 
-### [1707. 与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/) [TAG]
+### [1707. 与数组中元素的最大异或值](https://leetcode.cn/problems/maximum-xor-with-an-element-from-array/) [TAG]
 
 在线 Trie 做法贪心选择前面为 1 的时候结果会错，形如：
 

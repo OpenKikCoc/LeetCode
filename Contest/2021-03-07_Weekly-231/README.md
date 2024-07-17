@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-231/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-231/)
 
 
-### [5697. 检查二进制字符串字段](https://leetcode-cn.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
+### [5697. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 
 略
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [5698. 构成特定和需要添加的最少元素](https://leetcode-cn.com/problems/minimum-elements-to-add-to-form-a-given-sum/)
+### [5698. 构成特定和需要添加的最少元素](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/)
 
 简单计数
 
@@ -41,7 +41,7 @@ public:
 };
 ```
 
-### [5699. 从第一个节点出发到最后一个节点的受限路径数](https://leetcode-cn.com/problems/number-of-restricted-paths-from-first-to-last-node/)
+### [5699. 从第一个节点出发到最后一个节点的受限路径数](https://leetcode.cn/problems/number-of-restricted-paths-from-first-to-last-node/)
 
 注意 dijkstra auto 不能写引用 会出问题 // todo
 
@@ -178,7 +178,7 @@ public:
 };
 ```
 
-### [5700. 使所有区间的异或结果为零](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/) [TAG]
+### [5700. 使所有区间的异或结果为零](https://leetcode.cn/problems/make-the-xor-of-all-segments-equal-to-zero/) [TAG]
 
 以 k 为周期
 

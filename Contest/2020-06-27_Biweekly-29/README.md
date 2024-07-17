@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-29/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-29/)
 
 
-### [1491. 去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
+### [1491. 去掉最低工资和最高工资后的工资平均值](https://leetcode.cn/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 
 略
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1492. n 的第 k 个因子](https://leetcode-cn.com/problems/the-kth-factor-of-n/)
+### [1492. n 的第 k 个因子](https://leetcode.cn/problems/the-kth-factor-of-n/)
 
 模拟 略
 
@@ -52,7 +52,7 @@
 
 
 
-### [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode-cn.com/problems/longest-subarray-of-1s-after-deleting-one-element/) 
+### [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/) 
 
 统计某一位 左右侧各有多少连续1即可
 
@@ -78,7 +78,7 @@
     }
 ```
 
-### [1494. 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/) [TAG]
+### [1494. 并行课程 II](https://leetcode.cn/problems/parallel-courses-ii/) [TAG]
 
 状压dp
 

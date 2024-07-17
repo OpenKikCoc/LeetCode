@@ -1,4 +1,4 @@
-#  [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
+#  [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/)
 
 ## 题意
 

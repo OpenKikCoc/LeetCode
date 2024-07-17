@@ -1,4 +1,4 @@
-#  [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)
+#  [62. 不同路径](https://leetcode.cn/problems/unique-paths/)
 
 ## 题意
 

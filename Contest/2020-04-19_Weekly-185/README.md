@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-185/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-185/)
 
-### [1417. 重新格式化字符串](https://leetcode-cn.com/problems/reformat-the-string/)
+### [1417. 重新格式化字符串](https://leetcode.cn/problems/reformat-the-string/)
 
 字母数字相隔
 
@@ -34,7 +34,7 @@ public:
 };
 ```
 
-### [1418. 点菜展示表](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)
+### [1418. 点菜展示表](https://leetcode.cn/problems/display-table-of-food-orders-in-a-restaurant/)
 
 输出：每个桌 后面每个种类的菜点了几份
 
@@ -78,7 +78,7 @@ public:
 };
 ```
 
-### [1419. 数青蛙](https://leetcode-cn.com/problems/minimum-number-of-frogs-croaking/)
+### [1419. 数青蛙](https://leetcode.cn/problems/minimum-number-of-frogs-croaking/)
 
 "croak"合法串中 尽可能最少的青蛙的个数
 
@@ -122,7 +122,7 @@ public:
 };
 ```
 
-### [1420. 生成数组](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
+### [1420. 生成数组](https://leetcode.cn/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
 经典前缀和优化
 

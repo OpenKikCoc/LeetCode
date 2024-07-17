@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-35/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-35/)
 
 模拟 200+/2800+
 
-### [1588. 所有奇数长度子数组的和](https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/)
+### [1588. 所有奇数长度子数组的和](https://leetcode.cn/problems/sum-of-all-odd-length-subarrays/)
 
 模拟累加即可
 
@@ -17,7 +17,7 @@
 ```
 
 
-### [1589. 所有排列中的最大和](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/)
+### [1589. 所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation/)
 
 每次取一个区间，最后统计所有下标在区间中出现的次数。为减少复杂度显然差分数组
 
@@ -43,7 +43,7 @@
     }
 ```
 
-### [1590. 使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)
+### [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/)
 
 删除尽量少的数使得剩余非空数组的和可以整除p
 
@@ -97,7 +97,7 @@ liuzhou_101:
     }
 ```
 
-### [1591. 奇怪的打印机 II](https://leetcode-cn.com/problems/strange-printer-ii/) [TAG]
+### [1591. 奇怪的打印机 II](https://leetcode.cn/problems/strange-printer-ii/) [TAG]
 
 每个颜色染一个矩形 颜色不能重复使用 问能否达成目标染色情况
 

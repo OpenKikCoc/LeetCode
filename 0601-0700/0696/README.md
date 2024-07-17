@@ -1,4 +1,4 @@
-#  [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
+#  [696. 计数二进制子串](https://leetcode.cn/problems/count-binary-substrings/)
 
 ## 题意
 

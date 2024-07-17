@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/ccbft-2021fall/)
+## [比赛链接](https://leetcode.cn/contest/ccbft-2021fall/)
 
 
-### [建信01. 间隔删除链表结点](https://leetcode-cn.com/contest/ccbft-2021fall/problems/woGGnF/)
+### [建信01. 间隔删除链表结点](https://leetcode.cn/contest/ccbft-2021fall/problems/woGGnF/)
 
 略
 
@@ -35,7 +35,7 @@ public:
 ```
 
 
-### [建信02. 柱状图分析](https://leetcode-cn.com/contest/ccbft-2021fall/problems/9Rs2aO/)
+### [建信02. 柱状图分析](https://leetcode.cn/contest/ccbft-2021fall/problems/9Rs2aO/)
 
 略
 
@@ -62,7 +62,7 @@ public:
 };
 ```
 
-### [建信03. 地铁路线规划 ](https://leetcode-cn.com/contest/ccbft-2021fall/problems/zQTFs4/)[TAG]
+### [建信03. 地铁路线规划 ](https://leetcode.cn/contest/ccbft-2021fall/problems/zQTFs4/)[TAG]
 
 经典最短路变形
 
@@ -146,7 +146,7 @@ public:
 };
 ```
 
-### [建信04. 电学实验课](https://leetcode-cn.com/contest/ccbft-2021fall/problems/lSjqMF/) [TAG]
+### [建信04. 电学实验课](https://leetcode.cn/contest/ccbft-2021fall/problems/lSjqMF/) [TAG]
 
 非常好的组合计数题
 

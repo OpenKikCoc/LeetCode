@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-152/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-152/)
 
 
-### [1175. 质数排列](https://leetcode-cn.com/problems/prime-arrangements/)
+### [1175. 质数排列](https://leetcode.cn/problems/prime-arrangements/)
 
 数值较大，筛法求质数以及快速乘
 
@@ -51,7 +51,7 @@ public:
 ```
 
 
-### [1176. 健身计划评估](https://leetcode-cn.com/problems/diet-plan-performance/)
+### [1176. 健身计划评估](https://leetcode.cn/problems/diet-plan-performance/)
 
 窗口即可 略
 
@@ -83,7 +83,7 @@ public:
 };
 ```
 
-### [1177. 构建回文串检测](https://leetcode-cn.com/problems/can-make-palindrome-from-substring/)
+### [1177. 构建回文串检测](https://leetcode.cn/problems/can-make-palindrome-from-substring/)
 
 每修改一个字符，可以消灭两个奇数字符
 
@@ -113,7 +113,7 @@ public:
 };
 ```
 
-### [1178. 猜字谜](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)
+### [1178. 猜字谜](https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/)
 
 位运算即可 注意细节
 

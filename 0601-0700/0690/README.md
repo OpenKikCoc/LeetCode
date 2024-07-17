@@ -1,4 +1,4 @@
-#  [690. 员工的重要性](https://leetcode-cn.com/problems/employee-importance/)
+#  [690. 员工的重要性](https://leetcode.cn/problems/employee-importance/)
 
 ## 题意
 

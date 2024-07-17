@@ -1,4 +1,4 @@
-#  [396. 旋转函数](https://leetcode-cn.com/problems/rotate-function/)
+#  [396. 旋转函数](https://leetcode.cn/problems/rotate-function/)
 
 ## 题意
 

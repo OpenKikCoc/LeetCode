@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-65/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-65/)
 
 >   virtual rank: 147 / 2676
 
 
-### [2068. 检查两个字符串是否几乎相等](https://leetcode-cn.com/problems/check-whether-two-strings-are-almost-equivalent/)
+### [2068. 检查两个字符串是否几乎相等](https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent/)
 
 略
 
@@ -25,7 +25,7 @@ public:
 ```
 
 
-### [2069. 模拟行走机器人 II](https://leetcode-cn.com/problems/walking-robot-simulation-ii/)
+### [2069. 模拟行走机器人 II](https://leetcode.cn/problems/walking-robot-simulation-ii/)
 
 注意坑：同样在 [0, 0] 起始状态为 "East" ，其他时候走到这里是 "South"
 
@@ -88,7 +88,7 @@ public:
  */
 ```
 
-### [2070. 每一个查询的最大美丽值](https://leetcode-cn.com/problems/most-beautiful-item-for-each-query/)
+### [2070. 每一个查询的最大美丽值](https://leetcode.cn/problems/most-beautiful-item-for-each-query/)
 
 简单离线
 
@@ -118,7 +118,7 @@ public:
 };
 ```
 
-### [2071. 你可以安排的最多任务数目](https://leetcode-cn.com/problems/maximum-number-of-tasks-you-can-assign/) [TAG]
+### [2071. 你可以安排的最多任务数目](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/) [TAG]
 
 细节贪心
 
@@ -191,7 +191,7 @@ public:
     vector<int> ts, ws;
     int q[N];
     
-    // https://leetcode-cn.com/problems/maximum-number-of-tasks-you-can-assign/solution/c-er-fen-tao-tan-xin-by-blackskygg-kmbu/
+    // https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/solution/c-er-fen-tao-tan-xin-by-blackskygg-kmbu/
     bool check(int mid) {
         // 维护 [..., v + st] 的队列，当前worker的最优解一定是选择第一个or最后一个 或false
         int hh = 0, tt = -1, pills = ps;

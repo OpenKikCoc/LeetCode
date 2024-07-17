@@ -1,4 +1,4 @@
-#  [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)
+#  [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
 
 ## 题意
 

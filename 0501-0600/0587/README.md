@@ -1,4 +1,4 @@
-#  [587. 安装栅栏](https://leetcode-cn.com/problems/erect-the-fence/)
+#  [587. 安装栅栏](https://leetcode.cn/problems/erect-the-fence/)
 
 ## 题意
 

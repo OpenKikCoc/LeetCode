@@ -1,4 +1,4 @@
-#  [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)
+#  [606. 根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/)
 
 ## 题意
 

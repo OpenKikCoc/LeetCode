@@ -1,4 +1,4 @@
-#  [67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)
+#  [67. 二进制求和](https://leetcode.cn/problems/add-binary/)
 
 ## 题意
 

@@ -1,4 +1,4 @@
-#  [726. 原子的数量](https://leetcode-cn.com/problems/number-of-atoms/)
+#  [726. 原子的数量](https://leetcode.cn/problems/number-of-atoms/)
 
 ## 题意
 

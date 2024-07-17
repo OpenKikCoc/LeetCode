@@ -90,7 +90,7 @@
 
 ## 1.1 最经典单串：
 
-#### [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+#### [300. 最长上升子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
 ```c++
 // 朴素写法
@@ -119,7 +119,7 @@
 
 ## 1.2 最经典双串：
 
-#### [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)
+#### [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence)
 
 ```c++
 // 朴素写法
@@ -158,7 +158,7 @@
 
 ## 1.3 经典问题：
 
-#### [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle)
+#### [120. 三角形最小路径和](https://leetcode.cn/problems/triangle)
 
 ```c++
 // top -> bottom
@@ -195,7 +195,7 @@
 
 
 
-#### [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray)
+#### [53. 最大子序和](https://leetcode.cn/problems/maximum-subarray)
 
 ```c++
 // 朴素算法
@@ -233,7 +233,7 @@
     }
 ```
 
-#### [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray)
+#### [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray)
 
 ```c++
 // 朴素写法
@@ -262,7 +262,7 @@
     }
 ```
 
-#### [887. 鸡蛋掉落（DP+二分）](https://leetcode-cn.com/problems/super-egg-drop/) poj 3783
+#### [887. 鸡蛋掉落（DP+二分）](https://leetcode.cn/problems/super-egg-drop/) poj 3783
 
 ```c++
 // dp[N][K]
@@ -305,7 +305,7 @@
     }
 ```
 
-#### [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes)
+#### [354. 俄罗斯套娃信封问题](https://leetcode.cn/problems/russian-doll-envelopes)
 
 ```c++
 // 朴素
@@ -347,7 +347,7 @@
 
 ## 1.4 打家劫舍系列: (打家劫舍3 是树形DP)
 
-#### [198. 打家劫舍 ](https://leetcode-cn.com/problems/house-robber)
+#### [198. 打家劫舍 ](https://leetcode.cn/problems/house-robber)
 
 ```c++
 // 朴素
@@ -379,7 +379,7 @@
 
 
 
-#### [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii)
+#### [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii)
 
 ```c++
 // 环形dp 两次dp即可  n==1特判
@@ -410,7 +410,7 @@
 
 ## 1.5 股票系列:
 
-#### [121. 买卖股票的最佳时机 ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)
+#### [121. 买卖股票的最佳时机 ](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock)
 
 ```c++
 // 朴素
@@ -429,7 +429,7 @@
 // 优化略
 ```
 
-#### [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+#### [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
 
 可以多次买卖
 
@@ -449,7 +449,7 @@
 // 优化略
 ```
 
-#### [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
+#### [123. 买卖股票的最佳时机 III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/)
 
 最多买卖两次
 
@@ -483,7 +483,7 @@
     }
 ```
 
-#### [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
+#### [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/)
 
 ```c++
 // 朴素算法 MLE
@@ -529,7 +529,7 @@
     }
 ```
 
-#### [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+#### [309. 最佳买卖股票时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
 卖出后再买入需隔一天
 
@@ -564,7 +564,7 @@
     }
 ```
 
-#### [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+#### [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 
 ```c++
 // 朴素算法
@@ -583,7 +583,7 @@
 
 ## 1.6 字符串匹配系列
 
-#### [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance)
+#### [72. 编辑距离](https://leetcode.cn/problems/edit-distance)
 
 ```c++
     int minDistance(string word1, string word2) {
@@ -602,7 +602,7 @@
     }
 ```
 
-#### [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
+#### [44. 通配符匹配](https://leetcode.cn/problems/wildcard-matching/)
 
 ```c++
     bool isMatch(string s, string p) {
@@ -621,7 +621,7 @@
     }
 ```
 
-#### [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)
+#### [10. 正则表达式匹配](https://leetcode.cn/problems/regular-expression-matching/)
 
 ```c++
     bool isMatch(string s, string p) {
@@ -651,7 +651,7 @@
 
 ## 其他
 
-#### [983. 最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/)
+#### [983. 最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/)
 
 ```c++
     int mincostTickets(vector<int>& days, vector<int>& costs) {
@@ -687,7 +687,7 @@
 
 # 2、区间 DP
 
-#### [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
+#### [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/)
 
 ```c++
 // 朴素写法
@@ -737,7 +737,7 @@
     }
 ```
 
-#### [730. 统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/)
+#### [730. 统计不同回文子序列](https://leetcode.cn/problems/count-different-palindromic-subsequences/)
 
 ```c++
     const int mod = 1e9+7;
@@ -767,7 +767,7 @@
     }
 ```
 
-#### [1039. 多边形三角剖分的最低得分](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/)
+#### [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/)
 
 ```c++
 // 朴素写法
@@ -801,7 +801,7 @@
     }
 ```
 
-#### [664. 奇怪的打印机](https://leetcode-cn.com/problems/strange-printer/)
+#### [664. 奇怪的打印机](https://leetcode.cn/problems/strange-printer/)
 
 ```c++
 // 朴素算法
@@ -849,7 +849,7 @@
     }
 ```
 
-#### [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/)
+#### [312. 戳气球](https://leetcode.cn/problems/burst-balloons/)
 
 ```c++
 // 朴素
@@ -892,7 +892,7 @@
 
 # 3、背包DP
 
-#### [416. 分割等和子集 (01背包-要求恰好取到背包容量)](https://leetcode-cn.com/problems/partition-equal-subset-sum)
+#### [416. 分割等和子集 (01背包-要求恰好取到背包容量)](https://leetcode.cn/problems/partition-equal-subset-sum)
 
 ```c++
 // 朴素写法
@@ -930,7 +930,7 @@
     }
 ```
 
-#### [494. 目标和 (01背包-求方案数)](https://leetcode-cn.com/problems/target-sum)
+#### [494. 目标和 (01背包-求方案数)](https://leetcode.cn/problems/target-sum)
 
 ```c++
 // 朴素算法
@@ -973,7 +973,7 @@
     }
 ```
 
-#### [322. 零钱兑换 (完全背包)](https://leetcode-cn.com/problems/coin-change)
+#### [322. 零钱兑换 (完全背包)](https://leetcode.cn/problems/coin-change)
 
 ```c++
  // 朴素算法
@@ -1004,7 +1004,7 @@
     }
 ```
 
-#### [518. 零钱兑换 II (完全背包-求方案数)](https://leetcode-cn.com/problems/coin-change-2)
+#### [518. 零钱兑换 II (完全背包-求方案数)](https://leetcode.cn/problems/coin-change-2)
 
 ```c++
 // 朴素算法
@@ -1036,7 +1036,7 @@
     }
 ```
 
-#### [474. 一和零 (二维费用背包)](https://leetcode-cn.com/problems/ones-and-zeroes)
+#### [474. 一和零 (二维费用背包)](https://leetcode.cn/problems/ones-and-zeroes)
 
 
 
@@ -1063,7 +1063,7 @@
 
 # 4、树形DP
 
-#### [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)
+#### [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum)
 
 ```c++
 
@@ -1085,7 +1085,7 @@
 
 
 
-#### [1245. 树的直径 (邻接表上的树形DP)](https://leetcode-cn.com/problems/tree-diameter)
+#### [1245. 树的直径 (邻接表上的树形DP)](https://leetcode.cn/problems/tree-diameter)
 
 todo 没开会员没权限
 
@@ -1096,7 +1096,7 @@ todo 没开会员没权限
 
 
 
-#### [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree)
+#### [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree)
 
 ```c++
 // 
@@ -1114,7 +1114,7 @@ todo 没开会员没权限
     }
 ```
 
-#### [333. 最大 BST 子树 ](https://leetcode-cn.com/problems/largest-bst-subtree)
+#### [333. 最大 BST 子树 ](https://leetcode.cn/problems/largest-bst-subtree)
 
 todo 权限
 
@@ -1125,7 +1125,7 @@ todo 权限
 
 
 
-#### [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii)
+#### [337. 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii)
 
 ```c++
 // 
@@ -1155,7 +1155,7 @@ todo 权限
 
 
 
-#### [464. 我能赢吗](https://leetcode-cn.com/problems/can-i-win/)
+#### [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/)
 
 ```c++
 // 不能使用重复整数 状态压缩20个位
@@ -1194,7 +1194,7 @@ todo 权限
 
 
 
-#### [526. 优美的排列](https://leetcode-cn.com/problems/beautiful-arrangement/)
+#### [526. 优美的排列](https://leetcode.cn/problems/beautiful-arrangement/)
 
 ```c++
 // 朴素算法
@@ -1222,7 +1222,7 @@ todo 权限
 // 这里sum可以去除 对统计无关 可以直接用pos 实现略
 ```
 
-#### [935. 骑士拨号器](https://leetcode-cn.com/problems/knight-dialer/)
+#### [935. 骑士拨号器](https://leetcode.cn/problems/knight-dialer/)
 
 ```c++
 // 考虑状态转移
@@ -1251,12 +1251,12 @@ todo 权限
         return res;
     }
 // 以及简化至四种状态 进而递推或直接矩阵快速幂的思路：
-// https://leetcode-cn.com/problems/knight-dialer/solution/4zhuang-tai-dong-tai-gui-hua-pythonjie-kong-jian-f/
+// https://leetcode.cn/problems/knight-dialer/solution/4zhuang-tai-dong-tai-gui-hua-pythonjie-kong-jian-f/
 ```
 
 
 
-#### [1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam)
+#### [1349. 参加考试的最大学生数](https://leetcode.cn/problems/maximum-students-taking-exam)
 
 [周赛题](https://github.com/OpenKikCoc/LeetCode/tree/master/Contest/2020-02-09_Weekly-175)
 
@@ -1264,7 +1264,7 @@ todo 权限
 
 # 6、数位 DP
 
-#### [233. 数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one)
+#### [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one)
 
 ```c++
  // 数学
@@ -1286,7 +1286,7 @@ todo 权限
 
 
 
-#### [902. 最大为 N 的数字组合](https://leetcode-cn.com/problems/numbers-at-most-n-given-digit-set/)
+#### [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)
 
 ```c++
 // 数位dp模版题
@@ -1310,7 +1310,7 @@ todo 权限
     }
 ```
 
-#### [1015. 可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k)
+#### [1015. 可被 K 整除的最小整数](https://leetcode.cn/problems/smallest-integer-divisible-by-k)
 
 
 
@@ -1320,7 +1320,7 @@ todo 权限
 
 计数型DP都可以以组合数学的方法写出组合数，然后dp求组合数
 
-#### [62. 不同路径](https://leetcode-cn.com/problems/unique-paths)
+#### [62. 不同路径](https://leetcode.cn/problems/unique-paths)
 
 ```c++
 // 朴素算法
@@ -1347,7 +1347,7 @@ todo 权限
     }
 ```
 
-#### [63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)
+#### [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/)
 
 ```c++
 // 朴素算法
@@ -1395,7 +1395,7 @@ todo 权限
 
 
 
-#### [96. 不同的二叉搜索树 (卡特兰数)](https://leetcode-cn.com/problems/unique-binary-search-trees)
+#### [96. 不同的二叉搜索树 (卡特兰数)](https://leetcode.cn/problems/unique-binary-search-trees)
 
 ```c++
 // 卡特兰数
@@ -1437,7 +1437,7 @@ todo 权限
     }
 ```
 
-#### [1259. 不相交的握手 (卢卡斯定理求大组合数模质数)](https://leetcode-cn.com/problems/handshakes-that-dont-cross)
+#### [1259. 不相交的握手 (卢卡斯定理求大组合数模质数)](https://leetcode.cn/problems/handshakes-that-dont-cross)
 
 todo 权限题
 
@@ -1447,7 +1447,7 @@ todo 权限题
 
 所有线性递推关系都可以用矩阵快速幂做，可以O(logN)，最典型是斐波那契数列
 
-#### [70. 爬楼梯 ](https://leetcode-cn.com/problems/climbing-stairs)
+#### [70. 爬楼梯 ](https://leetcode.cn/problems/climbing-stairs)
 
 ```c++
 //
@@ -1462,11 +1462,11 @@ todo 权限题
 // 优化空间略 快速幂略
 ```
 
-#### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+#### [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/)
 
 略
 
-#### [935. 骑士拨号器](https://leetcode-cn.com/problems/knight-dialer/)
+#### [935. 骑士拨号器](https://leetcode.cn/problems/knight-dialer/)
 
 ```tex
 ⎡A⎤   ⎡0 1 1 0⎤n−1   ⎡1⎤
@@ -1477,11 +1477,11 @@ todo 权限题
 
 略
 
-#### [957. N 天后的牢房](https://leetcode-cn.com/problems/prison-cells-after-n-days/)
+#### [957. N 天后的牢房](https://leetcode.cn/problems/prison-cells-after-n-days/)
 
 14天为一个循环 模拟即可 略
 
-#### [1137. 第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)
+#### [1137. 第 N 个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/)
 
 ```
 // 对于斐波那契
@@ -1547,7 +1547,7 @@ todo 权限题
 
 求概率，求数学期望
 
-#### [808. 分汤](https://leetcode-cn.com/problems/soup-servings/)
+#### [808. 分汤](https://leetcode.cn/problems/soup-servings/)
 
 ```c++
     double soupServings(int N) {
@@ -1581,7 +1581,7 @@ todo 权限题
     }
 ```
 
-#### [837. 新21点](https://leetcode-cn.com/problems/new-21-game/)
+#### [837. 新21点](https://leetcode.cn/problems/new-21-game/)
 
 ```c++
 //
@@ -1625,11 +1625,11 @@ todo 权限题
 
 **翻转游戏**
 
-#### [293. 翻转游戏](https://leetcode-cn.com/problems/flip-game)
+#### [293. 翻转游戏](https://leetcode.cn/problems/flip-game)
 
 todo 权限题
 
-#### [294. 翻转游戏 II](https://leetcode-cn.com/problems/flip-game-ii)
+#### [294. 翻转游戏 II](https://leetcode.cn/problems/flip-game-ii)
 
 todo 权限题
 
@@ -1639,7 +1639,7 @@ todo 权限题
 
 **Nim游戏**
 
-#### [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game)
+#### [292. Nim 游戏](https://leetcode.cn/problems/nim-game)
 
 ```c++
     bool canWinNim(int n) {
@@ -1650,7 +1650,7 @@ todo 权限题
 
 **石子游戏**
 
-#### [877. 石子游戏](https://leetcode-cn.com/problems/stone-game)
+#### [877. 石子游戏](https://leetcode.cn/problems/stone-game)
 
 ```c++
 // 先手必胜
@@ -1676,7 +1676,7 @@ todo 权限题
 
 
 
-#### [1140. 石子游戏 II](https://leetcode-cn.com/problems/stone-game-ii/)
+#### [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/)
 
  `dp[i, M]` 表示，当从第 `i` 堆石子开始拿，允许拿 `M <= x <= 2 * M` 时，在剩余石子中所能拿到的最大值。
 
@@ -1707,15 +1707,15 @@ todo 权限题
 
 井字游戏
 
-#### [348. 判定井字棋胜负](https://leetcode-cn.com/problems/design-tic-tac-toe)
+#### [348. 判定井字棋胜负](https://leetcode.cn/problems/design-tic-tac-toe)
 
 todo 权限题
 
-#### [794. 有效的井字游戏 ](https://leetcode-cn.com/problems/valid-tic-tac-toe-state)
+#### [794. 有效的井字游戏 ](https://leetcode.cn/problems/valid-tic-tac-toe-state)
 
 略
 
-#### [1275. 找出井字棋的获胜者](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game)
+#### [1275. 找出井字棋的获胜者](https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game)
 
 ```c++
     int board[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
@@ -1747,7 +1747,7 @@ todo 权限题
 
 本质是 dfs + 记忆化，用在状态的转移方向不确定的情况
 
-#### [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)
+#### [329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix)
 
 ```c++
     int m, n;
@@ -1780,7 +1780,7 @@ todo 权限题
 
 
 
-#### [576. 出界的路径数](https://leetcode-cn.com/problems/out-of-boundary-paths)
+#### [576. 出界的路径数](https://leetcode.cn/problems/out-of-boundary-paths)
 
 ```c++
  // 朴素记忆化搜索

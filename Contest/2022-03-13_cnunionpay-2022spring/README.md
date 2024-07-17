@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/cnunionpay-2022spring/)
+## [比赛链接](https://leetcode.cn/contest/cnunionpay-2022spring/)
 
 
-### [回文链表](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/D7rekZ/)
+### [回文链表](https://leetcode.cn/contest/cnunionpay-2022spring/problems/D7rekZ/)
 
 略
 
@@ -55,7 +55,7 @@ public:
 ```
 
 
-### [优惠活动系统](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/kDPV0f/)
+### [优惠活动系统](https://leetcode.cn/contest/cnunionpay-2022spring/problems/kDPV0f/)
 
 考虑了用 set 直接存并加速查找
 
@@ -113,7 +113,7 @@ public:
  */
 ```
 
-### [理财产品](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/I4mOGz/) [TAG]
+### [理财产品](https://leetcode.cn/contest/cnunionpay-2022spring/problems/I4mOGz/) [TAG]
 
 数学计算 细节
 
@@ -157,7 +157,7 @@ public:
 };
 ```
 
-### [合作开发](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/lCh58I/) [TAG]
+### [合作开发](https://leetcode.cn/contest/cnunionpay-2022spring/problems/lCh58I/) [TAG]
 
 状压 + 数学
 

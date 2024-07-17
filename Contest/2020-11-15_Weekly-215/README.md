@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-215/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-215/)
 
 
-### [1656. 设计有序流](https://leetcode-cn.com/problems/design-an-ordered-stream/)
+### [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)
 
 
 
@@ -31,7 +31,7 @@ public:
 ```
 
 
-### [1657. 确定两个字符串是否接近](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/)
+### [1657. 确定两个字符串是否接近](https://leetcode.cn/problems/determine-if-two-strings-are-close/)
 
 统计计数
 
@@ -98,7 +98,7 @@ public:
 ```
 
 
-### [1658. 将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero/)
+### [1658. 将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/)
 
 前缀和
 
@@ -157,7 +157,7 @@ public:
 };
 ```
 
-### [1659. 最大化网格幸福感](https://leetcode-cn.com/problems/maximize-grid-happiness/) [TAG]
+### [1659. 最大化网格幸福感](https://leetcode.cn/problems/maximize-grid-happiness/) [TAG]
 
 状压dp
 

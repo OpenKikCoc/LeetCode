@@ -1,4 +1,4 @@
-#  [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
+#  [692. 前K个高频单词](https://leetcode.cn/problems/top-k-frequent-words/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-239/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-239/)
 
 
-### [1848. 到目标元素的最小距离](https://leetcode-cn.com/problems/minimum-distance-to-the-target-element/)
+### [1848. 到目标元素的最小距离](https://leetcode.cn/problems/minimum-distance-to-the-target-element/)
 
 略
 
@@ -19,7 +19,7 @@ public:
 ```
 
 
-### [1849. 将字符串拆分为递减的连续值](https://leetcode-cn.com/problems/splitting-a-string-into-descending-consecutive-values/)
+### [1849. 将字符串拆分为递减的连续值](https://leetcode.cn/problems/splitting-a-string-into-descending-consecutive-values/)
 
 一开始写的比较丑
 
@@ -165,7 +165,7 @@ public:
 };
 ```
 
-### [1850. 邻位交换的最小次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/) [TAG]
+### [1850. 邻位交换的最小次数](https://leetcode.cn/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/) [TAG]
 
 转化为归并排序
 
@@ -201,7 +201,7 @@ public:
 };
 ```
 
-### [1851. 包含每个查询的最小区间](https://leetcode-cn.com/problems/minimum-interval-to-include-each-query/) [TAG]
+### [1851. 包含每个查询的最小区间](https://leetcode.cn/problems/minimum-interval-to-include-each-query/) [TAG]
 
 细节
 

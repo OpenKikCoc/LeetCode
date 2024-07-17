@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-288/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-288/)
 
 
-### [2231. 按奇偶性交换后的最大数字](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
+### [2231. 按奇偶性交换后的最大数字](https://leetcode.cn/problems/largest-number-after-digit-swaps-by-parity/)
 
 模拟 略
 
@@ -36,7 +36,7 @@ public:
 ```
 
 
-### [2232. 向表达式添加括号后的最小结果](https://leetcode-cn.com/problems/minimize-result-by-adding-parentheses-to-expression/)
+### [2232. 向表达式添加括号后的最小结果](https://leetcode.cn/problems/minimize-result-by-adding-parentheses-to-expression/)
 
 模拟 字符串处理
 
@@ -85,7 +85,7 @@ public:
 };
 ```
 
-### [2233. K 次增加后的最大乘积](https://leetcode-cn.com/problems/maximum-product-after-k-increments/)
+### [2233. K 次增加后的最大乘积](https://leetcode.cn/problems/maximum-product-after-k-increments/)
 
 贪心 略
 
@@ -113,7 +113,7 @@ public:
 };
 ```
 
-### [2234. 花园的最大总美丽值](https://leetcode-cn.com/problems/maximum-total-beauty-of-the-gardens/) [TAG]
+### [2234. 花园的最大总美丽值](https://leetcode.cn/problems/maximum-total-beauty-of-the-gardens/) [TAG]
 
 较显然的需要先枚举
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-258/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-258/)
 
 
-### [2000. 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)
+### [2000. 反转单词前缀](https://leetcode.cn/problems/reverse-prefix-of-word/)
 
 模拟即可
 
@@ -37,7 +37,7 @@ public:
 ```
 
 
-### [2001. 可互换矩形的组数](https://leetcode-cn.com/problems/number-of-pairs-of-interchangeable-rectangles/)
+### [2001. 可互换矩形的组数](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/)
 
 `double` 统计即可 对于本题只要保证精度即可边统计边更新记录
 
@@ -87,7 +87,7 @@ public:
 };
 ```
 
-### [2002. 两个回文子序列长度的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
+### [2002. 两个回文子序列长度的最大乘积](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
 
 二进制枚举即可
 
@@ -177,7 +177,7 @@ public:
 };
 ```
 
-### [2003. 每棵子树内缺失的最小基因值](https://leetcode-cn.com/problems/smallest-missing-genetic-value-in-each-subtree/) [TAG]
+### [2003. 每棵子树内缺失的最小基因值](https://leetcode.cn/problems/smallest-missing-genetic-value-in-each-subtree/) [TAG]
 
 #### 启发式合并 通用做法 【重复做增强熟练度】
 

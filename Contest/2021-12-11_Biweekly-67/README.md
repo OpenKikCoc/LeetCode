@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-67/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-67/)
 
 > virtual rank: 85 / 2923
 
 
-### [2099. 找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)
+### [2099. 找到和最大的长度为 K 的子序列](https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum/)
 
 排序即可 略
 
@@ -33,7 +33,7 @@ public:
 ```
 
 
-### [2100. 适合打劫银行的日子](https://leetcode-cn.com/problems/find-good-days-to-rob-the-bank/)
+### [2100. 适合打劫银行的日子](https://leetcode.cn/problems/find-good-days-to-rob-the-bank/)
 
 前后缀分解 略
 
@@ -58,7 +58,7 @@ public:
 };
 ```
 
-### [2101. 引爆最多的炸弹](https://leetcode-cn.com/problems/detonate-the-maximum-bombs/)
+### [2101. 引爆最多的炸弹](https://leetcode.cn/problems/detonate-the-maximum-bombs/)
 
 显然建有向图即可
 
@@ -113,7 +113,7 @@ public:
 };
 ```
 
-### [2102. 序列顺序查询](https://leetcode-cn.com/problems/sequentially-ordinal-rank-tracker/)
+### [2102. 序列顺序查询](https://leetcode.cn/problems/sequentially-ordinal-rank-tracker/)
 
 显然可以 set + bit 维护
 

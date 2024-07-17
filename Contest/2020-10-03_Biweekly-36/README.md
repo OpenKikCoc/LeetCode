@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-36/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-36/)
 
 
-### [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)
+### [1603. 设计停车系统](https://leetcode.cn/problems/design-parking-system/)
 
 模拟 略
 
@@ -27,7 +27,7 @@
 ```
 
 
-### [1604. 警告一小时内使用相同员工卡大于等于三次的人](https://leetcode-cn.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+### [1604. 警告一小时内使用相同员工卡大于等于三次的人](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 排序 模拟
 
@@ -85,7 +85,7 @@
     }
 ```
 
-### [1605. 给定行和列的和求可行矩阵](https://leetcode-cn.com/problems/find-valid-matrix-given-row-and-column-sums/)
+### [1605. 给定行和列的和求可行矩阵](https://leetcode.cn/problems/find-valid-matrix-given-row-and-column-sums/)
 
 贪心 处理每一行 新的一行是新的子问题
 
@@ -103,7 +103,7 @@
     }
 ```
 
-### [1606. 找到处理最多请求的服务器](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/) [TAG]
+### [1606. 找到处理最多请求的服务器](https://leetcode.cn/problems/find-servers-that-handled-most-number-of-requests/) [TAG]
 
 核心在**构造待选列表以降低复杂度** 。
 

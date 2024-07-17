@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-202/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-202/)
 
 
-### [1550. 存在连续三个奇数的数组](https://leetcode-cn.com/problems/three-consecutive-odds/)
+### [1550. 存在连续三个奇数的数组](https://leetcode.cn/problems/three-consecutive-odds/)
 
 
 
@@ -19,7 +19,7 @@
 ```
 
 
-### [1551. 使数组中所有元素相等的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-array-equal/)
+### [1551. 使数组中所有元素相等的最小操作数](https://leetcode.cn/problems/minimum-operations-to-make-array-equal/)
 
 易知最后所有元素值为n 考虑 每次只计算比n小的数差了多少即可
 
@@ -34,7 +34,7 @@
     }
 ```
 
-### [1552. 两球之间的磁力](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/)
+### [1552. 两球之间的磁力](https://leetcode.cn/problems/magnetic-force-between-two-balls/)
 
 二分check
 
@@ -71,7 +71,7 @@
     }
 ```
 
-### [1553. 吃掉 N 个橘子的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-eat-n-oranges/)
+### [1553. 吃掉 N 个橘子的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-eat-n-oranges/)
 
 记忆化dfs or 记忆化bfs
 

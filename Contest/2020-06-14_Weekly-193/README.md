@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-193)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-193)
 
-### [5436. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+### [5436. 一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array/)
 
 求前缀和即可
 
@@ -17,7 +17,7 @@
 ```
 
 
-### [5437. 不同整数的最少数目](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
+### [5437. 不同整数的最少数目](https://leetcode.cn/problems/least-number-of-unique-integers-after-k-removals/)
 
 求移除k个数后 剩下的不同整数的最小数目
 
@@ -76,7 +76,7 @@
 
 
 
-### [5438. 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/) 
+### [5438. 制作 m 束花所需的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/) 
 
 二分答案即可 (以及做了当天的每日一题巧了233)
 
@@ -118,7 +118,7 @@
     }
 ```
 
-### [5188. 树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/) [TAG]
+### [5188. 树节点的第 K 个祖先](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/) [TAG]
 
 LCA的简易版本 **leetcode要注意初始化 cnt 和 head 数组**
 

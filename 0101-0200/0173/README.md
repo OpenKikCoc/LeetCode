@@ -1,4 +1,4 @@
-#  [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+#  [173. 二叉搜索树迭代器](https://leetcode.cn/problems/binary-search-tree-iterator/)
 
 ## 题意
 

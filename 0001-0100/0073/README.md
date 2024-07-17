@@ -1,4 +1,4 @@
-#  [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
+#  [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
 
 ## 题意
 

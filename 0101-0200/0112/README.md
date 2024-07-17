@@ -1,4 +1,4 @@
-#  [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
+#  [112. 路径总和](https://leetcode.cn/problems/path-sum/)
 
 ## 题意
 

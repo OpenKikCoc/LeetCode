@@ -1,4 +1,4 @@
-#  [677. 键值映射](https://leetcode-cn.com/problems/map-sum-pairs/)
+#  [677. 键值映射](https://leetcode.cn/problems/map-sum-pairs/)
 
 ## 题意
 

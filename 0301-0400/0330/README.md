@@ -1,4 +1,4 @@
-#  [330. 按要求补齐数组](https://leetcode-cn.com/problems/patching-array/)
+#  [330. 按要求补齐数组](https://leetcode.cn/problems/patching-array/)
 
 ## 题意
 

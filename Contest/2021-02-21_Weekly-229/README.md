@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-229/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-229/)
 
 
-### [1768. 交替合并字符串](https://leetcode-cn.com/problems/merge-strings-alternately/)
+### [1768. 交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)
 
 模拟 略
 
@@ -39,7 +39,7 @@ public:
 ```
 
 
-### [1769. 移动所有球到每个盒子所需的最小操作数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
+### [1769. 移动所有球到每个盒子所需的最小操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 线性复杂度 略 暴力也能过
 
@@ -67,7 +67,7 @@ public:
 };
 ```
 
-### [1770. 执行乘法运算的最大分数](https://leetcode-cn.com/problems/maximum-score-from-performing-multiplication-operations/)
+### [1770. 执行乘法运算的最大分数](https://leetcode.cn/problems/maximum-score-from-performing-multiplication-operations/)
 
 区间 dp 
 
@@ -155,7 +155,7 @@ public:
 ```
 
 
-### [1771. 由子序列构造的最长回文串的长度](https://leetcode-cn.com/problems/maximize-palindrome-length-from-subsequences/) [TAG]
+### [1771. 由子序列构造的最长回文串的长度](https://leetcode.cn/problems/maximize-palindrome-length-from-subsequences/) [TAG]
 
 将两个字符串进行拼接 求拼接后字符串的最长回文子序列 但要保证答案对应原字符串中的子序列都非空
 

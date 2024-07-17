@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-213/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-213/)
 
 
-### [1640. 能否连接形成数组](https://leetcode-cn.com/problems/check-array-formation-through-concatenation/)
+### [1640. 能否连接形成数组](https://leetcode.cn/problems/check-array-formation-through-concatenation/)
 
 搜索
 
@@ -58,7 +58,7 @@
 ```
 
 
-### [1641. 统计字典序元音字符串的数目](https://leetcode-cn.com/problems/count-sorted-vowel-strings/) 
+### [1641. 统计字典序元音字符串的数目](https://leetcode.cn/problems/count-sorted-vowel-strings/) 
 
 隔板法
 
@@ -70,7 +70,7 @@
     }
 ```
 
-### [1642. 可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/) [TAG]
+### [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/) [TAG]
 
 
 >
@@ -147,7 +147,7 @@
     }
 ```
 
-### [1643. 第 K 条最小指令](https://leetcode-cn.com/problems/kth-smallest-instructions/) [TAG]
+### [1643. 第 K 条最小指令](https://leetcode.cn/problems/kth-smallest-instructions/) [TAG]
 
 根据组合数 判断第 k 小应往哪边走
 

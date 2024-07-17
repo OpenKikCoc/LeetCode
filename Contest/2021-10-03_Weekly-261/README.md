@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-261/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-261/)
 
 
-### [2027. 转换字符串的最少操作次数](https://leetcode-cn.com/problems/minimum-moves-to-convert-string/)
+### [2027. 转换字符串的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
 
 模拟即可
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [2028. 找出缺失的观测数据](https://leetcode-cn.com/problems/find-missing-observations/)
+### [2028. 找出缺失的观测数据](https://leetcode.cn/problems/find-missing-observations/)
 
 简单模拟
 
@@ -51,7 +51,7 @@ public:
 };
 ```
 
-### [2029. 石子游戏 IX](https://leetcode-cn.com/problems/stone-game-ix/) [TAG]
+### [2029. 石子游戏 IX](https://leetcode.cn/problems/stone-game-ix/) [TAG]
 
 一开始在想 区间DP
 
@@ -92,7 +92,7 @@ public:
 };
 ```
 
-### [2030. 含特定字母的最小子序列](https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) [TAG]
+### [2030. 含特定字母的最小子序列](https://leetcode.cn/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) [TAG]
 
 #### 1. 单调栈 (prefer)
 

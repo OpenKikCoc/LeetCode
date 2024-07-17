@@ -1,4 +1,4 @@
-#   [769. 最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)
+#   [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/)
 
 ## 题意
 

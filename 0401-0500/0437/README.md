@@ -1,4 +1,4 @@
-#  [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)
+#  [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/)
 
 ## 题意
 

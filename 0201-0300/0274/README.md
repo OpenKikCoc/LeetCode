@@ -1,4 +1,4 @@
-#  [274. H 指数](https://leetcode-cn.com/problems/h-index/)
+#  [274. H 指数](https://leetcode.cn/problems/h-index/)
 
 ## 题意
 

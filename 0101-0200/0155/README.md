@@ -1,4 +1,4 @@
-#  [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
+#  [155. 最小栈](https://leetcode.cn/problems/min-stack/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-244)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-244)
 
 
-### [5776. 判断矩阵经轮转后是否一致](https://leetcode-cn.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
+### [5776. 判断矩阵经轮转后是否一致](https://leetcode.cn/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
 
 略
 
@@ -111,7 +111,7 @@ class Solution:
 
 
 
-### [5777. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)
+### [5777. 使数组元素相等的减少操作次数](https://leetcode.cn/problems/reduction-operations-to-make-the-array-elements-equal/)
 
 从最大的开始即可
 
@@ -217,7 +217,7 @@ class Solution:
 
 
 
-### [5778. 使二进制字符串字符交替的最少反转次数](https://leetcode-cn.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/) [TAG]
+### [5778. 使二进制字符串字符交替的最少反转次数](https://leetcode.cn/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/) [TAG]
 
 #### 经典通用思路
 
@@ -432,7 +432,7 @@ public:
 
 
 
-### [5779. 装包裹的最小浪费空间](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/) [TAG]
+### [5779. 装包裹的最小浪费空间](https://leetcode.cn/problems/minimum-space-wasted-from-packaging/) [TAG]
 
 考虑 **每个箱子只会装一个包裹 则每个包裹都只需要大于等于其尺寸的最小的箱子即可**
 

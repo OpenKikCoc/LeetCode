@@ -1,4 +1,4 @@
-#  [523. 连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum/)
+#  [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum/)
 
 ## 题意
 

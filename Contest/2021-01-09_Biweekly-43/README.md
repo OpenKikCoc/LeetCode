@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-43/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-43/)
 
 
-### [1716. 计算力扣银行的钱](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/)
+### [1716. 计算力扣银行的钱](https://leetcode.cn/problems/calculate-money-in-leetcode-bank/)
 
 推公式 花时间就比暴力长点
 
@@ -58,7 +58,7 @@ public:
 };
 ```
 
-### [1717. 删除子字符串的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-substrings/) [TAG]
+### [1717. 删除子字符串的最大得分](https://leetcode.cn/problems/maximum-score-from-removing-substrings/) [TAG]
 
 贪心 记忆处理技巧
 
@@ -103,7 +103,7 @@ public:
 };
 ```
 
-### [1718. 构建字典序最大的可行序列](https://leetcode-cn.com/problems/construct-the-lexicographically-largest-valid-sequence/)
+### [1718. 构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence/)
 
 回溯
 
@@ -147,7 +147,7 @@ public:
 };
 ```
 
-### [1719. 重构一棵树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reconstruct-a-tree/) [TAG]
+### [1719. 重构一棵树的方案数](https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/) [TAG]
 
 删点 重复做
 

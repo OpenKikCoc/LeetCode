@@ -1,4 +1,4 @@
-#  [594. 最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
+#  [594. 最长和谐子序列](https://leetcode.cn/problems/longest-harmonious-subsequence/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-44/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-44/)
 
 
-### [1732. 找到最高海拔](https://leetcode-cn.com/problems/find-the-highest-altitude/)
+### [1732. 找到最高海拔](https://leetcode.cn/problems/find-the-highest-altitude/)
 
 差分 略
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [1733. 需要教语言的最少人数](https://leetcode-cn.com/problems/minimum-number-of-people-to-teach/) [TAG]
+### [1733. 需要教语言的最少人数](https://leetcode.cn/problems/minimum-number-of-people-to-teach/) [TAG]
 
 要教的语言必定是最终 persons 中交流所使用的语言
 
@@ -63,7 +63,7 @@ public:
 };
 ```
 
-### [1734. 解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)
+### [1734. 解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/)
 
 扫一遍即可
 
@@ -159,7 +159,7 @@ public:
 };
 ```
 
-### [1735. 生成乘积数组的方案数](https://leetcode-cn.com/problems/count-ways-to-make-array-with-product/)
+### [1735. 生成乘积数组的方案数](https://leetcode.cn/problems/count-ways-to-make-array-with-product/)
 
 对每个质因数的幂次求组合数即可
 

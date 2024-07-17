@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-253)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-253)
 
 >   Rank: 106 / 4569
 
 
-### [5838. 检查字符串是否为数组前缀](https://leetcode-cn.com/problems/check-if-string-is-a-prefix-of-array/)
+### [5838. 检查字符串是否为数组前缀](https://leetcode.cn/problems/check-if-string-is-a-prefix-of-array/)
 
 模拟匹配即可
 
@@ -45,7 +45,7 @@ public:
 
 
 
-### [5839. 移除石子使总数最小](https://leetcode-cn.com/problems/remove-stones-to-minimize-the-total/)
+### [5839. 移除石子使总数最小](https://leetcode.cn/problems/remove-stones-to-minimize-the-total/)
 
 同模拟 略
 
@@ -72,7 +72,7 @@ public:
 };
 ```
 
-### [5840. 使字符串平衡的最小交换次数](https://leetcode-cn.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
+### [5840. 使字符串平衡的最小交换次数](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
 
 有点思维 其实分析知 `(stk + 1) / 2` （向上取整）即可
 
@@ -100,7 +100,7 @@ public:
 };
 ```
 
-### [5841. 找出到每个位置为止最长的有效障碍赛跑路线](https://leetcode-cn.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)
+### [5841. 找出到每个位置为止最长的有效障碍赛跑路线](https://leetcode.cn/problems/find-the-longest-valid-obstacle-course-at-each-position/)
 
 LIS 优化的应用 略
 

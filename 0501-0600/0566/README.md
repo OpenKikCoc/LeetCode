@@ -1,4 +1,4 @@
-#  [566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/)
+#  [566. 重塑矩阵](https://leetcode.cn/problems/reshape-the-matrix/)
 
 ## 题意
 

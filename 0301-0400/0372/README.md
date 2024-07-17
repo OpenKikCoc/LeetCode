@@ -1,4 +1,4 @@
-#  [372. 超级次方](https://leetcode-cn.com/problems/super-pow/)
+#  [372. 超级次方](https://leetcode.cn/problems/super-pow/)
 
 ## 题意
 

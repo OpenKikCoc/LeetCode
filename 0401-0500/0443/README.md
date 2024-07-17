@@ -1,4 +1,4 @@
-#  [443. 压缩字符串](https://leetcode-cn.com/problems/string-compression/)
+#  [443. 压缩字符串](https://leetcode.cn/problems/string-compression/)
 
 ## 题意
 

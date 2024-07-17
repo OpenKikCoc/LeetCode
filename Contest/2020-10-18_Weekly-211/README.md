@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-211)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-211)
 
 raking: 202 / 4033
 
 
-### [5543. 两个相同字符之间的最长子字符串](https://leetcode-cn.com/problems/largest-substring-between-two-equal-characters/)
+### [5543. 两个相同字符之间的最长子字符串](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/)
 
 记录第一次出现位置即可，想当然的写不重复区间WA1
 
@@ -36,7 +36,7 @@ raking: 202 / 4033
 
 
 
-### [5544. 执行操作后字典序最小的字符串](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-applying-operations/)
+### [5544. 执行操作后字典序最小的字符串](https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations/)
 
 搜索 题解区和赛榜有暴力的做法
 
@@ -68,7 +68,7 @@ raking: 202 / 4033
     }
 ```
 
-### [5545. 无矛盾的最佳球队](https://leetcode-cn.com/problems/best-team-with-no-conflicts/)
+### [5545. 无矛盾的最佳球队](https://leetcode.cn/problems/best-team-with-no-conflicts/)
 
 简单dp
 
@@ -95,7 +95,7 @@ raking: 202 / 4033
     }
 ```
 
-### [5128. 带阈值的图连通性](https://leetcode-cn.com/problems/graph-connectivity-with-threshold/) [TAG]
+### [5128. 带阈值的图连通性](https://leetcode.cn/problems/graph-connectivity-with-threshold/) [TAG]
 
 枚举因子，然后将其所有的倍数与这一因子之间连边。
 

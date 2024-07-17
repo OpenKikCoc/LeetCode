@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-245)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-245)
 
 rank: 146 / 4270
 
 
-### [5784. 重新分配字符使所有字符串都相等](https://leetcode-cn.com/problems/redistribute-characters-to-make-all-strings-equal/)
+### [5784. 重新分配字符使所有字符串都相等](https://leetcode.cn/problems/redistribute-characters-to-make-all-strings-equal/)
 
 直接统计个数即可
 
@@ -25,7 +25,7 @@ public:
 ```
 
 
-### [5786. 可移除字符的最大数目](https://leetcode-cn.com/problems/maximum-number-of-removable-characters/)
+### [5786. 可移除字符的最大数目](https://leetcode.cn/problems/maximum-number-of-removable-characters/)
 
 显然具有单调性 二分即可
 
@@ -100,7 +100,7 @@ class Solution:
 
 
 
-### [5785. 合并若干三元组以形成目标三元组](https://leetcode-cn.com/problems/merge-triplets-to-form-target-triplet/)
+### [5785. 合并若干三元组以形成目标三元组](https://leetcode.cn/problems/merge-triplets-to-form-target-triplet/)
 
 显然只有**某纬度最大的**理应发挥作用 遍历即可
 
@@ -121,7 +121,7 @@ public:
 
 
 
-### [5787. 最佳运动员的比拼回合](https://leetcode-cn.com/problems/the-earliest-and-latest-rounds-where-players-compete/)
+### [5787. 最佳运动员的比拼回合](https://leetcode.cn/problems/the-earliest-and-latest-rounds-where-players-compete/)
 
 显然二进制枚举搜索即可
 

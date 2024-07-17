@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-265/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-265/)
 
 
-### [2057. 值相等的最小索引](https://leetcode-cn.com/problems/smallest-index-with-equal-value/)
+### [2057. 值相等的最小索引](https://leetcode.cn/problems/smallest-index-with-equal-value/)
 
 
 
@@ -19,7 +19,7 @@ public:
 ```
 
 
-### [2058. 找出临界点之间的最小和最大距离](https://leetcode-cn.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+### [2058. 找出临界点之间的最小和最大距离](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 
 
@@ -56,7 +56,7 @@ public:
 };
 ```
 
-### [2059. 转化数字的最小运算数](https://leetcode-cn.com/problems/minimum-operations-to-convert-number/)
+### [2059. 转化数字的最小运算数](https://leetcode.cn/problems/minimum-operations-to-convert-number/)
 
 想清楚时间复杂度 **没必要dp**
 
@@ -90,7 +90,7 @@ public:
 };
 ```
 
-### [2060. 同源字符串检测](https://leetcode-cn.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/) [TAG]
+### [2060. 同源字符串检测](https://leetcode.cn/problems/check-if-an-original-string-exists-given-two-encoded-strings/) [TAG]
 
 状态转移
 

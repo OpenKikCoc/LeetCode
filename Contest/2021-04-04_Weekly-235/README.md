@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-235/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-235/)
 
 
-### [1816. 截断句子](https://leetcode-cn.com/problems/truncate-sentence/)
+### [1816. 截断句子](https://leetcode.cn/problems/truncate-sentence/)
 
 略
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [1817. 查找用户活跃分钟数](https://leetcode-cn.com/problems/finding-the-users-active-minutes/)
+### [1817. 查找用户活跃分钟数](https://leetcode.cn/problems/finding-the-users-active-minutes/)
 
 略
 
@@ -48,7 +48,7 @@ public:
 };
 ```
 
-### [1818. 绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)
+### [1818. 绝对差值和](https://leetcode.cn/problems/minimum-absolute-sum-difference/)
 
 显然二分
 
@@ -84,7 +84,7 @@ public:
 };
 ```
 
-### [1819. 序列中不同最大公约数的数目](https://leetcode-cn.com/problems/number-of-different-subsequences-gcds/)
+### [1819. 序列中不同最大公约数的数目](https://leetcode.cn/problems/number-of-different-subsequences-gcds/)
 
 逆向考虑枚举每一个 GCD 即可
 

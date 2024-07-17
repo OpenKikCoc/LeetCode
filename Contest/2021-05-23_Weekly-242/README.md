@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-242/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-242/)
 
 
-### [1869. 哪种连续子字符串更长](https://leetcode-cn.com/problems/longer-contiguous-segments-of-ones-than-zeros/)
+### [1869. 哪种连续子字符串更长](https://leetcode.cn/problems/longer-contiguous-segments-of-ones-than-zeros/)
 
 略
 
@@ -45,7 +45,7 @@ public:
 };
 ```
 
-### [1870. 准时到达的列车最小时速](https://leetcode-cn.com/problems/minimum-speed-to-arrive-on-time/)
+### [1870. 准时到达的列车最小时速](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/)
 
 二分即可
 
@@ -81,7 +81,7 @@ public:
 };
 ```
 
-### [1871. 跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii/)
+### [1871. 跳跃游戏 VII](https://leetcode.cn/problems/jump-game-vii/)
 
 当前 x 位置能否跳到取决于 `[x - maxJump, x - minJump]` 区间是否有可达点
 
@@ -145,7 +145,7 @@ public:
 };
 ```
 
-### [1872. 石子游戏 VIII](https://leetcode-cn.com/problems/stone-game-viii/) [TAG]
+### [1872. 石子游戏 VIII](https://leetcode.cn/problems/stone-game-viii/) [TAG]
 
 博弈 dp ，注意 **类似 LCIS 的常数优化** `TAG`
 

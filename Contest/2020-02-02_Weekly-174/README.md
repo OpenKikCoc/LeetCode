@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-174/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-174/)
 
 
-### [1337. 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)
+### [1337. 方阵中战斗力最弱的 K 行](https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/)
 
 排序即可 排序时需加入原来一个 `vector<int>` 所在的下标 这里采取之前某次周赛的经验 直接在最后加入一个元素即可(让下标参与排序)
 
@@ -20,7 +20,7 @@
 ```
 
 
-### [1338. 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/)
+### [1338. 数组大小减半](https://leetcode.cn/problems/reduce-array-size-to-the-half/)
 
 返回 **至少** 能删除数组中的一半整数的整数集合的最小大小。
 
@@ -45,7 +45,7 @@
     }
 ```
 
-### [1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/)
+### [1339. 分裂二叉树的最大乘积](https://leetcode.cn/problems/maximum-product-of-splitted-binary-tree/)
 
 简单树dp
 
@@ -109,7 +109,7 @@
 
 
 
-### [1340. 跳跃游戏 V](https://leetcode-cn.com/problems/jump-game-v/)
+### [1340. 跳跃游戏 V](https://leetcode.cn/problems/jump-game-v/)
 
 dp 记忆化搜索即可
 

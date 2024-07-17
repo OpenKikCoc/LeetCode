@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-227/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-227/)
 
 
-### [1752. 检查数组是否经排序和轮转得到](https://leetcode-cn.com/problems/check-if-array-is-sorted-and-rotated/)
+### [1752. 检查数组是否经排序和轮转得到](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [1753. 移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)
+### [1753. 移除石子的最大得分](https://leetcode.cn/problems/maximum-score-from-removing-stones/)
 
 如果不是 `一个堆大于剩下俩堆` 则必然可以取完
 
@@ -85,7 +85,7 @@ public:
 ```
 
 
-### [1754. 构造字典序最大的合并字符串](https://leetcode-cn.com/problems/largest-merge-of-two-strings/)
+### [1754. 构造字典序最大的合并字符串](https://leetcode.cn/problems/largest-merge-of-two-strings/)
 
 直接比较字符串子串即可
 
@@ -105,7 +105,7 @@ public:
 };
 ```
 
-### [1755. 最接近目标值的子序列和](https://leetcode-cn.com/problems/closest-subsequence-sum/) [TAG]
+### [1755. 最接近目标值的子序列和](https://leetcode.cn/problems/closest-subsequence-sum/) [TAG]
 
 `n = 40` 的复杂度考虑拆半再二进制枚举
 

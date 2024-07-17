@@ -1,4 +1,4 @@
-#  [798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/)
+#  [798. 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)
 
 ## 题意
 

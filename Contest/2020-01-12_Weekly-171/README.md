@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-171/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-171/)
 
 
-### [1317. 将整数转换为两个无零整数的和](https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)
+### [1317. 将整数转换为两个无零整数的和](https://leetcode.cn/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)
 
 暴力即可
 
@@ -22,7 +22,7 @@
 ```
 
 
-### [1318. 或运算的最小翻转次数](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
+### [1318. 或运算的最小翻转次数](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 
 题意遍历即可
 
@@ -41,7 +41,7 @@
     }
 ```
 
-### [1319. 连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)
+### [1319. 连通网络的操作次数](https://leetcode.cn/problems/number-of-operations-to-make-network-connected/)
 
 n 个节点已有连接 connections , 检查至少还需要拆多少个绳子
 
@@ -71,7 +71,7 @@ n 个节点已有连接 connections , 检查至少还需要拆多少个绳子
     }
 ```
 
-### [1320. 二指输入的的最小距离](https://leetcode-cn.com/problems/minimum-distance-to-type-a-word-using-two-fingers/) [TAG]
+### [1320. 二指输入的的最小距离](https://leetcode.cn/problems/minimum-distance-to-type-a-word-using-two-fingers/) [TAG]
 
 三个状态就可以过 做的时候在想减少一维
 

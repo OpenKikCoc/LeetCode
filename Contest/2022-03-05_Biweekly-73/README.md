@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-73/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-73/)
 
 
-### [2190. 数组中紧跟 key 之后出现最频繁的数字](https://leetcode-cn.com/problems/most-frequent-number-following-key-in-an-array/)
+### [2190. 数组中紧跟 key 之后出现最频繁的数字](https://leetcode.cn/problems/most-frequent-number-following-key-in-an-array/)
 
 略
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [2191. 将杂乱无章的数字排序](https://leetcode-cn.com/problems/sort-the-jumbled-numbers/)
+### [2191. 将杂乱无章的数字排序](https://leetcode.cn/problems/sort-the-jumbled-numbers/)
 
 转字符串会更慢点 可直接翻转
 
@@ -56,7 +56,7 @@ public:
 };
 ```
 
-### [2192. 有向无环图中一个节点的所有祖先](https://leetcode-cn.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
+### [2192. 有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
 
 本题可直接暴力 bitset 过
 
@@ -120,7 +120,7 @@ public:
 };
 ```
 
-### [2193. 得到回文串的最少操作次数](https://leetcode-cn.com/problems/minimum-number-of-moves-to-make-palindrome/) [TAG]
+### [2193. 得到回文串的最少操作次数](https://leetcode.cn/problems/minimum-number-of-moves-to-make-palindrome/) [TAG]
 
 -   直观贪心
 

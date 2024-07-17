@@ -1,4 +1,4 @@
-#  [791. 自定义字符串排序](https://leetcode-cn.com/problems/custom-sort-string/)
+#  [791. 自定义字符串排序](https://leetcode.cn/problems/custom-sort-string/)
 
 ## 题意
 

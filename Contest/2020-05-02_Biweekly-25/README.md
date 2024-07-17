@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-25/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-25/)
 
 
-### [1431. 拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)
+### [1431. 拥有最多糖果的孩子](https://leetcode.cn/problems/kids-with-the-greatest-number-of-candies/)
 
 求原有最多多少个 再遍历加上extra之后能不能达到最多即可
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [1432. 改变一个整数能得到的最大差值](https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/)
+### [1432. 改变一个整数能得到的最大差值](https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/)
 
 数字替换 不能有前导0 求两次替换最大差值
 
@@ -63,7 +63,7 @@ public:
 };
 ```
 
-### [1433. 检查一个字符串是否可以打破另一个字符串](https://leetcode-cn.com/problems/check-if-a-string-can-break-another-string/)
+### [1433. 检查一个字符串是否可以打破另一个字符串](https://leetcode.cn/problems/check-if-a-string-can-break-another-string/)
 
 字典序 <= 或 >= 即可
 
@@ -84,7 +84,7 @@ public:
 };
 ```
 
-### [1434. 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) [TAG]
+### [1434. 每个人戴不同帽子的方案数](https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/) [TAG]
 
 状态压缩
 

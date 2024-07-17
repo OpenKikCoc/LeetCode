@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-251)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-251)
 
 >   rank: 709 / 4746
 
 
-### [5823. 字符串转化后的各位数字之和](https://leetcode-cn.com/problems/sum-of-digits-of-string-after-convert/)
+### [5823. 字符串转化后的各位数字之和](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/)
 
 模拟即可 搞错题意WA一发
 
@@ -37,7 +37,7 @@ public:
 ```
 
 
-### [5824. 子字符串突变后可能得到的最大整数](https://leetcode-cn.com/problems/largest-number-after-mutating-substring/)
+### [5824. 子字符串突变后可能得到的最大整数](https://leetcode.cn/problems/largest-number-after-mutating-substring/)
 
 贪心 从前找一个连续区间即可 略
 
@@ -87,7 +87,7 @@ public:
 
 
 
-### [5825. 最大兼容性评分和](https://leetcode-cn.com/problems/maximum-compatibility-score-sum/)
+### [5825. 最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/)
 
 爆搜即可 也可状压DP 略
 
@@ -142,7 +142,7 @@ public:
 };
 ```
 
-### [5826. 删除系统中的重复文件夹](https://leetcode-cn.com/problems/delete-duplicate-folders-in-system/) [TAG]
+### [5826. 删除系统中的重复文件夹](https://leetcode.cn/problems/delete-duplicate-folders-in-system/) [TAG]
 
 显然树Hash 之前题意理解有问题
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-34/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-34/)
 
 
-### [1572. 矩阵对角线元素的和](https://leetcode-cn.com/problems/matrix-diagonal-sum/)
+### [1572. 矩阵对角线元素的和](https://leetcode.cn/problems/matrix-diagonal-sum/)
 
 模拟即可
 
@@ -15,7 +15,7 @@
 ```
 
 
-### [1573. 分割字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-split-a-string/)
+### [1573. 分割字符串的方案数](https://leetcode.cn/problems/number-of-ways-to-split-a-string/)
 
 统计 1 的个数，分情况讨论计算即可
 
@@ -46,7 +46,7 @@
     }
 ```
 
-### [1574. 删除最短的子数组使剩余数组有序](https://leetcode-cn.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) [TAG]
+### [1574. 删除最短的子数组使剩余数组有序](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) [TAG]
 
 原来想的思路一直有问题：
 
@@ -83,7 +83,7 @@
     }
 ```
 
-### [1575. 统计所有可行路径](https://leetcode-cn.com/problems/count-all-possible-routes/) [TAG]
+### [1575. 统计所有可行路径](https://leetcode.cn/problems/count-all-possible-routes/) [TAG]
 
 dp 
 

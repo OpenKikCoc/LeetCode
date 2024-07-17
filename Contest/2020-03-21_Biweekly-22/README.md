@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-22/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-22/)
 
 
-### [1385. 两个数组间的距离值](https://leetcode-cn.com/problems/find-the-distance-value-between-two-arrays/)
+### [1385. 两个数组间的距离值](https://leetcode.cn/problems/find-the-distance-value-between-two-arrays/)
 
 「**距离值**」 定义为符合此描述的元素数目：对于元素 `arr1[i]` ，不存在任何元素 `arr2[j]` 满足 `|arr1[i]-arr2[j]| <= d` 。
 
@@ -24,7 +24,7 @@ public:
 
 也可以排序二分查找最接近arr1[i]的值
 
-### [1386. 安排电影院座位](https://leetcode-cn.com/problems/cinema-seat-allocation/)  [TAG]
+### [1386. 安排电影院座位](https://leetcode.cn/problems/cinema-seat-allocation/)  [TAG]
 
 2-9位 连续4个0的情况统计
 
@@ -78,7 +78,7 @@ public:
 
 
 
-### [1387. 将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)
+### [1387. 将整数按权重排序](https://leetcode.cn/problems/sort-integers-by-the-power-value/)
 
 定义权重为如下操作次数 直至变为1:
 
@@ -136,7 +136,7 @@ public:
 
 
 
-### [1388. 3n 块披萨](https://leetcode-cn.com/problems/pizza-with-3n-slices/) [TAG]
+### [1388. 3n 块披萨](https://leetcode.cn/problems/pizza-with-3n-slices/) [TAG]
 
 一圈 取披萨 求最优
 

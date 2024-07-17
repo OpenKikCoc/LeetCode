@@ -1,4 +1,4 @@
-#  [301. 删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
+#  [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/)
 
 ## 题意
 

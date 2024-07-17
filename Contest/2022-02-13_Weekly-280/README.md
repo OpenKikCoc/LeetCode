@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-280/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-280/)
 
 
-### [2169. 得到 0 的操作数](https://leetcode-cn.com/problems/count-operations-to-obtain-zero/)
+### [2169. 得到 0 的操作数](https://leetcode.cn/problems/count-operations-to-obtain-zero/)
 
 略
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [2170. 使数组变成交替数组的最少操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-alternating/)
+### [2170. 使数组变成交替数组的最少操作数](https://leetcode.cn/problems/minimum-operations-to-make-the-array-alternating/)
 
 显然分奇偶位置找到最多的俩 比较即可
 
@@ -71,7 +71,7 @@ public:
 };
 ```
 
-### [2171. 拿出最少数目的魔法豆](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/)
+### [2171. 拿出最少数目的魔法豆](https://leetcode.cn/problems/removing-minimum-number-of-magic-beans/)
 
 前缀和经典应用
 
@@ -126,7 +126,7 @@ public:
 };
 ```
 
-### [2172. 数组的最大与和](https://leetcode-cn.com/problems/maximum-and-sum-of-array/) [TAG]
+### [2172. 数组的最大与和](https://leetcode.cn/problems/maximum-and-sum-of-array/) [TAG]
 
 ATTENTION部分
 

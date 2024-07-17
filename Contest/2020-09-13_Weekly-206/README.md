@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-206/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-206/)
 
 rating 105/4491
 
 
-### [5511. 二进制矩阵中的特殊位置](https://leetcode-cn.com/problems/special-positions-in-a-binary-matrix/)
+### [5511. 二进制矩阵中的特殊位置](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
 
 对每个位置暴力统计即可
 
@@ -23,7 +23,7 @@ rating 105/4491
 ```
 
 
-### [5512. 统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends/)
+### [5512. 统计不开心的朋友](https://leetcode.cn/problems/count-unhappy-friends/)
 
 模拟获取 x y u v  随后校验统计即可
 
@@ -51,7 +51,7 @@ rating 105/4491
     }
 ```
 
-### [5513. 连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/) [TAG]
+### [5513. 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/) [TAG]
 
 裸的**平面点哈密顿距离最小生成树**
 
@@ -116,7 +116,7 @@ public:
 };
 ```
 
-### [5514. 检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode-cn.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)
+### [5514. 检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode.cn/problems/check-if-string-is-transformable-with-substring-sort-operations/)
 
 如下注释
 

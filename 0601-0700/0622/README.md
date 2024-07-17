@@ -1,4 +1,4 @@
-#  [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
+#  [622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/)
 
 ## 题意
 

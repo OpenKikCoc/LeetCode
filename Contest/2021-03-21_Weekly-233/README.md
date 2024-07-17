@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-233/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-233/)
 
 
-### [1800. 最大升序子数组和](https://leetcode-cn.com/problems/maximum-ascending-subarray-sum/)
+### [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
 
 暴力即可 自己线性做法可以应对数据范围更大的情况
 
@@ -39,7 +39,7 @@ public:
 };
 ```
 
-### [1801. 积压订单中的订单总数](https://leetcode-cn.com/problems/number-of-orders-in-the-backlog/)
+### [1801. 积压订单中的订单总数](https://leetcode.cn/problems/number-of-orders-in-the-backlog/)
 
 堆排即可 略
 
@@ -100,7 +100,7 @@ public:
 };
 ```
 
-### [1802. 有界数组中指定下标处的最大值](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
+### [1802. 有界数组中指定下标处的最大值](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 
 注意细节 有好几个超时的 case
 
@@ -167,7 +167,7 @@ public:
 };
 ```
 
-### [1803. 统计异或值在范围内的数对有多少](https://leetcode-cn.com/problems/count-pairs-with-xor-in-a-range/) [TAG]
+### [1803. 统计异或值在范围内的数对有多少](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/) [TAG]
 
 显然 Trie 注意求区间变为区间减 以及在 query 中的实现
 

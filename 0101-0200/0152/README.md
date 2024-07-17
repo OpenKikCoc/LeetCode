@@ -1,4 +1,4 @@
-#  [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
+#  [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
 
 ## 题意
 

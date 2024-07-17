@@ -1,4 +1,4 @@
-#  [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+#  [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
 
 ## 题意
 

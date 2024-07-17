@@ -1,4 +1,4 @@
-#  [319. 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/)
+#  [319. 灯泡开关](https://leetcode.cn/problems/bulb-switcher/)
 
 ## 题意
 

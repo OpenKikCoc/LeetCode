@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-13/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-13/)
 
 
-### [1256. 加密数字](https://leetcode-cn.com/problems/encode-number/)
+### [1256. 加密数字](https://leetcode.cn/problems/encode-number/)
 
 自己模拟实现如下：
 
@@ -53,7 +53,7 @@
     }
 ```
 
-### [1257. 最小公共区域](https://leetcode-cn.com/problems/smallest-common-region/)
+### [1257. 最小公共区域](https://leetcode.cn/problems/smallest-common-region/)
 
 类似 最近公共祖先 的办法
 
@@ -99,7 +99,7 @@
 
 题解区也有从一个点逐个向上并统计set的做法 略
 
-### [1258. 近义词句子](https://leetcode-cn.com/problems/synonymous-sentences/)
+### [1258. 近义词句子](https://leetcode.cn/problems/synonymous-sentences/)
 
 并查集建图+搜索回溯即可
 
@@ -159,7 +159,7 @@
     }
 ```
 
-### [1259. 不相交的握手](https://leetcode-cn.com/problems/handshakes-that-dont-cross/) [TAG]
+### [1259. 不相交的握手](https://leetcode.cn/problems/handshakes-that-dont-cross/) [TAG]
 
 划分
 

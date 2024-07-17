@@ -1,4 +1,4 @@
-#  [482. 密钥格式化](https://leetcode-cn.com/problems/license-key-formatting/)
+#  [482. 密钥格式化](https://leetcode.cn/problems/license-key-formatting/)
 
 ## 题意
 

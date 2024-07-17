@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-69/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-69/)
 
 
-### [2129. 将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/)
+### [2129. 将标题首字母大写](https://leetcode.cn/problems/capitalize-the-title/)
 
 略
 
@@ -31,7 +31,7 @@ public:
 ```
 
 
-### [2130. 链表最大孪生和](https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/)
+### [2130. 链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/)
 
 略
 
@@ -60,7 +60,7 @@ public:
 };
 ```
 
-### [2131. 连接两字母单词得到的最长回文串](https://leetcode-cn.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
+### [2131. 连接两字母单词得到的最长回文串](https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words/)
 
 简单分析即可 略
 
@@ -94,7 +94,7 @@ public:
 };
 ```
 
-### [2132. 用邮票贴满网格图](https://leetcode-cn.com/problems/stamping-the-grid/) [TAG]
+### [2132. 用邮票贴满网格图](https://leetcode.cn/problems/stamping-the-grid/) [TAG]
 
 前缀和处理易想到 主要是还要想到二维差分
 

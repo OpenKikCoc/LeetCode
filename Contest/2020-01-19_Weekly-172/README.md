@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-172/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-172/)
 
 
-### [1323. 6 和 9 组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/)
+### [1323. 6 和 9 组成的最大数字](https://leetcode.cn/problems/maximum-69-number/)
 
 找到一个数字改成9即可
 
@@ -20,7 +20,7 @@
 ```
 
 
-### [1324. 竖直打印单词](https://leetcode-cn.com/problems/print-words-vertically/)
+### [1324. 竖直打印单词](https://leetcode.cn/problems/print-words-vertically/)
 
 需要注意的是 每一行都要去除末尾空格（WA了一发
 
@@ -48,7 +48,7 @@
     }
 ```
 
-### [1325. 删除给定值的叶子节点](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value/)
+### [1325. 删除给定值的叶子节点](https://leetcode.cn/problems/delete-leaves-with-a-given-value/)
 
 递归即可
 
@@ -84,7 +84,7 @@
 
 
 
-### [1326. 灌溉花园的最少水龙头数目](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/) [TAG]
+### [1326. 灌溉花园的最少水龙头数目](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) [TAG]
 
 下面做法超时 34/35个测试用例 ` [输入10000] `
 
@@ -122,7 +122,7 @@
     }
 ```
 
-[更优的思想](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/)：
+[更优的思想](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/)：
 
 ```c++
     // 考虑：每一个range都很大的情况【当然这道题限定了ranges<=100】 复杂度不会高于 n*100 = 1e6

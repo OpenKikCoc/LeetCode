@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-75/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-75/)
 
 >   virtual rank: 33 / 4335
 
 
-### [6033. 转换数字的最少位翻转次数](https://leetcode-cn.com/problems/minimum-bit-flips-to-convert-number/)
+### [6033. 转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/)
 
 略
 
@@ -18,7 +18,7 @@ public:
 ```
 
 
-### [6034. 数组的三角和](https://leetcode-cn.com/problems/find-triangular-sum-of-an-array/)
+### [6034. 数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/)
 
 模拟 略
 
@@ -38,7 +38,7 @@ public:
 };
 ```
 
-### [6035. 选择建筑的方案数](https://leetcode-cn.com/problems/number-of-ways-to-select-buildings/)
+### [6035. 选择建筑的方案数](https://leetcode.cn/problems/number-of-ways-to-select-buildings/)
 
 前后缀分解 也有其他思路可以优化 略
 
@@ -80,7 +80,7 @@ public:
 };
 ```
 
-### [6036. 构造字符串的总得分和](https://leetcode-cn.com/problems/sum-of-scores-of-built-strings/)
+### [6036. 构造字符串的总得分和](https://leetcode.cn/problems/sum-of-scores-of-built-strings/)
 
 拓展 kmp 略
 

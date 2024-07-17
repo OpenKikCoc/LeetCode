@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-162/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-162/)
 
 
-### [1252. 奇数值单元格的数目](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/)
+### [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)
 
 暴力即可
 
@@ -22,7 +22,7 @@
 ```
 
 
-### #### [1253. 重构 2 行二进制矩阵](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)
+### #### [1253. 重构 2 行二进制矩阵](https://leetcode.cn/problems/reconstruct-a-2-row-binary-matrix/)
 
 贪心即可 需要注意优先处理列和为 2 的
 
@@ -56,7 +56,7 @@
     }
 ```
 
-### #### [1254. 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)
+### #### [1254. 统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/)
 
 dfs 注意写法和判断
 
@@ -115,7 +115,7 @@ dfs 注意写法和判断
     }
 ```
 
-### [1255. 得分最高的单词集合](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/)
+### [1255. 得分最高的单词集合](https://leetcode.cn/problems/maximum-score-words-formed-by-letters/)
 
 状压dp
 

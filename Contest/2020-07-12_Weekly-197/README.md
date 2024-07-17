@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-197/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-197/)
 
-### [1512. 好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)
+### [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
 
 前后两个数字相等即为好数对 球数组有多少好数对 暴力即可
 
@@ -14,7 +14,7 @@
     }
 ```
 
-### [1513. 仅含 1 的子串数](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/)
+### [1513. 仅含 1 的子串数](https://leetcode.cn/problems/number-of-substrings-with-only-1s/)
 
 最长1串 每次计算该串子串个数求和即可 记得取模
 
@@ -39,7 +39,7 @@
     }
 ```
 
-### [1514. 概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)
+### [1514. 概率最大的路径](https://leetcode.cn/problems/path-with-maximum-probability/)
 
 单源最短路 略
 
@@ -74,7 +74,7 @@
     }
 ```
 
-### [1515. 服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/) [TAG]
+### [1515. 服务中心的最佳位置](https://leetcode.cn/problems/best-position-for-a-service-centre/) [TAG]
 
 三分求凸函数极值
 

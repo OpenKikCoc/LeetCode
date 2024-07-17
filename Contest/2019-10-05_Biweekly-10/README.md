@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-10/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-10/)
 
 35min
 
 virtual rating: 16 / 738
 
-### [1213. 三个有序数组的交集](https://leetcode-cn.com/problems/intersection-of-three-sorted-arrays/)
+### [1213. 三个有序数组的交集](https://leetcode.cn/problems/intersection-of-three-sorted-arrays/)
 
 分解两次操作即可
 
@@ -71,7 +71,7 @@ public:
 };
 ```
 
-### [1214. 查找两棵二叉搜索树之和](https://leetcode-cn.com/problems/two-sum-bsts/)
+### [1214. 查找两棵二叉搜索树之和](https://leetcode.cn/problems/two-sum-bsts/)
 
 略
 
@@ -108,7 +108,7 @@ public:
 };
 ```
 
-### [1215. 步进数](https://leetcode-cn.com/problems/stepping-numbers/)
+### [1215. 步进数](https://leetcode.cn/problems/stepping-numbers/)
 
 搜索生成所有步进数即可，注意排除 `v + 1 = 10` 这类以及负数
 
@@ -147,7 +147,7 @@ public:
 
 也有 bfs 构造，略
 
-### [1216. 验证回文字符串 III](https://leetcode-cn.com/problems/valid-palindrome-iii/)
+### [1216. 验证回文字符串 III](https://leetcode.cn/problems/valid-palindrome-iii/)
 
 略
 

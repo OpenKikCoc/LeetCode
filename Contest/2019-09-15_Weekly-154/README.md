@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-154/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-154/)
 
 
-### [1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)
+### [1189. “气球” 的最大数量](https://leetcode.cn/problems/maximum-number-of-balloons/)
 
 STL min 用法
 
@@ -33,7 +33,7 @@ public:
 };
 ```
 
-### [1190. 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/) [TAG]
+### [1190. 反转每对括号间的子串](https://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/) [TAG]
 
 栈操作
 
@@ -75,7 +75,7 @@ public:
 };
 ```
 
-### [1191. K 次串联后最大子数组之和](https://leetcode-cn.com/problems/k-concatenation-maximum-sum/) [TAG]
+### [1191. K 次串联后最大子数组之和](https://leetcode.cn/problems/k-concatenation-maximum-sum/) [TAG]
 
 当 k = 1 时，答案为当前数组的最大子序和（参考股票问题）
 
@@ -137,7 +137,7 @@ public:
 };
 ```
 
-### [1192. 查找集群内的「关键连接」](https://leetcode-cn.com/problems/critical-connections-in-a-network/)
+### [1192. 查找集群内的「关键连接」](https://leetcode.cn/problems/critical-connections-in-a-network/)
 
 求桥
 

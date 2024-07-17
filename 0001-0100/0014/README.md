@@ -1,4 +1,4 @@
-#  [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+#  [14. 最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/)
 
 ## 题意
 

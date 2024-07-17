@@ -1,4 +1,4 @@
-#  [326. 3的幂](https://leetcode-cn.com/problems/power-of-three/)
+#  [326. 3的幂](https://leetcode.cn/problems/power-of-three/)
 
 ## 题意
 

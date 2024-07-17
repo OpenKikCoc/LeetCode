@@ -1,4 +1,4 @@
-# [1952. 三除数](https://leetcode-cn.com/problems/three-divisors/) 
+# [1952. 三除数](https://leetcode.cn/problems/three-divisors/) 
 
 ## 题意
 

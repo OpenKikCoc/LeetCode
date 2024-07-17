@@ -1,4 +1,4 @@
-#  [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
+#  [48. 旋转图像](https://leetcode.cn/problems/rotate-image/)
 
 ## 题意
 

@@ -1,4 +1,4 @@
-#  [735. 行星碰撞](https://leetcode-cn.com/problems/asteroid-collision/)
+#  [735. 行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
 
 ## 题意
 

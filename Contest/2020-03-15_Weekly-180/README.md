@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-180/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-180/)
 
 
-### [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
+### [1380. 矩阵中的幸运数](https://leetcode.cn/problems/lucky-numbers-in-a-matrix/)
 
 任意顺序返回矩阵中的幸运数：同行最小、同列最大
 
@@ -33,7 +33,7 @@ public:
 ```
 
 
-### [1381. 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)
+### [1381. 设计一个支持增量操作的栈](https://leetcode.cn/problems/design-a-stack-with-increment-operation/)
 
 底层k个可以inc
 
@@ -68,7 +68,7 @@ public:
 };
 ```
 
-### [1382. 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/)
+### [1382. 将二叉搜索树变平衡](https://leetcode.cn/problems/balance-a-binary-search-tree/)
 
 先中序遍历再建树
 
@@ -104,7 +104,7 @@ public:
 };
 ```
 
-### [1383. 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/)
+### [1383. 最大的团队表现值](https://leetcode.cn/problems/maximum-performance-of-a-team/)
 
 两个数组 speed 和 efficiency ，其中 speed[i] 和 efficiency[i] 分别代表第 i 位工程师的速度和效率。请你返回由最多 k 个工程师组成的 最大团队表现值 。**团队表现值** 的定义为：一个团队中「所有工程师速度的和」乘以他们「效率值中的最小值」。取模
 

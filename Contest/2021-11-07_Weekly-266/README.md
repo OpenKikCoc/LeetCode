@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-266/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-266/)
 
 >   virtual rank: 85 / 4385
 
 
-### [2062. 统计字符串中的元音子字符串](https://leetcode-cn.com/problems/count-vowel-substrings-of-a-string/)
+### [2062. 统计字符串中的元音子字符串](https://leetcode.cn/problems/count-vowel-substrings-of-a-string/)
 
 模拟即可
 
@@ -67,7 +67,7 @@ public:
 };
 ```
 
-### [2063. 所有子字符串中的元音](https://leetcode-cn.com/problems/vowels-of-all-substrings/)
+### [2063. 所有子字符串中的元音](https://leetcode.cn/problems/vowels-of-all-substrings/)
 
 简单 dp 优化即可
 
@@ -122,7 +122,7 @@ public:
 
 
 
-### [2064. 分配给商店的最多商品的最小值](https://leetcode-cn.com/problems/minimized-maximum-of-products-distributed-to-any-store/)
+### [2064. 分配给商店的最多商品的最小值](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store/)
 
 显然二分 注意边界 RE
 
@@ -152,7 +152,7 @@ public:
 };
 ```
 
-### [2065. 最大化一张图中的路径价值](https://leetcode-cn.com/problems/maximum-path-quality-of-a-graph/)
+### [2065. 最大化一张图中的路径价值](https://leetcode.cn/problems/maximum-path-quality-of-a-graph/)
 
 题目数据范围约束【4 ^ 10】显然可以爆搜，随便加个记忆化（甚至不加？）直接过
 

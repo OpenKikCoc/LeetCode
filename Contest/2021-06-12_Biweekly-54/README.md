@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-54/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-54/)
 
 
-### [1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
+### [1893. 检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/)
 
 略
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [1894. 找到需要补充粉笔的学生编号](https://leetcode-cn.com/problems/find-the-student-that-will-replace-the-chalk/)
+### [1894. 找到需要补充粉笔的学生编号](https://leetcode.cn/problems/find-the-student-that-will-replace-the-chalk/)
 
 略 不二分直接线性扫描也能过
 
@@ -50,7 +50,7 @@ public:
 };
 ```
 
-### [1895. 最大的幻方](https://leetcode-cn.com/problems/largest-magic-square/)
+### [1895. 最大的幻方](https://leetcode.cn/problems/largest-magic-square/)
 
 前缀和处理 遍历即可
 
@@ -162,7 +162,7 @@ public:
 
 
 
-### [1896. 反转表达式值的最少操作次数](https://leetcode-cn.com/problems/minimum-cost-to-change-the-final-value-of-expression/) [TAG]
+### [1896. 反转表达式值的最少操作次数](https://leetcode.cn/problems/minimum-cost-to-change-the-final-value-of-expression/) [TAG]
 
 >   经典
 

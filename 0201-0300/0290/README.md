@@ -1,4 +1,4 @@
-#  [290. 单词规律](https://leetcode-cn.com/problems/word-pattern/)
+#  [290. 单词规律](https://leetcode.cn/problems/word-pattern/)
 
 ## 题意
 

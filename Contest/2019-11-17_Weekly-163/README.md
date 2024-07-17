@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-163/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-163/)
 
 
-### [1260. 二维网格迁移](https://leetcode-cn.com/problems/shift-2d-grid/)
+### [1260. 二维网格迁移](https://leetcode.cn/problems/shift-2d-grid/)
 
 略
 
@@ -26,7 +26,7 @@
 ```
 
 
-### [1261. 在受污染的二叉树中查找元素](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/)
+### [1261. 在受污染的二叉树中查找元素](https://leetcode.cn/problems/find-elements-in-a-contaminated-binary-tree/)
 
 略
 
@@ -48,7 +48,7 @@
     }
 ```
 
-### [1262. 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/) [TAG]
+### [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/) [TAG]
 
 先上 liuzhou_101 聚聚的代码：
 
@@ -147,7 +147,7 @@
 ```
 
 
-### [1263. 推箱子](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/) [TAG]
+### [1263. 推箱子](https://leetcode.cn/problems/minimum-moves-to-move-a-box-to-their-target-location/) [TAG]
 
 双向搜索(误) 
 

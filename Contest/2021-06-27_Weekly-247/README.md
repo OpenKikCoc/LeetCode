@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-247)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-247)
 
 rank: 147 / 3980
 
 
-### [5797. 两个数对之间的最大乘积差](https://leetcode-cn.com/problems/maximum-product-difference-between-two-pairs/)
+### [5797. 两个数对之间的最大乘积差](https://leetcode.cn/problems/maximum-product-difference-between-two-pairs/)
 
 排序即可 略
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [5798. 循环轮转矩阵](https://leetcode-cn.com/problems/cyclically-rotating-a-grid/)
+### [5798. 循环轮转矩阵](https://leetcode.cn/problems/cyclically-rotating-a-grid/)
 
 模拟即可
 
@@ -99,7 +99,7 @@ public:
 };
 ```
 
-### [5799. 最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings/)
+### [5799. 最美子字符串的数目](https://leetcode.cn/problems/number-of-wonderful-substrings/)
 
 边累计边统计即可 
 
@@ -131,7 +131,7 @@ public:
 };
 ```
 
-### [5204. 统计为蚁群构筑房间的不同顺序](https://leetcode-cn.com/problems/count-ways-to-build-rooms-in-an-ant-colony/) [TAG]
+### [5204. 统计为蚁群构筑房间的不同顺序](https://leetcode.cn/problems/count-ways-to-build-rooms-in-an-ant-colony/) [TAG]
 
 计数类问题：**求有多少种不同的拓扑排序数量（可重集排列问题）**
 

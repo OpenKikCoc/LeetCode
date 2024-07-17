@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-60/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-60/)
 
 
-### [1991. 找到数组的中间位置](https://leetcode-cn.com/problems/find-the-middle-index-in-array/)
+### [1991. 找到数组的中间位置](https://leetcode.cn/problems/find-the-middle-index-in-array/)
 
 求和统计即可
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [1992. 找到所有的农场组](https://leetcode-cn.com/problems/find-all-groups-of-farmland/)
+### [1992. 找到所有的农场组](https://leetcode.cn/problems/find-all-groups-of-farmland/)
 
 易知每个农场都是不相交的矩形，显然可以 dfs
 
@@ -87,7 +87,7 @@ public:
 
 
 
-### [1993. 树上的操作](https://leetcode-cn.com/problems/operations-on-tree/)
+### [1993. 树上的操作](https://leetcode.cn/problems/operations-on-tree/)
 
 同时建边及反向边即可
 
@@ -174,7 +174,7 @@ public:
  */
 ```
 
-### [1994. 好子集的数目](https://leetcode-cn.com/problems/the-number-of-good-subsets/) [TAG]
+### [1994. 好子集的数目](https://leetcode.cn/problems/the-number-of-good-subsets/) [TAG]
 
 非常好的状态压缩 + 组合计数应用题
 

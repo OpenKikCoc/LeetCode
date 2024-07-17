@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/season/2021-spring/ranking/team/)
+## [比赛链接](https://leetcode.cn/contest/season/2021-spring/ranking/team/)
 
 No. 376
 
-### [LCP 33. 蓄水](https://leetcode-cn.com/problems/o8SXZn/)
+### [LCP 33. 蓄水](https://leetcode.cn/problems/o8SXZn/)
 
 思维题
 
@@ -39,7 +39,7 @@ public:
 };
 ```
 
-### [LCP 34. 二叉树染色](https://leetcode-cn.com/problems/er-cha-shu-ran-se-UGC/)
+### [LCP 34. 二叉树染色](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC/)
 
 标准树 dp 略
 
@@ -90,7 +90,7 @@ public:
 };
 ```
 
-### [LCP 35. 电动车游城市](https://leetcode-cn.com/problems/DFPeFJ/)
+### [LCP 35. 电动车游城市](https://leetcode.cn/problems/DFPeFJ/)
 
 踩坑。。比赛按照传统写法 TLE 
 
@@ -247,7 +247,7 @@ public:
 };
 ```
 
-### [LCP 36. 最多牌组数](https://leetcode-cn.com/problems/Up5XYM/)
+### [LCP 36. 最多牌组数](https://leetcode.cn/problems/Up5XYM/)
 
 
 
@@ -255,7 +255,7 @@ public:
 
 ```
 
-### [LCP 37. 最小矩形面积](https://leetcode-cn.com/problems/zui-xiao-ju-xing-mian-ji/)
+### [LCP 37. 最小矩形面积](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji/)
 
 
 
@@ -263,7 +263,7 @@ public:
 
 ```
 
-### [LCP 38. 守卫城堡](https://leetcode-cn.com/problems/7rLGCR/)
+### [LCP 38. 守卫城堡](https://leetcode.cn/problems/7rLGCR/)
 
 
 

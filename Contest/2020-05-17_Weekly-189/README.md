@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-189/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-189/)
 
 
-### [1450. 在既定时间做作业的学生人数](https://leetcode-cn.com/problems/number-of-students-doing-homework-at-a-given-time/)
+### [1450. 在既定时间做作业的学生人数](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/)
 
 扫一遍即可
 
@@ -15,7 +15,7 @@
     }
 ```
 
-### [1451. 重新排列句子中的单词](https://leetcode-cn.com/problems/rearrange-words-in-a-sentence/)
+### [1451. 重新排列句子中的单词](https://leetcode.cn/problems/rearrange-words-in-a-sentence/)
 
 按长度稳定排序。
 
@@ -43,7 +43,7 @@
     }
 ```
 
-### [1452. 收藏清单](https://leetcode-cn.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
+### [1452. 收藏清单](https://leetcode.cn/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 
 多组字符串，返回不是其他组子集的组。
 
@@ -102,7 +102,7 @@ bitset可以优化 因为每一个字符串都不同 可以对字符串编码
     }
 ```
 
-### [1453. 圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/) [TAG]
+### [1453. 圆形靶内的最大飞镖数量](https://leetcode.cn/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/) [TAG]
 
 已知数个点坐标和一个圆半径（圆心任意），求最多有多少个点在圆上（包括边界）。
 

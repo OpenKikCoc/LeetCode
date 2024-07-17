@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-281/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-281/)
 
 
-### [2180. 统计各位数字之和为偶数的整数个数](https://leetcode-cn.com/problems/count-integers-with-even-digit-sum/)
+### [2180. 统计各位数字之和为偶数的整数个数](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)
 
 略
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [2181. 合并零之间的节点](https://leetcode-cn.com/problems/merge-nodes-in-between-zeros/)
+### [2181. 合并零之间的节点](https://leetcode.cn/problems/merge-nodes-in-between-zeros/)
 
 略
 
@@ -76,7 +76,7 @@ public:
 };
 ```
 
-### [2182. 构造限制重复的字符串](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/)
+### [2182. 构造限制重复的字符串](https://leetcode.cn/problems/construct-string-with-repeat-limit/)
 
 略
 
@@ -115,7 +115,7 @@ public:
 };
 ```
 
-### [2183. 统计可以被 K 整除的下标对数目](https://leetcode-cn.com/problems/count-array-pairs-divisible-by-k/) [TAG]
+### [2183. 统计可以被 K 整除的下标对数目](https://leetcode.cn/problems/count-array-pairs-divisible-by-k/) [TAG]
 
 简单数学思维
 

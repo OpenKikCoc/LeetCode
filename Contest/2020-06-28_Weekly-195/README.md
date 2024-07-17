@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-195/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-195/)
 
 
-### [1496. 判断路径是否相交](https://leetcode-cn.com/problems/path-crossing/)
+### [1496. 判断路径是否相交](https://leetcode.cn/problems/path-crossing/)
 
 模拟即可
 
@@ -31,7 +31,7 @@
     }
 ```
 
-#### [1497. 检查数组对是否可以被 k 整除](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/) 
+#### [1497. 检查数组对是否可以被 k 整除](https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k/) 
 
 取模检查即可 需要注意的是对 k/2出现次数的处理
 
@@ -56,7 +56,7 @@ map可以换vector
     }
 ```
 
-### [1498. 满足条件的子序列数目](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+### [1498. 满足条件的子序列数目](https://leetcode.cn/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 子序列 不要求连续 所以可以排序去做 双指针即可
 
@@ -81,7 +81,7 @@ map可以换vector
     }
 ```
 
-### [1499. 满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation/)
+### [1499. 满足不等式的最大值](https://leetcode.cn/problems/max-value-of-equation/)
 
 动态维护单调队列 略
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-55/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-55/)
 
 
-### [1909. 删除一个元素使数组严格递增](https://leetcode-cn.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)
+### [1909. 删除一个元素使数组严格递增](https://leetcode.cn/problems/remove-one-element-to-make-the-array-strictly-increasing/)
 
 暴力即可 也可LIS
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [1910. 删除一个字符串中所有出现的给定子字符串](https://leetcode-cn.com/problems/remove-all-occurrences-of-a-substring/)
+### [1910. 删除一个字符串中所有出现的给定子字符串](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/)
 
 STL `string.find` 和 `s.npos` 
 
@@ -63,7 +63,7 @@ public:
 
 
 
-### [1911. 最大子序列交替和](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/)
+### [1911. 最大子序列交替和](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/)
 
 线性dp即可 略
 
@@ -116,7 +116,7 @@ public:
 
 
 
-### [1912. 设计电影租借系统](https://leetcode-cn.com/problems/design-movie-rental-system/)
+### [1912. 设计电影租借系统](https://leetcode.cn/problems/design-movie-rental-system/)
 
 模拟 略
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-232/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-232/)
 
 
-### [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
+### [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/)
 
 略
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [5702. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)
+### [5702. 找出星型图的中心节点](https://leetcode.cn/problems/find-center-of-star-graph/)
 
 度数 略
 
@@ -63,7 +63,7 @@ public:
 };
 ```
 
-### [1792. 最大平均通过率](https://leetcode-cn.com/problems/maximum-average-pass-ratio/)
+### [1792. 最大平均通过率](https://leetcode.cn/problems/maximum-average-pass-ratio/)
 
 贪心即可
 
@@ -99,7 +99,7 @@ public:
 };
 ```
 
-### [1793. 好子数组的最大分数](https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/) [TAG]
+### [1793. 好子数组的最大分数](https://leetcode.cn/problems/maximum-score-of-a-good-subarray/) [TAG]
 
 **线性做法**
 

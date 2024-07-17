@@ -1,4 +1,4 @@
-#  [697. 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/)
+#  [697. 数组的度](https://leetcode.cn/problems/degree-of-an-array/)
 
 ## 题意
 

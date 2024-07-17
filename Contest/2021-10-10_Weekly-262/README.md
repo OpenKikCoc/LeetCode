@@ -1,7 +1,7 @@
 ## [比赛链接]()
 
 
-### [2032. 至少在两个数组中出现的值](https://leetcode-cn.com/problems/two-out-of-three/)
+### [2032. 至少在两个数组中出现的值](https://leetcode.cn/problems/two-out-of-three/)
 
 扫描统计即可
 
@@ -34,7 +34,7 @@ public:
 ```
 
 
-### [2033. 获取单值网格的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-uni-value-grid/)
+### [2033. 获取单值网格的最小操作数](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid/)
 
 自己较直观的解法
 
@@ -129,7 +129,7 @@ public:
 };
 ```
 
-### [2034. 股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)
+### [2034. 股票价格波动](https://leetcode.cn/problems/stock-price-fluctuation/)
 
 自己两个 map 的直观解法
 
@@ -220,7 +220,7 @@ public:
 };
 ```
 
-### [2035. 将数组分成两个数组并最小化数组和的差](https://leetcode-cn.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) [TAG]
+### [2035. 将数组分成两个数组并最小化数组和的差](https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) [TAG]
 
 题目不难 容易想到二进制状压枚举
 

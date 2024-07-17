@@ -1,4 +1,4 @@
-#  [475. 供暖器](https://leetcode-cn.com/problems/heaters/)
+#  [475. 供暖器](https://leetcode.cn/problems/heaters/)
 
 ## 题意
 

@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-267/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-267/)
 
 >   virtual rank: 233 / 4365
 
 
-### [2073. 买票需要的时间](https://leetcode-cn.com/problems/time-needed-to-buy-tickets/)
+### [2073. 买票需要的时间](https://leetcode.cn/problems/time-needed-to-buy-tickets/)
 
 模拟即可
 
@@ -31,7 +31,7 @@ public:
 ```
 
 
-### [2074. 反转偶数长度组的节点](https://leetcode-cn.com/problems/reverse-nodes-in-even-length-groups/)
+### [2074. 反转偶数长度组的节点](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/)
 
 注意是反转偶数长度 不是偶数下标的数组 略
 
@@ -72,7 +72,7 @@ public:
 };
 ```
 
-### [2075. 解码斜向换位密码](https://leetcode-cn.com/problems/decode-the-slanted-ciphertext/)
+### [2075. 解码斜向换位密码](https://leetcode.cn/problems/decode-the-slanted-ciphertext/)
 
 略
 
@@ -104,7 +104,7 @@ public:
 };
 ```
 
-### [2076. 处理含限制条件的好友请求](https://leetcode-cn.com/problems/process-restricted-friend-requests/) [TAG]
+### [2076. 处理含限制条件的好友请求](https://leetcode.cn/problems/process-restricted-friend-requests/) [TAG]
 
 一开始想的并查集反集
 

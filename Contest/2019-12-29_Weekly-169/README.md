@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-169/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-169/)
 
 
-### [1304. 和为零的N个唯一整数](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)
+### [1304. 和为零的N个唯一整数](https://leetcode.cn/problems/find-n-unique-integers-sum-up-to-zero/)
 
 构造一个数列和为 0 ，简单构造即可
 
@@ -37,7 +37,7 @@
 
 
 
-### [1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) 
+### [1305. 两棵二叉搜索树中的所有元素](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees/) 
 
 搜索排序即可
 
@@ -57,7 +57,7 @@
     }
 ```
 
-### [1306. 跳跃游戏 III](https://leetcode-cn.com/problems/jump-game-iii/)
+### [1306. 跳跃游戏 III](https://leetcode.cn/problems/jump-game-iii/)
 
 每个位置上可以左右跳 arr[i] 个距离
 
@@ -83,7 +83,7 @@
     }
 ```
 
-### [1307. 口算难题](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/) [TAG]
+### [1307. 口算难题](https://leetcode.cn/problems/verbal-arithmetic-puzzle/) [TAG]
 
 初步考虑深搜回溯：
 

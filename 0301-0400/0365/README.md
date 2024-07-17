@@ -1,4 +1,4 @@
-#  [365. 水壶问题](https://leetcode-cn.com/problems/water-and-jug-problem/)
+#  [365. 水壶问题](https://leetcode.cn/problems/water-and-jug-problem/)
 
 ## 题意
 

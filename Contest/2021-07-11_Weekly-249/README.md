@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-249/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-249/)
 
 
-### [1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)
+### [1929. 数组串联](https://leetcode.cn/problems/concatenation-of-array/)
 
 模拟 略
 
@@ -19,7 +19,7 @@ public:
 ```
 
 
-### [1930. 长度为 3 的不同回文子序列](https://leetcode-cn.com/problems/unique-length-3-palindromic-subsequences/)
+### [1930. 长度为 3 的不同回文子序列](https://leetcode.cn/problems/unique-length-3-palindromic-subsequences/)
 
 注意 `l & r` 避免数值溢出
 
@@ -84,9 +84,9 @@ public:
 };
 ```
 
-### [1931. 用三种不同颜色为网格涂色](https://leetcode-cn.com/problems/painting-a-grid-with-three-different-colors/) [TAG]
+### [1931. 用三种不同颜色为网格涂色](https://leetcode.cn/problems/painting-a-grid-with-three-different-colors/) [TAG]
 
-> dp思路简单版 [1411. 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-3-grid/) 
+> dp思路简单版 [1411. 给 N x 3 网格图涂色的方案数](https://leetcode.cn/problems/number-of-ways-to-paint-n-3-grid/) 
 
 之前想用 `01 10 11` 表示三进制状态，但实现起来非常麻烦
 
@@ -152,7 +152,7 @@ public:
 };
 ```
 
-### [1932. 合并多棵二叉搜索树](https://leetcode-cn.com/problems/merge-bsts-to-create-single-bst/) [TAG]
+### [1932. 合并多棵二叉搜索树](https://leetcode.cn/problems/merge-bsts-to-create-single-bst/) [TAG]
 
 复杂模拟 见注释
 

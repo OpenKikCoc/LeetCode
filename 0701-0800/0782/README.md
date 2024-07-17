@@ -1,4 +1,4 @@
-#   [782. 变为棋盘](https://leetcode-cn.com/problems/transform-to-chessboard/)
+#   [782. 变为棋盘](https://leetcode.cn/problems/transform-to-chessboard/)
 
 ## 题意
 

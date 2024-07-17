@@ -1,4 +1,4 @@
-#  [655. 输出二叉树](https://leetcode-cn.com/problems/print-binary-tree/)
+#  [655. 输出二叉树](https://leetcode.cn/problems/print-binary-tree/)
 
 ## 题意
 

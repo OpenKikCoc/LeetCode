@@ -1,4 +1,4 @@
-#  [670. 最大交换](https://leetcode-cn.com/problems/maximum-swap/)
+#  [670. 最大交换](https://leetcode.cn/problems/maximum-swap/)
 
 ## 题意
 

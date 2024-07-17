@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-50/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-50/)
 
 
-### [1827. 最少操作使数组递增](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/)
+### [1827. 最少操作使数组递增](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)
 
 
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1828. 统计一个圆中点的数目](https://leetcode-cn.com/problems/queries-on-number-of-points-inside-a-circle/)
+### [1828. 统计一个圆中点的数目](https://leetcode.cn/problems/queries-on-number-of-points-inside-a-circle/)
 
 
 
@@ -45,7 +45,7 @@ public:
 };
 ```
 
-### [1829. 每个查询的最大异或值](https://leetcode-cn.com/problems/maximum-xor-for-each-query/)
+### [1829. 每个查询的最大异或值](https://leetcode.cn/problems/maximum-xor-for-each-query/)
 
 
 
@@ -74,7 +74,7 @@ public:
 };
 ```
 
-### [1830. 使字符串有序的最少操作次数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-string-sorted/) [TAG]
+### [1830. 使字符串有序的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-string-sorted/) [TAG]
 
 逆序观察 操作的过程（与求下一个排列恰好是逆操作）恰好是全排列
 

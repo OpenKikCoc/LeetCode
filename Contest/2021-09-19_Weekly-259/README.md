@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-259/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-259/)
 
 
-### [2011. 执行操作后的变量值](https://leetcode-cn.com/problems/final-value-of-variable-after-performing-operations/)
+### [2011. 执行操作后的变量值](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/)
 
 模拟 略
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [2012. 数组美丽值求和](https://leetcode-cn.com/problems/sum-of-beauty-in-the-array/)
+### [2012. 数组美丽值求和](https://leetcode.cn/problems/sum-of-beauty-in-the-array/)
 
 统计两侧的最值 扫一遍即可
 
@@ -59,7 +59,7 @@ public:
 };
 ```
 
-### [2013. 检测正方形](https://leetcode-cn.com/problems/detect-squares/)
+### [2013. 检测正方形](https://leetcode.cn/problems/detect-squares/)
 
 数值范围较大 所以对其中一维离散化 在询问时查询离散化结果即可
 
@@ -118,7 +118,7 @@ public:
  */
 ```
 
-### [2014. 重复 K 次的最长子序列](https://leetcode-cn.com/problems/longest-subsequence-repeated-k-times/) [TAG]
+### [2014. 重复 K 次的最长子序列](https://leetcode.cn/problems/longest-subsequence-repeated-k-times/) [TAG]
 
 较显然的：最好预先处理原串 生成所有字符都有可能出现的新串
 

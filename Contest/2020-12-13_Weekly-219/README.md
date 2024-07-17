@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-219/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-219/)
 
 
-### [5625. 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
+### [5625. 比赛中的配对次数](https://leetcode.cn/problems/count-of-matches-in-tournament/)
 
 
 
@@ -25,7 +25,7 @@ public:
 ```
 
 
-### [5626. 十-二进制数的最少数目](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
+### [5626. 十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
 
 
 
@@ -40,7 +40,7 @@ public:
 };
 ```
 
-### [5627. 石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii/)
+### [5627. 石子游戏 VII](https://leetcode.cn/problems/stone-game-vii/)
 
 
 
@@ -63,7 +63,7 @@ public:
 };
 ```
 
-### [5245. 堆叠长方体的最大高度](https://leetcode-cn.com/problems/maximum-height-by-stacking-cuboids/) 
+### [5245. 堆叠长方体的最大高度](https://leetcode.cn/problems/maximum-height-by-stacking-cuboids/) 
 
 对每一个方块贪心排列
 

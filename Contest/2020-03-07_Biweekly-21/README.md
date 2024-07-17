@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-21/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-21/)
 
 
-### [1370. 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)
+### [1370. 上升下降字符串](https://leetcode.cn/problems/increasing-decreasing-string/)
 
 字符升序再降序 重复操作
 
@@ -36,7 +36,7 @@ public:
 ```
 
 
-### [1371. 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)  [TAG]
+### [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/)  [TAG]
 
 奇偶次数为一个状态 状态dp
 
@@ -62,7 +62,7 @@ public:
 };
 ```
 
-### [1372. 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)
+### [1372. 二叉树中的最长交错路径](https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree/)
 
 左右左右 用map本质是树形dp
 
@@ -151,7 +151,7 @@ public:
 
 
 
-### [1373. 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) [TAG]
+### [1373. 二叉搜索子树的最大键值和](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/) [TAG]
 
 求满足二叉搜索树性质的最大节点和
 

@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-223/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-223/)
 
 25min 3 / 4
 
-### [1720. 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
+### [1720. 解码异或后的数组](https://leetcode.cn/problems/decode-xored-array/)
 
 扫以一遍即可
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1721. 交换链表中的节点](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)
+### [1721. 交换链表中的节点](https://leetcode.cn/problems/swapping-nodes-in-a-linked-list/)
 
 模拟即可
 
@@ -48,7 +48,7 @@ public:
 };
 ```
 
-### [1722. 执行交换操作后的最小汉明距离](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/)
+### [1722. 执行交换操作后的最小汉明距离](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/)
 
 与前几天的每日一题类似 [Weekly-155-C](https://github.com/OpenKikCoc/LeetCode/tree/master/Contest/2019-09-22_Weekly-155) 
 
@@ -133,7 +133,7 @@ public:
 };
 ```
 
-### [1723. 完成所有工作的最短时间](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/) [TAG]
+### [1723. 完成所有工作的最短时间](https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs/) [TAG]
 
 爆搜优化即可 [斯特林数 TODO](https://www.acwing.com/problem/content/3169/)
 

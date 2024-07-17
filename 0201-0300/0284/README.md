@@ -1,4 +1,4 @@
-#  [284. 顶端迭代器](https://leetcode-cn.com/problems/peeking-iterator/)
+#  [284. 顶端迭代器](https://leetcode.cn/problems/peeking-iterator/)
 
 ## 题意
 

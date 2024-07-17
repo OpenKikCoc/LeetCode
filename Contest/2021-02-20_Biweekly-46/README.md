@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-46/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-46/)
 
 
-### [1763. 最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring/)
+### [1763. 最长的美好子字符串](https://leetcode.cn/problems/longest-nice-substring/)
 
 模拟 略
 
@@ -34,7 +34,7 @@ public:
 ```
 
 
-### [1764. 通过连接另一个数组的子数组得到一个数组](https://leetcode-cn.com/problems/form-array-by-concatenating-subarrays-of-another-array/)
+### [1764. 通过连接另一个数组的子数组得到一个数组](https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array/)
 
 注意细节
 
@@ -62,7 +62,7 @@ public:
 };
 ```
 
-### [1765. 地图中的最高点](https://leetcode-cn.com/problems/map-of-highest-peak/)
+### [1765. 地图中的最高点](https://leetcode.cn/problems/map-of-highest-peak/)
 
 多源宽搜
 
@@ -109,7 +109,7 @@ public:
 };
 ```
 
-### [1766. 互质树](https://leetcode-cn.com/problems/tree-of-coprimes/) [TAG]
+### [1766. 互质树](https://leetcode.cn/problems/tree-of-coprimes/) [TAG]
 
 > 如果用蛮力检查一个节点的所有的祖先节点 那么一个节点的祖先节点最多能有 n-1n−1 个 显然会超时
 

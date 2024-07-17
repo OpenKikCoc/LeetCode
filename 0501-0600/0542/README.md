@@ -1,4 +1,4 @@
-#  [542. 01 矩阵](https://leetcode-cn.com/problems/01-matrix/)
+#  [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/)
 
 ## 题意
 

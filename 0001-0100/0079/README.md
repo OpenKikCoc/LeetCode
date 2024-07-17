@@ -1,4 +1,4 @@
-#  [79. 单词搜索](https://leetcode-cn.com/problems/word-search/)
+#  [79. 单词搜索](https://leetcode.cn/problems/word-search/)
 
 ## 题意
 

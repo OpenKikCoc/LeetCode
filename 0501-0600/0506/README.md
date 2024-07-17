@@ -1,4 +1,4 @@
-#  [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/)
+#  [506. 相对名次](https://leetcode.cn/problems/relative-ranks/)
 
 ## 题意
 

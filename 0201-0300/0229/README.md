@@ -1,4 +1,4 @@
-#  [229. 求众数 II](https://leetcode-cn.com/problems/majority-element-ii/)
+#  [229. 求众数 II](https://leetcode.cn/problems/majority-element-ii/)
 
 ## 题意
 

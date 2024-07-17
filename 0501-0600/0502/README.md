@@ -1,4 +1,4 @@
-#  [502. IPO](https://leetcode-cn.com/problems/ipo/)
+#  [502. IPO](https://leetcode.cn/problems/ipo/)
 
 ## 题意
 

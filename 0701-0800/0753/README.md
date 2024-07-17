@@ -1,4 +1,4 @@
-#  [753. 破解保险箱](https://leetcode-cn.com/problems/cracking-the-safe/)
+#  [753. 破解保险箱](https://leetcode.cn/problems/cracking-the-safe/)
 
 ## 题意
 

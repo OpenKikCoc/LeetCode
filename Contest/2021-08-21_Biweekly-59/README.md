@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-59/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-59/)
 
 
-### [1974. 使用特殊打字机键入单词的最少时间](https://leetcode-cn.com/problems/minimum-time-to-type-word-using-special-typewriter/)
+### [1974. 使用特殊打字机键入单词的最少时间](https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter/)
 
 线性扫描即可 略
 
@@ -47,7 +47,7 @@ public:
 };
 ```
 
-### [1975. 最大方阵和](https://leetcode-cn.com/problems/maximum-matrix-sum/)
+### [1975. 最大方阵和](https://leetcode.cn/problems/maximum-matrix-sum/)
 
 简单推理易知，总是能【通过传递的方式】同时使两个位置的值取反
 
@@ -102,7 +102,7 @@ public:
 };
 ```
 
-### [1976. 到达目的地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-arrive-at-destination/)
+### [1976. 到达目的地的方案数](https://leetcode.cn/problems/number-of-ways-to-arrive-at-destination/)
 
 最短路计数 `dijkstra` 即可
 
@@ -171,7 +171,7 @@ public:
 };
 ```
 
-### [1977. 划分数字的方案数](https://leetcode-cn.com/problems/number-of-ways-to-separate-numbers/) [TAG]
+### [1977. 划分数字的方案数](https://leetcode.cn/problems/number-of-ways-to-separate-numbers/) [TAG]
 
 经典 dp 优化
 

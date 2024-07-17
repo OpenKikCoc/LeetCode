@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-166/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-166/)
 
 
-### [1281. 整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+### [1281. 整数的各位积和之差](https://leetcode.cn/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 模拟即可
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1282. 用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/)
+### [1282. 用户分组](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/)
 
 简单模拟过
 
@@ -42,7 +42,7 @@
     }
 ```
 
-### [1283. 使结果不超过阈值的最小除数](https://leetcode-cn.com/problems/find-the-smallest-divisor-given-a-threshold/)
+### [1283. 使结果不超过阈值的最小除数](https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold/)
 
 显然二分 注意计算check以及二分条件
 
@@ -72,7 +72,7 @@
     }
 ```
 
-### [1284. 转化为全零矩阵的最少反转次数](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/) [TAG]
+### [1284. 转化为全零矩阵的最少反转次数](https://leetcode.cn/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/) [TAG]
 
 搜索 注意状态的改变 不止修改四个方向 还有本格
 

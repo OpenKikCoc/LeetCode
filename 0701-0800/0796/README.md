@@ -1,4 +1,4 @@
-#  [796. 旋转字符串](https://leetcode-cn.com/problems/rotate-string/)
+#  [796. 旋转字符串](https://leetcode.cn/problems/rotate-string/)
 
 ## 题意
 

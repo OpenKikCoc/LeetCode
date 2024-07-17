@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-179/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-179/)
 
 
-### [1374. 生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/)
+### [1374. 生成每种字符都是奇数个的字符串](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)
 
 a b 各奇数个即可
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [1375. 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/)
+### [1375. 灯泡开关 III](https://leetcode.cn/problems/bulb-switcher-iii/)
 
 左边连续亮 则左边的都变成蓝色 求所有灯变成蓝色的时刻的数目
 
@@ -45,7 +45,7 @@ public:
 };
 ```
 
-### [1376. 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/)
+### [1376. 通知所有员工所需的时间](https://leetcode.cn/problems/time-needed-to-inform-all-employees/)
 
 点有权值 dfs
 
@@ -79,7 +79,7 @@ public:
 
 如果用自底向上的dfs 加上记忆化搜索
 
-### [1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) [TAG]
+### [1377. T 秒后青蛙的位置](https://leetcode.cn/problems/frog-position-after-t-seconds/) [TAG]
 
 青蛙从根开始跳 求t秒后在target点的概率
 

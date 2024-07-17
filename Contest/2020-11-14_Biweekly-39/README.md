@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-39/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-39/)
 
 
-### [1652. 拆炸弹](https://leetcode-cn.com/problems/defuse-the-bomb/)
+### [1652. 拆炸弹](https://leetcode.cn/problems/defuse-the-bomb/)
 
 
 
@@ -38,7 +38,7 @@ public:
 ```
 
 
-### [1653. 使字符串平衡的最少删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-string-balanced/)
+### [1653. 使字符串平衡的最少删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/)
 
 
 
@@ -59,7 +59,7 @@ public:
 };
 ```
 
-### [1654. 到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/)
+### [1654. 到家的最少跳跃次数](https://leetcode.cn/problems/minimum-jumps-to-reach-home/)
 
 bfs
 
@@ -102,7 +102,7 @@ public:
 };
 ```
 
-### [1655. 分配重复整数](https://leetcode-cn.com/problems/distribute-repeating-integers/)
+### [1655. 分配重复整数](https://leetcode.cn/problems/distribute-repeating-integers/)
 
 状压dp
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-7/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-7/)
 
 
-### [1165. 单行键盘](https://leetcode-cn.com/problems/single-row-keyboard/)
+### [1165. 单行键盘](https://leetcode.cn/problems/single-row-keyboard/)
 
 模拟 略
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [1166. 设计文件系统](https://leetcode-cn.com/problems/design-file-system/)
+### [1166. 设计文件系统](https://leetcode.cn/problems/design-file-system/)
 
 模拟 略
 
@@ -57,7 +57,7 @@ public:
  */
 ```
 
-### [1167. 连接棒材的最低费用](https://leetcode-cn.com/problems/minimum-cost-to-connect-sticks/)
+### [1167. 连接棒材的最低费用](https://leetcode.cn/problems/minimum-cost-to-connect-sticks/)
 
 贪心 略
 
@@ -79,7 +79,7 @@ public:
 };
 ```
 
-### [1168. 水资源分配优化](https://leetcode-cn.com/problems/optimize-water-distribution-in-a-village/)
+### [1168. 水资源分配优化](https://leetcode.cn/problems/optimize-water-distribution-in-a-village/)
 
 MST 略
 

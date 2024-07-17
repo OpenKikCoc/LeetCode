@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-176/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-176/)
 
 
-### [1351. 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+### [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/)
 
 数据范围很小 暴力即可
 
@@ -20,7 +20,7 @@ public:
 
 也可以倒序遍历 复杂度更低
 
-### [1352. 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/) [TAG]
+### [1352. 最后 K 个数的乘积](https://leetcode.cn/problems/product-of-the-last-k-numbers/) [TAG]
 
 想到了把0处理为1 以及使用前缀积 没想到遇到0就把前缀积更新为1 导致溢出出错
 
@@ -57,7 +57,7 @@ public:
 };
 ```
 
-### [1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/) [TAG]
+### [1353. 最多可以参加的会议数目](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/) [TAG]
 
 线性扫描问题 考虑每一天可选的会议范围 并选择结束时间最早的会议
 
@@ -90,7 +90,7 @@ public:
 };
 ```
 
-### [1354. 多次求和构造目标数组](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/)
+### [1354. 多次求和构造目标数组](https://leetcode.cn/problems/construct-target-array-with-multiple-sums/)
 
 比赛中好多暴力模拟代码都过了 主要应对两个case
 

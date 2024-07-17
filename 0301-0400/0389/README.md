@@ -1,4 +1,4 @@
-#  [389. 找不同](https://leetcode-cn.com/problems/find-the-difference/)
+#  [389. 找不同](https://leetcode.cn/problems/find-the-difference/)
 
 ## 题意
 

@@ -1,4 +1,4 @@
-#  [483. 最小好进制](https://leetcode-cn.com/problems/smallest-good-base/)
+#  [483. 最小好进制](https://leetcode.cn/problems/smallest-good-base/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-18/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-18/)
 
 
-### [1331. 数组序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/)
+### [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)
 
 每个元素替换为排序后的序号 相同元素序号可相等
 
@@ -35,7 +35,7 @@
 
 
 
-### [1328. 破坏回文串](https://leetcode-cn.com/problems/break-a-palindrome/) 
+### [1328. 破坏回文串](https://leetcode.cn/problems/break-a-palindrome/) 
 
 删除一个字符使得原始回文串不再回文 且新字符串字典序最小 若做不到返回空串
 
@@ -59,7 +59,7 @@
 
 需要稍加思考的是中间字符的处理 n为奇数则 5: 01-345   6: 012-345  中间字符不能动 所以 i < n/2
 
-### [1329. 将矩阵按对角线排序](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
+### [1329. 将矩阵按对角线排序](https://leetcode.cn/problems/sort-the-matrix-diagonally/)
 
 利用对角线上 `i-j` 相同
 
@@ -114,9 +114,9 @@
 
 
 
-### [1330. 翻转子数组得到最大的数组值](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/) [TAG]
+### [1330. 翻转子数组得到最大的数组值](https://leetcode.cn/problems/reverse-subarray-to-maximize-array-value/) [TAG]
 
-比赛的时候n^2 TLE一发 尝试优化表达式 思路可以参考 [这里](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/solution/onzuo-fa-jie-jue-ci-wen-ti-by-hu-tu-tu-7/)
+比赛的时候n^2 TLE一发 尝试优化表达式 思路可以参考 [这里](https://leetcode.cn/problems/reverse-subarray-to-maximize-array-value/solution/onzuo-fa-jie-jue-ci-wen-ti-by-hu-tu-tu-7/)
 
 首先是超时代码：
 

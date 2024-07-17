@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-175/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-175/)
 
 
-### [1346. 检查整数及其两倍数是否存在](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
+### [1346. 检查整数及其两倍数是否存在](https://leetcode.cn/problems/check-if-n-and-its-double-exist/)
 
 记录遍历即可
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1347. 制造字母异位词的最小步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
+### [1347. 制造字母异位词的最小步骤数](https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
 
 返回 [长度 - min相同字母个数] 
 
@@ -44,7 +44,7 @@ public:
 };
 ```
 
-### [1348. 推文计数](https://leetcode-cn.com/problems/tweet-counts-per-frequency/)
+### [1348. 推文计数](https://leetcode.cn/problems/tweet-counts-per-frequency/)
 
 stl 比赛的时候没有直接申请指定数量的res数组长度 导致实现复杂很多
 
@@ -76,7 +76,7 @@ public:
 };
 ```
 
-### [1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/) [TAG]
+### [1349. 参加考试的最大学生数](https://leetcode.cn/problems/maximum-students-taking-exam/) [TAG]
 
 搜索 8*8矩阵 直接搜超时
 

@@ -1,4 +1,4 @@
-#  [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+#  [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/)
 
 ## 题意
 

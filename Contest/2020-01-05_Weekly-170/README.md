@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-170/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-170/)
 
 整体很简单 都是裸题
 
 
-### [1309. 解码字母到整数映射](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
+### [1309. 解码字母到整数映射](https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/)
 
 后两个位置是 `#` 的时候处理即可
 
@@ -27,7 +27,7 @@
 ```
 
 
-### [1310. 子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
+### [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray/)
 
 裸前缀和
 
@@ -48,7 +48,7 @@
     }
 ```
 
-### [1311. 获取你好友已观看的视频](https://leetcode-cn.com/problems/get-watched-videos-by-your-friends/)
+### [1311. 获取你好友已观看的视频](https://leetcode.cn/problems/get-watched-videos-by-your-friends/)
 
 模拟 裸的BFS
 
@@ -94,7 +94,7 @@ vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vec
 }
 ```
 
-### [1312. 让字符串成为回文串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+### [1312. 让字符串成为回文串的最少插入次数](https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 
 裸最长公共子序列
 

@@ -1,4 +1,4 @@
-#  [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
+#  [264. 丑数 II](https://leetcode.cn/problems/ugly-number-ii/)
 
 ## 题意
 

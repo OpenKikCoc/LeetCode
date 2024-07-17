@@ -1,4 +1,4 @@
-#  [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
+#  [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/)
 
 ## 题意
 

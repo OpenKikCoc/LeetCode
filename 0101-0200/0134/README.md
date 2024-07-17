@@ -1,4 +1,4 @@
-#  [134. 加油站](https://leetcode-cn.com/problems/gas-station/)
+#  [134. 加油站](https://leetcode.cn/problems/gas-station/)
 
 ## 题意
 

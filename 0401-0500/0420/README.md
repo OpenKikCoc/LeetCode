@@ -1,4 +1,4 @@
-#  [420. 强密码检验器](https://leetcode-cn.com/problems/strong-password-checker/)
+#  [420. 强密码检验器](https://leetcode.cn/problems/strong-password-checker/)
 
 ## 题意
 

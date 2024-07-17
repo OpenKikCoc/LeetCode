@@ -1,4 +1,4 @@
-#  [676. 实现一个魔法字典](https://leetcode-cn.com/problems/implement-magic-dictionary/)
+#  [676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/)
 
 ## 题意
 

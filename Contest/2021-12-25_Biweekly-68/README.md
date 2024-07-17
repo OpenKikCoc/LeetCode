@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-68/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-68/)
 
 >   virtual rank: 143 / 2854
 
 
-### [2114. 句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/)
+### [2114. 句子中的最多单词数](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences/)
 
 略
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [2115. 从给定原材料中找到所有可以做出的菜](https://leetcode-cn.com/problems/find-all-possible-recipes-from-given-supplies/) [TAG]
+### [2115. 从给定原材料中找到所有可以做出的菜](https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies/) [TAG]
 
 标准
 
@@ -120,7 +120,7 @@ public:
 };
 ```
 
-### [2116. 判断一个括号字符串是否有效](https://leetcode-cn.com/problems/check-if-a-parentheses-string-can-be-valid/) [TAG]
+### [2116. 判断一个括号字符串是否有效](https://leetcode.cn/problems/check-if-a-parentheses-string-can-be-valid/) [TAG]
 
 经典维护区间
 
@@ -150,7 +150,7 @@ public:
 };
 ```
 
-### [2117. 一个区间内所有数乘积的缩写](https://leetcode-cn.com/problems/abbreviating-the-product-of-a-range/) [TAG]
+### [2117. 一个区间内所有数乘积的缩写](https://leetcode.cn/problems/abbreviating-the-product-of-a-range/) [TAG]
 
 素数筛 + 质因数分解 + 大数 ==> TLE
 

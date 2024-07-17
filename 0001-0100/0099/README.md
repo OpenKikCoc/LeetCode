@@ -1,4 +1,4 @@
-#  [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
+#  [99. 恢复二叉搜索树](https://leetcode.cn/problems/recover-binary-search-tree/)
 
 ## 题意
 
@@ -80,7 +80,7 @@ public:
 -   先序
 
     ```c++
-    // [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+    // [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
     class Solution {
     public:
         vector<int> preorderTraversal(TreeNode* root) {

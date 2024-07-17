@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-196/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-196/)
 
 
-### [1502. 判断能否形成等差数列](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/)
+### [1502. 判断能否形成等差数列](https://leetcode.cn/problems/can-make-arithmetic-progression-from-sequence/)
 
 略
 
@@ -17,7 +17,7 @@
 ```
 
 
-### [1503. 所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
+### [1503. 所有蚂蚁掉下来前的最后一刻](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
 
 略
 
@@ -34,7 +34,7 @@
     }
 ```
 
-### [1504. 统计全 1 子矩形](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/) [TAG]
+### [1504. 统计全 1 子矩形](https://leetcode.cn/problems/count-submatrices-with-all-ones/) [TAG]
 
 思想：
 
@@ -66,14 +66,14 @@
     }
 ```
 
-### [1505. 最多 K 次交换相邻数位后得到的最小整数](https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) [TAG] 模版题
+### [1505. 最多 K 次交换相邻数位后得到的最小整数](https://leetcode.cn/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) [TAG] 模版题
 
 考虑：
 
 1. 贪心：把最靠前的数字`x` 改最小，此时的 `最小` 需满足与 `x ` 位置差小于剩余可移动步数。随后进行的操作：将 `x` 与 `最小` 数字间的所有数字右移。
 2. 线段树：动态维护异动区间 以及 查找区间最小值来和靠前数交换
 
-更新模版 参考[liouzhou_101](https://leetcode-cn.com/u/liouzhou_101/)
+更新模版 参考[liouzhou_101](https://leetcode.cn/u/liouzhou_101/)
 
 ```c++
 template<class data_type>

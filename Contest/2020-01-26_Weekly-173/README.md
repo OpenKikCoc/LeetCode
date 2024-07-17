@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-173/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-173/)
 
 
-### [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
+### [1332. 删除回文子序列](https://leetcode.cn/problems/remove-palindromic-subsequences/)
 
 有点脑筋急转弯 其实只有两个字符 且删除的是回文 `子序列` 意味着最多两次就可以删干净（因为把每一个字母删一次）
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)
+### [1333. 餐厅过滤器](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)
 
 利用pair特性简单排序即可
 
@@ -42,7 +42,7 @@
     }
 ```
 
-### [1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+### [1334. 阈值距离内邻居最少的城市](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 从每一个起点 最多经历距离dis 可以到达的城市数量最少且起点下标最大的节点
 
@@ -75,7 +75,7 @@
     }
 ```
 
-### [1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
+### [1335. 工作计划的最低难度](https://leetcode.cn/problems/minimum-difficulty-of-a-job-schedule/)
 
 把 n 个 job 分成连续的 d 段，每一段的代价是本段最大数值的值
 

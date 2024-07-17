@@ -1,4 +1,4 @@
-#  [630. 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/)
+#  [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/)
 
 ## 题意
 

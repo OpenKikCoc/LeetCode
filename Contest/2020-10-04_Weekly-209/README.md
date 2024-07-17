@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-209/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-209/)
 
 
-### [1608. 特殊数组的特征值](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)
+### [1608. 特殊数组的特征值](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)
 
 暴力 可以二分优化
 
@@ -19,7 +19,7 @@
 ```
 
 
-### [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)
+### [1609. 奇偶树](https://leetcode.cn/problems/even-odd-tree/)
 
 层次遍历即可
 
@@ -49,7 +49,7 @@
     }
 ```
 
-### [1610. 可见点的最大数目](https://leetcode-cn.com/problems/maximum-number-of-visible-points/) [TAG]
+### [1610. 可见点的最大数目](https://leetcode.cn/problems/maximum-number-of-visible-points/) [TAG]
 
 思路：计算所有点到location的角度，排序再在后面补，方便循环查找。
 
@@ -94,7 +94,7 @@ atan2 取值范围为 (-pi, pi]
     }
 ```
 
-### [1611. 使整数变为 0 的最少操作次数](https://leetcode-cn.com/problems/minimum-one-bit-operations-to-make-integers-zero/) [TAG]
+### [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) [TAG]
 
 递归TODO
 

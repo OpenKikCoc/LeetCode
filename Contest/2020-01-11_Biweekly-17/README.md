@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-17/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-17/)
 
 
-### [1313. 解压缩编码列表](https://leetcode-cn.com/problems/decompress-run-length-encoded-list/)
+### [1313. 解压缩编码列表](https://leetcode.cn/problems/decompress-run-length-encoded-list/)
 
 略
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1314. 矩阵区域和](https://leetcode-cn.com/problems/matrix-block-sum/)
+### [1314. 矩阵区域和](https://leetcode.cn/problems/matrix-block-sum/)
 
 前缀和思想 略
 
@@ -44,7 +44,7 @@
     }
 ```
 
-### [1315. 祖父节点值为偶数的节点和](https://leetcode-cn.com/problems/sum-of-nodes-with-even-valued-grandparent/) [TAG]
+### [1315. 祖父节点值为偶数的节点和](https://leetcode.cn/problems/sum-of-nodes-with-even-valued-grandparent/) [TAG]
 
 直接记录父节点和祖父节点的值 对于root其父和祖父均为**任意奇数**（这里使用-1）
 
@@ -61,7 +61,7 @@
     }
 ```
 
-### [1316. 不同的循环子字符串](https://leetcode-cn.com/problems/distinct-echo-substrings/) [TAG]
+### [1316. 不同的循环子字符串](https://leetcode.cn/problems/distinct-echo-substrings/) [TAG]
 
 暴力 字符串hash
 

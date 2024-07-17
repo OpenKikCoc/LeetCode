@@ -1,4 +1,4 @@
-#  [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/)
+#  [441. 排列硬币](https://leetcode.cn/problems/arranging-coins/)
 
 ## 题意
 

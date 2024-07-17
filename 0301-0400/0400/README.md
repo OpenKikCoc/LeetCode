@@ -1,4 +1,4 @@
-#  [400. 第N个数字](https://leetcode-cn.com/problems/nth-digit/)
+#  [400. 第N个数字](https://leetcode.cn/problems/nth-digit/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-64/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-64/)
 
 
-### [2053. 数组中第 K 个独一无二的字符串](https://leetcode-cn.com/problems/kth-distinct-string-in-an-array/)
+### [2053. 数组中第 K 个独一无二的字符串](https://leetcode.cn/problems/kth-distinct-string-in-an-array/)
 
 扫一遍即可
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [2054. 两个最好的不重叠活动](https://leetcode-cn.com/problems/two-best-non-overlapping-events/)
+### [2054. 两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/)
 
 普适思路：离散化 + 分别统计左右侧
 
@@ -117,7 +117,7 @@ public:
 
 
 
-### [2055. 蜡烛之间的盘子](https://leetcode-cn.com/problems/plates-between-candles/)
+### [2055. 蜡烛之间的盘子](https://leetcode.cn/problems/plates-between-candles/)
 
 思路较显然 略
 
@@ -161,7 +161,7 @@ public:
 };
 ```
 
-### [2056. 棋盘上有效移动组合的数目](https://leetcode-cn.com/problems/number-of-valid-move-combinations-on-chessboard/) [TAG]
+### [2056. 棋盘上有效移动组合的数目](https://leetcode.cn/problems/number-of-valid-move-combinations-on-chessboard/) [TAG]
 
 重点在于理解题意
 

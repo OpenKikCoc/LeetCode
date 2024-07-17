@@ -1,4 +1,4 @@
-#   [779. 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/)
+#   [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/)
 
 ## 题意
 

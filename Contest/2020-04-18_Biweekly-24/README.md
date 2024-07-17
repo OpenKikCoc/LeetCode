@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-24/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-24/)
 
-### [1413. 逐步求和得到正数的最小值](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
+### [1413. 逐步求和得到正数的最小值](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/)
 
 即求前缀和的最小值 处理即可
 
@@ -22,7 +22,7 @@ public:
 };
 ```
 
-### [1414. 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
+### [1414. 和为 K 的最少斐波那契数字数目](https://leetcode.cn/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 
 返回和为 `k` 的斐波那契数字的最少数目，其中，每个斐波那契数字都可以被使用多次。
 
@@ -66,7 +66,7 @@ public:
 };
 ```
 
-### [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+### [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 
 只有abc组成的字符串 排列 回溯
 
@@ -106,7 +106,7 @@ public:
     }
 ```
 
-### [1416. 恢复数组](https://leetcode-cn.com/problems/restore-the-array/)
+### [1416. 恢复数组](https://leetcode.cn/problems/restore-the-array/)
 
 一个数字字符串 由小于等于k的正整数组成 求组成可能个数 mod
 

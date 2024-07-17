@@ -1,4 +1,4 @@
-#  [640. 求解方程](https://leetcode-cn.com/problems/solve-the-equation/)
+#  [640. 求解方程](https://leetcode.cn/problems/solve-the-equation/)
 
 ## 题意
 

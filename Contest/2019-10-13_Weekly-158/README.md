@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-158/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-158/)
 
 
-### [1221. 分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
+### [1221. 分割平衡字符串](https://leetcode.cn/problems/split-a-string-in-balanced-strings/)
 
 从前至后扫描统计即可
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1222. 可以攻击国王的皇后](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/)
+### [1222. 可以攻击国王的皇后](https://leetcode.cn/problems/queens-that-can-attack-the-king/)
 
 略
 
@@ -47,7 +47,7 @@
     }
 ```
 
-### [1223. 掷骰子模拟](https://leetcode-cn.com/problems/dice-roll-simulation/)
+### [1223. 掷骰子模拟](https://leetcode.cn/problems/dice-roll-simulation/)
 
 线性 dp
 
@@ -75,11 +75,11 @@
     }
 ```
 
-### [1224. 最大相等频率](https://leetcode-cn.com/problems/maximum-equal-frequency/) [TAG]
+### [1224. 最大相等频率](https://leetcode.cn/problems/maximum-equal-frequency/) [TAG]
 
 `unordered_map + map` 计数动态统计题
 
-类似的还有 Weekly 12 ：[1244. 力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/)
+类似的还有 Weekly 12 ：[1244. 力扣排行榜](https://leetcode.cn/problems/design-a-leaderboard/)
 
 ```c++
 class Solution {

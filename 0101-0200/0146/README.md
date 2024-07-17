@@ -1,4 +1,4 @@
-#  [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+#  [146. LRU缓存机制](https://leetcode.cn/problems/lru-cache/)
 
 ## 题意
 

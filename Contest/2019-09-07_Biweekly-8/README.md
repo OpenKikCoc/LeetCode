@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-8/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-8/)
 
 
-### [1180. 统计只含单一字母的子串](https://leetcode-cn.com/problems/count-substrings-with-only-one-distinct-letter/)
+### [1180. 统计只含单一字母的子串](https://leetcode.cn/problems/count-substrings-with-only-one-distinct-letter/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [1181. 前后拼接](https://leetcode-cn.com/problems/before-and-after-puzzle/)
+### [1181. 前后拼接](https://leetcode.cn/problems/before-and-after-puzzle/)
 
 hash 略
 
@@ -61,7 +61,7 @@ public:
 
 
 
-### [1182. 与目标颜色间的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-target-color/) [TAG]
+### [1182. 与目标颜色间的最短距离](https://leetcode.cn/problems/shortest-distance-to-target-color/) [TAG]
 
 自己做的时候想得是记忆化搜索
 
@@ -154,7 +154,7 @@ public:
 };
 ```
 
-### [1183. 矩阵中 1 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-ones/) [TAG]
+### [1183. 矩阵中 1 的最大数量](https://leetcode.cn/problems/maximum-number-of-ones/) [TAG]
 
 计算左上角正方形的每个格子在整个矩形中有多少个等效位置，取等效位置最多的前maxOnes个即可。
 

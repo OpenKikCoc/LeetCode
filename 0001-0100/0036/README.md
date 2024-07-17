@@ -1,4 +1,4 @@
-#  [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
+#  [36. 有效的数独](https://leetcode.cn/problems/valid-sudoku/)
 
 ## 题意
 

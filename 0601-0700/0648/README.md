@@ -1,4 +1,4 @@
-#  [648. 单词替换](https://leetcode-cn.com/problems/replace-words/)
+#  [648. 单词替换](https://leetcode.cn/problems/replace-words/)
 
 ## 题意
 

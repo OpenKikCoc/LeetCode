@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-62/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-62/)
 
 
-### [2022. 将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)
+### [2022. 将一维数组转变成二维数组](https://leetcode.cn/problems/convert-1d-array-into-2d-array/)
 
 简单模拟
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [2023. 连接后等于目标字符串的字符串对](https://leetcode-cn.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
+### [2023. 连接后等于目标字符串的字符串对](https://leetcode.cn/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
 
 模拟 略
 
@@ -41,7 +41,7 @@ public:
 };
 ```
 
-### [2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)
+### [2024. 考试的最大困扰度](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)
 
 简单滑动窗口 略
 
@@ -77,7 +77,7 @@ public:
 };
 ```
 
-### [2025. 分割数组的最多方案数](https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/) [TAG]
+### [2025. 分割数组的最多方案数](https://leetcode.cn/problems/maximum-number-of-ways-to-partition-an-array/) [TAG]
 
 显然有分情况讨论
 

@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-156/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-156/)
 
 57 min AK
 
 virtual rating: 11 / 1432
 
-### [1207. 独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/)
+### [1207. 独一无二的出现次数](https://leetcode.cn/problems/unique-number-of-occurrences/)
 
 略
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [1208. 尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
+### [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget/)
 
 双指针
 
@@ -69,7 +69,7 @@ public:
 ```
 
 
-### [1209. 删除字符串中的所有相邻重复项 II](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+### [1209. 删除字符串中的所有相邻重复项 II](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
 模拟即可
 
@@ -146,7 +146,7 @@ public:
 };
 ```
 
-### [1210. 穿过迷宫的最少移动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-with-rotations/)
+### [1210. 穿过迷宫的最少移动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/)
 
 bfs 略
 

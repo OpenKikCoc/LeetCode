@@ -1,4 +1,4 @@
-#  [741. 摘樱桃](https://leetcode-cn.com/problems/cherry-pickup/)
+#  [741. 摘樱桃](https://leetcode.cn/problems/cherry-pickup/)
 
 ## 题意
 

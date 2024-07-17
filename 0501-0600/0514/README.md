@@ -1,4 +1,4 @@
-#  [514. 自由之路](https://leetcode-cn.com/problems/freedom-trail/)
+#  [514. 自由之路](https://leetcode.cn/problems/freedom-trail/)
 
 ## 题意
 

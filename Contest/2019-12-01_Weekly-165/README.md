@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-165/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-165/)
 
 
-### [1275. 找出井字棋的获胜者](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/)
+### [1275. 找出井字棋的获胜者](https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game/)
 
 模拟判断即可
 
@@ -31,7 +31,7 @@
 ```
 
 
-### [1276. 不浪费原料的汉堡制作方案](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/)
+### [1276. 不浪费原料的汉堡制作方案](https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients/)
 
 显然是二元一次方程，可以直接解
 
@@ -58,7 +58,7 @@
     }
 ```
 
-### [1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)
+### [1277. 统计全为 1 的正方形子矩阵](https://leetcode.cn/problems/count-square-submatrices-with-all-ones/)
 
 dp 统计以每个点为右下角的正方形矩阵个数，该个数即为以该点为右下角的最大正方形边长
 
@@ -76,7 +76,7 @@ dp 统计以每个点为右下角的正方形矩阵个数，该个数即为以�
     }
 ```
 
-### [1278. 分割回文串 III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/)
+### [1278. 分割回文串 III](https://leetcode.cn/problems/palindrome-partitioning-iii/)
 
 区间dp预处理得到转变某个区间到回文串的 `cost` 
 

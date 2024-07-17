@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-148/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-148/)
 
 
-### [1144. 递减元素使数组呈锯齿状](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/)
+### [1144. 递减元素使数组呈锯齿状](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/)
 
 注意 只递减 简单很多
 
@@ -28,7 +28,7 @@ public:
 ```
 
 
-### [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/)
+### [1145. 二叉树着色游戏](https://leetcode.cn/problems/binary-tree-coloring-game/)
 
 检查 x 点所划分的不同连通块最大的一个的个数即可
 
@@ -81,7 +81,7 @@ public:
 };
 ```
 
-### [1146. 快照数组](https://leetcode-cn.com/problems/snapshot-array/)
+### [1146. 快照数组](https://leetcode.cn/problems/snapshot-array/)
 
 构造 二分
 
@@ -128,7 +128,7 @@ public:
  */
 ```
 
-### [1147. 段式回文](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)
+### [1147. 段式回文](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/)
 
 字符串 hash
 

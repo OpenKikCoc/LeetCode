@@ -1,4 +1,4 @@
-#  [201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
+#  [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/)
 
 ## 题意
 

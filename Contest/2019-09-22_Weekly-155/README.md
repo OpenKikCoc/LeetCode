@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-155/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-155/)
 
 好题
 
-### [1200. 最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference/)
+### [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)
 
 模拟即可
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [1201. 丑数 III](https://leetcode-cn.com/problems/ugly-number-iii/) [TAG]
+### [1201. 丑数 III](https://leetcode.cn/problems/ugly-number-iii/) [TAG]
 
 模拟显然 TLE
 
@@ -62,7 +62,7 @@ public:
 };
 ```
 
-### [1202. 交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/) [TAG]
+### [1202. 交换字符串中的元素](https://leetcode.cn/problems/smallest-string-with-swaps/) [TAG]
 
 并查集
 
@@ -98,7 +98,7 @@ public:
 };
 ```
 
-### [1203. 项目管理](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies/) [TAG]
+### [1203. 项目管理](https://leetcode.cn/problems/sort-items-by-groups-respecting-dependencies/) [TAG]
 
 双层拓扑排序
 

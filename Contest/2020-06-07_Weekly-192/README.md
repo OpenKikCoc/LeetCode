@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-192/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-192/)
 
 
-### [1470. 重新排列数组](https://leetcode-cn.com/problems/shuffle-the-array/)
+### [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
 
 `[x1,x2,...,xn,y1,y2,...,yn]`  ==> `[x1,y1,x2,y2,...,xn,yn]` 模拟即可
 
@@ -17,7 +17,7 @@
 ```
 
 
-### [5429. 数组中的 k 个最强值](https://leetcode-cn.com/problems/the-k-strongest-values-in-an-array/)
+### [5429. 数组中的 k 个最强值](https://leetcode.cn/problems/the-k-strongest-values-in-an-array/)
 
 找到中位数 然后依据中位数重新定义排序规则即可
 
@@ -39,7 +39,7 @@
     }
 ```
 
-### [5430. 设计浏览器历史记录](https://leetcode-cn.com/problems/design-browser-history/)
+### [5430. 设计浏览器历史记录](https://leetcode.cn/problems/design-browser-history/)
 
 模拟即可
 
@@ -112,7 +112,7 @@
 
 
 
-### [5431. 给房子涂色 III](https://leetcode-cn.com/problems/paint-house-iii/)
+### [5431. 给房子涂色 III](https://leetcode.cn/problems/paint-house-iii/)
 
 dp 状态：`dp[i][j][k]`第 i 个房子 用第 j 种颜色此时形成了 k 个街区
 

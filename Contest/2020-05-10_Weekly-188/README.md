@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-188/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-188/)
 
 
-### [1441. 用栈操作构建数组](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
+### [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
 
 根据操作完成后剩下的序列构造操作数组 起始就是遍历数字 然后没有的就Push再Pop有的直接Push
 
@@ -28,7 +28,7 @@ public:
 ```
 
 
-### [5405. 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
+### [5405. 形成两个异或相等数组的三元组数目](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 前缀异或数组 然后遍历即可
 
@@ -82,7 +82,7 @@ public:
 };
 ```
 
-### [5406. 收集树上所有苹果的最少时间](https://leetcode-cn.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
+### [5406. 收集树上所有苹果的最少时间](https://leetcode.cn/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
 最少步数遍历树上所有指定点
 
@@ -187,7 +187,7 @@ public:
 
 
 
-### [5407. 切披萨的方案数](https://leetcode-cn.com/problems/number-of-ways-of-cutting-a-pizza/)
+### [5407. 切披萨的方案数](https://leetcode.cn/problems/number-of-ways-of-cutting-a-pizza/)
 
 rows * cols的矩阵 某些坐标有Apple 每次可以沿 【垂直/水平】 切一刀（【左/上】至少包含1个apple）然后将【左/上】拿出去 剩下的自问题 总共切 k-1 次分成 k 个都有苹果的块
 

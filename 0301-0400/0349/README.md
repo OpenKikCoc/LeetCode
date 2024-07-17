@@ -1,4 +1,4 @@
-#  [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+#  [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
 
 ## 题意
 

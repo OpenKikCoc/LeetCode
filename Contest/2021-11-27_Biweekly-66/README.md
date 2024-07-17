@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-66/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-66/)
 
 >   virtual rank: 178 / 2803
 
 
-### [2085. 统计出现过一次的公共字符串](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
+### [2085. 统计出现过一次的公共字符串](https://leetcode.cn/problems/count-common-words-with-one-occurrence/)
 
 
 
@@ -25,7 +25,7 @@ public:
 };
 ```
 
-### [2086. 从房屋收集雨水需要的最少水桶数](https://leetcode-cn.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)
+### [2086. 从房屋收集雨水需要的最少水桶数](https://leetcode.cn/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)
 
 自己贪心
 
@@ -86,7 +86,7 @@ public:
 };
 ```
 
-### [2087. 网格图中机器人回家的最小代价](https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
+### [2087. 网格图中机器人回家的最小代价](https://leetcode.cn/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
 
 略
 
@@ -107,7 +107,7 @@ public:
 };
 ```
 
-### [2088. 统计农场中肥沃金字塔的数目](https://leetcode-cn.com/problems/count-fertile-pyramids-in-a-land/)
+### [2088. 统计农场中肥沃金字塔的数目](https://leetcode.cn/problems/count-fertile-pyramids-in-a-land/)
 
 简单但经典
 

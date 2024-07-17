@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-264/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-264/)
 
 
-### [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)
+### [2047. 句子中的有效单词数](https://leetcode.cn/problems/number-of-valid-words-in-a-sentence/)
 
 稍复杂点的模拟 略
 
@@ -65,7 +65,7 @@ public:
 ```
 
 
-### [2048. 下一个更大的数值平衡数](https://leetcode-cn.com/problems/next-greater-numerically-balanced-number/)
+### [2048. 下一个更大的数值平衡数](https://leetcode.cn/problems/next-greater-numerically-balanced-number/)
 
 注意 N 取值即可
 
@@ -101,7 +101,7 @@ public:
 };
 ```
 
-### [2049. 统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/)
+### [2049. 统计最高分的节点数目](https://leetcode.cn/problems/count-nodes-with-the-highest-score/)
 
 经典树形DP 略
 
@@ -161,7 +161,7 @@ public:
 };
 ```
 
-### [2050. 并行课程 III](https://leetcode-cn.com/problems/parallel-courses-iii/)
+### [2050. 并行课程 III](https://leetcode.cn/problems/parallel-courses-iii/)
 
 经典求拓扑序再根据拓扑序计算值 略
 

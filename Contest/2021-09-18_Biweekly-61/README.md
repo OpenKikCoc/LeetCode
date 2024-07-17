@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-61/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-61/)
 
 
-### [2006. 差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)
+### [2006. 差的绝对值为 K 的数对数目](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k/)
 
 暴力 or map 统计都可
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [2007. 从双倍数组中还原原数组](https://leetcode-cn.com/problems/find-original-array-from-doubled-array/)
+### [2007. 从双倍数组中还原原数组](https://leetcode.cn/problems/find-original-array-from-doubled-array/)
 
 显然先统计再贪心去除一定正确
 
@@ -55,7 +55,7 @@ public:
 };
 ```
 
-### [2008. 出租车的最大盈利](https://leetcode-cn.com/problems/maximum-earnings-from-taxi/) [TAG]
+### [2008. 出租车的最大盈利](https://leetcode.cn/problems/maximum-earnings-from-taxi/) [TAG]
 
 既可以以开始位置作为状态定义 也可以以结束为止
 
@@ -112,7 +112,7 @@ public:
 };
 ```
 
-### [2009. 使数组连续的最少操作数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-array-continuous/) [TAG]
+### [2009. 使数组连续的最少操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous/) [TAG]
 
 一开始在思考将数据分段再贪心
 

@@ -1,4 +1,4 @@
-#  [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/)
+#  [539. 最小时间差](https://leetcode.cn/problems/minimum-time-difference/)
 
 ## 题意
 

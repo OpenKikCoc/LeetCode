@@ -1,4 +1,4 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-238/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-238/)
 
 virtual rank: 162 / 3977
 
@@ -7,7 +7,7 @@ virtual rank: 162 / 3977
 AK
 
 
-### [1837. K 进制表示下的各位数字总和](https://leetcode-cn.com/problems/sum-of-digits-in-base-k/)
+### [1837. K 进制表示下的各位数字总和](https://leetcode.cn/problems/sum-of-digits-in-base-k/)
 
 略
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [1838. 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)
+### [1838. 最高频元素的频数](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/)
 
 窗口即可，和 yxc 赛后的题解一致
 
@@ -79,7 +79,7 @@ public:
 
 
 
-### [1839. 所有元音按顺序排布的最长子字符串](https://leetcode-cn.com/problems/longest-substring-of-all-vowels-in-order/)
+### [1839. 所有元音按顺序排布的最长子字符串](https://leetcode.cn/problems/longest-substring-of-all-vowels-in-order/)
 
 同样可以窗口做
 
@@ -178,7 +178,7 @@ public:
 
 
 
-### [1840. 最高建筑高度](https://leetcode-cn.com/problems/maximum-building-height/)
+### [1840. 最高建筑高度](https://leetcode.cn/problems/maximum-building-height/)
 
 LIS + 离散化
 

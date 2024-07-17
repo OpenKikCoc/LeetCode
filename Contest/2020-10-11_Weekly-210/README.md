@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-210/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-210/)
 
 
-### [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)
+### [1614. 括号的最大嵌套深度](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/)
 
 略
 
@@ -18,7 +18,7 @@
 ```
 
 
-### [1615. 最大网络秩](https://leetcode-cn.com/problems/maximal-network-rank/)
+### [1615. 最大网络秩](https://leetcode.cn/problems/maximal-network-rank/)
 
 统计即可
 
@@ -40,7 +40,7 @@
     }
 ```
 
-### [1616. 分割两个字符串得到回文串](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/)
+### [1616. 分割两个字符串得到回文串](https://leetcode.cn/problems/split-two-strings-to-make-palindrome/)
 
 翻转 b 随后从前从后校验，如果遇到不相等且未过半则检查剩余未检查部分是否回文，是则返回 true 。
 
@@ -103,7 +103,7 @@
     }
 ```
 
-### [1617. 统计子树中城市之间最大距离](https://leetcode-cn.com/problems/count-subtrees-with-max-distance-between-cities/) [TAG]
+### [1617. 统计子树中城市之间最大距离](https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/) [TAG]
 
 显然需要暴力遍历所有状态，对每个状态检查是否合法：
 

@@ -1,4 +1,4 @@
-#  [451. 根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
+#  [451. 根据字符出现频率排序](https://leetcode.cn/problems/sort-characters-by-frequency/)
 
 ## 题意
 

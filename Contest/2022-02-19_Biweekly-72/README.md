@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-72/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-72/)
 
 >   virtual rank: 128 / 4400
 
 
-### [2176. 统计数组中相等且可以被整除的数对](https://leetcode-cn.com/problems/count-equal-and-divisible-pairs-in-an-array/)
+### [2176. 统计数组中相等且可以被整除的数对](https://leetcode.cn/problems/count-equal-and-divisible-pairs-in-an-array/)
 
 略
 
@@ -22,7 +22,7 @@ public:
 ```
 
 
-### [2177. 找到和为给定整数的三个连续整数](https://leetcode-cn.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
+### [2177. 找到和为给定整数的三个连续整数](https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 略
 
@@ -40,7 +40,7 @@ public:
 };
 ```
 
-### [2178. 拆分成最多数目的正偶数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/)
+### [2178. 拆分成最多数目的正偶数之和](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/)
 
 贪心
 
@@ -89,7 +89,7 @@ public:
 };
 ```
 
-### [2179. 统计数组中好三元组数目](https://leetcode-cn.com/problems/count-good-triplets-in-an-array/)
+### [2179. 统计数组中好三元组数目](https://leetcode.cn/problems/count-good-triplets-in-an-array/)
 
 预处理转化，随后只要求单数组内递增三元组即可
 

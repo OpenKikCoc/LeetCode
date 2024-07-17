@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-204/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-204/)
 
 
-### [1566. 重复至少 K 次且长度为 M 的模式](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
+### [1566. 重复至少 K 次且长度为 M 的模式](https://leetcode.cn/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 
 
@@ -43,7 +43,7 @@
 ```
 
 
-### [1567. 乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/) [TAG]
+### [1567. 乘积为正数的最长子数组长度](https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product/) [TAG]
 
 dp
 
@@ -118,7 +118,7 @@ dp
     }
 ```
 
-###  [1568. 使陆地分离的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/) [TAG]
+###  [1568. 使陆地分离的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-disconnect-island/) [TAG]
 
 floodfill+tarjan 关键在于想通 **在只有一个岛屿的情况下，最多经过两天一定可以分割成两个岛屿**。tarjan求割点，存在则为1否则2
 
@@ -165,7 +165,7 @@ floodfill+tarjan 关键在于想通 **在只有一个岛屿的情况下，最多
     }
 ```
 
-### [1569. 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) [TAG]
+### [1569. 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode.cn/problems/number-of-ways-to-reorder-array-to-get-same-bst/) [TAG]
 
 > 我还以为周赛不会考组合数...
 

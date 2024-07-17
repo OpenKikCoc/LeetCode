@@ -1,4 +1,4 @@
-#  [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/)
+#  [231. 2的幂](https://leetcode.cn/problems/power-of-two/)
 
 ## 题意
 

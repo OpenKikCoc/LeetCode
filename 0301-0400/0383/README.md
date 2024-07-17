@@ -1,4 +1,4 @@
-#  [383. 赎金信](https://leetcode-cn.com/problems/ransom-note/)
+#  [383. 赎金信](https://leetcode.cn/problems/ransom-note/)
 
 ## 题意
 

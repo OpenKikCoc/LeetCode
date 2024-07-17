@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-168/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-168/)
 
 
-### [1295. 统计位数为偶数的数字](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/)
+### [1295. 统计位数为偶数的数字](https://leetcode.cn/problems/find-numbers-with-even-number-of-digits/)
 
 暴力统计即可
 
@@ -21,7 +21,7 @@
 ```
 
 
-### [1296. 划分数组为连续数字的集合](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
+### [1296. 划分数组为连续数字的集合](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
 map统计 begin获取当前可用的最小的值
 
@@ -44,7 +44,7 @@ map统计 begin获取当前可用的最小的值
     }
 ```
 
-### [1297. 子串的最大出现次数](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring/)
+### [1297. 子串的最大出现次数](https://leetcode.cn/problems/maximum-number-of-occurrences-of-a-substring/)
 
 易知长度一定是minsize 按此长度统计所有连续子串及其次数即可
 
@@ -79,7 +79,7 @@ map统计 begin获取当前可用的最小的值
     }
 ```
 
-### [1298. 你能从盒子里获得的最大糖果数](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/) [TAG]
+### [1298. 你能从盒子里获得的最大糖果数](https://leetcode.cn/problems/maximum-candies-you-can-get-from-boxes/) [TAG]
 
 每次循环校验即可 要敢于暴力
 

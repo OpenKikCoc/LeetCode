@@ -1,4 +1,4 @@
-#   [781. 森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/)
+#   [781. 森林中的兔子](https://leetcode.cn/problems/rabbits-in-forest/)
 
 ## 题意
 

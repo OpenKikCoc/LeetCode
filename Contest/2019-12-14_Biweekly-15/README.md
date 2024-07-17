@@ -1,7 +1,7 @@
 ## [比赛链接]()
 
 
-### [1287. 有序数组中出现次数超过25%的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/)
+### [1287. 有序数组中出现次数超过25%的元素](https://leetcode.cn/problems/element-appearing-more-than-25-in-sorted-array/)
 
 超过25%的数唯一 说明这个数就是出现次数最多的数
 
@@ -24,7 +24,7 @@
 ```
 
 
-### [1288. 删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/)
+### [1288. 删除被覆盖区间](https://leetcode.cn/problems/remove-covered-intervals/)
 
 暴力即可，**如果不用vis数组，在if成功后直接break即可**
 
@@ -40,7 +40,7 @@
     }
 ```
 
-### [1286. 字母组合迭代器](https://leetcode-cn.com/problems/iterator-for-combination/) [TAG]
+### [1286. 字母组合迭代器](https://leetcode.cn/problems/iterator-for-combination/) [TAG]
 
 这题复杂度接受直接一次性生成所有可能字符串
 
@@ -75,7 +75,7 @@
     }
 ```
 
-### [1289. 下降路径最小和  II](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii/)
+### [1289. 下降路径最小和  II](https://leetcode.cn/problems/minimum-falling-path-sum-ii/)
 
 相邻不选 dp即可
 

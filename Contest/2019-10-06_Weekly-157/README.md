@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-157/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-157/)
 
 virtual rating: 93 / 1216
 
-### [1217. 玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
+### [1217. 玩筹码](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/)
 
 
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)
+### [1218. 最长定差子序列](https://leetcode.cn/problems/longest-arithmetic-subsequence-of-given-difference/)
 
 
 
@@ -44,7 +44,7 @@ public:
 };
 ```
 
-### [1219. 黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/) [TAG]
+### [1219. 黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold/) [TAG]
 
 一开始想复杂了，直接 tmp 记录 g 随后恢复即可
 
@@ -83,7 +83,7 @@ public:
 };
 ```
 
-### [1220. 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)
+### [1220. 统计元音字母序列的数目](https://leetcode.cn/problems/count-vowels-permutation/)
 
 线性dp 略
 

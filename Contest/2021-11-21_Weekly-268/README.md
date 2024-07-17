@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-268/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-268/)
 
 
-### [2078. 两栋颜色不同且距离最远的房子](https://leetcode-cn.com/problems/two-furthest-houses-with-different-colors/)
+### [2078. 两栋颜色不同且距离最远的房子](https://leetcode.cn/problems/two-furthest-houses-with-different-colors/)
 
 
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [2079. 给植物浇水](https://leetcode-cn.com/problems/watering-plants/)
+### [2079. 给植物浇水](https://leetcode.cn/problems/watering-plants/)
 
 注意不够就要回去补水
 
@@ -42,7 +42,7 @@ public:
 };
 ```
 
-### [2080. 区间内查询数字的频率](https://leetcode-cn.com/problems/range-frequency-queries/)
+### [2080. 区间内查询数字的频率](https://leetcode.cn/problems/range-frequency-queries/)
 
 经典二分应用
 
@@ -121,7 +121,7 @@ public:
  */
 ```
 
-### [2081. k 镜像数字的和](https://leetcode-cn.com/problems/sum-of-k-mirror-numbers/) [TAG]
+### [2081. k 镜像数字的和](https://leetcode.cn/problems/sum-of-k-mirror-numbers/) [TAG]
 
 **经典 求k进制下的第n个回文数字**
 

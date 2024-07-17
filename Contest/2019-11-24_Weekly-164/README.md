@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-164/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-164/)
 
 
-### [1266. 访问所有点的最小时间](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)
+### [1266. 访问所有点的最小时间](https://leetcode.cn/problems/minimum-time-visiting-all-points/)
 
 注意题目要求按顺序走 而非全局最优 所以就很简单了
 
@@ -16,7 +16,7 @@
 ```
 
 
-### [1267. 统计参与通信的服务器](https://leetcode-cn.com/problems/count-servers-that-communicate/)
+### [1267. 统计参与通信的服务器](https://leetcode.cn/problems/count-servers-that-communicate/)
 
 扫两边统计即可
 
@@ -35,7 +35,7 @@
     }
 ```
 
-### [1268. 搜索推荐系统](https://leetcode-cn.com/problems/search-suggestions-system/)
+### [1268. 搜索推荐系统](https://leetcode.cn/problems/search-suggestions-system/)
 
 模拟题， Trie 标准解法，暴力略加优化也可以过。
 
@@ -178,7 +178,7 @@ public:
     }
 ```
 
-### [1269. 停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/) [TAG]
+### [1269. 停在原地的方案数](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/) [TAG]
 
 组合数 其中左右边界限制约束组合数计算 ? 
 

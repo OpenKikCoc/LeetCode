@@ -1,4 +1,4 @@
-#   **[LeetCode 1373. 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/)** 
+#   **[LeetCode 1373. 二叉搜索子树的最大键值和](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/)** 
 
 ## 题意
 

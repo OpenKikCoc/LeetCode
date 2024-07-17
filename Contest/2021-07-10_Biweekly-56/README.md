@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-56/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-56/)
 
 
-### [1925. 统计平方和三元组的数目](https://leetcode-cn.com/problems/count-square-sum-triples/)
+### [1925. 统计平方和三元组的数目](https://leetcode.cn/problems/count-square-sum-triples/)
 
 暴力即可
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1926. 迷宫中离入口最近的出口](https://leetcode-cn.com/problems/nearest-exit-from-entrance-in-maze/)
+### [1926. 迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/)
 
 多源bfs即可
 
@@ -123,7 +123,7 @@ public:
 };
 ```
 
-### [1927. 求和游戏](https://leetcode-cn.com/problems/sum-game/)
+### [1927. 求和游戏](https://leetcode.cn/problems/sum-game/)
 
 简单博弈 推导易知：
 
@@ -191,7 +191,7 @@ public:
 };
 ```
 
-### [1928. 规定时间内到达终点的最小花费](https://leetcode-cn.com/problems/minimum-cost-to-reach-destination-in-time/) [TAG]
+### [1928. 规定时间内到达终点的最小花费](https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/) [TAG]
 
 经典问题：
 

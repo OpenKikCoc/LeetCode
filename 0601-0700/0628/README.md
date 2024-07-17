@@ -1,4 +1,4 @@
-#  [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)
+#  [628. 三个数的最大乘积](https://leetcode.cn/problems/maximum-product-of-three-numbers/)
 
 ## 题意
 

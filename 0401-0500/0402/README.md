@@ -1,4 +1,4 @@
-#  [402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/)
+#  [402. 移掉K位数字](https://leetcode.cn/problems/remove-k-digits/)
 
 ## 题意
 

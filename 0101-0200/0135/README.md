@@ -1,4 +1,4 @@
-#  [135. 分发糖果](https://leetcode-cn.com/problems/candy/)
+#  [135. 分发糖果](https://leetcode.cn/problems/candy/)
 
 ## 题意
 

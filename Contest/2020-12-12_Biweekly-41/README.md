@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-41/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-41/)
 
 
-### [1684. 统计一致字符串的数目](https://leetcode-cn.com/problems/count-the-number-of-consistent-strings/)
+### [1684. 统计一致字符串的数目](https://leetcode.cn/problems/count-the-number-of-consistent-strings/)
 
 
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [5610. 有序数组中差绝对值之和](https://leetcode-cn.com/problems/sum-of-absolute-differences-in-a-sorted-array/)
+### [5610. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array/)
 
 
 
@@ -43,7 +43,7 @@ public:
 };
 ```
 
-### [1686. 石子游戏 VI](https://leetcode-cn.com/problems/stone-game-vi/)
+### [1686. 石子游戏 VI](https://leetcode.cn/problems/stone-game-vi/)
 
 直接按和排序而 **无需考虑对于 alice bob 来说和相同时是否需要选择对自己更有利的正确性证明**
 
@@ -72,7 +72,7 @@ public:
 };
 ```
 
-### [1687. 从仓库到码头运输箱子](https://leetcode-cn.com/problems/delivering-boxes-from-storage-to-ports/) [TAG]
+### [1687. 从仓库到码头运输箱子](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/) [TAG]
 
 单调队列优化dp  注意细节
 

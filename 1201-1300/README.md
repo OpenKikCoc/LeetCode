@@ -23,9 +23,9 @@
 |                                                              | [here](./1217/README.md) |                                        |        |       |
 |                                                              | [here](./1218/README.md) |                                        |        |       |
 |                                                              | [here](./1219/README.md) |                                        |        |       |
-| [1220. 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/) | [here](./1220/README.md) |                                        | X      | X     |
-| [1221. 分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | [here](./1221/README.md) |                                        |        |       |
-| [1222. 可以攻击国王的皇后](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/) | [here](./1222/README.md) | 递推dp                                 | X      | X     |
+| [1220. 统计元音字母序列的数目](https://leetcode.cn/problems/count-vowels-permutation/) | [here](./1220/README.md) |                                        | X      | X     |
+| [1221. 分割平衡字符串](https://leetcode.cn/problems/split-a-string-in-balanced-strings/) | [here](./1221/README.md) |                                        |        |       |
+| [1222. 可以攻击国王的皇后](https://leetcode.cn/problems/queens-that-can-attack-the-king/) | [here](./1222/README.md) | 递推dp                                 | X      | X     |
 |                                                              | [here](./1223/README.md) |                                        |        |       |
 |                                                              | [here](./1224/README.md) |                                        |        |       |
 |                                                              | [here](./1225/README.md) |                                        |        |       |
@@ -64,9 +64,9 @@
 |                                                              | [here](./1258/README.md) |                                        |        |       |
 |                                                              | [here](./1259/README.md) |                                        |        |       |
 |                                                              | [here](./1260/README.md) |                                        |        |       |
-| [1261. 在受污染的二叉树中查找元素](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/) | [here](./1261/README.md) |                                        |        |       |
-| [1262. 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/) | [here](./1262/README.md) | 自己写了不少垃圾代码（只留了一个标准） | X      | X     |
-| [1263. 推箱子](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/) | [here](./1263/README.md) |                                        |        |       |
+| [1261. 在受污染的二叉树中查找元素](https://leetcode.cn/problems/find-elements-in-a-contaminated-binary-tree/) | [here](./1261/README.md) |                                        |        |       |
+| [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/) | [here](./1262/README.md) | 自己写了不少垃圾代码（只留了一个标准） | X      | X     |
+| [1263. 推箱子](https://leetcode.cn/problems/minimum-moves-to-move-a-box-to-their-target-location/) | [here](./1263/README.md) |                                        |        |       |
 |                                                              | [here](./1264/README.md) |                                        |        |       |
 |                                                              | [here](./1265/README.md) |                                        |        |       |
 |                                                              | [here](./1266/README.md) |                                        |        |       |

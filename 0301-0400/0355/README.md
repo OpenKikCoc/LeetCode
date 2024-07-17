@@ -1,4 +1,4 @@
-#  [355. 设计推特](https://leetcode-cn.com/problems/design-twitter/)
+#  [355. 设计推特](https://leetcode.cn/problems/design-twitter/)
 
 ## 题意
 

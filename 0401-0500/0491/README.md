@@ -1,4 +1,4 @@
-#  [491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)
+#  [491. 递增子序列](https://leetcode.cn/problems/increasing-subsequences/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-47/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-47/)
 
 
-### [1779. 找到最近的有相同 X 或 Y 坐标的点](https://leetcode-cn.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+### [1779. 找到最近的有相同 X 或 Y 坐标的点](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)
 
 略
 
@@ -49,7 +49,7 @@ public:
 };
 ```
 
-### [1780. 判断一个数字是否可以表示成三的幂的和](https://leetcode-cn.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
+### [1780. 判断一个数字是否可以表示成三的幂的和](https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/)
 
 思考转化三进制即可
 
@@ -65,7 +65,7 @@ public:
 };
 ```
 
-### [1781. 所有子字符串美丽值之和](https://leetcode-cn.com/problems/sum-of-beauty-of-all-substrings/)
+### [1781. 所有子字符串美丽值之和](https://leetcode.cn/problems/sum-of-beauty-of-all-substrings/)
 
 暴力即可 扫描的实现有小优化
 
@@ -89,7 +89,7 @@ public:
 };
 ```
 
-### [1782. 统计点对的数目](https://leetcode-cn.com/problems/count-pairs-of-nodes/) [TAG]
+### [1782. 统计点对的数目](https://leetcode.cn/problems/count-pairs-of-nodes/) [TAG]
 
 需优化枚举点对的过程
 

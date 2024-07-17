@@ -1,4 +1,4 @@
-#  [474. 一和零](https://leetcode-cn.com/problems/ones-and-zeroes/)
+#  [474. 一和零](https://leetcode.cn/problems/ones-and-zeroes/)
 
 ## 题意
 

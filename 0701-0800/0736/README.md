@@ -1,4 +1,4 @@
-#  [736. Lisp 语法解析](https://leetcode-cn.com/problems/parse-lisp-expression/)
+#  [736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
 ## [比赛链接]()
 
 
-### [1475. 商品折扣后的最终价格](https://leetcode-cn.com/problems/final-prices-with-a-special-discount-in-a-shop/)
+### [1475. 商品折扣后的最终价格](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/)
 
 找到 当前数后面比当前数小的第一个数 减去其值作为新值即可
 
@@ -39,7 +39,7 @@
 
 
 
-### [1476. 子矩形查询](https://leetcode-cn.com/problems/subrectangle-queries/)
+### [1476. 子矩形查询](https://leetcode.cn/problems/subrectangle-queries/)
 
 数据范围小 暴力模拟即可
 
@@ -61,7 +61,7 @@
     }
 ```
 
-### [1477. 找两个和为目标值且不重叠的子数组](https://leetcode-cn.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+### [1477. 找两个和为目标值且不重叠的子数组](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 自己比赛做法：记录前缀和 及该前缀和对应下标 存储合法区间到 ve 对ve排序后贪心即可 注意贪心条件：
 
@@ -128,9 +128,9 @@
 
 
 
-### [1478. 安排邮筒](https://leetcode-cn.com/problems/allocate-mailboxes/) [TAG]
+### [1478. 安排邮筒](https://leetcode.cn/problems/allocate-mailboxes/) [TAG]
 
-[何逊的题解](https://leetcode-cn.com/problems/allocate-mailboxes/solution/dong-tai-gui-hua-shi-jian-fu-za-du-oknlognkong-jia/)
+[何逊的题解](https://leetcode.cn/problems/allocate-mailboxes/solution/dong-tai-gui-hua-shi-jian-fu-za-du-oknlognkong-jia/)
 
 `f[i][j]` 表示前 i 个建筑用 j 个邮箱的最短距离和 预处理 `dis[i][j]` 为从 i 到 j 使用一个邮箱时的消耗
 

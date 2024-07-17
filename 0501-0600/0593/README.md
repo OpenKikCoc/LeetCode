@@ -1,4 +1,4 @@
-#  [593. 有效的正方形](https://leetcode-cn.com/problems/valid-square/)
+#  [593. 有效的正方形](https://leetcode.cn/problems/valid-square/)
 
 ## 题意
 

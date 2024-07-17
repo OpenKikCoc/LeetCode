@@ -1,4 +1,4 @@
-#  [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+#  [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/)
 
 ## 题意
 

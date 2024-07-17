@@ -1,4 +1,4 @@
-#  [493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+#  [493. 翻转对](https://leetcode.cn/problems/reverse-pairs/)
 
 ## 题意
 

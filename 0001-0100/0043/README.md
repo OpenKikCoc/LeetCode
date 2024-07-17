@@ -1,4 +1,4 @@
-#  [43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)
+#  [43. 字符串相乘](https://leetcode.cn/problems/multiply-strings/)
 
 ## 题意
 

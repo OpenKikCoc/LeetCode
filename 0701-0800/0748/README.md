@@ -1,4 +1,4 @@
-#  [748. 最短补全词](https://leetcode-cn.com/problems/shortest-completing-word/)
+#  [748. 最短补全词](https://leetcode.cn/problems/shortest-completing-word/)
 
 ## 题意
 

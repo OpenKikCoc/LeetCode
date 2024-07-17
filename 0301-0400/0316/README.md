@@ -1,4 +1,4 @@
-#  [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
+#  [316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
 
 ## 题意
 

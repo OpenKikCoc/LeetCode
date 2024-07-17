@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-147/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-147/)
 
 
-### [1137. 第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)
+### [1137. 第 N 个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/)
 
 模拟即可 略
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [1138. 字母板上的路径](https://leetcode-cn.com/problems/alphabet-board-path/)
+### [1138. 字母板上的路径](https://leetcode.cn/problems/alphabet-board-path/)
 
 注意不能越界访问即可 略
 
@@ -139,7 +139,7 @@ public:
 
 
 
-### [1139. 最大的以 1 为边界的正方形](https://leetcode-cn.com/problems/largest-1-bordered-square/)
+### [1139. 最大的以 1 为边界的正方形](https://leetcode.cn/problems/largest-1-bordered-square/)
 
 显然前缀和 略
 
@@ -187,7 +187,7 @@ public:
 };
 ```
 
-### [1140. 石子游戏 II](https://leetcode-cn.com/problems/stone-game-ii/)
+### [1140. 石子游戏 II](https://leetcode.cn/problems/stone-game-ii/)
 
 博弈 + 记忆化
 

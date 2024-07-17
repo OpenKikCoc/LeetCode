@@ -1,4 +1,4 @@
-#  [59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+#  [59. 螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/)
 
 ## 题意
 

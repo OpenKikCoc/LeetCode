@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-277/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-277/)
 
 >   virtual rank: 294 / 5060
 
 
-### [2148. 元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)
+### [2148. 元素计数](https://leetcode.cn/problems/count-elements-with-strictly-smaller-and-greater-elements/)
 
 略
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [2149. 按符号重排数组](https://leetcode-cn.com/problems/rearrange-array-elements-by-sign/)
+### [2149. 按符号重排数组](https://leetcode.cn/problems/rearrange-array-elements-by-sign/)
 
 略
 
@@ -48,7 +48,7 @@ public:
 };
 ```
 
-### [2150. 找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/)
+### [2150. 找出数组中的所有孤独数字](https://leetcode.cn/problems/find-all-lonely-numbers-in-the-array/)
 
 略
 
@@ -74,7 +74,7 @@ public:
 };
 ```
 
-### [2151. 基于陈述统计最多好人数](https://leetcode-cn.com/problems/maximum-good-people-based-on-statements/)
+### [2151. 基于陈述统计最多好人数](https://leetcode.cn/problems/maximum-good-people-based-on-statements/)
 
 状压即可 注意判断合法的条件
 

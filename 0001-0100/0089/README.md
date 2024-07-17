@@ -1,4 +1,4 @@
-#  [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)
+#  [89. 格雷编码](https://leetcode.cn/problems/gray-code/)
 
 ## 题意
 

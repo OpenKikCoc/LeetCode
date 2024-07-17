@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-182/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-182/)
 
 
-### [1394. 找出数组中的幸运数](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
+### [1394. 找出数组中的幸运数](https://leetcode.cn/problems/find-lucky-integer-in-an-array/)
 
 一个整数的出现频次和它的数值大小相等，称这个整数为「幸运数」
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [1395. 统计作战单位数](https://leetcode-cn.com/problems/count-number-of-teams/)
+### [1395. 统计作战单位数](https://leetcode.cn/problems/count-number-of-teams/)
 
 一排n个rating 升序/降序3个可以成为一组单位 求可以组建的单位数量
 
@@ -89,7 +89,7 @@ public:
 
 
 
-### [1396. 设计地铁系统](https://leetcode-cn.com/problems/design-underground-system/)
+### [1396. 设计地铁系统](https://leetcode.cn/problems/design-underground-system/)
 
 主要是建模
 
@@ -125,7 +125,7 @@ public:
 
 ```
 
-### [1397. 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/) [TAG]
+### [1397. 找到所有好字符串](https://leetcode.cn/problems/find-all-good-strings/) [TAG]
 
 数位dp
 

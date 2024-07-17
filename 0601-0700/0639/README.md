@@ -1,4 +1,4 @@
-#  [639. 解码方法 2](https://leetcode-cn.com/problems/decode-ways-ii/)
+#  [639. 解码方法 2](https://leetcode.cn/problems/decode-ways-ii/)
 
 ## 题意
 

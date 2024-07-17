@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-49/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-49/)
 
 16 min
 
 virtual ranking: 86 / 3193
 
-### [1812. 判断国际象棋棋盘中一个格子的颜色](https://leetcode-cn.com/problems/determine-color-of-a-chessboard-square/)
+### [1812. 判断国际象棋棋盘中一个格子的颜色](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/)
 
 对角线和奇偶性即可
 
@@ -37,7 +37,7 @@ public:
 };
 ```
 
-### [1813. 句子相似性 III](https://leetcode-cn.com/problems/sentence-similarity-iii/)
+### [1813. 句子相似性 III](https://leetcode.cn/problems/sentence-similarity-iii/)
 
 模拟即可
 
@@ -79,7 +79,7 @@ public:
 };
 ```
 
-### [1814. 统计一个数组中好对子的数目](https://leetcode-cn.com/problems/count-nice-pairs-in-an-array/)
+### [1814. 统计一个数组中好对子的数目](https://leetcode.cn/problems/count-nice-pairs-in-an-array/)
 
 线性统计即可
 
@@ -135,7 +135,7 @@ public:
 };
 ```
 
-### [1815. 得到新鲜甜甜圈的最多组数](https://leetcode-cn.com/problems/maximum-number-of-groups-getting-fresh-donuts/) [TAG]
+### [1815. 得到新鲜甜甜圈的最多组数](https://leetcode.cn/problems/maximum-number-of-groups-getting-fresh-donuts/) [TAG]
 
 典型模拟退火 【数据范围不大 答案和顺序有关】
 

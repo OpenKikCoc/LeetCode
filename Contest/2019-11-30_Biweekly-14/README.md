@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-14/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-14/)
 
 
-### [1271. 十六进制魔术数字](https://leetcode-cn.com/problems/hexspeak/)
+### [1271. 十六进制魔术数字](https://leetcode.cn/problems/hexspeak/)
 
 模拟即可
 
@@ -29,7 +29,7 @@
 ```
 
 
-### [1272. 删除区间](https://leetcode-cn.com/problems/remove-interval/)
+### [1272. 删除区间](https://leetcode.cn/problems/remove-interval/)
 
 模拟 分类讨论即可
 
@@ -56,7 +56,7 @@
     }
 ```
 
-### [1273. 删除树节点](https://leetcode-cn.com/problems/delete-tree-nodes/)
+### [1273. 删除树节点](https://leetcode.cn/problems/delete-tree-nodes/)
 
 搜索即可
 
@@ -123,7 +123,7 @@
 ```
 
 
-### [1274. 矩形内船只的数目](https://leetcode-cn.com/problems/number-of-ships-in-a-rectangle/) [TAG]
+### [1274. 矩形内船只的数目](https://leetcode.cn/problems/number-of-ships-in-a-rectangle/) [TAG]
 
 二维 分治+四分查找
 

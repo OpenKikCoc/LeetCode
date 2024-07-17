@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-263/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-263/)
 
 
-### [2042. 检查句子中的数字是否递增](https://leetcode-cn.com/problems/check-if-numbers-are-ascending-in-a-sentence/)
+### [2042. 检查句子中的数字是否递增](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)
 
 略
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [2043. 简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)
+### [2043. 简易银行系统](https://leetcode.cn/problems/simple-bank-system/)
 
 模拟即可 略
 
@@ -86,7 +86,7 @@ public:
  */
 ```
 
-### [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)
+### [2044. 统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/)
 
 复杂度显然可以直接枚举所有子集
 
@@ -110,7 +110,7 @@ public:
 };
 ```
 
-### [2045. 到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/) [TAG]
+### [2045. 到达目的地的第二短时间](https://leetcode.cn/problems/second-minimum-time-to-reach-destination/) [TAG]
 
 经典求次短路
 

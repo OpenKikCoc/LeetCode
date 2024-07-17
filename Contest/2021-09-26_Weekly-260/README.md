@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-260/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-260/)
 
 
-### [2016. 增量元素之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/)
+### [2016. 增量元素之间的最大差值](https://leetcode.cn/problems/maximum-difference-between-increasing-elements/)
 
 暴力 略
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [2017. 网格游戏](https://leetcode-cn.com/problems/grid-game/)
+### [2017. 网格游戏](https://leetcode.cn/problems/grid-game/)
 
 思考易知无需博弈
 
@@ -68,7 +68,7 @@ public:
 };
 ```
 
-### [2018. 判断单词是否能放入填字游戏内](https://leetcode-cn.com/problems/check-if-word-can-be-placed-in-crossword/)
+### [2018. 判断单词是否能放入填字游戏内](https://leetcode.cn/problems/check-if-word-can-be-placed-in-crossword/)
 
 模拟即可 注意筛选条件
 
@@ -146,7 +146,7 @@ public:
 };
 ```
 
-### [2019. 解出数学表达式的学生分数](https://leetcode-cn.com/problems/the-score-of-students-solving-math-expression/) [TAG]
+### [2019. 解出数学表达式的学生分数](https://leetcode.cn/problems/the-score-of-students-solving-math-expression/) [TAG]
 
 **带优先级的表达式求值 + 区间DP**
 

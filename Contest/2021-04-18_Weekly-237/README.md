@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-237/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-237/)
 
 
-### [1832. 判断句子是否为全字母句](https://leetcode-cn.com/problems/check-if-the-sentence-is-pangram/)
+### [1832. 判断句子是否为全字母句](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/)
 
 略
 
@@ -18,7 +18,7 @@ public:
 ```
 
 
-### [1833. 雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)
+### [1833. 雪糕的最大数量](https://leetcode.cn/problems/maximum-ice-cream-bars/)
 
 排序 略
 
@@ -40,7 +40,7 @@ public:
 };
 ```
 
-### [1834. 单线程 CPU](https://leetcode-cn.com/problems/single-threaded-cpu/) [TAG]
+### [1834. 单线程 CPU](https://leetcode.cn/problems/single-threaded-cpu/) [TAG]
 
 外层**写法**
 
@@ -86,7 +86,7 @@ public:
 };
 ```
 
-### [1835. 所有数对按位与结果的异或和](https://leetcode-cn.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)
+### [1835. 所有数对按位与结果的异或和](https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/)
 
 注意判断条件的思考
 

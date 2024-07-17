@@ -1,4 +1,4 @@
-#  [725. 分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
+#  [725. 分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts/)
 
 ## 题意
 

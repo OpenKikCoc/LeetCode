@@ -1,4 +1,4 @@
-#  [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)
+#  [454. 四数相加 II](https://leetcode.cn/problems/4sum-ii/)
 
 ## 题意
 

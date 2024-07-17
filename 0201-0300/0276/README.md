@@ -1,4 +1,4 @@
-#  [276. 栅栏涂色](https://leetcode-cn.com/problems/paint-fence/)
+#  [276. 栅栏涂色](https://leetcode.cn/problems/paint-fence/)
 
 ## 题意
 

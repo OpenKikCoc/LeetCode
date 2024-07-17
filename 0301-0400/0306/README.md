@@ -1,4 +1,4 @@
-#  [306. 累加数](https://leetcode-cn.com/problems/additive-number/)
+#  [306. 累加数](https://leetcode.cn/problems/additive-number/)
 
 ## 题意
 

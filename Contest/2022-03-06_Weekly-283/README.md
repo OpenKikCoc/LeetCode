@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-283/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-283/)
 
 
-### [2194. Excel 表中某个范围内的单元格](https://leetcode-cn.com/problems/cells-in-a-range-on-an-excel-sheet/)
+### [2194. Excel 表中某个范围内的单元格](https://leetcode.cn/problems/cells-in-a-range-on-an-excel-sheet/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [2195. 向数组中追加 K 个整数](https://leetcode-cn.com/problems/append-k-integers-with-minimal-sum/)
+### [2195. 向数组中追加 K 个整数](https://leetcode.cn/problems/append-k-integers-with-minimal-sum/)
 
 可以二分解
 
@@ -95,7 +95,7 @@ public:
 };
 ```
 
-### [2196. 根据描述创建二叉树](https://leetcode-cn.com/problems/create-binary-tree-from-descriptions/)
+### [2196. 根据描述创建二叉树](https://leetcode.cn/problems/create-binary-tree-from-descriptions/)
 
 略
 
@@ -155,7 +155,7 @@ public:
 };
 ```
 
-### [2197. 替换数组中的非互质数](https://leetcode-cn.com/problems/replace-non-coprime-numbers-in-array/) [TAG]
+### [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/) [TAG]
 
 思维 栈
 

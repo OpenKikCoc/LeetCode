@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-70/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-70/)
 
 >   virtual rank: 76 / 3640
 
 
-### [2144. 打折购买糖果的最小开销](https://leetcode-cn.com/problems/minimum-cost-of-buying-candies-with-discount/)
+### [2144. 打折购买糖果的最小开销](https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount/)
 
 略
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [2145. 统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/)
+### [2145. 统计隐藏数组数目](https://leetcode.cn/problems/count-the-hidden-sequences/)
 
 略 注意 `minv = maxv = 0`
 
@@ -49,7 +49,7 @@ public:
 };
 ```
 
-### [2146. 价格范围内最高排名的 K 样物品](https://leetcode-cn.com/problems/k-highest-ranked-items-within-a-price-range/)
+### [2146. 价格范围内最高排名的 K 样物品](https://leetcode.cn/problems/k-highest-ranked-items-within-a-price-range/)
 
 bfs 略
 
@@ -106,7 +106,7 @@ public:
 };
 ```
 
-### [2147. 分隔长廊的方案数](https://leetcode-cn.com/problems/number-of-ways-to-divide-a-long-corridor/)
+### [2147. 分隔长廊的方案数](https://leetcode.cn/problems/number-of-ways-to-divide-a-long-corridor/)
 
 简单乘法计数即可
 

@@ -1,4 +1,4 @@
-#  [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
+#  [189. 旋转数组](https://leetcode.cn/problems/rotate-array/)
 
 ## 题意
 

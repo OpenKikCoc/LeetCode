@@ -1,4 +1,4 @@
-#  [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
+#  [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
 
 ## 题意
 

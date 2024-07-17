@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-240)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-240)
 
 rank: 286 / 4306
 
-### [5750. 人口最多的年份](https://leetcode-cn.com/problems/maximum-population-year/)
+### [5750. 人口最多的年份](https://leetcode.cn/problems/maximum-population-year/)
 
 差分 其实暴力就可以
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [5751. 下标对中的最大距离](https://leetcode-cn.com/problems/maximum-distance-between-a-pair-of-values/)
+### [5751. 下标对中的最大距离](https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/)
 
 自己二分扫描
 
@@ -99,7 +99,7 @@ public:
 
 
 
-### [5752. 子数组最小乘积的最大值](https://leetcode-cn.com/problems/maximum-subarray-min-product/)
+### [5752. 子数组最小乘积的最大值](https://leetcode.cn/problems/maximum-subarray-min-product/)
 
 单调栈 略
 
@@ -147,7 +147,7 @@ public:
 };
 ```
 
-### [5753. 有向图中最大颜色值](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/)
+### [5753. 有向图中最大颜色值](https://leetcode.cn/problems/largest-color-value-in-a-directed-graph/)
 
 一开始写了判环 然后跑拓扑 其实直接拓扑就可以
 

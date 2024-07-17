@@ -1,4 +1,4 @@
-#  [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+#  [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
 
 ## 题意
 

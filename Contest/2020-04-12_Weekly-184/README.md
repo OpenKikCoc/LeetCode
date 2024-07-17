@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-184/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-184/)
 
-### [1408. 数组中的字符串匹配](https://leetcode-cn.com/problems/string-matching-in-an-array/)
+### [1408. 数组中的字符串匹配](https://leetcode.cn/problems/string-matching-in-an-array/)
 
 查找在其他串中出现过的串 m用于去重
 
@@ -29,7 +29,7 @@ public:
 };
 ```
 
-### [1409. 查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/)
+### [1409. 查询带键的排列](https://leetcode.cn/problems/queries-on-a-permutation-with-key/)
 
 一个排列 每次把某个位置放到第一个 返回操作结束的排列
 
@@ -64,7 +64,7 @@ public:
 };
 ```
 
-### [1410. HTML 实体解析器](https://leetcode-cn.com/problems/html-entity-parser/)
+### [1410. HTML 实体解析器](https://leetcode.cn/problems/html-entity-parser/)
 
 从后向前遍历
 
@@ -117,7 +117,7 @@ public:
 //斜线号：字符实体为 &frasl; ，对应的字符是 / 。
 ```
 
-### [1411. 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-3-grid/)
+### [1411. 给 N x 3 网格图涂色的方案数](https://leetcode.cn/problems/number-of-ways-to-paint-n-3-grid/)
 
 数学找规律
 

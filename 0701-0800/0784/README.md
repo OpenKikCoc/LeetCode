@@ -1,4 +1,4 @@
-#  [784. 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/)
+#  [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)
 
 ## 题意
 

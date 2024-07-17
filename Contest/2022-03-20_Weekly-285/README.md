@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-285/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-285/)
 
 
-### [6027. 统计数组中峰和谷的数量](https://leetcode-cn.com/problems/count-hills-and-valleys-in-an-array/)
+### [6027. 统计数组中峰和谷的数量](https://leetcode.cn/problems/count-hills-and-valleys-in-an-array/)
 
 略
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [6028. 统计道路上的碰撞次数](https://leetcode-cn.com/problems/count-collisions-on-a-road/)
+### [6028. 统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/)
 
 trick
 
@@ -47,7 +47,7 @@ public:
 };
 ```
 
-### [6029. 射箭比赛中的最大得分](https://leetcode-cn.com/problems/maximum-points-in-an-archery-competition/)
+### [6029. 射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/)
 
 二进制枚举 注意 `numArrows > c 可以累加至任意分数上 这里直接加 0 上`
 
@@ -80,7 +80,7 @@ public:
 };
 ```
 
-### [6030. 由单个字符重复的最长子字符串](https://leetcode-cn.com/problems/longest-substring-of-one-repeating-character/)
+### [6030. 由单个字符重复的最长子字符串](https://leetcode.cn/problems/longest-substring-of-one-repeating-character/)
 
 模拟即可
 

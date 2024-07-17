@@ -1,4 +1,4 @@
-#  [745. 前缀和后缀搜索](https://leetcode-cn.com/problems/prefix-and-suffix-search/)
+#  [745. 前缀和后缀搜索](https://leetcode.cn/problems/prefix-and-suffix-search/)
 
 ## 题意
 

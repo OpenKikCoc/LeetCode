@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-40/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-40/)
 
 虚拟竞赛 rating: 38 / 1891
 
 27min
 
-### [1668. 最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+### [1668. 最大重复子字符串](https://leetcode.cn/problems/maximum-repeating-substring/)
 
 略
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [1669. 合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
+### [1669. 合并两个链表](https://leetcode.cn/problems/merge-in-between-linked-lists/)
 
 模拟即可
 
@@ -64,7 +64,7 @@ Heltion
 ```
 
 
-### [5560. 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
+### [5560. 设计前中后队列](https://leetcode.cn/problems/design-front-middle-back-queue/)
 
 模拟即可，注意 pushMiddle 的时候需预操作
 
@@ -206,7 +206,7 @@ public:
 ```
 
 
-### [5559. 得到山形数组的最少删除次数](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)
+### [5559. 得到山形数组的最少删除次数](https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/)
 
 简单 LIS
 

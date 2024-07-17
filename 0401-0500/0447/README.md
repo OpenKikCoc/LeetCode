@@ -1,4 +1,4 @@
-#  [447. 回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/)
+#  [447. 回旋镖的数量](https://leetcode.cn/problems/number-of-boomerangs/)
 
 ## 题意
 

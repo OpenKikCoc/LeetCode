@@ -1,4 +1,4 @@
-#   [780. 到达终点](https://leetcode-cn.com/problems/reaching-points/)
+#   [780. 到达终点](https://leetcode.cn/problems/reaching-points/)
 
 ## 题意
 

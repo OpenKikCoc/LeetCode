@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-228/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-228/)
 
 
-### [1758. 生成交替二进制字符串的最少操作数](https://leetcode-cn.com/problems/minimum-changes-to-make-alternating-binary-string/)
+### [1758. 生成交替二进制字符串的最少操作数](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/)
 
 生成两个串比较即可
 
@@ -46,7 +46,7 @@ public:
 ```
 
 
-### [1759. 统计同构子字符串的数目](https://leetcode-cn.com/problems/count-number-of-homogenous-substrings/)
+### [1759. 统计同构子字符串的数目](https://leetcode.cn/problems/count-number-of-homogenous-substrings/)
 
 指针即可 计算的时候可以简化
 
@@ -107,7 +107,7 @@ public:
 ```
 
 
-### [1760. 袋子里最少数目的球](https://leetcode-cn.com/problems/minimum-limit-of-balls-in-a-bag/)
+### [1760. 袋子里最少数目的球](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/)
 
 二分即可 注意证明
 
@@ -139,7 +139,7 @@ public:
 };
 ```
 
-### [1761. 一个图中连通三元组的最小度数](https://leetcode-cn.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+### [1761. 一个图中连通三元组的最小度数](https://leetcode.cn/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
 
 无向图最小环 floyd 模板题
 

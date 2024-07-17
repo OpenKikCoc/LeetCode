@@ -1,4 +1,4 @@
-#  [427. 建立四叉树](https://leetcode-cn.com/problems/construct-quad-tree/)
+#  [427. 建立四叉树](https://leetcode.cn/problems/construct-quad-tree/)
 
 ## 题意
 

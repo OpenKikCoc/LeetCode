@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-201/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-201/)
 
-#### [1544. 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)
+#### [1544. 整理字符串](https://leetcode.cn/problems/make-the-string-great/)
 
 模拟
 
@@ -46,7 +46,7 @@ stl
 
 
 
-#### [1545. 找出第 N 个二进制字符串中的第 K 位](https://leetcode-cn.com/problems/find-kth-bit-in-nth-binary-string/)
+#### [1545. 找出第 N 个二进制字符串中的第 K 位](https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string/)
 
 模拟
 
@@ -69,7 +69,7 @@ stl
 
 
 
-#### [1546. 和为目标值的最大数目不重叠非空子数组数目](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
+#### [1546. 和为目标值的最大数目不重叠非空子数组数目](https://leetcode.cn/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
 
 统计区间 随后排序贪心即可
 
@@ -106,7 +106,7 @@ stl
 
 
 
-#### [1547. 切棍子的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-cut-a-stick/)
+#### [1547. 切棍子的最小成本](https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/)
 
 区间dp 转化为石子合并问题
 

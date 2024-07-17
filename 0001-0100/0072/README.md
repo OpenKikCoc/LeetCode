@@ -1,4 +1,4 @@
-#  [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+#  [72. 编辑距离](https://leetcode.cn/problems/edit-distance/)
 
 ## 题意
 

@@ -1,10 +1,10 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-52/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-52/)
 
 AK 40min
 
 rank: 41 / 2930
 
-### [5742. 将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence/)
+### [5742. 将句子排序](https://leetcode.cn/problems/sorting-the-sentence/)
 
 模拟即可
 
@@ -32,7 +32,7 @@ public:
 ```
 
 
-### [5743. 增长的内存泄露](https://leetcode-cn.com/problems/incremental-memory-leak/)
+### [5743. 增长的内存泄露](https://leetcode.cn/problems/incremental-memory-leak/)
 
 同模拟
 
@@ -60,7 +60,7 @@ public:
 };
 ```
 
-### [5744. 旋转盒子](https://leetcode-cn.com/problems/rotating-the-box/)
+### [5744. 旋转盒子](https://leetcode.cn/problems/rotating-the-box/)
 
 模拟即可
 
@@ -113,7 +113,7 @@ public:
 };
 ```
 
-### [5212. 向下取整数对和](https://leetcode-cn.com/problems/sum-of-floored-pairs/)
+### [5212. 向下取整数对和](https://leetcode.cn/problems/sum-of-floored-pairs/)
 
 BIT 即可
 

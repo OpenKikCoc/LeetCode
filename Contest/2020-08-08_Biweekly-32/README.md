@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-32/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-32/)
 
-### [1539. 第 k 个缺失的正整数](https://leetcode-cn.com/problems/kth-missing-positive-number/)
+### [1539. 第 k 个缺失的正整数](https://leetcode.cn/problems/kth-missing-positive-number/)
 
 赛榜做法大多是申请数组并在访问数组过程中标记。
 
@@ -22,7 +22,7 @@
     }
 ```
 
-### [1540. K 次操作转变字符串](https://leetcode-cn.com/problems/can-convert-string-in-k-moves/)
+### [1540. K 次操作转变字符串](https://leetcode.cn/problems/can-convert-string-in-k-moves/)
 
 题意：第 i 次操作会将某一个字母向后转换 i 次。
 
@@ -49,7 +49,7 @@
     }
 ```
 
-### [1541. 平衡括号字符串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertions-to-balance-a-parentheses-string/) [TAG]
+### [1541. 平衡括号字符串的最少插入次数](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/) [TAG]
 
 某个 `(` 需在连续两个的 `))` 左侧 才可以形成平衡。
 
@@ -92,7 +92,7 @@
 
 
 
-### [1542. 找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
+### [1542. 找出最长的超赞子字符串](https://leetcode.cn/problems/find-longest-awesome-substring/)
 
 定义超赞子字符串：可以通过重排使其回文，也即**出现奇数次的字母个数小于等于1**。
 

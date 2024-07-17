@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-275/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-275/)
 
 
-### [2133. 检查是否每一行每一列都包含全部整数](https://leetcode-cn.com/problems/check-if-every-row-and-column-contains-all-numbers/)
+### [2133. 检查是否每一行每一列都包含全部整数](https://leetcode.cn/problems/check-if-every-row-and-column-contains-all-numbers/)
 
 略
 
@@ -30,7 +30,7 @@ public:
 ```
 
 
-### [2134. 最少交换次数来组合所有的 1 II](https://leetcode-cn.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
+### [2134. 最少交换次数来组合所有的 1 II](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii/)
 
 滑窗即可
 
@@ -55,7 +55,7 @@ public:
 };
 ```
 
-### [2135. 统计追加字母可以获得的单词数](https://leetcode-cn.com/problems/count-words-obtained-after-adding-a-letter/)
+### [2135. 统计追加字母可以获得的单词数](https://leetcode.cn/problems/count-words-obtained-after-adding-a-letter/)
 
 状态压缩下就可 略
 
@@ -92,7 +92,7 @@ public:
 };
 ```
 
-### [2136. 全部开花的最早一天](https://leetcode-cn.com/problems/earliest-possible-day-of-full-bloom/) [TAG]
+### [2136. 全部开花的最早一天](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/) [TAG]
 
 贪心策略
 

@@ -1,4 +1,4 @@
-#   [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
+#   [771. 宝石与石头](https://leetcode.cn/problems/jewels-and-stones/)
 
 ## 题意
 

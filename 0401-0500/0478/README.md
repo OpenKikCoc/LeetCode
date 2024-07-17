@@ -1,4 +1,4 @@
-#  [478. 在圆内随机生成点](https://leetcode-cn.com/problems/generate-random-point-in-a-circle/)
+#  [478. 在圆内随机生成点](https://leetcode.cn/problems/generate-random-point-in-a-circle/)
 
 ## 题意
 

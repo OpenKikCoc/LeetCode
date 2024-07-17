@@ -1,4 +1,4 @@
-#   [761. 特殊的二进制序列](https://leetcode-cn.com/problems/special-binary-string/)
+#   [761. 特殊的二进制序列](https://leetcode.cn/problems/special-binary-string/)
 
 ## 题意
 

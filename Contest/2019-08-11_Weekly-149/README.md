@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-149/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-149/)
 
 
-### [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)
+### [1154. 一年中的第几天](https://leetcode.cn/problems/day-of-the-year/)
 
 略
 
@@ -49,7 +49,7 @@ public:
 ```
 
 
-### [1155. 掷骰子的N种方法](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/) [TAG]
+### [1155. 掷骰子的N种方法](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) [TAG]
 
 分组背包
 
@@ -74,7 +74,7 @@ public:
 };
 ```
 
-### [1156. 单字符重复子串的最大长度](https://leetcode-cn.com/problems/swap-for-longest-repeated-character-substring/) [TAG]
+### [1156. 单字符重复子串的最大长度](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/) [TAG]
 
 记录连续值
 
@@ -123,7 +123,7 @@ public:
 };
 ```
 
-### [1157. 子数组中占绝大多数的元素](https://leetcode-cn.com/problems/online-majority-element-in-subarray/) [TAG]
+### [1157. 子数组中占绝大多数的元素](https://leetcode.cn/problems/online-majority-element-in-subarray/) [TAG]
 
 权值线段树
 

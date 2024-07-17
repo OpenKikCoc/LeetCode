@@ -3,7 +3,7 @@
 >   rank: 92 / 7155
 
 
-### [6008. 统计包含给定前缀的字符串](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/)
+### [6008. 统计包含给定前缀的字符串](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
 
 模拟即可
 
@@ -31,7 +31,7 @@ public:
 ```
 
 
-### [6009. 使两字符串互为字母异位词的最少步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)
+### [6009. 使两字符串互为字母异位词的最少步骤数](https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)
 
 略
 
@@ -57,7 +57,7 @@ public:
 };
 ```
 
-### [6010. 完成旅途的最少时间](https://leetcode-cn.com/problems/minimum-time-to-complete-trips/)
+### [6010. 完成旅途的最少时间](https://leetcode.cn/problems/minimum-time-to-complete-trips/)
 
 这题测试数据集的数据范围目测有点问题 RE一发
 
@@ -101,7 +101,7 @@ public:
 };
 ```
 
-### [6011. 完成比赛的最少时间](https://leetcode-cn.com/problems/minimum-time-to-finish-the-race/)
+### [6011. 完成比赛的最少时间](https://leetcode.cn/problems/minimum-time-to-finish-the-race/)
 
 显然根据数据范围 简化dp即可
 

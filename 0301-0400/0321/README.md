@@ -1,4 +1,4 @@
-#  [321. 拼接最大数](https://leetcode-cn.com/problems/create-maximum-number/)
+#  [321. 拼接最大数](https://leetcode.cn/problems/create-maximum-number/)
 
 ## 题意
 

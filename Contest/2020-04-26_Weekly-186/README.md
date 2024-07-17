@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-186/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-186/)
 
 
 
-### [1422. 分割字符串的最大得分](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/)
+### [1422. 分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/)
 
 某个idx 左边多少个0右边多少个1
 
@@ -29,7 +29,7 @@ public:
 
 
 
-### [1423. 可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+### [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards/)
 
 最后留下连续n-k个
 
@@ -60,7 +60,7 @@ public:
 
 
 
-### [1424. 对角线遍历 II](https://leetcode-cn.com/problems/diagonal-traverse-ii/)
+### [1424. 对角线遍历 II](https://leetcode.cn/problems/diagonal-traverse-ii/)
 
 斜向遍历
 
@@ -135,7 +135,7 @@ public:
 };
 ```
 
-### [1425. 带限制的子序列和](https://leetcode-cn.com/problems/constrained-subsequence-sum/)
+### [1425. 带限制的子序列和](https://leetcode.cn/problems/constrained-subsequence-sum/)
 
 间隔小于等于k的子序列和最大值
 

@@ -1,4 +1,4 @@
-#   [767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/)
+#   [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/)
 
 ## 题意
 

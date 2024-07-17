@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-37/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-37/)
 
 
-### [5122. 删除某些元素后的数组均值](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/)
+### [5122. 删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
 
 模拟
 
@@ -16,7 +16,7 @@
 ```
 
 
-### [5528. 网络信号最好的坐标](https://leetcode-cn.com/problems/coordinate-with-maximum-network-quality/)
+### [5528. 网络信号最好的坐标](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/)
 
 暴力 注意精度
 
@@ -48,7 +48,7 @@
     }
 ```
 
-### [5527. 大小为 K 的不重叠线段的数目](https://leetcode-cn.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) [TAG]
+### [5527. 大小为 K 的不重叠线段的数目](https://leetcode.cn/problems/number-of-sets-of-k-non-overlapping-line-segments/) [TAG]
 
 dp
 
@@ -73,7 +73,7 @@ dp
     }
 ```
 
-数学解法 [链接](https://leetcode-cn.com/problems/number-of-sets-of-k-non-overlapping-line-segments/solution/da-xiao-wei-k-de-bu-zhong-die-xian-duan-de-shu-mu-/)
+数学解法 [链接](https://leetcode.cn/problems/number-of-sets-of-k-non-overlapping-line-segments/solution/da-xiao-wei-k-de-bu-zhong-die-xian-duan-de-shu-mu-/)
 
 ```python
 class Solution:
@@ -83,7 +83,7 @@ class Solution:
 
 
 
-### [5530. 奇妙序列](https://leetcode-cn.com/problems/fancy-sequence/) [TAG]
+### [5530. 奇妙序列](https://leetcode.cn/problems/fancy-sequence/) [TAG]
 
 乘法逆元 略
 

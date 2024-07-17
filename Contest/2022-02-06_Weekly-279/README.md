@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-279/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-279/)
 
 
-### [2164. 对奇偶下标分别排序](https://leetcode-cn.com/problems/sort-even-and-odd-indices-independently/)
+### [2164. 对奇偶下标分别排序](https://leetcode.cn/problems/sort-even-and-odd-indices-independently/)
 
 略
 
@@ -32,7 +32,7 @@ public:
 ```
 
 
-### [2165. 重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/)
+### [2165. 重排数字的最小值](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/)
 
 
 
@@ -109,7 +109,7 @@ public:
 };
 ```
 
-### [2166. 设计位集](https://leetcode-cn.com/problems/design-bitset/)
+### [2166. 设计位集](https://leetcode.cn/problems/design-bitset/)
 
 
 
@@ -255,7 +255,7 @@ public:
  */
 ```
 
-### [2167. 移除所有载有违禁货物车厢所需的最少时间](https://leetcode-cn.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/) [TAG]
+### [2167. 移除所有载有违禁货物车厢所需的最少时间](https://leetcode.cn/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/) [TAG]
 
 重点在于理清楚【对于任意一个 1 只会作为前缀被消除或作为后缀或在中间被消除，且**三段不交叉**】
 

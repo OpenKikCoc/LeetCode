@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-150/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-150/)
 
 
-### [1160. 拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)
+### [1160. 拼写单词](https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters/)
 
 略
 
@@ -30,7 +30,7 @@ public:
 ```
 
 
-### [1161. 最大层内元素和](https://leetcode-cn.com/problems/maximum-level-sum-of-a-binary-tree/)
+### [1161. 最大层内元素和](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/)
 
 bfs
 
@@ -75,7 +75,7 @@ public:
 };
 ```
 
-### [1162. 地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
+### [1162. 地图分析](https://leetcode.cn/problems/as-far-from-land-as-possible/)
 
 多源 bfs
 
@@ -163,7 +163,7 @@ public:
 };
 ```
 
-### [1163. 按字典序排在最后的子串](https://leetcode-cn.com/problems/last-substring-in-lexicographical-order/)
+### [1163. 按字典序排在最后的子串](https://leetcode.cn/problems/last-substring-in-lexicographical-order/)
 
 字符串最大表示法
 

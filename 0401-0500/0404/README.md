@@ -1,4 +1,4 @@
-#  [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+#  [404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/)
 
 ## 题意
 

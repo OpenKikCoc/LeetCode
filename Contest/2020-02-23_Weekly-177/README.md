@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-177/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-177/)
 
-### [1360. 日期之间隔几天](https://leetcode-cn.com/problems/number-of-days-between-two-dates/) [TAG]
+### [1360. 日期之间隔几天](https://leetcode.cn/problems/number-of-days-between-two-dates/) [TAG]
 
 计算两个日期的天数差
 
@@ -88,7 +88,7 @@ public:
 
 
 
-### [1361. 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/)
+### [1361. 验证二叉树](https://leetcode.cn/problems/validate-binary-tree-nodes/)
 
 > 二叉树上有 n 个节点，按从 0 到 n - 1 编号，其中节点 i 的两个子节点分别是 leftChild[i] 和 rightChild[i]。
 >
@@ -147,7 +147,7 @@ public:
 
 
 
-### [1362. 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/) 
+### [1362. 最接近的因数](https://leetcode.cn/problems/closest-divisors/) 
 
 给你一个整数 `num`，请你找出同时满足下面全部要求的两个整数：
 
@@ -185,7 +185,7 @@ public:
 };
 ```
 
-### [1363. 形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three/)
+### [1363. 形成三的最大倍数](https://leetcode.cn/problems/largest-multiple-of-three/)
 
 > 给你一个整数数组 `digits`，你可以通过按任意顺序连接其中某些数字来形成 **3** 的倍数，请你返回所能得到的最大的 3 的倍数。
 

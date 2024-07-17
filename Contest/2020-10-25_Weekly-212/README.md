@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-212)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-212)
 
 rating 147 / 4226
 
-### [5546. 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)
+### [5546. 按键持续时间最长的键](https://leetcode.cn/problems/slowest-key/)
 
 遍历即可
 
@@ -18,7 +18,7 @@ rating 147 / 4226
 ```
 
 
-### [5547. 等差子数组](https://leetcode-cn.com/problems/arithmetic-subarrays/)
+### [5547. 等差子数组](https://leetcode.cn/problems/arithmetic-subarrays/)
 
 模拟即可
 
@@ -46,7 +46,7 @@ rating 147 / 4226
     }
 ```
 
-### [5548. 最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/)
+### [5548. 最小体力消耗路径](https://leetcode.cn/problems/path-with-minimum-effort/)
 
 路径中单边最大值最小
 
@@ -98,7 +98,7 @@ rating 147 / 4226
     }
 ```
 
-### [5156. 矩阵转换后的秩](https://leetcode-cn.com/problems/rank-transform-of-a-matrix/) [TAG]
+### [5156. 矩阵转换后的秩](https://leetcode.cn/problems/rank-transform-of-a-matrix/) [TAG]
 
 思路：并查集+拓扑排序
 

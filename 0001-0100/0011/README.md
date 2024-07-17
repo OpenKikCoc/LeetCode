@@ -1,4 +1,4 @@
-#  [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
+#  [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/)
 
 ## 题意
 

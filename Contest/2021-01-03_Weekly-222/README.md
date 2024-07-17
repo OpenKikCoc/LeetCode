@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-222/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-222/)
 
 
-### [1710. 卡车上的最大单元数](https://leetcode-cn.com/problems/maximum-units-on-a-truck/)
+### [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/)
 
 排序 略
 
@@ -25,7 +25,7 @@ public:
 ```
 
 
-### [5642. 大餐计数](https://leetcode-cn.com/problems/count-good-meals/)
+### [5642. 大餐计数](https://leetcode.cn/problems/count-good-meals/)
 
 计数 略
 
@@ -56,7 +56,7 @@ public:
 };
 ```
 
-### [1712. 将数组分成三个子数组的方案数](https://leetcode-cn.com/problems/ways-to-split-array-into-three-subarrays/) [TAG]
+### [1712. 将数组分成三个子数组的方案数](https://leetcode.cn/problems/ways-to-split-array-into-three-subarrays/) [TAG]
 
 注意枚举方法 单调性证明【j k只会随i向右】
 
@@ -113,7 +113,7 @@ public:
 };
 ```
 
-### [1713. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/) [TAG]
+### [1713. 得到子序列的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-make-a-subsequence/) [TAG]
 
 模板题
 

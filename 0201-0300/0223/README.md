@@ -1,4 +1,4 @@
-#  [223. 矩形面积](https://leetcode-cn.com/problems/rectangle-area/)
+#  [223. 矩形面积](https://leetcode.cn/problems/rectangle-area/)
 
 ## 题意
 

@@ -1,4 +1,4 @@
-#  [611. 有效三角形的个数](https://leetcode-cn.com/problems/valid-triangle-number/)
+#  [611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/)
 
 ## 题意
 

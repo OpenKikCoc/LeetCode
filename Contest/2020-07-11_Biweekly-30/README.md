@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-30/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-30/)
 
-### [1507. 转变日期格式](https://leetcode-cn.com/problems/reformat-date/)
+### [1507. 转变日期格式](https://leetcode.cn/problems/reformat-date/)
 
 略
 
@@ -32,7 +32,7 @@
     }
 ```
 
-### [1508. 子数组和排序后的区间和](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)
+### [1508. 子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/)
 
 模拟600ms
 
@@ -58,7 +58,7 @@
     }
 ```
 
-### [1509. 三次操作后最大值与最小值的最小差](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
+### [1509. 三次操作后最大值与最小值的最小差](https://leetcode.cn/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 可以任意修改三个数字 求修改后的最大最小值差
 
@@ -78,7 +78,7 @@
     }
 ```
 
-### [1510. 石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv/)
+### [1510. 石子游戏 IV](https://leetcode.cn/problems/stone-game-iv/)
 
 博弈dp 决策是取平方数
 

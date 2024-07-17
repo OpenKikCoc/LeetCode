@@ -1,4 +1,4 @@
-#  [413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/)
+#  [413. 等差数列划分](https://leetcode.cn/problems/arithmetic-slices/)
 
 ## 题意
 

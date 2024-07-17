@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-256/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-256/)
 
 
-### [1984. 学生分数的最小差值](https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
+### [1984. 学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
 
 排序即可
 
@@ -19,7 +19,7 @@ public:
 ```
 
 
-### [1985. 找出数组中的第 K 大整数](https://leetcode-cn.com/problems/find-the-kth-largest-integer-in-the-array/)
+### [1985. 找出数组中的第 K 大整数](https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array/)
 
 同样排序 细节写错wa1
 
@@ -57,7 +57,7 @@ public:
 };
 ```
 
-### [1986. 完成任务的最少工作时间段](https://leetcode-cn.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
+### [1986. 完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
 
 显然需枚举方案 以及【**枚举子集**】
 
@@ -88,7 +88,7 @@ public:
 };
 ```
 
-### [1987. 不同的好子序列数目](https://leetcode-cn.com/problems/number-of-unique-good-subsequences/) [TAG]
+### [1987. 不同的好子序列数目](https://leetcode.cn/problems/number-of-unique-good-subsequences/) [TAG]
 
 > https://www.acwing.com/solution/content/65104/
 

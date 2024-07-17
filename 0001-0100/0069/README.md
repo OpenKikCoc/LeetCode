@@ -1,4 +1,4 @@
-#  [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+#  [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)
 
 ## 题意
 

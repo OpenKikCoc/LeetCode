@@ -1,4 +1,4 @@
-#  [310. 最小高度树](https://leetcode-cn.com/problems/minimum-height-trees/)
+#  [310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/)
 
 ## 题意
 

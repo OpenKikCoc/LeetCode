@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-271/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-271/)
 
 
-### [2103. 环和杆](https://leetcode-cn.com/problems/rings-and-rods/)
+### [2103. 环和杆](https://leetcode.cn/problems/rings-and-rods/)
 
 略
 
@@ -25,7 +25,7 @@ public:
 ```
 
 
-### [2104. 子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)
+### [2104. 子数组范围和](https://leetcode.cn/problems/sum-of-subarray-ranges/)
 
 双指针维护即可... 显然没有 rmq 的必要
 
@@ -78,7 +78,7 @@ public:
 };
 ```
 
-### [2105. 给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/)
+### [2105. 给植物浇水 II](https://leetcode.cn/problems/watering-plants-ii/)
 
 模拟即可
 
@@ -108,7 +108,7 @@ public:
 };
 ```
 
-### [2106. 摘水果](https://leetcode-cn.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) [TAG]
+### [2106. 摘水果](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/) [TAG]
 
 一开始想的是 trick ，考虑到最终合法范围一定是在 startPos 的左右侧：可能其中一侧重叠。
 

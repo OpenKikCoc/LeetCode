@@ -1,4 +1,4 @@
-#  [119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+#  [119. 杨辉三角 II](https://leetcode.cn/problems/pascals-triangle-ii/)
 
 ## 题意
 

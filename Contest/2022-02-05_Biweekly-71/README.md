@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-71/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-71/)
 
 
-### [2160. 拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)
+### [2160. 拆分数位后四位数字的最小和](https://leetcode.cn/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)
 
 略
 
@@ -51,7 +51,7 @@ public:
 };
 ```
 
-### [2161. 根据给定数字划分数组](https://leetcode-cn.com/problems/partition-array-according-to-given-pivot/)
+### [2161. 根据给定数字划分数组](https://leetcode.cn/problems/partition-array-according-to-given-pivot/)
 
 略
 
@@ -76,7 +76,7 @@ public:
 };
 ```
 
-### [2162. 设置时间的最少代价](https://leetcode-cn.com/problems/minimum-cost-to-set-cooking-time/)
+### [2162. 设置时间的最少代价](https://leetcode.cn/problems/minimum-cost-to-set-cooking-time/)
 
 要么加俩 if 判断要么枚举 [0, 10000) 的范围再判断是不是等于 tartgetSeconds
 
@@ -117,7 +117,7 @@ public:
 };
 ```
 
-### [2163. 删除元素后和的最小差值](https://leetcode-cn.com/problems/minimum-difference-in-sums-after-removal-of-elements/) [TAG]
+### [2163. 删除元素后和的最小差值](https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements/) [TAG]
 
 一直在想排序贪心，实际上可以使用前后缀分解的思路
 

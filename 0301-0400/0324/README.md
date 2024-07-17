@@ -1,4 +1,4 @@
-#  [324. 摆动排序 II](https://leetcode-cn.com/problems/wiggle-sort-ii/)
+#  [324. 摆动排序 II](https://leetcode.cn/problems/wiggle-sort-ii/)
 
 ## 题意
 

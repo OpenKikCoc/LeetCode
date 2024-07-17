@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-250)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-250)
 
 >   ranking 466 / 4314
 
 
-### [5161. 可以输入的最大单词数](https://leetcode-cn.com/problems/maximum-number-of-words-you-can-type/)
+### [5161. 可以输入的最大单词数](https://leetcode.cn/problems/maximum-number-of-words-you-can-type/)
 
 模拟即可 略
 
@@ -33,7 +33,7 @@ public:
 ```
 
 
-### [5814. 新增的最少台阶数](https://leetcode-cn.com/problems/add-minimum-number-of-rungs/)
+### [5814. 新增的最少台阶数](https://leetcode.cn/problems/add-minimum-number-of-rungs/)
 
 贪心即可
 
@@ -75,7 +75,7 @@ public:
 
 
 
-### [5815. 扣分后的最大得分](https://leetcode-cn.com/problems/maximum-number-of-points-with-cost/) [TAG]
+### [5815. 扣分后的最大得分](https://leetcode.cn/problems/maximum-number-of-points-with-cost/) [TAG]
 
 尝试根据状态转移方程【拆掉绝对值表达式】
 
@@ -121,7 +121,7 @@ public:
 };
 ```
 
-### [5816. 查询最大基因差](https://leetcode-cn.com/problems/maximum-genetic-difference-query/) [TAG]
+### [5816. 查询最大基因差](https://leetcode.cn/problems/maximum-genetic-difference-query/) [TAG]
 
 离线处理即可
 

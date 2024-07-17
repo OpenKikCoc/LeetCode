@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-243)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-243)
 
 
-### [5772. 检查某单词是否等于两单词之和](https://leetcode-cn.com/problems/check-if-word-equals-summation-of-two-words/)
+### [5772. 检查某单词是否等于两单词之和](https://leetcode.cn/problems/check-if-word-equals-summation-of-two-words/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [5773. 插入后的最大值](https://leetcode-cn.com/problems/maximum-value-after-insertion/)
+### [5773. 插入后的最大值](https://leetcode.cn/problems/maximum-value-after-insertion/)
 
 略
 
@@ -55,7 +55,7 @@ public:
 };
 ```
 
-### [5774. 使用服务器处理任务](https://leetcode-cn.com/problems/process-tasks-using-servers/) [TAG]
+### [5774. 使用服务器处理任务](https://leetcode.cn/problems/process-tasks-using-servers/) [TAG]
 
 显然堆
 
@@ -257,7 +257,7 @@ public:
 };
 ```
 
-### [5775. 准时抵达会议现场的最小跳过休息次数](https://leetcode-cn.com/problems/minimum-skips-to-arrive-at-meeting-on-time/) [TAG]
+### [5775. 准时抵达会议现场的最小跳过休息次数](https://leetcode.cn/problems/minimum-skips-to-arrive-at-meeting-on-time/) [TAG]
 
 理清楚 eps 放在哪
 

@@ -1,4 +1,4 @@
-#  [60. 排列序列](https://leetcode-cn.com/problems/permutation-sequence/)
+#  [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-161/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-161/)
 
 
-### [1247. 交换字符使得字符串相同](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/)
+### [1247. 交换字符使得字符串相同](https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal/)
 
 规律 统计
 
@@ -25,7 +25,7 @@
 ```
 
 
-### [1248. 统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)
+### [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays/)
 
 前缀和统计
 
@@ -45,7 +45,7 @@
 
 也可以滑动窗口来做 略
 
-### [1249. 移除无效的括号](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/)
+### [1249. 移除无效的括号](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses/)
 
 栈
 
@@ -70,7 +70,7 @@
     }
 ```
 
-### [1250. 检查「好数组」](https://leetcode-cn.com/problems/check-if-it-is-a-good-array/)
+### [1250. 检查「好数组」](https://leetcode.cn/problems/check-if-it-is-a-good-array/)
 
 略
 

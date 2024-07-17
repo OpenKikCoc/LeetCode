@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-273/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-273/)
 
 
-### [2119. 反转两次的数字](https://leetcode-cn.com/problems/a-number-after-a-double-reversal/)
+### [2119. 反转两次的数字](https://leetcode.cn/problems/a-number-after-a-double-reversal/)
 
 略
 
@@ -17,7 +17,7 @@ public:
 ```
 
 
-### [2120. 执行所有后缀指令](https://leetcode-cn.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)
+### [2120. 执行所有后缀指令](https://leetcode.cn/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)
 
 模拟即可 略
 
@@ -49,7 +49,7 @@ public:
 };
 ```
 
-### [2121. 相同元素的间隔之和](https://leetcode-cn.com/problems/intervals-between-identical-elements/)
+### [2121. 相同元素的间隔之和](https://leetcode.cn/problems/intervals-between-identical-elements/)
 
 略
 
@@ -93,7 +93,7 @@ public:
 };
 ```
 
-### [2122. 还原原数组](https://leetcode-cn.com/problems/recover-the-original-array/) [TAG]
+### [2122. 还原原数组](https://leetcode.cn/problems/recover-the-original-array/) [TAG]
 
 原以为枚举会比较麻烦，实际上使用 STL 可以很便捷...
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-27/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-27/)
 
 
-### [1460. 通过翻转子数组使两个数组相等](https://leetcode-cn.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
+### [1460. 通过翻转子数组使两个数组相等](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
 
 两个数组包含元素一致即可
 
@@ -15,7 +15,7 @@
 ```
 
 
-### [1461. 检查一个字符串是否包含所有长度为 K 的二进制子串](https://leetcode-cn.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
+### [1461. 检查一个字符串是否包含所有长度为 K 的二进制子串](https://leetcode.cn/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 枚举字符串定长子串即可
 
@@ -54,7 +54,7 @@ public:
 
 
 
-### [1462. 课程安排 IV](https://leetcode-cn.com/problems/course-schedule-iv/) 
+### [1462. 课程安排 IV](https://leetcode.cn/problems/course-schedule-iv/) 
 
 有向图两点连通性 floyd即可
 
@@ -78,7 +78,7 @@ public:
     }
 ```
 
-### [1463. 摘樱桃 II](https://leetcode-cn.com/problems/cherry-pickup-ii/)
+### [1463. 摘樱桃 II](https://leetcode.cn/problems/cherry-pickup-ii/)
 
 dp 注意非法的状态转移
 

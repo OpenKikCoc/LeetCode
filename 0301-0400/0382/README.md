@@ -1,4 +1,4 @@
-#  [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
+#  [382. 链表随机节点](https://leetcode.cn/problems/linked-list-random-node/)
 
 ## 题意
 

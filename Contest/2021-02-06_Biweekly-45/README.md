@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-45/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-45/)
 
 
-### [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)
+### [1748. 唯一元素的和](https://leetcode.cn/problems/sum-of-unique-elements/)
 
 略
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1749. 任意子数组和的绝对值的最大值](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/)
+### [1749. 任意子数组和的绝对值的最大值](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/)
 
 记录之前的 min max 即可
 
@@ -41,7 +41,7 @@ public:
 };
 ```
 
-### [1750. 删除字符串两端相同字符后的最短长度](https://leetcode-cn.com/problems/minimum-length-of-string-after-deleting-similar-ends/)
+### [1750. 删除字符串两端相同字符后的最短长度](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)
 
 模拟 注意最后留一个不能再删
 
@@ -62,7 +62,7 @@ public:
 };
 ```
 
-### [1751. 最多可以参加的会议数目 II](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
+### [1751. 最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)
 
 如果权值1 显然可以堆
 

@@ -1,4 +1,4 @@
-#  [546. 移除盒子](https://leetcode-cn.com/problems/remove-boxes/)
+#  [546. 移除盒子](https://leetcode.cn/problems/remove-boxes/)
 
 ## 题意
 

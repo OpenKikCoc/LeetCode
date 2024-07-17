@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/season/2022-spring/ranking/team/)
+## [比赛链接](https://leetcode.cn/contest/season/2022-spring/ranking/team/)
 
 
-### [LCP 55. 采集果实](https://leetcode-cn.com/problems/PTXy4P/)
+### [LCP 55. 采集果实](https://leetcode.cn/problems/PTXy4P/)
 
 模拟即可
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [LCP 56. 信物传送](https://leetcode-cn.com/problems/6UEx57/)
+### [LCP 56. 信物传送](https://leetcode.cn/problems/6UEx57/)
 
 01-bfs 即可
 
@@ -89,7 +89,7 @@ public:
 };
 ```
 
-### [LCP 57. 打地鼠](https://leetcode-cn.com/problems/ZbAuEH/)
+### [LCP 57. 打地鼠](https://leetcode.cn/problems/ZbAuEH/)
 
 递推dp 注意初始化即可
 
@@ -150,7 +150,7 @@ public:
 };
 ```
 
-### [LCP 58. 积木拼接](https://leetcode-cn.com/problems/De4qBB/) [TAG]
+### [LCP 58. 积木拼接](https://leetcode.cn/problems/De4qBB/) [TAG]
 
 正解
 
@@ -463,7 +463,7 @@ public:
 };
 ```
 
-### [LCP 59. 搭桥过河](https://leetcode-cn.com/problems/NfY1m5/)
+### [LCP 59. 搭桥过河](https://leetcode.cn/problems/NfY1m5/)
 
 
 
@@ -471,7 +471,7 @@ public:
 
 ```
 
-### [LCP 60. 力扣泡泡龙](https://leetcode-cn.com/problems/WInSav/)
+### [LCP 60. 力扣泡泡龙](https://leetcode.cn/problems/WInSav/)
 
 
 

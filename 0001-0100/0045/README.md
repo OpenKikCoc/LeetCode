@@ -1,4 +1,4 @@
-#  [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
+#  [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/)
 
 ## 题意
 

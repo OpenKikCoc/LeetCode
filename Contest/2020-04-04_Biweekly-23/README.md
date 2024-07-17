@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-23/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-23/)
 
 
-### [1399. 统计最大组的数目](https://leetcode-cn.com/problems/count-largest-group/)
+### [1399. 统计最大组的数目](https://leetcode.cn/problems/count-largest-group/)
 
 求1-n每个整数10进制下数位和 把数位和相同的放一个组 求并列数目最多的组的个数
 
@@ -37,7 +37,7 @@ public:
 ```
 
 
-### [1400. 构造 K 个回文字符串](https://leetcode-cn.com/problems/construct-k-palindrome-strings/)
+### [1400. 构造 K 个回文字符串](https://leetcode.cn/problems/construct-k-palindrome-strings/)
 
 给你一个字符串 `s` 和一个整数 `k` 。请你用 `s` 字符串中 **所有字符** 构造 `k` 个非空 **回文串** 。 可以构造返回true 否则false
 
@@ -59,7 +59,7 @@ public:
 };
 ```
 
-### [1401. 圆和矩形是否有重叠](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/) [TAG]
+### [1401. 圆和矩形是否有重叠](https://leetcode.cn/problems/circle-and-rectangle-overlapping/) [TAG]
 
 向量法 取自[知乎](https://www.zhihu.com/question/24251545)
 
@@ -91,7 +91,7 @@ public:
 };
 ```
 
-### [1402. 做菜顺序](https://leetcode-cn.com/problems/reducing-dishes/)
+### [1402. 做菜顺序](https://leetcode.cn/problems/reducing-dishes/)
 
 做出每道菜的时间都是 1 单位时间。一道菜的 「喜爱时间」系数定义为烹饪这道菜以及之前每道菜所花费的时间乘以这道菜的满意程度，也就是 time[i]*satisfaction[i] 。顺序随便排，可以舍弃任意菜。返回做完所有菜 「喜爱时间」总和的最大值为多少。
 

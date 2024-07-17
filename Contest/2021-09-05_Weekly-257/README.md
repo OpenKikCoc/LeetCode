@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-257/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-257/)
 
 
-### [1995. 统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)
+### [1995. 统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/)
 
 暴力统计即可
 
@@ -21,7 +21,7 @@ public:
 };
 ```
 
-### [1996. 游戏中弱角色的数量](https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/) [TAG]
+### [1996. 游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/) [TAG]
 
 **重点在于：单纯的按照两个维度 升/降 序排列会遇到无法区分的问题**
 
@@ -67,7 +67,7 @@ public:
 };
 ```
 
-### [1997. 访问完所有房间的第一天](https://leetcode-cn.com/problems/first-day-where-you-have-been-in-all-the-rooms/) [TAG]
+### [1997. 访问完所有房间的第一天](https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/) [TAG]
 
 分析题意尤为重要
 
@@ -106,7 +106,7 @@ public:
 };
 ```
 
-### [1998. 数组的最大公因数排序](https://leetcode-cn.com/problems/gcd-sort-of-an-array/)
+### [1998. 数组的最大公因数排序](https://leetcode.cn/problems/gcd-sort-of-an-array/)
 
 很好的综合练习题，考验熟练度
 

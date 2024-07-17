@@ -1,7 +1,7 @@
 ## [比赛链接]()
 
 
-### [1243. 数组变换](https://leetcode-cn.com/problems/array-transformation/)
+### [1243. 数组变换](https://leetcode.cn/problems/array-transformation/)
 
 略
 
@@ -22,7 +22,7 @@
     }
 ```
 
-### [1244. 力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/)
+### [1244. 力扣排行榜](https://leetcode.cn/problems/design-a-leaderboard/)
 
 
 ```c++
@@ -52,7 +52,7 @@
     }
 ```
 
-### [1245. 树的直径](https://leetcode-cn.com/problems/tree-diameter/)
+### [1245. 树的直径](https://leetcode.cn/problems/tree-diameter/)
 
 树 DP
 
@@ -82,7 +82,7 @@
     }
 ```
 
-### [1246. 删除回文子数组](https://leetcode-cn.com/problems/palindrome-removal/)
+### [1246. 删除回文子数组](https://leetcode.cn/problems/palindrome-removal/)
 
 区间dp
 

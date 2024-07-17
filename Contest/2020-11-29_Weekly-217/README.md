@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-217/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-217/)
 
 
-### [1672. 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)
+### [1672. 最富有客户的资产总量](https://leetcode.cn/problems/richest-customer-wealth/)
 
 
 
@@ -21,7 +21,7 @@ public:
 ```
 
 
-### [1673. 找出最具竞争力的子序列](https://leetcode-cn.com/problems/find-the-most-competitive-subsequence/)
+### [1673. 找出最具竞争力的子序列](https://leetcode.cn/problems/find-the-most-competitive-subsequence/)
 
 
 
@@ -47,7 +47,7 @@ public:
 };
 ```
 
-### #### [1674. 使数组互补的最少操作次数](https://leetcode-cn.com/problems/minimum-moves-to-make-array-complementary/) [TAG]
+### #### [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary/) [TAG]
 
 差分 考虑转化
 
@@ -78,7 +78,7 @@ public:
 };
 ```
 
-### [1675. 数组的最小偏移量](https://leetcode-cn.com/problems/minimize-deviation-in-array/)
+### [1675. 数组的最小偏移量](https://leetcode.cn/problems/minimize-deviation-in-array/)
 
 堆
 
@@ -94,7 +94,7 @@ public:
         第二步:操作 1 的只会减少某个数的值,而只有减少最大值结果才可能更优.
         第三步:使用平衡树或堆维护最大值,直到最大值为奇数不能再操作为止.
     考虑优化:
-        https://leetcode-cn.com/problems/minimize-deviation-in-array/solution/yi-chong-fu-za-du-geng-di-de-zuo-fa-by-heltion-2/
+        https://leetcode.cn/problems/minimize-deviation-in-array/solution/yi-chong-fu-za-du-geng-di-de-zuo-fa-by-heltion-2/
     */
     int minimumDeviation(vector<int>& nums) {
         int n = nums.size(), mi = INT_MAX, res = INT_MAX;

@@ -1,4 +1,4 @@
-#  [77. 组合](https://leetcode-cn.com/problems/combinations/)
+#  [77. 组合](https://leetcode.cn/problems/combinations/)
 
 ## 题意
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-42/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-42/)
 
 
-### [1700. 无法吃午餐的学生数量](https://leetcode-cn.com/problems/number-of-students-unable-to-eat-lunch/)
+### [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)
 
 模拟即可
 
@@ -38,7 +38,7 @@ public:
 ```
 
 
-### [1701. 平均等待时间](https://leetcode-cn.com/problems/average-waiting-time/)
+### [1701. 平均等待时间](https://leetcode.cn/problems/average-waiting-time/)
 
 略
 
@@ -63,7 +63,7 @@ public:
 };
 ```
 
-### [1702. 修改后的最大二进制字符串](https://leetcode-cn.com/problems/maximum-binary-string-after-change/) [TAG]
+### [1702. 修改后的最大二进制字符串](https://leetcode.cn/problems/maximum-binary-string-after-change/) [TAG]
 
 模拟必然超时
 
@@ -93,7 +93,7 @@ public:
 };
 ```
 
-### [1703. 得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/) [TAG]
+### [1703. 得到连续 K 个 1 的最少相邻交换次数](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/) [TAG]
 
 所有1坐标 如何移动使得其新的坐标成为一个等差数列（公差1）
 

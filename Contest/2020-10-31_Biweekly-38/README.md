@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-38/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-38/)
 
 
-### [1636. 按照频率将数组升序排序](https://leetcode-cn.com/problems/sort-array-by-increasing-frequency/)
+### [1636. 按照频率将数组升序排序](https://leetcode.cn/problems/sort-array-by-increasing-frequency/)
 
 利用 STL 即可
 
@@ -37,7 +37,7 @@
 ```
 
 
-### [1637. 两点之间不包含任何点的最宽垂直面积](https://leetcode-cn.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
+### [1637. 两点之间不包含任何点的最宽垂直面积](https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points/)
 
 排序统计 x 坐标即可
 
@@ -53,7 +53,7 @@
     }
 ```
 
-### [5541. 统计只差一个字符的子串数目](https://leetcode-cn.com/problems/count-substrings-that-differ-by-one-character/)
+### [5541. 统计只差一个字符的子串数目](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/)
 
 枚举就能过
 
@@ -102,7 +102,7 @@
     }
 ```
 
-### [1639. 通过给定词典构造目标字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) [TAG]
+### [1639. 通过给定词典构造目标字符串的方案数](https://leetcode.cn/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) [TAG]
 
 线性 dp
 

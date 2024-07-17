@@ -1,4 +1,4 @@
-#  [481. 神奇字符串](https://leetcode-cn.com/problems/magical-string/)
+#  [481. 神奇字符串](https://leetcode.cn/problems/magical-string/)
 
 ## 题意
 

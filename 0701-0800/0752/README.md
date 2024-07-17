@@ -1,4 +1,4 @@
-#  [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
+#  [752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)
 
 ## 题意
 

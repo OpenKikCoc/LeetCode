@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-16/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-16/)
 
 
-### [1299. 将每个元素替换为右侧最大元素](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/)
+### [1299. 将每个元素替换为右侧最大元素](https://leetcode.cn/problems/replace-elements-with-greatest-element-on-right-side/)
 
 新建一个数组逆序遍历即可
 
@@ -17,7 +17,7 @@
 ```
 
 
-### [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/)
+### [1300. 转变数组后最接近目标值的数组和](https://leetcode.cn/problems/sum-of-mutated-array-closest-to-target/)
 
 显然二分check
 
@@ -57,7 +57,7 @@
 题解区在计算 check 的时候有 `排序 / 前缀和` 的小优化，可以参考，但不关键。
 
 
-### [1302. 层数最深叶子节点的和](https://leetcode-cn.com/problems/deepest-leaves-sum/)
+### [1302. 层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/)
 
 bfs 即可
 
@@ -114,7 +114,7 @@ bfs 即可
     }
 ```
 
-### [1301. 最大得分的路径数目](https://leetcode-cn.com/problems/number-of-paths-with-max-score/)
+### [1301. 最大得分的路径数目](https://leetcode.cn/problems/number-of-paths-with-max-score/)
 
 二维dp 记录方案数即可
 

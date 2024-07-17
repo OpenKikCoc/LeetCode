@@ -1,4 +1,4 @@
-#  [492. 构造矩形](https://leetcode-cn.com/problems/construct-the-rectangle/)
+#  [492. 构造矩形](https://leetcode.cn/problems/construct-the-rectangle/)
 
 ## 题意
 

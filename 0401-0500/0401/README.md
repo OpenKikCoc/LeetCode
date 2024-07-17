@@ -1,4 +1,4 @@
-#  [401. 二进制手表](https://leetcode-cn.com/problems/binary-watch/)
+#  [401. 二进制手表](https://leetcode.cn/problems/binary-watch/)
 
 ## 题意
 

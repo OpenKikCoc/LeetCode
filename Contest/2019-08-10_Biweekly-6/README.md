@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-6/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-6/)
 
 
-### [1150. 检查一个数是否在数组中占绝大多数](https://leetcode-cn.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)
+### [1150. 检查一个数是否在数组中占绝大多数](https://leetcode.cn/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)
 
 略
 
@@ -19,7 +19,7 @@ public:
 ```
 
 
-### [1151. 最少交换次数来组合所有的 1](https://leetcode-cn.com/problems/minimum-swaps-to-group-all-1s-together/)
+### [1151. 最少交换次数来组合所有的 1](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together/)
 
 转化为定长区间内 求1个数最多是多少
 
@@ -44,7 +44,7 @@ public:
 };
 ```
 
-### [1152. 用户网站访问行为分析](https://leetcode-cn.com/problems/analyze-user-website-visit-pattern/)
+### [1152. 用户网站访问行为分析](https://leetcode.cn/problems/analyze-user-website-visit-pattern/)
 
 
 思路正确 **注意本题允许重合** 各种实现小细节 
@@ -100,7 +100,7 @@ public:
 };
 ```
 
-### [1153. 字符串转化](https://leetcode-cn.com/problems/string-transforms-into-another-string/)
+### [1153. 字符串转化](https://leetcode.cn/problems/string-transforms-into-another-string/)
 
 
 注意：原题要求转化为以下条件

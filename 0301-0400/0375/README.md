@@ -1,4 +1,4 @@
-#  [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)
+#  [375. 猜数字大小 II](https://leetcode.cn/problems/guess-number-higher-or-lower-ii/)
 
 ## 题意
 

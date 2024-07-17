@@ -1,4 +1,4 @@
-#  [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+#  [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
 
 ## 题意
 

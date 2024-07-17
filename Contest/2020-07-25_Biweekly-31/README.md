@@ -1,6 +1,6 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-31/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-31/)
 
-### [1523. 在区间范围内统计奇数数目](https://leetcode-cn.com/problems/count-odd-numbers-in-an-interval-range/)
+### [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/)
 
 显然：对于某个数 `x`  ，小于等于它的所有奇数个数为 `(x+1)/2`
 
@@ -10,7 +10,7 @@
     }
 ```
 
-### [1524. 和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/)
+### [1524. 和为奇数的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum/)
 
 >    子数组：连续数组
 
@@ -31,7 +31,7 @@
     }
 ```
 
-### [1525. 字符串的好分割数目](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/)
+### [1525. 字符串的好分割数目](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/)
 
 把字符串分左右两部分 前缀和统计到某个 index 处的所有字符的个数 最后枚举分割点计算左右字符个数即可
 
@@ -58,7 +58,7 @@
     }
 ```
 
-### [1526. 形成目标数组的子数组最少增加次数](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) [TAG]
+### [1526. 形成目标数组的子数组最少增加次数](https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) [TAG]
 
 结论
 

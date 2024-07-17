@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/biweekly-contest-20/)
+## [比赛链接](https://leetcode.cn/contest/biweekly-contest-20/)
 
 
-### [1356. 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) [TAG]
+### [1356. 根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/) [TAG]
 
 使用lambda表达式的时候 报了个编译错误
 
@@ -53,7 +53,7 @@ public:
 ```
 
 
-### [1357. 每隔 n 个顾客打折](https://leetcode-cn.com/problems/apply-discount-every-n-orders/)
+### [1357. 每隔 n 个顾客打折](https://leetcode.cn/problems/apply-discount-every-n-orders/)
 
 模拟即可
 
@@ -84,7 +84,7 @@ public:
 
 
 
-### [1358. 包含所有三种字符的子字符串数目](https://leetcode-cn.com/problems/number-of-substrings-containing-all-three-characters/) 
+### [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/) 
 
 一个字符串 `s` ，它只包含三种字符 a, b 和 c 。返回 a，b 和 c 都 **至少** 出现过一次的子字符串数目。
 
@@ -112,7 +112,7 @@ public:
 };
 ```
 
-### [1359. 有效的快递序列数目](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/) [TAG]
+### [1359. 有效的快递序列数目](https://leetcode.cn/problems/count-all-valid-pickup-and-delivery-options/) [TAG]
 
 位置插入
 

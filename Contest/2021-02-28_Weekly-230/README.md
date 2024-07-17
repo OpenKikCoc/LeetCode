@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-230/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-230/)
 
 
-### [1773. 统计匹配检索规则的物品数量](https://leetcode-cn.com/problems/count-items-matching-a-rule/)
+### [1773. 统计匹配检索规则的物品数量](https://leetcode.cn/problems/count-items-matching-a-rule/)
 
 略
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [1774. 最接近目标价格的甜点成本](https://leetcode-cn.com/problems/closest-dessert-cost/) [TAG]
+### [1774. 最接近目标价格的甜点成本](https://leetcode.cn/problems/closest-dessert-cost/) [TAG]
 
 枚举小技巧
 
@@ -88,7 +88,7 @@ public:
 };
 ```
 
-### [1775. 通过最少操作次数使数组的和相等](https://leetcode-cn.com/problems/equal-sum-arrays-with-minimum-number-of-operations/) [TAG]
+### [1775. 通过最少操作次数使数组的和相等](https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/) [TAG]
 
 技巧性
 
@@ -126,7 +126,7 @@ public:
 };
 ```
 
-### [1776. 车队 II](https://leetcode-cn.com/problems/car-fleet-ii/) [TAG]
+### [1776. 车队 II](https://leetcode.cn/problems/car-fleet-ii/) [TAG]
 
 合并：后车撞前车，后车消失即可
 

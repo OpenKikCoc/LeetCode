@@ -1,4 +1,4 @@
-#  [494. 目标和](https://leetcode-cn.com/problems/target-sum/)
+#  [494. 目标和](https://leetcode.cn/problems/target-sum/)
 
 ## 题意
 

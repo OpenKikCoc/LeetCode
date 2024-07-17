@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-224/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-224/)
 
 
-### [1725. 可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)
+### [1725. 可以形成最大正方形的矩形数目](https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square/)
 
 模拟即可
 
@@ -24,7 +24,7 @@ public:
 ```
 
 
-### [1726. 同积元组](https://leetcode-cn.com/problems/tuple-with-same-product/)
+### [1726. 同积元组](https://leetcode.cn/problems/tuple-with-same-product/)
 
 一个四元组改变顺序可以拓展为 8 个可行解
 
@@ -71,7 +71,7 @@ public:
 };
 ```
 
-### [1727. 重新排列后的最大子矩阵](https://leetcode-cn.com/problems/largest-submatrix-with-rearrangements/)
+### [1727. 重新排列后的最大子矩阵](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/)
 
 最大连续子树组基础 + 排序统计即可
 
@@ -123,7 +123,7 @@ public:
 };
 ```
 
-### [1728. 猫和老鼠 II](https://leetcode-cn.com/problems/cat-and-mouse-ii/) [TAG]
+### [1728. 猫和老鼠 II](https://leetcode.cn/problems/cat-and-mouse-ii/) [TAG]
 
 博弈论
 

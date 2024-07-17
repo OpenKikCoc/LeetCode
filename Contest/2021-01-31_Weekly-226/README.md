@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-226/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-226/)
 
 
-### [1742. 盒子中小球的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/)
+### [1742. 盒子中小球的最大数量](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/)
 
 统计即可
 
@@ -27,7 +27,7 @@ public:
 ```
 
 
-### [1743. 从相邻元素对还原数组](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/)
+### [1743. 从相邻元素对还原数组](https://leetcode.cn/problems/restore-the-array-from-adjacent-pairs/)
 
 显然开始和末尾的位置度为 1
 
@@ -146,7 +146,7 @@ public:
 };
 ```
 
-### [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
+### [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
 
 注意从第 0 天开始吃水果 WA 一发
 
@@ -173,7 +173,7 @@ public:
 };
 ```
 
-### [1745. 回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv/)
+### [1745. 回文串分割 IV](https://leetcode.cn/problems/palindrome-partitioning-iv/)
 
 
 

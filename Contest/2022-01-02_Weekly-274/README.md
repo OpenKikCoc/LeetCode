@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-274/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-274/)
 
 
-### [2124. 检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/)
+### [2124. 检查是否所有 A 都在 B 之前](https://leetcode.cn/problems/check-if-all-as-appears-before-all-bs/)
 
 略
 
@@ -20,7 +20,7 @@ public:
 ```
 
 
-### [2125. 银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/)
+### [2125. 银行中的激光束数量](https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/)
 
 略
 
@@ -45,7 +45,7 @@ public:
 };
 ```
 
-### [2126. 摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/)
+### [2126. 摧毁小行星](https://leetcode.cn/problems/destroying-asteroids/)
 
 略
 
@@ -66,7 +66,7 @@ public:
 };
 ```
 
-### [2127. 参加会议的最多员工数](https://leetcode-cn.com/problems/maximum-employees-to-be-invited-to-a-meeting/) [TAG]
+### [2127. 参加会议的最多员工数](https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/) [TAG]
 
 内向基环树
 

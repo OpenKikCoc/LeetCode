@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-269/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-269/)
 
 >   virtual rank: 211 / 4293
 
 
-### [2089. 找出数组排序后的目标下标](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/)
+### [2089. 找出数组排序后的目标下标](https://leetcode.cn/problems/find-target-indices-after-sorting-array/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [2090. 半径为 k 的子数组平均值](https://leetcode-cn.com/problems/k-radius-subarray-averages/)
+### [2090. 半径为 k 的子数组平均值](https://leetcode.cn/problems/k-radius-subarray-averages/)
 
 简单前缀和 略
 
@@ -50,7 +50,7 @@ public:
 
 滑动窗口也可 略
 
-### [2091. 从数组中移除最大值和最小值](https://leetcode-cn.com/problems/removing-minimum-and-maximum-from-array/)
+### [2091. 从数组中移除最大值和最小值](https://leetcode.cn/problems/removing-minimum-and-maximum-from-array/)
 
 简单推理 略
 
@@ -73,7 +73,7 @@ public:
 };
 ```
 
-### [2092. 找出知晓秘密的所有专家](https://leetcode-cn.com/problems/find-all-people-with-secret/)
+### [2092. 找出知晓秘密的所有专家](https://leetcode.cn/problems/find-all-people-with-secret/)
 
 分析 显然需要根据会议时间 每次建图并跑连通图
 

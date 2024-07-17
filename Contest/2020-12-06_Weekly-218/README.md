@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-218/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-218/)
 
 rating 249 / 3760
 
-### [5617. 设计 Goal 解析器](https://leetcode-cn.com/problems/goal-parser-interpretation/)
+### [5617. 设计 Goal 解析器](https://leetcode.cn/problems/goal-parser-interpretation/)
 
 线性扫描即可
 
@@ -35,7 +35,7 @@ public:
 ```
 
 
-### [5618. K 和数对的最大数目](https://leetcode-cn.com/problems/max-number-of-k-sum-pairs/)
+### [5618. K 和数对的最大数目](https://leetcode.cn/problems/max-number-of-k-sum-pairs/)
 
 双指针 & hash 统计
 
@@ -81,7 +81,7 @@ public:
 };
 ```
 
-### [5620. 连接连续二进制数字](https://leetcode-cn.com/problems/concatenation-of-consecutive-binary-numbers/)
+### [5620. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/)
 
 线性递推即可
 
@@ -127,7 +127,7 @@ public:
 };
 ```
 
-### [5619. 最小不兼容性](https://leetcode-cn.com/problems/minimum-incompatibility/) [TAG]
+### [5619. 最小不兼容性](https://leetcode.cn/problems/minimum-incompatibility/) [TAG]
 
 状压 dp
 

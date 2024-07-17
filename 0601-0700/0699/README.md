@@ -1,4 +1,4 @@
-#  [699. 掉落的方块](https://leetcode-cn.com/problems/falling-squares/)
+#  [699. 掉落的方块](https://leetcode.cn/problems/falling-squares/)
 
 ## 题意
 

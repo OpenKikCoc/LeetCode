@@ -1,9 +1,9 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-278/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-278/)
 
 >   virtual rank 150 AK
 
 
-### [2154. 将找到的值乘以 2](https://leetcode-cn.com/problems/keep-multiplying-found-values-by-two/)
+### [2154. 将找到的值乘以 2](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/)
 
 略
 
@@ -23,7 +23,7 @@ public:
 ```
 
 
-### [2155. 分组得分最高的所有下标](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)
+### [2155. 分组得分最高的所有下标](https://leetcode.cn/problems/all-divisions-with-the-highest-score-of-a-binary-array/)
 
 略
 
@@ -52,7 +52,7 @@ public:
 };
 ```
 
-### [2156. 查找给定哈希值的子串](https://leetcode-cn.com/problems/find-substring-with-given-hash-value/) [TAG]
+### [2156. 查找给定哈希值的子串](https://leetcode.cn/problems/find-substring-with-given-hash-value/) [TAG]
 
 非常好的非常规【字符串hash】结合滑动窗口
 
@@ -94,7 +94,7 @@ public:
 };
 ```
 
-### [2157. 字符串分组](https://leetcode-cn.com/problems/groups-of-strings/)
+### [2157. 字符串分组](https://leetcode.cn/problems/groups-of-strings/)
 
 很好的并查集应用题
 

@@ -1,4 +1,4 @@
-#  [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)
+#  [7. 整数反转](https://leetcode.cn/problems/reverse-integer/)
 
 ## 题意
 

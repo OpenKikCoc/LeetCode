@@ -1,8 +1,8 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-208/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-208/)
 
 模拟 200+/3800+
 
-### [5523. 文件夹操作日志搜集器](https://leetcode-cn.com/problems/crawler-log-folder/)
+### [5523. 文件夹操作日志搜集器](https://leetcode.cn/problems/crawler-log-folder/)
 
 栈模拟即可
 
@@ -20,7 +20,7 @@
 ```
 
 
-### [5524. 经营摩天轮的最大利润](https://leetcode-cn.com/problems/maximum-profit-of-operating-a-centennial-wheel/)
+### [5524. 经营摩天轮的最大利润](https://leetcode.cn/problems/maximum-profit-of-operating-a-centennial-wheel/)
 
 模拟即可
 
@@ -40,7 +40,7 @@
     }
 ```
 
-### [5525. 皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance/)
+### [5525. 皇位继承顺序](https://leetcode.cn/problems/throne-inheritance/)
 
 显然先序遍历
 
@@ -75,7 +75,7 @@
     }
 ```
 
-### [5526. 最多可达成的换楼请求数目](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/)
+### [5526. 最多可达成的换楼请求数目](https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests/)
 
 数据范围可以暴力枚举
 

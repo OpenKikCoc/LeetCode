@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-151/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-151/)
 
 
-### [1169. 查询无效交易](https://leetcode-cn.com/problems/invalid-transactions/)
+### [1169. 查询无效交易](https://leetcode.cn/problems/invalid-transactions/)
 
 暴力即可 cpp 处理会麻烦些
 
@@ -53,7 +53,7 @@ public:
 ```
 
 
-### [1170. 比较字符串最小字母出现频次](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/)
+### [1170. 比较字符串最小字母出现频次](https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character/)
 
 暴力
 
@@ -87,7 +87,7 @@ public:
 };
 ```
 
-### [1171. 从链表中删去总和值为零的连续节点](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+### [1171. 从链表中删去总和值为零的连续节点](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 扫一遍即可
 
@@ -165,7 +165,7 @@ public:
 };
 ```
 
-### [1172. 餐盘栈](https://leetcode-cn.com/problems/dinner-plate-stacks/) [TAG]
+### [1172. 餐盘栈](https://leetcode.cn/problems/dinner-plate-stacks/) [TAG]
 
 BIT 维护即可，注意换静态变量防止超时
 

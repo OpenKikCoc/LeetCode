@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-153/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-153/)
 
 
-### [1184. 公交站间的距离](https://leetcode-cn.com/problems/distance-between-bus-stops/)
+### [1184. 公交站间的距离](https://leetcode.cn/problems/distance-between-bus-stops/)
 
 略
 
@@ -18,7 +18,7 @@ public:
 ```
 
 
-### [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)
+### [1185. 一周中的第几天](https://leetcode.cn/problems/day-of-the-week/)
 
 闰年判断
 
@@ -45,7 +45,7 @@ public:
 };
 ```
 
-### [1186. 删除一次得到子数组最大和](https://leetcode-cn.com/problems/maximum-subarray-sum-with-one-deletion/)
+### [1186. 删除一次得到子数组最大和](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/)
 
 枚举每个位置
 
@@ -81,7 +81,7 @@ public:
 
 题解区有dp解法 略
 
-### [1187. 使数组严格递增](https://leetcode-cn.com/problems/make-array-strictly-increasing/) [TAG]
+### [1187. 使数组严格递增](https://leetcode.cn/problems/make-array-strictly-increasing/) [TAG]
 
 dp
 

@@ -1,7 +1,7 @@
-## [比赛链接](https://leetcode-cn.com/contest/weekly-contest-183/)
+## [比赛链接](https://leetcode.cn/contest/weekly-contest-183/)
 
 
-### [1403. 非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)
+### [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)
 
 子序列和大于剩下的和 获取长度最小且元素和最大的方案 保证唯一
 
@@ -26,7 +26,7 @@ public:
 ```
 
 
-### [1404. 将二进制表示减到 1 的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
+### [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 二进制形式表示的数字 s  返回按下述规则将其减少到 1 所需要的步骤数：
 
@@ -141,7 +141,7 @@ public:
 
 
 
-### [1405. 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)
+### [1405. 最长快乐字符串](https://leetcode.cn/problems/longest-happy-string/)
 
 生成任意一个尽可能长的快乐字符串(不包含3个连续相同字母) abc各自至多使用入参'a''b''c'次
 
@@ -204,7 +204,7 @@ public:
 };
 ```
 
-### [1406. 石子游戏 III](https://leetcode-cn.com/problems/stone-game-iii/)
+### [1406. 石子游戏 III](https://leetcode.cn/problems/stone-game-iii/)
 
 一排石子每个人可以从左取1-3堆 求取完谁分数最大
 

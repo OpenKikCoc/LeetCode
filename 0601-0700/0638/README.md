@@ -1,4 +1,4 @@
-#  [638. 大礼包](https://leetcode-cn.com/problems/shopping-offers/)
+#  [638. 大礼包](https://leetcode.cn/problems/shopping-offers/)
 
 ## 题意
 

@@ -1,4 +1,4 @@
-#  [646. 最长数对链](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/)
+#  [646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/)
 
 ## 题意
 
