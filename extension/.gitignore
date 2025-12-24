@@ -1,0 +1,9 @@
+# 图标文件（需要自己创建或使用占位符）
+icon16.png
+icon48.png
+icon128.png
+
+# 构建产物
+*.zip
+*.crx
+
