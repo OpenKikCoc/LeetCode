@@ -287,7 +287,7 @@
       const id = q.questionFrontendId || '?';
       lines.push(`### [${id}. ${q.title}](${link})`);
       lines.push('');
-      lines.push('```cpp');
+      lines.push('```c++');
       lines.push(q.code || '// 未找到 AC 代码');
       lines.push('```');
       lines.push('');
